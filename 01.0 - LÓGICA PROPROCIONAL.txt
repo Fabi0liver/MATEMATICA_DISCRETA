@@ -42,9 +42,9 @@
 
 
 
-                                  "Representação das Proposições"
+                                    "Representação das Proposições"
 
- As proposições podem ser representadas por variáveis proposicionais, também chamadas de fórmulas atômicas. Elas funcionam como símbolos simples (geralmente letras maiúsculas como P, Q, R) usados para representar afirmações completas sem precisar escrever a frase inteira o tempo todo. Essa representação ajuda a transformar o raciocínio lógico em algo mais preciso e manipulável, permitindo construir expressões maiores e analisar sua estrutura de maneira formal.
+ As proposições podem ser representadas por variáveis proposicionais, também chamadas de fórmulas atômicas( quando se junta varias formulas atômicas(proposição simples) se cria uma formula molecular (proposição composta)). Elas funcionam como símbolos simples (geralmente letras maiúsculas como P, Q, R) usados para representar afirmações completas sem precisar escrever a frase inteira o tempo todo. Essa representação ajuda a transformar o raciocínio lógico em algo mais preciso e manipulável, permitindo construir expressões maiores e analisar sua estrutura de maneira formal.
 
  Cada variável proposicional corresponde a uma proposição básica, isto é, uma afirmação indivisível dentro daquele contexto lógico. Por exemplo, podemos escrever P para representar “A luz está acesa” ou Q para “Está chovendo”. A ideia é que a letra funcione como um “rótulo” para a proposição, carregando junto o seu valor de verdade (verdadeiro ou falso) sem que a frase inteira precise ser repetida.
 
@@ -55,7 +55,7 @@
 
 
 
-                                 "Proposições Simples e Compostas"
+                                    "Proposições Simples e Compostas"
 
  As proposições simples são aquelas que expressam uma única ideia completa, sem depender de outras proposições para fazer sentido. Elas não podem ser divididas em partes menores dentro da lógica proposicional. Exemplos: “O sol está brilhando”, “2 é um número par”, “A porta está aberta”. Cada uma dessas frases tem sentido próprio e pode receber diretamente o valor de verdadeiro ou falso. Por serem indivisíveis, essas proposições funcionam como os blocos básicos do raciocínio lógico.
 
