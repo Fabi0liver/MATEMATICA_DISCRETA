@@ -27,3 +27,15 @@
  Um exemplo simples de algo que não é proposição são frases interrogativas, como: “Você vai sair hoje?” Essa pergunta não afirma nada; ela apenas solicita informação, então não pode ser avaliada como verdadeira ou falsa. O mesmo vale para ordens e comandos, como: “Feche a porta.” Essa expressão não descreve um fato, apenas instrui uma ação, e por isso não possui valor lógico.
 
  Também não são proposições expressões vagas ou incompletas, como: “Que calor!” ou “Amanhã.” Elas não apresentam uma afirmação clara que possa ser julgada como verdadeira ou falsa. Da mesma forma, frases ambíguas como “Ele está pronto” dependem de contexto para ter sentido, e por isso não permitem determinar um valor lógico com precisão. Essas expressões não cumprem o requisito fundamental da lógica: transmitir uma ideia avaliável de forma objetiva.
+
+
+
+                                    "Os Princípios da Lógica"
+
+ Os princípios da lógica são regras fundamentais que garantem que o raciocínio seja coerente, estruturado e confiável. Entre esses princípios, destacam-se três clássicos: o Princípio da Identidade, o Princípio da Não-Contradição e o Princípio do Terceiro Excluído. Juntos, eles formam a base que permite avaliar argumentos, validar conclusões e construir raciocínios consistentes. Esses princípios não dependem do conteúdo das frases, mas da forma como o pensamento lógico funciona.
+
+ O Princípio da Identidade afirma que uma proposição é sempre igual a si mesma: se uma proposição é verdadeira, ela continua verdadeira; se é falsa, continua falsa. Isso garante estabilidade ao raciocínio, permitindo que possamos manipular e combinar proposições sem perder o sentido lógico. Na lógica proposicional, esse princípio aparece quando representamos uma proposição por uma letra, como p, e assumimos que p mantém o mesmo valor durante toda a análise.
+
+ O Princípio da Não-Contradição diz que uma proposição não pode ser verdadeira e falsa ao mesmo tempo. Ele impede que o raciocínio gere paradoxos e dá segurança para avaliar argumentos. Na lógica proposicional, isso significa que uma mesma proposição p não pode assumir simultaneamente os dois valores. Esse princípio é essencial para construir tabelas-verdade, já que cada linha representa uma possibilidade lógica consistente, nunca contraditória.
+
+ O Princípio do Terceiro Excluído estabelece que uma proposição só pode assumir um de dois valores: verdadeiro ou falso — não existe uma terceira opção. Esse princípio se encaixa perfeitamente na lógica proposicional, que trabalha exatamente com essa estrutura binária. Ele é o que permite decidir, por exemplo, que frases como “Existe vida em outros planetas” são proposições mesmo sem sabermos a resposta, porque sua estrutura exige apenas dois caminhos possíveis: ou é verdade, ou é falso.
