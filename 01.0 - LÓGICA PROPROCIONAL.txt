@@ -59,8 +59,28 @@
 
  As proposições simples são aquelas que expressam uma única ideia completa, sem depender de outras proposições para fazer sentido. Elas não podem ser divididas em partes menores dentro da lógica proposicional. Exemplos: “O sol está brilhando”, “2 é um número par”, “A porta está aberta”. Cada uma dessas frases tem sentido próprio e pode receber diretamente o valor de verdadeiro ou falso. Por serem indivisíveis, essas proposições funcionam como os blocos básicos do raciocínio lógico.
 
- Já as proposições compostas surgem quando combinamos duas ou mais proposições simples por meio de conectivos lógicos ( “e” (∧), “ou” (∨), “não” (¬), “se… então” (→) e “se e somente se” (↔)). Elas não são afirmações básicas, mas estruturas formadas a partir de outras proposições. Por exemplo: “Está calor e está ensolarado”, “Se chover, então a rua molha”, “João estuda ou trabalha”. Cada uma dessas depende de duas proposições simples e de um conectivo para formar uma nova proposição com seu próprio valor de verdade.
+ Já as proposições compostas surgem quando combinamos duas ou mais proposições simples por meio de operadores lógicos ( “e”, “ou”, “não”, “se… então” e “se e somente se”). Elas não são afirmações básicas, mas estruturas formadas a partir de outras proposições. Por exemplo: “Está calor e está ensolarado”, “Se chover, então a rua molha”, “João estuda ou trabalha”. Cada uma dessas depende de duas proposições simples e de um conectivo para formar uma nova proposição com seu próprio valor de verdade.
 
  A grande vantagem das proposições compostas é que elas permitem representar raciocínios completos. A partir delas, podemos analisar condições, consequências, alternativas e combinações de situações, algo essencial para construir argumentos rigorosos. Na lógica proposicional, o valor de verdade de uma proposição composta é determinado pelos valores de suas partes e pelas regras dos conectivos que as unem — e isso pode ser analisado com tabelas-verdade.
 
  Em resumo, proposições simples são as unidades fundamentais da lógica, enquanto proposições compostas são construções mais elaboradas formadas a partir dessas unidades. Essa distinção permite organizar o pensamento lógico de forma clara: primeiro identificamos as afirmações básicas; depois observamos como elas se combinam para formar raciocínios mais complexos.
+
+
+
+                                          "Operadores Lógicos"
+
+ Os operadores lógicos, também chamados de conectivos sentenciais, são símbolos ou expressões que servem para combinar proposições simples e formar proposições compostas. Eles permitem expressar relações como negação, combinação, alternativa, condição e equivalência entre ideias. Cada operador possui uma regra própria de funcionamento, definindo como o valor de verdade da proposição resultante depende das proposições que ele conecta. São ferramentas essenciais para construir raciocínios complexos, analisar argumentos e representar situações de forma precisa.
+
+ A Negação (¬), representada pela palavra “não”, inverte o valor lógico de uma proposição. Se uma proposição é verdadeira, sua negação se torna falsa; se é falsa, a negação se torna verdadeira. Por exemplo, se P significa “Hoje está sol”, então ¬P significa “Hoje não está sol”. A negação não cria uma nova informação independente, mas transforma o valor da proposição original.
+
+ A Conjunção (∧) é o conectivo representado pela palavra “e”. Ela une duas proposições e só é verdadeira quando ambas forem verdadeiras ao mesmo tempo. Por exemplo: “Pedro estuda e Maria trabalha”. Para essa proposição ser verdadeira, tanto “Pedro estuda” quanto “Maria trabalha” precisam ser verdadeiras. Se uma delas for falsa, a conjunção inteira se torna falsa.
+
+ A Disjunção Inclusiva (∨), representada pelo “ou”, indica alternativa, mas de modo inclusivo: a proposição composta é verdadeira quando pelo menos uma das proposições for verdadeira. Por exemplo: “Vou ao cinema ou vou ao parque”. Nesse sentido, tanto ir ao cinema, quanto ir ao parque, quanto ir aos dois lugares tornam a proposição verdadeira. Só será falsa se nenhuma das opções acontecer.
+
+ A Disjunção Exclusiva (⊕), expressa como “ou… ou”, é um tipo especial de alternativa em que somente uma das proposições pode ser verdadeira. Se as duas forem verdadeiras ou as duas forem falsas, a proposição composta é falsa. Por exemplo: “Ou João joga futebol, ou João joga basquete”. Nesse caso, a intenção é apontar escolha única, não simultânea.
+
+ A Condicional ou Implicação (→), expressa como “se… então”, relaciona duas proposições indicando que a verdade da primeira implica a verdade da segunda. Ela só é falsa quando a condição inicial é verdadeira e a conclusão é falsa. Por exemplo: “Se chover, então a rua fica molhada.” Só faz sentido considerar essa implicação falsa quando chove e a rua não molha. Em todas as outras situações, a proposição é considerada verdadeira.
+
+ A Bi-Condicional ou Equivalência (↔), representada por “se e somente se”, indica que duas proposições têm o mesmo valor de verdade. Para ser verdadeira, as duas proposições devem ser ambas verdadeiras ou ambas falsas. Por exemplo: “Um número é par se e somente se é divisível por 2.” Aqui, as duas afirmações caminham juntas: uma é verdadeira exatamente quando a outra também é.
+
+ Em resumo, os operadores lógicos são essenciais para construir e analisar raciocínios estruturados. Eles permitem combinar proposições simples de diferentes maneiras, criando relações úteis para resolver problemas, montar argumentos e representar situações complexas na matemática, na computação e no pensamento lógico.
