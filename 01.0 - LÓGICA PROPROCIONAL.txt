@@ -51,3 +51,16 @@
  Essas variáveis são chamadas de fórmulas atômicas porque são como os “átomos” da lógica proposicional: elementos fundamentais que não podem ser decompostos dentro desse nível de análise. A partir delas, podemos construir fórmulas mais complexas usando conectivos lógicos. Cada combinação gera uma nova fórmula proposicional com sua própria estrutura e valor de verdade.
 
  Dessa forma, a representação por variáveis proposicionais permite que a lógica proposicional funcione como uma linguagem formal organizada. Ela transforma frases do cotidiano em símbolos manipuláveis, possibilitando criar tabelas-verdade, analisar argumentos, estudar validade lógica e aplicar métodos de prova com clareza e rigor. Isso é essencial tanto para a matemática quanto para áreas como computação, onde operações lógicas precisam ser expressas de forma exata.
+
+
+
+
+                                 "Proposições Simples e Compostas"
+
+ As proposições simples são aquelas que expressam uma única ideia completa, sem depender de outras proposições para fazer sentido. Elas não podem ser divididas em partes menores dentro da lógica proposicional. Exemplos: “O sol está brilhando”, “2 é um número par”, “A porta está aberta”. Cada uma dessas frases tem sentido próprio e pode receber diretamente o valor de verdadeiro ou falso. Por serem indivisíveis, essas proposições funcionam como os blocos básicos do raciocínio lógico.
+
+ Já as proposições compostas surgem quando combinamos duas ou mais proposições simples por meio de conectivos lógicos ( “e” (∧), “ou” (∨), “não” (¬), “se… então” (→) e “se e somente se” (↔)). Elas não são afirmações básicas, mas estruturas formadas a partir de outras proposições. Por exemplo: “Está calor e está ensolarado”, “Se chover, então a rua molha”, “João estuda ou trabalha”. Cada uma dessas depende de duas proposições simples e de um conectivo para formar uma nova proposição com seu próprio valor de verdade.
+
+ A grande vantagem das proposições compostas é que elas permitem representar raciocínios completos. A partir delas, podemos analisar condições, consequências, alternativas e combinações de situações, algo essencial para construir argumentos rigorosos. Na lógica proposicional, o valor de verdade de uma proposição composta é determinado pelos valores de suas partes e pelas regras dos conectivos que as unem — e isso pode ser analisado com tabelas-verdade.
+
+ Em resumo, proposições simples são as unidades fundamentais da lógica, enquanto proposições compostas são construções mais elaboradas formadas a partir dessas unidades. Essa distinção permite organizar o pensamento lógico de forma clara: primeiro identificamos as afirmações básicas; depois observamos como elas se combinam para formar raciocínios mais complexos.
