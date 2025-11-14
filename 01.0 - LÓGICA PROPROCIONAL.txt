@@ -1,5 +1,13 @@
-                                    LÓGICA PROPROCIONAL 
+                                     LÓGICA PROPROCIONAL 
 
  A lógica proposicional é uma área da lógica que trabalha com proposições, que são frases que podem ser classificadas apenas como verdadeiras ou falsas. Ela não se preocupa com o conteúdo detalhado da frase, mas sim com o seu valor lógico e com a forma como diferentes proposições podem ser combinadas por meio de conectivos, como “e”, “ou”, “não”, “se… então”. A ideia central é estudar como essas combinações permitem construir argumentos corretos e identificar quando um raciocínio faz sentido.
 
  Ela funciona como uma espécie de “linguagem formal” para representar raciocínios de maneira clara e sem ambiguidades. Em vez de depender da interpretação humana, a lógica proposicional usa símbolos para garantir precisão e permitir que operações como dedução e verificação de validade sejam feitas de forma mecânica. Assim, ela é o ponto de partida para entender como máquinas e algoritmos lidam com decisões baseadas em verdadeiro e falso.
+
+
+
+                                   "O Que é Uma Proposição?"
+
+ Uma proposição é uma oração declarativa com sentido lógico completo, construída de modo que ela possa receber exatamente um dos dois valores possíveis: verdadeiro ou falso. Isso significa que cada proposição expressa uma informação clara, direta e compreensível, como uma afirmação sobre um fato, uma condição ou um estado de coisas no mundo. A característica central é que seu conteúdo permite avaliar se aquilo que ela diz corresponde ou não à realidade.
+
+ Além disso, uma proposição precisa ter sentido próprio, ou seja, deve apresentar uma ideia suficientemente definida para que seu valor de verdade seja determinado sem ambiguidades. Quando uma proposição possui esse sentido claro, ela se torna uma unidade essencial no estudo da lógica, servindo como base para combinações, argumentos e análises formais. Essa clareza permite construir raciocínios consistentes e precisos, tanto em matemática quanto em computação e no pensamento lógico em geral.
