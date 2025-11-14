@@ -30,7 +30,7 @@
 
 
 
-                                    "Os Princípios da Lógica"
+                                     "Os Princípios da Lógica"
 
  Os princípios da lógica são regras fundamentais que garantem que o raciocínio seja coerente, estruturado e confiável. Entre esses princípios, destacam-se três clássicos: o Princípio da Identidade, o Princípio da Não-Contradição e o Princípio do Terceiro Excluído. Juntos, eles formam a base que permite avaliar argumentos, validar conclusões e construir raciocínios consistentes. Esses princípios não dependem do conteúdo das frases, mas da forma como o pensamento lógico funciona.
 
@@ -39,3 +39,15 @@
  O Princípio da Não-Contradição diz que uma proposição não pode ser verdadeira e falsa ao mesmo tempo. Ele impede que o raciocínio gere paradoxos e dá segurança para avaliar argumentos. Na lógica proposicional, isso significa que uma mesma proposição p não pode assumir simultaneamente os dois valores. Esse princípio é essencial para construir tabelas-verdade, já que cada linha representa uma possibilidade lógica consistente, nunca contraditória.
 
  O Princípio do Terceiro Excluído estabelece que uma proposição só pode assumir um de dois valores: verdadeiro ou falso — não existe uma terceira opção. Esse princípio se encaixa perfeitamente na lógica proposicional, que trabalha exatamente com essa estrutura binária. Ele é o que permite decidir, por exemplo, que frases como “Existe vida em outros planetas” são proposições mesmo sem sabermos a resposta, porque sua estrutura exige apenas dois caminhos possíveis: ou é verdade, ou é falso.
+
+
+
+                                  "Representação das Proposições"
+
+ As proposições podem ser representadas por variáveis proposicionais, também chamadas de fórmulas atômicas. Elas funcionam como símbolos simples (geralmente letras maiúsculas como P, Q, R) usados para representar afirmações completas sem precisar escrever a frase inteira o tempo todo. Essa representação ajuda a transformar o raciocínio lógico em algo mais preciso e manipulável, permitindo construir expressões maiores e analisar sua estrutura de maneira formal.
+
+ Cada variável proposicional corresponde a uma proposição básica, isto é, uma afirmação indivisível dentro daquele contexto lógico. Por exemplo, podemos escrever P para representar “A luz está acesa” ou Q para “Está chovendo”. A ideia é que a letra funcione como um “rótulo” para a proposição, carregando junto o seu valor de verdade (verdadeiro ou falso) sem que a frase inteira precise ser repetida.
+
+ Essas variáveis são chamadas de fórmulas atômicas porque são como os “átomos” da lógica proposicional: elementos fundamentais que não podem ser decompostos dentro desse nível de análise. A partir delas, podemos construir fórmulas mais complexas usando conectivos lógicos. Cada combinação gera uma nova fórmula proposicional com sua própria estrutura e valor de verdade.
+
+ Dessa forma, a representação por variáveis proposicionais permite que a lógica proposicional funcione como uma linguagem formal organizada. Ela transforma frases do cotidiano em símbolos manipuláveis, possibilitando criar tabelas-verdade, analisar argumentos, estudar validade lógica e aplicar métodos de prova com clareza e rigor. Isso é essencial tanto para a matemática quanto para áreas como computação, onde operações lógicas precisam ser expressas de forma exata.
