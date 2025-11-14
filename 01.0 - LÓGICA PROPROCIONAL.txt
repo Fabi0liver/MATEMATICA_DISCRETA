@@ -1,4 +1,4 @@
-                                     LÓGICA PROPROCIONAL 
+                                       LÓGICA PROPROCIONAL 
 
  A lógica proposicional é uma área da lógica que trabalha com proposições, que são frases que podem ser classificadas apenas como verdadeiras ou falsas. Ela não se preocupa com o conteúdo detalhado da frase, mas sim com o seu valor lógico e com a forma como diferentes proposições podem ser combinadas por meio de conectivos, como “e”, “ou”, “não”, “se… então”. A ideia central é estudar como essas combinações permitem construir argumentos corretos e identificar quando um raciocínio faz sentido.
 
@@ -6,7 +6,7 @@
 
 
 
-                                   "O Que é Uma Proposição?"
+                                    "O que são Proposições?"
 
  Uma proposição é uma oração declarativa com sentido lógico completo, construída de modo que ela possa receber exatamente um dos dois valores possíveis: verdadeiro ou falso. Isso significa que cada proposição expressa uma informação clara, direta e compreensível, como uma afirmação sobre um fato, uma condição ou um estado de coisas no mundo. A característica central é que seu conteúdo permite avaliar se aquilo que ela diz corresponde ou não à realidade.
 
@@ -14,4 +14,16 @@
 
  Uma proposição é uma afirmação que pode ser classificada como verdadeira ou falsa, mesmo que a gente ainda não saiba qual é o valor correto. Por exemplo: “2 mais 3 é igual a 4.” Essa frase é falsa, mas continua sendo uma proposição porque tem sentido próprio, você entende exatamente o que ela quer dizer e pode avaliar seu valor lógico. Outro exemplo simples é: “Belo Horizonte é a capital de Minas Gerais.” Essa é uma proposição verdadeira, mas o fato de ser verdadeira não é o que a define como proposição; o importante é que ela possui sentido completo e pode receber um valor lógico.
 
- Há também proposições cujo valor de verdade ainda não conhecemos, mas que continuam sendo proposições porque, em princípio, só podem ser verdadeiras ou falsas. Veja o exemplo: “Existe vida em outros planetas.” Hoje, ninguém pode afirmar com certeza absoluta se é verdadeiro ou falso, mas a frase continua sendo uma proposição porque seu valor lógico é bem definido: ou existe, ou não existe — não há meio-termo. O sentido é claro, mesmo sem sabermos a resposta definitiva.
+ Há também proposições cujo valor de verdade ainda não conhecemos, mas que continuam sendo proposições porque, em princípio, só podem ser verdadeiras ou falsas. Veja o exemplo: “Existe vida em outros planetas.” Hoje, ninguém pode afirmar com certeza absoluta se é verdadeiro ou falso, mas a frase continua sendo uma proposição porque seu valor lógico é bem definido: ou existe, ou não existe, não há meio-termo. O sentido é claro, mesmo sem sabermos a resposta definitiva.
+
+
+
+                                   "O que não são Proposições"
+
+ Algumas expressões não são proposições porque não possuem valor de verdade definido. Isso acontece quando a frase não apresenta sentido lógico completo, não pode ser avaliada como verdadeira ou falsa, ou depende demais do contexto para ter um significado claro. Nesses casos, não é possível atribuir um valor lógico, e por isso essas expressões não entram no estudo da lógica proposicional.
+
+ Além disso, uma expressão deixa de ser proposição quando não possui sentido próprio, isto é, quando não transmite uma ideia suficientemente clara para que se possa decidir sobre sua veracidade. Frases incompletas, ambíguas ou que não fazem uma afirmação não têm condições de receber verdadeiro ou falso, e por isso não fazem parte do conjunto de objetos analisados pela lógica.
+
+ Um exemplo simples de algo que não é proposição são frases interrogativas, como: “Você vai sair hoje?” Essa pergunta não afirma nada; ela apenas solicita informação, então não pode ser avaliada como verdadeira ou falsa. O mesmo vale para ordens e comandos, como: “Feche a porta.” Essa expressão não descreve um fato, apenas instrui uma ação, e por isso não possui valor lógico.
+
+ Também não são proposições expressões vagas ou incompletas, como: “Que calor!” ou “Amanhã.” Elas não apresentam uma afirmação clara que possa ser julgada como verdadeira ou falsa. Da mesma forma, frases ambíguas como “Ele está pronto” dependem de contexto para ter sentido, e por isso não permitem determinar um valor lógico com precisão. Essas expressões não cumprem o requisito fundamental da lógica: transmitir uma ideia avaliável de forma objetiva.
