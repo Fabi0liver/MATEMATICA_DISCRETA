@@ -54,6 +54,20 @@
 
 
 
+                                    "Fórmulas da Lógica Proposicional"
+
+
+
+                                "Tabela-Verdade na Lógica Proposicional"
+
+ A tabela-verdade é uma ferramenta essencial da lógica proposicional usada para mostrar como o valor de verdade de uma proposição composta depende das proposições simples que a formam. Ela lista todas as combinações possíveis de verdadeiro (V) e falso (F) para as variáveis proposicionais e, a partir disso, calcula o resultado final da expressão. Assim, a tabela-verdade permite analisar o comportamento lógico de forma organizada, transparente e totalmente mecânica.
+
+ Para construir uma tabela-verdade, é importante saber quantas linhas ela deve ter. A regra é simples: se a expressão possui n proposições simples, a tabela terá 2ⁿ linhas. Isso acontece porque cada proposição pode assumir dois valores possíveis (V ou F), e todas as combinações precisam ser consideradas. Por exemplo, uma expressão com 2 variáveis (P e Q) terá 2² = 4 linhas; com 3 variáveis (P, Q, R) terá 2³ = 8 linhas; com 4 variáveis terá 16 linhas, e assim por diante.
+
+ Além de mostrar o resultado final da expressão, a tabela-verdade ajuda a identificar se uma proposição é uma tautologia (sempre verdadeira), uma contradição (sempre falsa) ou uma contingência (verdadeira em alguns casos e falsa em outros). Também permite comparar proposições diferentes para verificar se são logicamente equivalentes e avaliar a validade de argumentos. Por isso, a tabela-verdade é um instrumento fundamental para entender, testar e validar raciocínios lógicos tanto em matemática quanto em computação.
+
+
+
 
                                     "Proposições Simples e Compostas"
 
@@ -87,14 +101,3 @@
 
 
 
-                                    "Fórmulas da Lógica Proposicional"
-
-
-
-                                "Tabela-Verdade na Lógica Proposicional"
-
- A tabela-verdade é uma ferramenta essencial da lógica proposicional usada para mostrar como o valor de verdade de uma proposição composta depende das proposições simples que a formam. Ela lista todas as combinações possíveis de verdadeiro (V) e falso (F) para as variáveis proposicionais e, a partir disso, calcula o resultado final da expressão. Assim, a tabela-verdade permite analisar o comportamento lógico de forma organizada, transparente e totalmente mecânica.
-
- Para construir uma tabela-verdade, é importante saber quantas linhas ela deve ter. A regra é simples: se a expressão possui n proposições simples, a tabela terá 2ⁿ linhas. Isso acontece porque cada proposição pode assumir dois valores possíveis (V ou F), e todas as combinações precisam ser consideradas. Por exemplo, uma expressão com 2 variáveis (P e Q) terá 2² = 4 linhas; com 3 variáveis (P, Q, R) terá 2³ = 8 linhas; com 4 variáveis terá 16 linhas, e assim por diante.
-
- Além de mostrar o resultado final da expressão, a tabela-verdade ajuda a identificar se uma proposição é uma tautologia (sempre verdadeira), uma contradição (sempre falsa) ou uma contingência (verdadeira em alguns casos e falsa em outros). Também permite comparar proposições diferentes para verificar se são logicamente equivalentes e avaliar a validade de argumentos. Por isso, a tabela-verdade é um instrumento fundamental para entender, testar e validar raciocínios lógicos tanto em matemática quanto em computação.
