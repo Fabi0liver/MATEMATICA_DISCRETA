@@ -84,3 +84,13 @@
  A Bi-Condicional ou Equivalência (↔), representada por “se e somente se”, indica que duas proposições têm o mesmo valor de verdade. Para ser verdadeira, as duas proposições devem ser ambas verdadeiras ou ambas falsas. Por exemplo: “Um número é par se e somente se é divisível por 2.” Aqui, as duas afirmações caminham juntas: uma é verdadeira exatamente quando a outra também é.
 
  Em resumo, os operadores lógicos são essenciais para construir e analisar raciocínios estruturados. Eles permitem combinar proposições simples de diferentes maneiras, criando relações úteis para resolver problemas, montar argumentos e representar situações complexas na matemática, na computação e no pensamento lógico.
+
+
+
+                                        "Tabela-Verdade"
+
+ A tabela-verdade é uma ferramenta fundamental da lógica proposicional usada para analisar como o valor de verdade de uma proposição composta depende dos valores de suas partes. Ela organiza todas as combinações possíveis de verdadeiro (V) e falso (F) das proposições simples e mostra, passo a passo, qual será o resultado final após a aplicação dos operadores lógicos. Dessa forma, a tabela-verdade permite visualizar o comportamento lógico de uma expressão de maneira clara, sistemática e sem ambiguidades.
+
+ Sua principal função é determinar se uma proposição composta é sempre verdadeira, sempre falsa ou verdadeira apenas em algumas situações específicas. Isso torna possível identificar diferentes tipos de sentenças lógicas, como tautologias (sempre verdadeiras), contradições (sempre falsas) e contingências (verdadeiras em alguns casos e falsas em outros). A tabela-verdade também ajuda a comparar expressões diferentes para verificar se elas são logicamente equivalentes, isto é, se produzem exatamente os mesmos resultados em todas as combinações possíveis.
+
+ Além de analisar proposições isoladas, a tabela-verdade é essencial para testar a validade de argumentos lógicos. Ao representar as premissas e a conclusão em forma proposicional e examinar os valores de verdade, é possível verificar se um argumento realmente garante a conclusão sempre que as premissas forem verdadeiras. Por isso, a tabela-verdade funciona como um método confiável e universal para avaliar raciocínios, sendo amplamente utilizada em matemática, computação e em qualquer área que exige precisão lógica.
