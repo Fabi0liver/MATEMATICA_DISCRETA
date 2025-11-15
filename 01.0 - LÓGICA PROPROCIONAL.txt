@@ -87,7 +87,11 @@
 
 
 
-                                        "Tabela-Verdade"
+                                    "Fórmulas da Lógica Proposicional"
+
+
+
+                                "Tabela-Verdade na Lógica Proposicional"
 
  A tabela-verdade é uma ferramenta essencial da lógica proposicional usada para mostrar como o valor de verdade de uma proposição composta depende das proposições simples que a formam. Ela lista todas as combinações possíveis de verdadeiro (V) e falso (F) para as variáveis proposicionais e, a partir disso, calcula o resultado final da expressão. Assim, a tabela-verdade permite analisar o comportamento lógico de forma organizada, transparente e totalmente mecânica.
 
