@@ -54,7 +54,15 @@
 
 
 
-                                    "Fórmulas da Lógica Proposicional"
+                                   "Fórmulas da Lógica Proposicional"
+
+ As fórmulas na lógica proposicional são expressões construídas a partir de proposições simples e operadores lógicos, seguindo regras formais que garantem que cada expressão faça sentido lógico. Elas funcionam como a “gramática” da lógica: determinam como combinar símbolos corretamente para formar sentenças bem estruturadas, capazes de expressar raciocínios, relações e condições. Uma fórmula pode ser algo simples, como uma única letra proposicional, ou algo complexo, como combinações de várias proposições conectadas entre si.
+
+ O ponto de partida é que as letras sentenciais (como P, Q, R, S, …) já são consideradas fórmulas. Elas representam proposições básicas que podem ser verdadeiras ou falsas. A partir delas, novas fórmulas podem ser construídas aplicando operadores lógicos. Por exemplo, se P é uma fórmula, então ¬P também é uma fórmula, pois a negação é uma operação válida que gera uma nova expressão lógica coerente.
+
+ Quando temos duas fórmulas, como P e Q, podemos combiná-las usando operadores como ∧ (E), ∨ (OU), ⊕ (OU exclusivo), → (implicação) e ↔ (equivalência). Isso significa que expressões como (P ∧ Q), (P ∨ Q), (P → Q) e outras do mesmo tipo também são fórmulas. Essas combinações representam proposições compostas, cujo valor lógico depende das partes que as formam e das regras de cada conectivo.
+
+ Por fim, vale destacar que somente as expressões formadas por essas regras são consideradas fórmulas. Nada além disso entra na linguagem formal da lógica proposicional. Esse conjunto restrito de regras garante que qualquer fórmula produzida seja estruturada, interpretável e adequada para análises como tabelas-verdade, equivalências, deduções e provas formais.
 
 
 
