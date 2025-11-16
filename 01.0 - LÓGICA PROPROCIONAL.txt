@@ -66,7 +66,7 @@
 
 
 
-                                "Tabela-Verdade na Lógica Proposicional"
+                                "Tabelas-Verdade na Lógica Proposicional"
 
  A tabela-verdade é uma ferramenta essencial da lógica proposicional usada para mostrar como o valor de verdade de uma proposição composta depende das proposições simples que a formam. Ela lista todas as combinações possíveis de verdadeiro (V) e falso (F) para as variáveis proposicionais e, a partir disso, calcula o resultado final da expressão. Assim, a tabela-verdade permite analisar o comportamento lógico de forma organizada, transparente e totalmente mecânica.
 
@@ -107,5 +107,18 @@
 
  Em resumo, os operadores lógicos são essenciais para construir e analisar raciocínios estruturados. Eles permitem combinar proposições simples de diferentes maneiras, criando relações úteis para resolver problemas, montar argumentos e representar situações complexas na matemática, na computação e no pensamento lógico.
 
+
+
+                                "Tautologia, Contradição e Contingência"
+
+ Em lógica proposicional, uma fórmula pode se comportar de maneiras diferentes dependendo dos valores atribuídos às suas variáveis. Alguns enunciados são sempre verdadeiros, outros são sempre falsos, e alguns dependem dos valores das proposições que os compõem. Para classificar esses comportamentos, usamos três conceitos fundamentais: tautologia, contradição e contingência.
+
+ Uma "tautologia" é uma fórmula que permanece verdadeira em todas as combinações possíveis de valores de verdade para suas proposições. Isso significa que, ao montar a tabela-verdade, a coluna final será composta apenas por “V”. Exemplos clássicos incluem expressões como (P ∨ ¬P), conhecida como “Lei do Terceiro Excluído”. Tautologias são importantes porque representam verdades lógicas universais, válidas independentemente da situação.
+
+ Uma "contradição" é o oposto de uma tautologia: trata-se de uma fórmula que é sempre falsa, independentemente dos valores atribuídos às proposições. Na tabela-verdade, a coluna final contém apenas “F”. Um exemplo simples é (P ∧ ¬P), a “Lei da Não-Contradição”. Fórmulas contraditórias são logicamente impossíveis de serem verdadeiras e servem para identificar inconsistências.
+
+ Uma contingência é uma fórmula cujo valor lógico depende das proposições envolvidas. Ou seja, ela é verdadeira em algumas linhas da tabela-verdade e falsa em outras. A maior parte das expressões do dia a dia ( e muitos argumentos lógicos) são contingentes. Um exemplo é (P → Q), que pode ser verdadeiro ou falso dependendo das situações. Elas são importantes porque representam situações reais em que a verdade depende do contexto.
+
+Em resumo... Tautologias, contradições e contingências são categorias essenciais para entender como as fórmulas se comportam na lógica proposicional. Elas ajudam a identificar enunciados sempre válidos, impossíveis ou dependentes de condições, permitindo avaliar argumentos, demonstrar propriedades lógicas e construir sistemas de raciocínio coerentes.
 
 
