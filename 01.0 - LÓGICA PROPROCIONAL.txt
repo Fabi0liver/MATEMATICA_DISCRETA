@@ -123,7 +123,7 @@
 
 
 
-             "Condição  Necessária, Condição Suficiente e Condição Necessária e Suficiente"
+               "Condições Necessárias, Suficientes e Condições Necessárias e Suficientes"
 
  Em lógica proposicional, a análise de relações entre proposições muitas vezes exige entender como uma condição influencia a outra. Três conceitos ajudam a descrever essas relações com precisão: condição necessária, condição suficiente e condição necessária e suficiente. Cada um indica um tipo diferente de dependência lógica entre duas proposições, geralmente expressas por conectivos como o condicional (→) e o bicondicional (↔).
 
