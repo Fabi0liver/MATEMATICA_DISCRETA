@@ -181,4 +181,22 @@
 
 
 
+                                            "Regras de Inferência"
+
+As regras de inferência na lógica proposicional são métodos formais que permitem derivar conclusões válidas a partir de premissas. Elas funcionam como “passos permitidos” dentro de uma demonstração lógica: sempre que uma regra é aplicada corretamente, a nova sentença obtida é logicamente garantida pelas anteriores. Essas regras organizam como trabalhar com negação, conjunção, disjunção, condicional e bicondicional, permitindo construir provas sólidas e sem ambiguidades. A seguir, explico cada grupo de regras solicitado de forma clara e direta.
+
+A negação possui duas regras importantes. A dupla negação afirma que negar uma negação traz de volta a proposição original: de ¬¬P podemos concluir P, e vice-versa. Já o Reductio ad Absurdum (ou prova por contradição) permite concluir P quando assumir ¬P leva a uma contradição lógica. Essa técnica é poderosa porque transforma a impossibilidade de uma hipótese em prova da sua negação.
+
+Nas regras de conjunção, temos a eliminação da conjunção, que diz que de (P ∧ Q) podemos concluir P ou concluir Q separadamente, já que ambas são verdadeiras dentro da conjunção. A introdução da conjunção funciona ao contrário: se P é verdadeira e Q também é verdadeira, então podemos inferir (P ∧ Q). Ela é usada para combinar resultados distintos em uma única afirmação mais forte.
+
+Para a disjunção, existe o silogismo disjuntivo, que estabelece: se temos (P ∨ Q) e sabemos que P é falsa, então Q deve ser verdadeira; funciona também invertendo os papéis. Já a introdução da disjunção permite criar uma disjunção verdadeira a partir de qualquer proposição verdadeira: se sabemos que P é verdadeira, então P ∨ Q é verdadeira, independentemente de Q.
+
+No caso do condicional, duas regras fundamentais se destacam. A primeira é o modus ponens, que afirma: de (P → Q) e P, concluímos Q; é uma das inferências mais clássicas da lógica. A segunda é a condicionalização, usada principalmente em provas: se ao assumir P conseguimos demonstrar Q, então podemos concluir (P → Q). É como transformar uma dedução inteira em uma implicação formal.
+
+Por fim, para o bicondicional, usamos a definição da bicondicionalidade: uma proposição P ↔ Q só é verdadeira quando P implica Q e Q implica P. Assim, provar um bicondicional significa mostrar as duas direções separadamente: P → Q e Q → P. Essa regra mostra que equivalência lógica é, na prática, a combinação de duas condicionais.
+
+Essas regras de inferência formam a base operativa da lógica proposicional, permitindo demonstrar teoremas, analisar argumentos e construir deduções rigorosas. Ao aplicá-las corretamente, garantimos que cada passo do raciocínio é logicamente válido, tornando as conclusões sólidas e livres de ambiguidades.
+
+
+
                                    
