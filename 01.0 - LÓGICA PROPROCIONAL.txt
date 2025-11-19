@@ -203,7 +203,6 @@ A seguir, explico cada grupo de regras solicitado de forma clara e direta.
 
                                  "Regras de Inferência Derivadas"
 
-
  As regras de inferência derivadas na lógica proposicional são princípios que não aparecem como regras básicas, mas podem ser deduzidas a partir delas. Elas tornam o processo de demonstração mais eficiente, permitindo encurtar provas e reconhecer padrões de raciocínio usados com frequência. Cada uma dessas regras funciona como um “atalho lógico”, garantindo conclusões válidas a partir de certas combinações de premissas.
 
  Alguns delas são:
