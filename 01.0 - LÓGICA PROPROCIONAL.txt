@@ -201,4 +201,31 @@ A seguir, explico cada grupo de regras solicitado de forma clara e direta.
 
 
 
+                                 "Regras de Inferência Derivadas"
+
+
+As regras de inferência derivadas na lógica proposicional são princípios que não aparecem como regras básicas, mas podem ser deduzidas a partir delas. Elas tornam o processo de demonstração mais eficiente, permitindo encurtar provas e reconhecer padrões de raciocínio usados com frequência. Cada uma dessas regras funciona como um “atalho lógico”, garantindo conclusões válidas a partir de certas combinações de premissas.
+
+O silogismo hipotético conecta duas condicionais em cadeia: de (P → Q) e (Q → R), concluímos (P → R). Essa regra traduz a ideia de que se P leva a Q e Q leva a R, então P leva a R. Ela expressa o encadeamento natural de dependências lógicas.
+
+A prova condicional é uma técnica que transforma um processo dedutivo em uma implicação: se, ao assumir P como hipótese temporária, conseguimos deduzir Q, então podemos concluir (P → Q). É uma forma de demonstrar implicações construindo raciocínios internos.
+
+O modus tollens opera sobre a condicional negando seu consequente: de (P → Q) e ¬Q, concluímos ¬P. Essa regra afirma que, se Q deveria acontecer quando P ocorre, e observamos que Q não ocorreu, então P também não pode ter acontecido. É uma das inferências mais fortes e usadas em provas.
+
+A negação do condicional estabelece que negar uma implicação (¬(P → Q)) é logicamente equivalente a afirmar (P ∧ ¬Q). Isso ocorre porque o único caso em que uma condicional é falsa é justamente quando P é verdadeira e Q é falsa.
+
+A contraposição mostra que uma implicação pode ser reescrita como outra equivalente: (P → Q) é logicamente idêntico a (¬Q → ¬P). Essa regra é extremamente útil porque muitas vezes provar a contrapositiva é mais simples do que provar a forma original da condicional.
+
+As Leis de De Morgan transformam operações com negação distribuindo-a sobre conjunções e disjunções: ¬(P ∧ Q) equivale a (¬P ∨ ¬Q), e ¬(P ∨ Q) equivale a (¬P ∧ ¬Q). Essas leis permitem reorganizar expressões de modo mais conveniente, especialmente em simplificações.
+
+A distribuição estabelece como certos conectivos se combinam: (P ∧ (Q ∨ R)) equivale a ((P ∧ Q) ∨ (P ∧ R)), e (P ∨ (Q ∧ R)) equivale a ((P ∨ Q) ∧ (P ∨ R)). Isso é útil para reescrever fórmulas em formatos padronizados ou resolver problemas que exigem manipulação algébrica de proposições.
+
+A comutatividade indica que a ordem dos termos em conjunções e disjunções não altera o valor lógico: (P ∧ Q) é equivalente a (Q ∧ P), assim como (P ∨ Q) é equivalente a (Q ∨ P). Essa propriedade facilita reorganizar sentenças de forma mais conveniente.
+
+A associatividade afirma que, em conjunções e disjunções, a forma de agrupar os termos não altera a proposição: (P ∧ (Q ∧ R)) equivale a ((P ∧ Q) ∧ R), e o mesmo vale para ∨. Isso permite eliminar parênteses desnecessários e trabalhar com expressões mais limpas.
+
+Essas regras derivadas ampliam o poder de manipulação lógica, tornando o raciocínio mais fluido e as demonstrações mais diretas. Elas servem como ferramentas essenciais para transformar, simplificar e conectar fórmulas dentro da lógica proposicional, garantindo clareza e rigor nas deduções.
+
+
+
                                    
