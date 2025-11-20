@@ -181,7 +181,7 @@
 
 
 
-                                           "Equivalências lógicas"
+                                          "Equivalências lógicas"
 
  As equivalências lógicas (ou regras de equivalência) na lógica proposicional são transformações que permitem substituir uma fórmula por outra com exatamente o mesmo valor lógico em todas as situações possíveis. Elas são fundamentais para simplificar expressões, reorganizar argumentos e construir provas mais curtas e elegantes. A seguir, apresento cada grupo de equivalências solicitadas, explicando sua função e seu papel na lógica proposicional.
 
@@ -191,11 +191,15 @@
 
  A equivalência do condicional (P → Q) é uma das mais importantes: ele é logicamente idêntico a (¬P ∨ Q). Isso mostra que a implicação só falha se P é verdadeira e Q é falsa. Outra equivalência útil é reescrevê-lo por contraposição: (P → Q) ≡ (¬Q → ¬P), facilitando demonstrações e simplificações.
 
+ A negação do condicional estabelece que negar uma implicação (¬(P → Q)) é logicamente equivalente a afirmar (P ∧ ¬Q). Isso ocorre porque o único caso em que uma condicional é falsa é justamente quando P é verdadeira e Q é falsa.
+
  O bicondicional (P ↔ Q) possui uma equivalência central: (P → Q) ∧ (Q → P). Isso mostra que uma equivalência lógica é, na prática, a junção de duas condicionais. Outra forma comum é (P ∧ Q) ∨ (¬P ∧ ¬Q), que destaca os casos em que as duas proposições têm o mesmo valor lógico.
 
  Usando apenas o Sheffer's Stroke (|), o operador NAND, pode se fazer equivalências para os outros operadores. Por exemplo: ¬P equivale a (P | P), a conjunção P ∧ Q equivale a ¬(P | Q), e todos os outros operadores podem ser definidos combinando essas construções básicas. Isso mostra que o NAND é funcionalmente completo, sendo capaz de expressar qualquer operação lógica.
 
  A dupla negação afirma que ¬¬P é equivalente a P. Essa equivalência é fundamental porque mostra que negar uma negação retorna à proposição original, algo muito usado em provas formais, inclusive em demonstrações indiretas.
+
+ As Leis de De Morgan transformam operações com negação distribuindo-a sobre conjunções e disjunções: ¬(P ∧ Q) equivale a (¬P ∨ ¬Q), e ¬(P ∨ Q) equivale a (¬P ∧ ¬Q). Essas leis permitem reorganizar expressões de modo mais conveniente, especialmente em simplificações.
 
  Os elementos neutros descrevem comportamentos especiais com proposições verdadeiras ou falsas: P ∧ V ≡ P e P ∨ F ≡ P. Isso mostra como certas combinações preservam o valor original. Na prática, ajudam na limpeza de expressões redundantes.
 
@@ -211,7 +215,7 @@
 
 
 
-                                            "Regras de Inferência"
+                                         "Regras de Inferência"
 
  As regras de inferência na lógica proposicional são métodos formais que permitem derivar conclusões válidas a partir de premissas. Elas funcionam como “passos permitidos” dentro de uma demonstração lógica: sempre que uma regra é aplicada corretamente, a nova sentença obtida é logicamente garantida pelas anteriores. Essas regras organizam como trabalhar com negação, conjunção, disjunção, condicional e bicondicional, permitindo construir provas sólidas e sem ambiguidades. 
 
@@ -243,11 +247,9 @@ A seguir, explico cada grupo de regras solicitado de forma clara e direta.
 
  * O modus tollens opera sobre a condicional negando seu consequente: de (P → Q) e ¬Q, concluímos ¬P. Essa regra afirma que, se Q deveria acontecer quando P ocorre, e observamos que Q não ocorreu, então P também não pode ter acontecido. É uma das inferências mais fortes e usadas em provas.
 
- * A negação do condicional estabelece que negar uma implicação (¬(P → Q)) é logicamente equivalente a afirmar (P ∧ ¬Q). Isso ocorre porque o único caso em que uma condicional é falsa é justamente quando P é verdadeira e Q é falsa.
+ * 
 
  * A contraposição mostra que uma implicação pode ser reescrita como outra equivalente: (P → Q) é logicamente idêntico a (¬Q → ¬P). Essa regra é extremamente útil porque muitas vezes provar a contrapositiva é mais simples do que provar a forma original da condicional.
-
- * As Leis de De Morgan transformam operações com negação distribuindo-a sobre conjunções e disjunções: ¬(P ∧ Q) equivale a (¬P ∨ ¬Q), e ¬(P ∨ Q) equivale a (¬P ∧ ¬Q). Essas leis permitem reorganizar expressões de modo mais conveniente, especialmente em simplificações.
 
  * A distribuição estabelece como certos conectivos se combinam: (P ∧ (Q ∨ R)) equivale a ((P ∧ Q) ∨ (P ∧ R)), e (P ∨ (Q ∧ R)) equivale a ((P ∨ Q) ∧ (P ∨ R)). Isso é útil para reescrever fórmulas em formatos padronizados ou resolver problemas que exigem manipulação algébrica de proposições.
 
