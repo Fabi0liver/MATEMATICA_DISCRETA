@@ -183,29 +183,31 @@
 
                                            "Equivalências lógicas"
 
-As equivalências lógicas (ou regras de equivalência) na lógica proposicional são transformações que permitem substituir uma fórmula por outra com exatamente o mesmo valor lógico em todas as situações possíveis. Elas são fundamentais para simplificar expressões, reorganizar argumentos e construir provas mais curtas e elegantes. A seguir, apresento cada grupo de equivalências solicitadas, explicando sua função e seu papel na lógica proposicional.
+ As equivalências lógicas (ou regras de equivalência) na lógica proposicional são transformações que permitem substituir uma fórmula por outra com exatamente o mesmo valor lógico em todas as situações possíveis. Elas são fundamentais para simplificar expressões, reorganizar argumentos e construir provas mais curtas e elegantes. A seguir, apresento cada grupo de equivalências solicitadas, explicando sua função e seu papel na lógica proposicional.
 
-A disjunção exclusiva (P ⊕ Q) pode ser reescrita de maneiras equivalentes, como (P ∨ Q) ∧ ¬(P ∧ Q), o que evidencia seu caráter de “ou, mas não os dois”. Outra equivalência útil é (P ∧ ¬Q) ∨ (¬P ∧ Q), que mostra claramente os dois casos em que a disjunção exclusiva é verdadeira: quando exatamente uma das proposições é verdadeira.
+ A seguir, apresento algumas dessas equivalências, descrevendo como funcionam e por que são úteis.
 
-A equivalência do condicional (P → Q) é uma das mais importantes: ele é logicamente idêntico a (¬P ∨ Q). Isso mostra que a implicação só falha se P é verdadeira e Q é falsa. Outra equivalência útil é reescrevê-lo por contraposição: (P → Q) ≡ (¬Q → ¬P), facilitando demonstrações e simplificações.
+ A disjunção exclusiva (P ⊕ Q) pode ser reescrita de maneiras equivalentes, como (P ∨ Q) ∧ ¬(P ∧ Q), o que evidencia seu caráter de “ou, mas não os dois”. Outra equivalência útil é (P ∧ ¬Q) ∨ (¬P ∧ Q), que mostra claramente os dois casos em que a disjunção exclusiva é verdadeira: quando exatamente uma das proposições é verdadeira.
 
-O bicondicional (P ↔ Q) possui uma equivalência central: (P → Q) ∧ (Q → P). Isso mostra que uma equivalência lógica é, na prática, a junção de duas condicionais. Outra forma comum é (P ∧ Q) ∨ (¬P ∧ ¬Q), que destaca os casos em que as duas proposições têm o mesmo valor lógico.
+ A equivalência do condicional (P → Q) é uma das mais importantes: ele é logicamente idêntico a (¬P ∨ Q). Isso mostra que a implicação só falha se P é verdadeira e Q é falsa. Outra equivalência útil é reescrevê-lo por contraposição: (P → Q) ≡ (¬Q → ¬P), facilitando demonstrações e simplificações.
 
-Usando apenas o Sheffer's Stroke (|), o operador NAND, pode se fazer equivalências para os outros operadores. Por exemplo: ¬P equivale a (P | P), a conjunção P ∧ Q equivale a ¬(P | Q), e todos os outros operadores podem ser definidos combinando essas construções básicas. Isso mostra que o NAND é funcionalmente completo, sendo capaz de expressar qualquer operação lógica.
+ O bicondicional (P ↔ Q) possui uma equivalência central: (P → Q) ∧ (Q → P). Isso mostra que uma equivalência lógica é, na prática, a junção de duas condicionais. Outra forma comum é (P ∧ Q) ∨ (¬P ∧ ¬Q), que destaca os casos em que as duas proposições têm o mesmo valor lógico.
 
-A dupla negação expressa que negar duas vezes produz uma fórmula equivalente à original: ¬¬P ≡ P. Essa regra é essencial para reorganizar fórmulas e eliminar negações desnecessárias.
+ Usando apenas o Sheffer's Stroke (|), o operador NAND, pode se fazer equivalências para os outros operadores. Por exemplo: ¬P equivale a (P | P), a conjunção P ∧ Q equivale a ¬(P | Q), e todos os outros operadores podem ser definidos combinando essas construções básicas. Isso mostra que o NAND é funcionalmente completo, sendo capaz de expressar qualquer operação lógica.
 
-Os elementos neutros descrevem comportamentos especiais com proposições verdadeiras ou falsas: P ∧ V ≡ P e P ∨ F ≡ P. Isso mostra como certas combinações preservam o valor original. Na prática, ajudam na limpeza de expressões redundantes.
+ A dupla negação afirma que ¬¬P é equivalente a P. Essa equivalência é fundamental porque mostra que negar uma negação retorna à proposição original, algo muito usado em provas formais, inclusive em demonstrações indiretas.
 
-As propriedades de dominação descrevem o efeito de valores extremos: P ∨ V ≡ V e P ∧ F ≡ F. Essas equivalências representam situações em que o resultado é dominado pelo valor lógico mais forte (V na disjunção e F na conjunção).
+ Os elementos neutros descrevem comportamentos especiais com proposições verdadeiras ou falsas: P ∧ V ≡ P e P ∨ F ≡ P. Isso mostra como certas combinações preservam o valor original. Na prática, ajudam na limpeza de expressões redundantes.
 
-As propriedades idempotentes indicam que duplicar a mesma proposição não muda nada: P ∧ P ≡ P e P ∨ P ≡ P. Isso ajuda a eliminar repetições e revela a estabilidade de certas operações.
+ As propriedades de dominação descrevem o efeito de valores extremos: P ∨ V ≡ V e P ∧ F ≡ F. Essas equivalências representam situações em que o resultado é dominado pelo valor lógico mais forte (V na disjunção e F na conjunção).
 
-As propriedades de absorção simplificam expressões combinadas: P ∨ (P ∧ Q) ≡ P e P ∧ (P ∨ Q) ≡ P. Essas equivalências mostram que, quando uma proposição está contida dentro da outra, a fórmula inteira se reduz à mais simples.
+ As propriedades idempotentes indicam que duplicar a mesma proposição não muda nada: P ∧ P ≡ P e P ∨ P ≡ P. Isso ajuda a eliminar repetições e revela a estabilidade de certas operações.
 
-Por fim, a propriedade da negação afirma identidades como P ∨ ¬P ≡ V e P ∧ ¬P ≡ F. Essas equivalências expressam as leis fundamentais da lógica: o terceiro excluído e a não contradição. Elas são centrais para o comportamento das proposições e costumam aparecer em provas e simplificações.
+ As propriedades de absorção simplificam expressões combinadas: P ∨ (P ∧ Q) ≡ P e P ∧ (P ∨ Q) ≡ P. Essas equivalências mostram que, quando uma proposição está contida dentro da outra, a fórmula inteira se reduz à mais simples.
 
-Em conjunto, essas equivalências lógicas formam o “vocabulário matemático” que permite manipular, simplificar e transformar fórmulas proposicionais sem alterar seu significado. São ferramentas fundamentais para resolver problemas, construir demonstrações, analisar argumentos e compreender a estrutura interna dos conectivos lógicos.
+ A propriedade da negação afirma identidades como P ∨ ¬P ≡ V e P ∧ ¬P ≡ F. Essas equivalências expressam as leis fundamentais da lógica: o terceiro excluído e a não contradição. Elas são centrais para o comportamento das proposições e costumam aparecer em provas e simplificações.
+
+ Em conjunto, essas equivalências lógicas formam o “vocabulário matemático” que permite manipular, simplificar e transformar fórmulas proposicionais sem alterar seu significado. São ferramentas fundamentais para resolver problemas, construir demonstrações, analisar argumentos e compreender a estrutura interna dos conectivos lógicos.
 
 
 
