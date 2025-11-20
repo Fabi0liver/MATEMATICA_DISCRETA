@@ -6,7 +6,7 @@
 
 
 
-                                    "O que são Proposições?"
+                                     "O que são Proposições?"
 
  Uma proposição é uma oração declarativa com sentido lógico completo, construída de modo que ela possa receber exatamente um dos dois valores possíveis: verdadeiro ou falso. Isso significa que cada proposição expressa uma informação clara, direta e compreensível, como uma afirmação sobre um fato, uma condição ou um estado de coisas no mundo. A característica central é que seu conteúdo permite avaliar se aquilo que ela diz corresponde ou não à realidade.
 
@@ -180,6 +180,9 @@
  A formalização de argumentos é uma das etapas mais importantes no estudo da lógica proposicional porque permite transformar raciocínios cotidianos em objetos matemáticos precisos. Isso dá segurança, clareza e rigor à análise lógica, possibilitando detectar falhas, validar conclusões e construir demonstrações de maneira sólida e universal.
 
 
+Equivalências lógicas
+
+
 
                                             "Regras de Inferência"
 
@@ -201,7 +204,7 @@ A seguir, explico cada grupo de regras solicitado de forma clara e direta.
 
 
 
-                                 "Regras de Inferência Derivadas"
+                                   "Regras de Inferência Derivadas"
 
  As regras de inferência derivadas na lógica proposicional são princípios que não aparecem como regras básicas, mas podem ser deduzidas a partir delas. Elas tornam o processo de demonstração mais eficiente, permitindo encurtar provas e reconhecer padrões de raciocínio usados com frequência. Cada uma dessas regras funciona como um “atalho lógico”, garantindo conclusões válidas a partir de certas combinações de premissas.
 
