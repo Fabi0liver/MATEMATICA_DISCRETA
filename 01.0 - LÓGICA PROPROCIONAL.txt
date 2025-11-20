@@ -191,7 +191,7 @@ A equivalência do condicional (P → Q) é uma das mais importantes: ele é log
 
 O bicondicional (P ↔ Q) possui uma equivalência central: (P → Q) ∧ (Q → P). Isso mostra que uma equivalência lógica é, na prática, a junção de duas condicionais. Outra forma comum é (P ∧ Q) ∨ (¬P ∧ ¬Q), que destaca os casos em que as duas proposições têm o mesmo valor lógico.
 
-As equivalências dos outros operadores podem ser construídas usando apenas o Sheffer's Stroke (|), o operador NAND. Por exemplo: ¬P equivale a (P | P), a conjunção P ∧ Q equivale a ¬(P | Q), e todos os outros operadores podem ser definidos combinando essas construções básicas. Isso mostra que o NAND é funcionalmente completo, sendo capaz de expressar qualquer operação lógica.
+Usando apenas o Sheffer's Stroke (|), o operador NAND, pode se fazer equivalências para os outros operadores. Por exemplo: ¬P equivale a (P | P), a conjunção P ∧ Q equivale a ¬(P | Q), e todos os outros operadores podem ser definidos combinando essas construções básicas. Isso mostra que o NAND é funcionalmente completo, sendo capaz de expressar qualquer operação lógica.
 
 A dupla negação expressa que negar duas vezes produz uma fórmula equivalente à original: ¬¬P ≡ P. Essa regra é essencial para reorganizar fórmulas e eliminar negações desnecessárias.
 
