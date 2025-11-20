@@ -181,7 +181,7 @@
 
 
 
-                                          "Equivalências lógicas"
+                                     "Equivalências lógicas"
 
  As equivalências lógicas (ou regras de equivalência) na lógica proposicional são transformações que permitem substituir uma fórmula por outra com exatamente o mesmo valor lógico em todas as situações possíveis. Elas são fundamentais para simplificar expressões, reorganizar argumentos e construir provas mais curtas e elegantes. A seguir, apresento cada grupo de equivalências solicitadas, explicando sua função e seu papel na lógica proposicional.
 
@@ -210,6 +210,12 @@
  As propriedades de absorção simplificam expressões combinadas: P ∨ (P ∧ Q) ≡ P e P ∧ (P ∨ Q) ≡ P. Essas equivalências mostram que, quando uma proposição está contida dentro da outra, a fórmula inteira se reduz à mais simples.
 
  A propriedade da negação afirma identidades como P ∨ ¬P ≡ V e P ∧ ¬P ≡ F. Essas equivalências expressam as leis fundamentais da lógica: o terceiro excluído e a não contradição. Elas são centrais para o comportamento das proposições e costumam aparecer em provas e simplificações.
+
+ A distribuição estabelece como certos conectivos se combinam: (P ∧ (Q ∨ R)) equivale a ((P ∧ Q) ∨ (P ∧ R)), e (P ∨ (Q ∧ R)) equivale a ((P ∨ Q) ∧ (P ∨ R)). Isso é útil para reescrever fórmulas em formatos padronizados ou resolver problemas que exigem manipulação algébrica de proposições.
+
+ A comutatividade indica que a ordem dos termos em conjunções, disjunções e bi-condicionais não altera o valor lógico: (P ∧ Q) é equivalente a (Q ∧ P), assim como (P ∨ Q) é equivalente a (Q ∨ P). Essa propriedade facilita reorganizar sentenças de forma mais conveniente.
+
+ A associatividade afirma que em conjunções, disjunções e bi-condicionais, a forma de agrupar os termos não altera a proposição: (P ∧ (Q ∧ R)) equivale a ((P ∧ Q) ∧ R), e o mesmo vale para ∨. Isso permite eliminar parênteses desnecessários e trabalhar com expressões mais limpas.
 
  Em conjunto, essas equivalências lógicas formam o “vocabulário matemático” que permite manipular, simplificar e transformar fórmulas proposicionais sem alterar seu significado. São ferramentas fundamentais para resolver problemas, construir demonstrações, analisar argumentos e compreender a estrutura interna dos conectivos lógicos.
 
@@ -247,15 +253,7 @@ A seguir, explico cada grupo de regras solicitado de forma clara e direta.
 
  * O modus tollens opera sobre a condicional negando seu consequente: de (P → Q) e ¬Q, concluímos ¬P. Essa regra afirma que, se Q deveria acontecer quando P ocorre, e observamos que Q não ocorreu, então P também não pode ter acontecido. É uma das inferências mais fortes e usadas em provas.
 
- * 
-
  * A contraposição mostra que uma implicação pode ser reescrita como outra equivalente: (P → Q) é logicamente idêntico a (¬Q → ¬P). Essa regra é extremamente útil porque muitas vezes provar a contrapositiva é mais simples do que provar a forma original da condicional.
-
- * A distribuição estabelece como certos conectivos se combinam: (P ∧ (Q ∨ R)) equivale a ((P ∧ Q) ∨ (P ∧ R)), e (P ∨ (Q ∧ R)) equivale a ((P ∨ Q) ∧ (P ∨ R)). Isso é útil para reescrever fórmulas em formatos padronizados ou resolver problemas que exigem manipulação algébrica de proposições.
-
- * A comutatividade indica que a ordem dos termos em conjunções, disjunções e bi-condicionais não altera o valor lógico: (P ∧ Q) é equivalente a (Q ∧ P), assim como (P ∨ Q) é equivalente a (Q ∨ P). Essa propriedade facilita reorganizar sentenças de forma mais conveniente.
-
- * A associatividade afirma que em conjunções, disjunções e bi-condicionais, a forma de agrupar os termos não altera a proposição: (P ∧ (Q ∧ R)) equivale a ((P ∧ Q) ∧ R), e o mesmo vale para ∨. Isso permite eliminar parênteses desnecessários e trabalhar com expressões mais limpas.
 
  Essas regras derivadas ampliam o poder de manipulação lógica, tornando o raciocínio mais fluido e as demonstrações mais diretas. Elas servem como ferramentas essenciais para transformar, simplificar e conectar fórmulas dentro da lógica proposicional, garantindo clareza e rigor nas deduções.
 
