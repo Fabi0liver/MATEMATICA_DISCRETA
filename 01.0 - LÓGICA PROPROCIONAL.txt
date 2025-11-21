@@ -89,7 +89,7 @@
 
 
 
-                                          "Operadores Lógicos"
+                                         "Operadores Lógicos"
 
  Os operadores lógicos, também chamados de conectivos sentenciais, são símbolos ou expressões que servem para combinar proposições simples e formar proposições compostas. Eles permitem expressar relações como negação, combinação, alternativa, condição e equivalência entre ideias. Cada operador possui uma regra própria de funcionamento, definindo como o valor de verdade da proposição resultante depende das proposições que ele conecta. São ferramentas essenciais para construir raciocínios complexos, analisar argumentos e representar situações de forma precisa.
 
@@ -106,6 +106,18 @@
  A Bi-Condicional ou Equivalência (↔), representada por “se e somente se”, indica que duas proposições têm o mesmo valor de verdade. Para ser verdadeira, as duas proposições devem ser ambas verdadeiras ou ambas falsas. Por exemplo: “Um número é par se e somente se é divisível por 2.” Aqui, as duas afirmações caminham juntas: uma é verdadeira exatamente quando a outra também é.
 
  Em resumo, os operadores lógicos são essenciais para construir e analisar raciocínios estruturados. Eles permitem combinar proposições simples de diferentes maneiras, criando relações úteis para resolver problemas, montar argumentos e representar situações complexas na matemática, na computação e no pensamento lógico.
+
+
+
+                                   "Operador Lógico sheffr's stroke"
+
+O Sheffer’s Stroke, também chamado de NAND e representado pelo símbolo |, é um operador lógico que produz o valor falso apenas quando ambas as proposições são verdadeiras. Em todas as outras combinações (quando pelo menos uma proposição é falsa) o resultado é verdadeiro. Assim, se P | Q representa o NAND entre P e Q, sua tabela-verdade é exatamente o inverso da conjunção (E). Por isso, ele é conhecido como o operador “não-E”.
+
+A principal característica do Sheffer’s Stroke é que ele é um operador funcionalmente completo, ou seja, sozinho ele consegue expressar qualquer outro operador lógico da lógica proposicional. Isso significa que conectivos como negação, conjunção, disjunção, implicação e equivalência podem ser construídos apenas com NAND. Por exemplo: a negação pode ser expressa como ¬P = P | P, pois negar P é o mesmo que aplicar NAND entre P e ele mesmo.
+
+Essa completude faz do NAND um operador extremamente importante em lógica e computação. Na prática, circuitos digitais podem ser construídos apenas com portas NAND, já que elas são suficientes para reproduzir qualquer operação binária. Assim, o Sheffer’s Stroke não é apenas um conceito teórico: ele tem impacto direto na construção de processadores, sistemas digitais e hardware em geral.
+
+Em resumo, o operador Sheffer’s Stroke é um conectivo lógico poderoso porque combina simplicidade e versatilidade. Ele inverte o resultado da conjunção e, ao mesmo tempo, serve como base para representar toda a linguagem da lógica proposicional. Essa propriedade torna o NAND essencial tanto no estudo da lógica quanto na implementação física de circuitos computacionais.
 
 
 
@@ -237,7 +249,9 @@
 
  Para o bicondicional, usamos a própria definição da bicondicionalidade: uma proposição P ↔ Q só é verdadeira quando P implica Q e Q implica P. Assim, provar um bicondicional significa mostrar as duas direções separadamente: P → Q e Q → P. Essa regra evidencia que a equivalência lógica é, na prática, a combinação de duas condicionais independentes.
 
- Além dessas regras básicas, existem inferências importantes que podem ser derivadas das anteriores. O silogismo hipotético conecta duas condicionais em cadeia: de (P → Q) e (Q → R), concluímos (P → R). Essa regra expressa o encadeamento natural de dependências lógicas: se P leva a Q e Q leva a R, então P leva a R.
+ Além dessas regras básicas, existem inferências importantes que podem ser derivadas das anteriores.
+
+ O silogismo hipotético conecta duas condicionais em cadeia: de (P → Q) e (Q → R), concluímos (P → R). Essa regra expressa o encadeamento natural de dependências lógicas: se P leva a Q e Q leva a R, então P leva a R.
 
  A prova condicional é uma técnica que transforma um processo dedutivo em uma implicação: se, ao assumir P como hipótese temporária, conseguimos deduzir Q, então podemos concluir (P → Q). Ela formaliza a construção de implicações através de raciocínios internos.
 
