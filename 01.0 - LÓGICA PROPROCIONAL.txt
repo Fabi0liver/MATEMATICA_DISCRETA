@@ -295,7 +295,7 @@ Em resumo, o operador Sheffer’s Stroke é um conectivo lógico poderoso porque
 
 
                                   
-                                "Conclusão Sobre Lógica Proposicional"
+                                 "Conclusão Sobre Lógica Proposicional"
 
  A lógica proposicional apresenta-se como um instrumento rigoroso para analisar e organizar o raciocínio, permitindo transformar intuições informais em estruturas dedutivas claras e verificáveis. Ao longo do estudo, percebe-se que a linguagem formal da lógica oferece um controle preciso sobre cada passo do pensamento, evitando ambiguidades e garantindo que conclusões sejam sustentadas por procedimentos sólidos. Essa precisão não apenas reforça a coerência interna dos argumentos, mas também desenvolve a capacidade de avaliar relações entre proposições com maior profundidade.
 
