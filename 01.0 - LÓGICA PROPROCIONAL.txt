@@ -1,4 +1,4 @@
-                                       LÓGICA PROPROCIONAL 
+                                        LÓGICA PROPROCIONAL 
 
  A lógica proposicional é uma área da lógica que trabalha com proposições, que são frases que podem ser classificadas apenas como verdadeiras ou falsas. Ela não se preocupa com o conteúdo detalhado da frase, mas sim com o seu valor lógico e com a forma como diferentes proposições podem ser combinadas por meio de conectivos, como “e”, “ou”, “não”, “se… então”. A ideia central é estudar como essas combinações permitem construir argumentos corretos e identificar quando um raciocínio faz sentido.
 
@@ -282,6 +282,16 @@ Em resumo, o operador Sheffer’s Stroke é um conectivo lógico poderoso porque
  A contraposição mostra que uma implicação pode ser reescrita como outra equivalente: (P → Q) é logicamente idêntico a (¬Q → ¬P). Essa equivalência é extremamente útil, pois muitas vezes é mais simples provar a contrapositiva do que lidar diretamente com a forma original da condicional.
 
  Essas regras de inferência formam a base operativa da lógica proposicional, permitindo demonstrar teoremas, analisar argumentos e construir deduções rigorosas. Ao aplicá-las corretamente, garantimos que cada passo do raciocínio é logicamente válido, tornando as conclusões sólidas e livres de ambiguidades.
+
+
+
+                                           "Prova Lógica"
+
+ A prova lógica, dentro da lógica proposicional, é o processo formal pelo qual demonstramos que uma conclusão realmente decorre de um conjunto de premissas, garantindo que não estamos apenas “achando” que algo é verdade, mas mostrando passo a passo que não poderia ser diferente. Ela funciona como uma espécie de roteiro rigoroso: começamos com premissas assumidas como verdadeiras e, usando regras de inferência válidas, construímos uma cadeia de passos que leva necessariamente à conclusão desejada. Em essência, provar logicamente é transformar raciocínio intuitivo em raciocínio verificável, onde cada etapa é justificada por uma regra previamente aceita. Por isso, uma prova lógica não depende de opinião ou interpretação, se as premissas forem verdadeiras e as regras forem aplicadas corretamente, a conclusão também será verdadeira.
+
+ O mecanismo formal disso aparece na forma de derivações, em que cada linha ou é uma premissa inicial, ou é consequência de linhas anteriores por meio de alguma regra de inferência (como Modus Ponens, Eliminação da Conjunção, Introdução da Disjunção, etc.). A prova termina quando conseguimos escrever a conclusão no final dessa sequência justificada. A grande vantagem desse método é permitir verificar precisamente onde cada ideia entra, impedindo saltos lógicos ou conclusões baseadas em intuição. Além disso, as provas podem assumir estilos diferentes, como provas diretas, provas condicionais, provas por contradição (Reductio ad Absurdum) ou provas encadeadas com regras derivadas, cada uma adequada a um tipo específico de argumento. Em qualquer forma adotada, a lógica proposicional exige que cada movimento seja autorizado por alguma regra, o que transforma o raciocínio em um procedimento mecânico.
+
+ Por fim, a prova lógica visa garantir validade, não necessariamente verdade material das premissas: uma prova lógica mostra que, se as premissas forem verdadeiras, então a conclusão não pode ser falsa. Isso significa que ela estabelece obrigatoriedade de raciocínio, não avaliação de fatos do mundo. Assim, provar logicamente é mostrar que a estrutura do argumento preserva a verdade de maneira inevitável. Quando uma prova é concluída corretamente, ela demonstra que a conclusão depende das premissas por necessidade lógica, tornando o argumento sólido no sentido formal. Esse rigor é a base de toda a matemática, ciências formais, computação e raciocínio algorítmico, pois garante que conclusões não surgem ao acaso, mas obedecem a uma arquitetura explícita, estável e verificável.
 
 
                                   
