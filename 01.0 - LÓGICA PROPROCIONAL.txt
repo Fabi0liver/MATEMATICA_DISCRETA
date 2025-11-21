@@ -221,9 +221,9 @@
 
 
 
-                                        "Regras de Inferência"
+                                          "Regras de Inferência"
 
- As regras de inferência na lógica proposicional são métodos formais que permitem derivar conclusões válidas a partir de premissas. Elas funcionam como “passos permitidos” dentro de uma demonstração lógica: sempre que uma regra é aplicada corretamente, a nova sentença obtida é logicamente garantida pelas anteriores. Essas regras organizam como trabalhar com negação, conjunção, disjunção, condicional e bicondicional, permitindo construir provas sólidas e sem ambiguidades. 
+ As regras de inferência na lógica proposicional são métodos formais que permitem derivar conclusões válidas a partir de premissas. Elas funcionam como “passos permitidos” dentro de uma demonstração lógica: sempre que uma regra é aplicada corretamente, a nova sentença obtida é logicamente garantida pelas anteriores. Essas regras organizam como trabalhar com negação, conjunção, disjunção, condicional e bicondicional, permitindo construir provas sólidas e sem ambiguidades.
 
  A seguir, explico cada grupo de regras solicitado de forma clara e direta.
 
@@ -235,18 +235,17 @@
 
  No caso do condicional, duas regras fundamentais se destacam. A primeira é o modus ponens, que afirma: de (P → Q) e P, concluímos Q; é uma das inferências mais clássicas da lógica. A segunda é a condicionalização, usada principalmente em provas: se ao assumir P conseguimos demonstrar Q, então podemos concluir (P → Q). É como transformar uma dedução inteira em uma implicação formal.
 
- O bicondicional, usamos a definição da bicondicionalidade: uma proposição P ↔ Q só é verdadeira quando P implica Q e Q implica P. Assim, provar um bicondicional significa mostrar as duas direções separadamente: P → Q e Q → P. Essa regra mostra que equivalência lógica é, na prática, a combinação de duas condicionais.
+ Para o bicondicional, usamos a própria definição da bicondicionalidade: uma proposição P ↔ Q só é verdadeira quando P implica Q e Q implica P. Assim, provar um bicondicional significa mostrar as duas direções separadamente: P → Q e Q → P. Essa regra evidencia que a equivalência lógica é, na prática, a combinação de duas condicionais independentes.
 
- O silogismo hipotético conecta duas condicionais em cadeia: de (P → Q) e (Q → R), concluímos (P → R). Essa regra traduz a ideia de que se P leva a Q e Q leva a R, então P leva a R. Ela expressa o encadeamento natural de dependências lógicas.
+ Além dessas regras básicas, existem inferências importantes que podem ser derivadas das anteriores. O silogismo hipotético conecta duas condicionais em cadeia: de (P → Q) e (Q → R), concluímos (P → R). Essa regra expressa o encadeamento natural de dependências lógicas: se P leva a Q e Q leva a R, então P leva a R.
 
- A prova condicional é uma técnica que transforma um processo dedutivo em uma implicação: se, ao assumir P como hipótese temporária, conseguimos deduzir Q, então podemos concluir (P → Q). É uma forma de demonstrar implicações construindo raciocínios internos.
+ A prova condicional é uma técnica que transforma um processo dedutivo em uma implicação: se, ao assumir P como hipótese temporária, conseguimos deduzir Q, então podemos concluir (P → Q). Ela formaliza a construção de implicações através de raciocínios internos.
 
- O modus tollens opera sobre a condicional negando seu consequente: de (P → Q) e ¬Q, concluímos ¬P. Essa regra afirma que, se Q deveria acontecer quando P ocorre, e observamos que Q não ocorreu, então P também não pode ter acontecido. É uma das inferências mais fortes e usadas em provas.
+ O modus tollens opera negando o consequente de uma condicional: de (P → Q) e ¬Q, concluímos ¬P. Essa regra afirma que, se Q deveria ocorrer quando P ocorre, e observamos que Q não ocorreu, então P não pode ter acontecido. É um dos métodos mais rigorosos e amplamente usados em deduções matemáticas.
 
- A contraposição mostra que uma implicação pode ser reescrita como outra equivalente: (P → Q) é logicamente idêntico a (¬Q → ¬P). Essa regra é extremamente útil porque muitas vezes provar a contrapositiva é mais simples do que provar a forma original da condicional.
+ A contraposição mostra que uma implicação pode ser reescrita como outra equivalente: (P → Q) é logicamente idêntico a (¬Q → ¬P). Essa equivalência é extremamente útil, pois muitas vezes é mais simples provar a contrapositiva do que lidar diretamente com a forma original da condicional.
 
  Essas regras de inferência formam a base operativa da lógica proposicional, permitindo demonstrar teoremas, analisar argumentos e construir deduções rigorosas. Ao aplicá-las corretamente, garantimos que cada passo do raciocínio é logicamente válido, tornando as conclusões sólidas e livres de ambiguidades.
-
 
 
                                   
