@@ -12,19 +12,18 @@
 
 
 
-                                     "O que são Proposições?"
+                                     "O que são Proposições"
 
- Uma proposição é uma oração declarativa com sentido lógico completo, construída de modo que ela possa receber exatamente um dos dois valores possíveis: verdadeiro ou falso. Isso significa que cada proposição expressa uma informação clara, direta e compreensível, como uma afirmação sobre um fato, uma condição ou um estado de coisas no mundo. A característica central é que seu conteúdo permite avaliar se aquilo que ela diz corresponde ou não à realidade.
+ Uma proposição é, essencialmente, uma afirmação sobre o mundo que pode ser classificada como verdadeira ou falsa. Pense nela como uma fotografia mental de uma situação: você olha para a imagem e consegue decidir se aquilo corresponde à realidade ou não. Da mesma forma, quando ouvimos uma frase como “A luz da sala está acesa”, podemos verificar o estado da sala e dizer se é verdade ou se é mentira. Esse caráter verificável é o que transforma uma frase comum em uma proposição.
 
- Além disso, uma proposição precisa ter sentido próprio, ou seja, deve apresentar uma ideia suficientemente definida para que seu valor de verdade seja determinado sem ambiguidades. Quando uma proposição possui esse sentido claro, ela se torna uma unidade essencial no estudo da lógica, servindo como base para combinações, argumentos e análises formais. Essa clareza permite construir raciocínios consistentes e precisos, tanto em matemática quanto em computação e no pensamento lógico em geral.
+ Essas afirmações aparecem no nosso cotidiano o tempo todo, mesmo sem percebermos. Quando alguém diz “Hoje vai chover”, isso é uma proposição, podemos observar o clima e verificar se a previsão se confirma. Outro exemplo: “2 + 2 = 4”. Aqui temos uma proposição matemática, que é claramente verdadeira. Já a frase “O ônibus já passou” também é uma proposição, porque você pode olhar para o relógio, para o ponto de ônibus ou perguntar a alguém, e descobrir se ela é verdadeira ou falsa. Em todos esses casos, existe uma base concreta para decidir o valor da afirmação.
 
- Uma proposição é uma afirmação que pode ser classificada como verdadeira ou falsa, mesmo que a gente ainda não saiba qual é o valor correto. Por exemplo: “2 mais 3 é igual a 4.” Essa frase é falsa, mas continua sendo uma proposição porque tem sentido próprio, você entende exatamente o que ela quer dizer e pode avaliar seu valor lógico. Outro exemplo simples é: “Belo Horizonte é a capital de Minas Gerais.” Essa é uma proposição verdadeira, mas o fato de ser verdadeira não é o que a define como proposição; o importante é que ela possui sentido completo e pode receber um valor lógico.
+ As proposições também nos ajudam a construir raciocínios mais elaborados. Imagine que você está organizando seu dia e pensa: “Preciso sair às 8h para chegar no horário.” Isso é uma proposição, pois pode ser verdadeiro ou falso dependendo das condições de trânsito e da distância até o destino. Ou ainda: “Meu computador está ligado.” Você pode checar a luz de energia, a tela ou o som e decidir se isso é verdade. Perceba que cada exemplo é como um pequeno ladrilho na construção de argumentos maiores.
 
- Há também proposições cujo valor de verdade ainda não conhecemos, mas que continuam sendo proposições porque, em princípio, só podem ser verdadeiras ou falsas. Veja o exemplo: “Existe vida em outros planetas.” Hoje, ninguém pode afirmar com certeza absoluta se é verdadeiro ou falso, mas a frase continua sendo uma proposição porque seu valor lógico é bem definido: ou existe, ou não existe, não há meio-termo. O sentido é claro, mesmo sem sabermos a resposta definitiva.
+ Por fim, é importante notar que proposições não dependem de opinião, emoção ou preferência: elas se apoiam em fatos, mesmo quando se referem a possibilidades ou previsões. “Há vida em outros planetas”, por exemplo, é uma proposição, mesmo que ainda não saibamos seu valor de verdade, ela poderá ser verdadeira ou falsa. Assim, as proposições funcionam como peças fundamentais, claras e verificáveis, que mais tarde combinaremos com regras e conectivos para construir argumentos inteiros, quase como montar um quebra-cabeça lógico que representa o raciocínio humano.
 
 
-
-                                   "O que não são Proposições"
+                                        "O que não são Proposições"
 
  Algumas expressões não são proposições porque não possuem valor de verdade definido. Isso acontece quando a frase não apresenta sentido lógico completo, não pode ser avaliada como verdadeira ou falsa, ou depende demais do contexto para ter um significado claro. Nesses casos, não é possível atribuir um valor lógico, e por isso essas expressões não entram no estudo da lógica proposicional.
 
