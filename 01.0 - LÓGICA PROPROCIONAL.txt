@@ -8,7 +8,7 @@
 
  Além disso, ela nos ajuda a construir argumentos sólidos. No mundo acadêmico, científico ou até nas conversas cotidianas, frequentemente tentamos provar um ponto, justificar uma ideia ou demonstrar que uma conclusão faz sentido. A lógica proposicional funciona como o mapa dessa conversa, indicando quais caminhos são válidos, onde há atalhos e onde existem buracos. É como aprender a ler placas de sinalização mental que nos dizem: “esse raciocínio faz sentido”, “aqui falta informação” ou “esse caminho leva a uma contradição”.
 
- Estudar esse tema é como aprender a tocar um instrumento pela primeira vez: no início, parece cheio de símbolos estranhos, pequenas regrinhas e combinações que soam rígidas; mas com o tempo, tudo começa a fluir, e você percebe que está lidando com uma linguagem elegante, poderosa e altamente expressiva. A lógica proposicional é a porta de entrada para uma nova forma de pensar — mais organizada, mais clara e mais consciente. E quando começarmos a explorá-la de verdade, você perceberá que ela pode ser tão intuitiva quanto seguir uma receita de bolo ou tão natural quanto tomar uma decisão no seu dia a dia.
+ Estudar esse tema é como aprender a tocar um instrumento pela primeira vez: no início, parece cheio de símbolos estranhos, pequenas regrinhas e combinações que soam rígidas; mas com o tempo, tudo começa a fluir, e você percebe que está lidando com uma linguagem elegante, poderosa e altamente expressiva. A lógica proposicional é a porta de entrada para uma nova forma de pensar: mais organizada, mais clara e mais consciente. E quando começarmos a explorá-la de verdade, você perceberá que ela pode ser tão intuitiva quanto seguir uma receita de bolo ou tão natural quanto tomar uma decisão no seu dia a dia.
 
 
 
@@ -36,7 +36,19 @@
 
 
 
-                                     "Os Princípios da Lógica"
+                                   "Proposições Simples e Compostas"
+
+ As proposições simples são aquelas que expressam uma única ideia completa, sem depender de outras proposições para fazer sentido. Elas não podem ser divididas em partes menores dentro da lógica proposicional. Exemplos: “O sol está brilhando”, “2 é um número par”, “A porta está aberta”. Cada uma dessas frases tem sentido próprio e pode receber diretamente o valor de verdadeiro ou falso. Por serem indivisíveis, essas proposições funcionam como os blocos básicos do raciocínio lógico.
+
+ Já as proposições compostas surgem quando combinamos duas ou mais proposições simples por meio de operadores lógicos ( “e”, “ou”, “não”, “se… então” e “se e somente se”). Elas não são afirmações básicas, mas estruturas formadas a partir de outras proposições. Por exemplo: “Está calor e está ensolarado”, “Se chover, então a rua molha”, “João estuda ou trabalha”. Cada uma dessas depende de duas proposições simples e de um conectivo para formar uma nova proposição com seu próprio valor de verdade.
+
+ A grande vantagem das proposições compostas é que elas permitem representar raciocínios completos. A partir delas, podemos analisar condições, consequências, alternativas e combinações de situações, algo essencial para construir argumentos rigorosos. Na lógica proposicional, o valor de verdade de uma proposição composta é determinado pelos valores de suas partes e pelas regras dos conectivos que as unem — e isso pode ser analisado com tabelas-verdade.
+
+ Em resumo, proposições simples são as unidades fundamentais da lógica, enquanto proposições compostas são construções mais elaboradas formadas a partir dessas unidades. Essa distinção permite organizar o pensamento lógico de forma clara: primeiro identificamos as afirmações básicas; depois observamos como elas se combinam para formar raciocínios mais complexos.
+
+
+
+                                      "Os Princípios da Lógica"
 
  Os princípios da lógica são regras fundamentais que garantem que o raciocínio seja coerente, estruturado e confiável. Entre esses princípios, destacam-se três clássicos: o Princípio da Identidade, o Princípio da Não-Contradição e o Princípio do Terceiro Excluído. Juntos, eles formam a base que permite avaliar argumentos, validar conclusões e construir raciocínios consistentes. Esses princípios não dependem do conteúdo das frases, mas da forma como o pensamento lógico funciona.
 
@@ -79,19 +91,6 @@
  Para construir uma tabela-verdade, é importante saber quantas linhas ela deve ter. A regra é simples: se a expressão possui n proposições simples, a tabela terá 2ⁿ linhas. Isso acontece porque cada proposição pode assumir dois valores possíveis (V ou F), e todas as combinações precisam ser consideradas. Por exemplo, uma expressão com 2 variáveis (P e Q) terá 2² = 4 linhas; com 3 variáveis (P, Q, R) terá 2³ = 8 linhas; com 4 variáveis terá 16 linhas, e assim por diante.
 
  Além de mostrar o resultado final da expressão, a tabela-verdade ajuda a identificar se uma proposição é uma tautologia (sempre verdadeira), uma contradição (sempre falsa) ou uma contingência (verdadeira em alguns casos e falsa em outros). Também permite comparar proposições diferentes para verificar se são logicamente equivalentes e avaliar a validade de argumentos. Por isso, a tabela-verdade é um instrumento fundamental para entender, testar e validar raciocínios lógicos tanto em matemática quanto em computação.
-
-
-
-
-                                    "Proposições Simples e Compostas"
-
- As proposições simples são aquelas que expressam uma única ideia completa, sem depender de outras proposições para fazer sentido. Elas não podem ser divididas em partes menores dentro da lógica proposicional. Exemplos: “O sol está brilhando”, “2 é um número par”, “A porta está aberta”. Cada uma dessas frases tem sentido próprio e pode receber diretamente o valor de verdadeiro ou falso. Por serem indivisíveis, essas proposições funcionam como os blocos básicos do raciocínio lógico.
-
- Já as proposições compostas surgem quando combinamos duas ou mais proposições simples por meio de operadores lógicos ( “e”, “ou”, “não”, “se… então” e “se e somente se”). Elas não são afirmações básicas, mas estruturas formadas a partir de outras proposições. Por exemplo: “Está calor e está ensolarado”, “Se chover, então a rua molha”, “João estuda ou trabalha”. Cada uma dessas depende de duas proposições simples e de um conectivo para formar uma nova proposição com seu próprio valor de verdade.
-
- A grande vantagem das proposições compostas é que elas permitem representar raciocínios completos. A partir delas, podemos analisar condições, consequências, alternativas e combinações de situações, algo essencial para construir argumentos rigorosos. Na lógica proposicional, o valor de verdade de uma proposição composta é determinado pelos valores de suas partes e pelas regras dos conectivos que as unem — e isso pode ser analisado com tabelas-verdade.
-
- Em resumo, proposições simples são as unidades fundamentais da lógica, enquanto proposições compostas são construções mais elaboradas formadas a partir dessas unidades. Essa distinção permite organizar o pensamento lógico de forma clara: primeiro identificamos as afirmações básicas; depois observamos como elas se combinam para formar raciocínios mais complexos.
 
 
 
