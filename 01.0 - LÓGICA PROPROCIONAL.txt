@@ -70,7 +70,6 @@ Vamos, então, olhar para esses princípios com calma.
 
  E agora que o cenário está montado, vamos olhar de perto cada uma dessas duas categorias para entender em detalhes como elas funcionam.
 
-
  * Proposições Simples:
 
    As proposições simples são as afirmações mais básicas, que não podem ser divididas em partes menores que também sejam proposições. É como uma fruta inteira: você pode cortá-la, mas as partes não serão novas frutas independentes. Frases como “A água ferve a 100 °C” ou “O céu está nublado” são exemplos desse tipo, cada uma afirma algo direto e completo, sem depender de outra ideia para existir. Sua estrutura é limpa, clara e já traz um valor lógico que pode ser avaliado por si só.
@@ -84,20 +83,19 @@ Vamos, então, olhar para esses princípios com calma.
 
    Outro exemplo de proposição composta seria: “Se eu terminar o trabalho, então irei ao cinema.” Perceba que existem duas proposições simples escondidas aí: “Eu vou terminar o trabalho” e “Eu irei ao cinema.” Isoladas, cada uma delas já pode ser avaliada; mas quando as juntamos pelo conectivo “se… então…”, criamos um novo tipo de relação lógica. É como ligar duas lâmpadas por um fio: cada luz existe por si só, mas juntas elas formam um circuito com comportamentos próprios.
 
-
  Entender a diferença entre proposições simples e compostas é como aprender a distinguir palavras e frases em uma língua. As simples são como palavras-chave: pequenas, diretas e sólidas. As compostas surgem quando combinamos essas palavras para criar ideias maiores, capazes de expressar relações, condições e estruturas completas de raciocínio. Saber identificar esses dois tipos é um passo fundamental para navegar com segurança pelo restante da lógica proposicional e, aos poucos, você vai perceber que essa distinção torna o pensamento mais claro, preciso e até mais elegante.
 
 
 
                                     "Representação das Proposições"
 
- As proposições podem ser representadas por variáveis proposicionais, também chamadas de fórmulas atômicas( quando se junta varias formulas atômicas(proposição simples) se cria uma formula molecular (proposição composta)). Elas funcionam como símbolos simples (geralmente letras maiúsculas como P, Q, R) usados para representar afirmações completas sem precisar escrever a frase inteira o tempo todo. Essa representação ajuda a transformar o raciocínio lógico em algo mais preciso e manipulável, permitindo construir expressões maiores e analisar sua estrutura de maneira formal.
+ Quando estudamos lógica, é comum substituir proposições inteiras por letras, geralmente letras maiúsculas como P, Q, R, entre outras. Isso funciona como etiquetar caixas em uma mudança: em vez de escrever na caixa “Todos os copos estão na embalagem azul”, você simplesmente marca a caixa como “C”. Na lógica, fazemos algo parecido: frases como “A janela está aberta” podem ser representadas por P, enquanto “O ventilador está ligado” pode virar Q. Essa representação simbolizada permite manipularmos argumentos complexos sem precisar repetir frases longas.
 
- Cada variável proposicional corresponde a uma proposição básica, isto é, uma afirmação indivisível dentro daquele contexto lógico. Por exemplo, podemos escrever P para representar “A luz está acesa” ou Q para “Está chovendo”. A ideia é que a letra funcione como um “rótulo” para a proposição, carregando junto o seu valor de verdade (verdadeiro ou falso) sem que a frase inteira precise ser repetida.
+ Representar proposições dessa forma traz uma vantagem enorme: fica muito mais fácil enxergar a estrutura lógica do raciocínio. Imagine que você está organizando uma lista de tarefas. Em vez de escrever tudo por extenso, você numeraria cada tarefa para facilitar. Na lógica, fazemos algo similar. Se “Hoje é sábado” for representado por S, e “Eu vou ao parque” for R, podemos analisar relações entre essas ideias com muito mais clareza. Assim, expressões como “Hoje é sábado e eu vou ao parque” podem ser representadas como S ∧ R, o que simplifica bastante o trabalho.
 
- Essas variáveis são chamadas de fórmulas atômicas porque são como os “átomos” da lógica proposicional: elementos fundamentais que não podem ser decompostos dentro desse nível de análise. A partir delas, podemos construir fórmulas mais complexas usando conectivos lógicos. Cada combinação gera uma nova fórmula proposicional com sua própria estrutura e valor de verdade.
+ Além disso, quando usamos símbolos, conseguimos generalizar argumentos e estudá-los de forma independente do conteúdo específico das proposições. Por exemplo, se representamos “O computador está ligado” por A, e “A internet está funcionando” por B, podemos trabalhar com a expressão A → B (“Se o computador está ligado, então a internet está funcionando”) sem nos preocuparmos se estamos falando de computadores, plantas ou meteorologia. Os símbolos ajudam a separar a forma do conteúdo, como olhar para o molde de uma forma de bolo sem pensar ainda sobre qual massa vai colocar dentro.
 
- Dessa forma, a representação por variáveis proposicionais permite que a lógica proposicional funcione como uma linguagem formal organizada. Ela transforma frases do cotidiano em símbolos manipuláveis, possibilitando criar tabelas-verdade, analisar argumentos, estudar validade lógica e aplicar métodos de prova com clareza e rigor. Isso é essencial tanto para a matemática quanto para áreas como computação, onde operações lógicas precisam ser expressas de forma exata.
+ Por fim, essa representação simbólica permite que construamos tabelas-verdade, analisemmos argumentos, verifiquemos validade e exploremos conectivos com precisão matemática. É como trocar uma caneta comum por uma ferramenta de medição mais precisa: ainda estamos falando da mesma coisa, mas agora com um instrumento muito mais adequado. Ao encarar proposições como P, Q e R, abrimos espaço para raciocínios mais claros, limpos e estruturados, preparando o terreno para tudo o que virá daqui para frente: especialmente os conectivos lógicos e suas combinações.
 
 
 
