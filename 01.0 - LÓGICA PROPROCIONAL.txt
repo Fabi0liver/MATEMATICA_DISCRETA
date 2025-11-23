@@ -140,7 +140,12 @@ Vamos, então, olhar para esses princípios com calma.
 
  Com essas ferramentas, podemos analisar situações, tomar decisões e até modelar comportamentos de sistemas computacionais. Pense nos conectivos como sinais de trânsito do raciocínio: cada um indica um tipo de relação entre as proposições: às vezes permitindo a passagem, às vezes bloqueando, às vezes condicionando. Eles transformam simples declarações em estruturas completas de raciocínio, que podem ser avaliadas, testadas e manipuladas de maneira totalmente precisa.
 
- A Negação (¬), representada pela palavra “não”, inverte o valor lógico de uma proposição. Se uma proposição é verdadeira, sua negação se torna falsa; se é falsa, a negação se torna verdadeira. Por exemplo, se P significa “Hoje está sol”, então ¬P significa “Hoje não está sol”. A negação não cria uma nova informação independente, mas transforma o valor da proposição original.
+ * Negação (¬):
+
+   A negação é o conectivo mais simples, mas também um dos mais poderosos, porque ela inverte o valor de verdade de uma proposição. Se P é verdadeira, ¬P é falsa; se P é falsa, ¬P é verdadeira. É como um interruptor de luz: se a lâmpada está acesa, apertar o botão desliga; se está apagada, o botão acende. A negação funciona exatamente assim: troca um estado pelo seu oposto.
+
+   Na prática, a negação é usada sempre que queremos expressar uma ideia contrária. Se P significa “Está chovendo”, então ¬P significa “Não está chovendo”. Simples, direto e extremamente útil. Esse conectivo já permite criar pequenas estruturas que representam contradições, expectativas, condições de erro em algoritmos e muitas outras situações do cotidiano e da computação.
+
 
  A Conjunção (∧) é o conectivo representado pela palavra “e”. Ela une duas proposições e só é verdadeira quando ambas forem verdadeiras ao mesmo tempo. Por exemplo: “Pedro estuda e Maria trabalha”. Para essa proposição ser verdadeira, tanto “Pedro estuda” quanto “Maria trabalha” precisam ser verdadeiras. Se uma delas for falsa, a conjunção inteira se torna falsa.
 
