@@ -136,7 +136,9 @@ Vamos, então, olhar para esses princípios com calma.
 
                                          "Operadores Lógicos"
 
- Os operadores lógicos, também chamados de conectivos sentenciais, são símbolos ou expressões que servem para combinar proposições simples e formar proposições compostas. Eles permitem expressar relações como negação, combinação, alternativa, condição e equivalência entre ideias. Cada operador possui uma regra própria de funcionamento, definindo como o valor de verdade da proposição resultante depende das proposições que ele conecta. São ferramentas essenciais para construir raciocínios complexos, analisar argumentos e representar situações de forma precisa.
+ Quando começamos a combinar proposições para formar expressões mais ricas, os conectivos lógicos entram em cena como verdadeiros “operadores” do pensamento. Eles funcionam como pequenas ferramentas que unem ideias, permitindo construir frases lógicas tão simples quanto “P e Q” ou tão complexas quanto expressões que descrevem decisões, argumentos e condições. Assim como na língua portuguesa usamos palavras como “e”, “ou”, “não”, “se… então”, na lógica usamos versões formais desses conectores, com regras claras e sempre consistentes.
+
+ Com essas ferramentas, podemos analisar situações, tomar decisões e até modelar comportamentos de sistemas computacionais. Pense nos conectivos como sinais de trânsito do raciocínio: cada um indica um tipo de relação entre as proposições: às vezes permitindo a passagem, às vezes bloqueando, às vezes condicionando. Eles transformam simples declarações em estruturas completas de raciocínio, que podem ser avaliadas, testadas e manipuladas de maneira totalmente precisa.
 
  A Negação (¬), representada pela palavra “não”, inverte o valor lógico de uma proposição. Se uma proposição é verdadeira, sua negação se torna falsa; se é falsa, a negação se torna verdadeira. Por exemplo, se P significa “Hoje está sol”, então ¬P significa “Hoje não está sol”. A negação não cria uma nova informação independente, mas transforma o valor da proposição original.
 
