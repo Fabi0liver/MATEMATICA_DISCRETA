@@ -140,30 +140,25 @@ Vamos, então, olhar para esses princípios com calma.
 
  Com essas ferramentas, podemos analisar situações, tomar decisões e até modelar comportamentos de sistemas computacionais. Pense nos conectivos como sinais de trânsito do raciocínio: cada um indica um tipo de relação entre as proposições: às vezes permitindo a passagem, às vezes bloqueando, às vezes condicionando. Eles transformam simples declarações em estruturas completas de raciocínio, que podem ser avaliadas, testadas e manipuladas de maneira totalmente precisa.
 
- * Negação (¬): Quando entramos no universo dos conectivos lógicos, a negação parece, à primeira vista, a mais simples de todas, e realmente é simples, mas não no sentido de “pouco importante”. Pelo contrário: ela é um dos pilares da lógica, porque nos permite inverter completamente o significado de uma proposição. A negação funciona como aquele primeiro botão que nos ensina a controlar o sistema inteiro: com um toque, mudamos o estado das coisas. É como aprender a ligar e desligar uma lanterna antes de explorar uma caverna, sem esse domínio, o restante da lógica fica muito mais difícil.
 
-   Um detalhe importante é que, apesar de chamarmos “negação” de conectivo, ela tecnicamente não conecta duas proposições. Ela age apenas sobre uma única proposição, por isso chamamos de operador unário. Ela pega uma única afirmação e produz uma nova afirmação que expressa o seu oposto. Assim como um fotógrafo que vira um negativo de uma foto, a negação transforma “verdadeiro” em “falso” e “falso” em “verdadeiro”, respeitando regras totalmente precisas.
+ * Negação (¬):
 
-   A negação é representada por dois símbolos possíveis:
+   A negação é o operador mais simples da lógica proposicional, mas também um dos mais importantes, porque permite inverter completamente o sentido de uma afirmação. Diferente dos outros conectivos, ela não precisa “conectar” duas proposições, por isso dizemos que é um operador unário: atua sobre apenas uma proposição, transformando seu valor de verdade no oposto. É como quando alguém afirma algo e você responde: “Não é bem assim…”; instantaneamente, você reverte o significado da frase original.
 
-             ¬ (chamado de cantoneira)
+   Quando usamos a negação na lógica, empregamos símbolos como ¬ (cantoneira) ou ~ (til lógico), mas no português é como usar expressões do dia a dia: “não”, “não é verdade que”, “é falso que”, “é mentira que”. Por exemplo: “José não gosta de Maria”, “Não é verdade que 2 + 2 = 5”, “É falso que Pedro joga futebol”, “É mentira que o homem foi para Marte”. A estrutura é sempre a mesma: partimos de uma proposição simples (P) e criamos sua versão negada (¬P), que representa justamente o contrário. Se P afirma algo sobre o mundo, ¬P nega esse mesmo cenário. É como virar a página e ver o oposto do que estava escrito.
 
-             ~ (o til usado em lógica)
+   Esse comportamento se torna ainda mais claro quando pensamos na relação direta entre P e ¬P. Se uma proposição é verdadeira, sua negação deve ser falsa; se ela é falsa, sua negação deve ser verdadeira. O funcionamento é semelhante a um interruptor de luz: apertou uma vez, a luz acende; apertou de novo, ela apaga. Nada mais direto. Por exemplo, se P significa “Está chovendo”, então ¬P significa “Não está chovendo”. Essa simples inversão é extremamente útil: ela aparece em análises de contradição, regras condicionais, verificações de sistema, e até na detecção de erros em algoritmos: se algo “não deveria acontecer”, negamos a condição para checar o problema.
 
-   Ambos significam exatamente a mesma coisa: transformar uma proposição no seu contrário lógico. Se P representa uma ideia, ¬P representa e a negaão dessa ideia.
+   E esse comportamento fica totalmente transparente quando olhamos para a tabela-verdade da negação, que mostra o efeito direto do operador sobre P:
 
-   No português, podemos traduzir ¬P para expressões como: “não”, “não é verdade que”, “é falso que”, “é mentira que”
+                                              P  | ¬P                                                                                        
+                                            -----|-----
+                                              V  |  F
+                                              F  |  V
 
-   Essas expressões aparecem o tempo todo em conversas, notícias, debates e decisões. A lógica apenas formaliza esse comportamento: cria uma regra estável, que funciona sempre igual, sem ambiguidades.
+   Ou seja: recebe verdadeiro → devolve falso; recebe falso → devolve verdadeiro. Simples, mecânico, confiável, como uma máquina que sempre devolve o oposto da entrada.
 
-   A melhor forma de visualizar esse comportamento é imaginar um interruptor de luz.
-
-Se a luz está acesa (V), apertamos o botão e ela fica apagada (F).
-
-Se está apagada (F), o mesmo botão a deixa acesa (V).
-
-A negação é exatamente isso: um botão que troca o estado de uma proposição para o seu inverso. Nada mais, nada menos.
-
+   Por fim, a grande força da negação está justamente na sua simplicidade: com apenas uma operação, somos capazes de transformar qualquer proposição em sua forma contrária, enriquecendo a linguagem lógica e permitindo análises mais finas. Ela abre caminho para conceitos mais complexos (como implicação, contradição e equivalência) ao mesmo tempo em que permanece intuitiva, próxima da nossa fala cotidiana. É o primeiro passo para perceber que a lógica, mesmo quando formal, conversa o tempo todo com o nosso jeito natural de pensar.
 
 
  * Conjunção (∧):
