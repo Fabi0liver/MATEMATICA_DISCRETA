@@ -172,12 +172,12 @@ Vamos, então, olhar para esses princípios com calma.
    Esse comportamento fica ainda mais claro quando olhamos para a tabela-verdade da conjunção, que mostra todas as combinações possíveis de P e Q:
 
 
-                                           P  |  Q  |  P ∧ Q
-                                         -----|-----|---------
-                                           V  |  V  |    V
-                                           V  |  F  |    F
-                                           F  |  V  |    F
-                                           F  |  F  |    F
+                                             P  |  Q  |  P ∧ Q
+                                           -----|-----|---------
+                                             V  |  V  |    V
+                                             V  |  F  |    F
+                                             F  |  V  |    F
+                                             F  |  F  |    F
 
    Note como a única linha que produz verdadeiro é quando P e Q são verdadeiros ao mesmo tempo. Em qualquer outra combinação, a conjunção falha: exatamente como duas engrenagens que só rodam juntas quando as duas estão funcionando.
 
@@ -193,6 +193,17 @@ Vamos, então, olhar para esses princípios com calma.
    No cotidiano usamos esse tipo de “ou” o tempo todo. Imagine que alguém diga: “Hoje eu vou caminhar ou vou ler um livro.” Essa frase não exclui a possibilidade de fazer as duas coisas — ela apenas abre duas alternativas viáveis. O mesmo acontece em formulários, aplicativos e sistemas: “Você pode entrar com e-mail ou com número de telefone.” Se a pessoa tiver ambos, continua tudo válido; o sistema só exige que pelo menos um seja verdadeiro. A lógica do “ou inclusivo” está em toda parte, guiando decisões, liberando caminhos e ampliando possibilidades.
 
    Esse comportamento fica nítido quando olhamos para a tabela-verdade da disjunção inclusiva:
+
+                                             P  |  Q  |  P ∨ Q
+                                           -----|-----|---------
+                                             V  |  V  |    V
+                                             V  |  F  |    V
+                                             F  |  V  |    V
+                                             F  |  F  |    F
+
+   Perceba que a única situação em que a disjunção é falsa é quando nenhuma das proposições é verdadeira. Em todas as outras combinações — inclusive quando as duas são verdadeiras — a disjunção resulta em verdadeiro. É exatamente a lógica do “basta que ao menos uma condição seja satisfeita”.
+
+   A disjunção inclusiva é um instrumento poderoso para raciocínios que trabalham com alternativas e flexibilidades. Ela nos permite modelar escolhas, caminhos possíveis, condições paralelas e até cenários de decisão em algoritmos. À medida que avançamos na lógica proposicional, esse conectivo se tornará uma das peças fundamentais para construir expressões mais complexas, sempre com esse espírito acolhedor do “pelo menos uma opção funciona”.
 
 
 
