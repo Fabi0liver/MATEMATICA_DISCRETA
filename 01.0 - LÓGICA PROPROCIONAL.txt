@@ -163,12 +163,38 @@ Vamos, então, olhar para esses princípios com calma.
 
  * Conjunção (∧):
 
-   A conjunção representa a ideia de “e”. Ela só é verdadeira quando todas as proposições envolvidas são verdadeiras. É como planejar uma saída para o cinema dizendo: “Vou se for sábado e se eu estiver de folga.” As duas condições precisam acontecer juntas. Se uma falhar, todo o plano cai por terra. A conjunção é um conectivo exigente: quer sempre o pacote completo.
+   A conjunção é um dos conectivos mais importantes da lógica proposicional porque permite combinar duas proposições em uma única afirmação mais completa. Ela funciona como o nosso cotidiano “e”, conectando ideias que precisam acontecer juntas para que o todo seja considerado verdadeiro. Sempre que pensamos em duas condições que precisam ocorrer simultaneamente (como “estudar e descansar bem”) estamos, na prática, usando uma conjunção lógica. E o símbolo que usamos para representá-la é o ∧, que pode ser lido como “e lógico”.
 
-   Em lógica, se P é “Estudei” e Q é “Fiz os exercícios”, então P ∧ Q representa “Estudei e fiz os exercícios”. Note como esse conectivo expressa ações simultâneas, necessárias para alcançar algum objetivo — algo que aparece em sistemas computacionais (como verificações duplas de segurança), rotinas do dia a dia e decisões cuidadosas onde tudo precisa estar no lugar para o plano funcionar.
+   Quando usamos esse conectivo, estamos dizendo que ambas as proposições precisam ser verdadeiras para que a afirmação composta também seja verdadeira. Por exemplo, se P significa “João foi ao mercado” e Q significa “João comprou pão”, então a conjunção P ∧ Q representa a frase: “João foi ao mercado e comprou pão”. Aqui existe uma exigência dupla: não basta ter ido ao mercado, nem basta ter comprado pão; para a frase toda ser verdadeira, as duas coisas devem ter acontecido. É como uma receita que exige dois ingredientes essenciais ao mesmo tempo: farinha e ovos. Se faltar um, a receita não fecha.
+
+   No cotidiano, usamos essa ideia o tempo todo sem perceber. Quando alguém diz “Eu trabalhei e fiz exercício hoje”, há um compromisso lógico: as duas ações precisam ser verdadeiras para que a frase seja verdadeira. Se a pessoa trabalhou mas não fez exercício, a frase completa deixa de ser verdadeira. Esse caráter rigoroso da conjunção é o que a torna tão útil em expressões lógicas, algoritmos, verificações de sistema e até em formulários do dia a dia: “Para concluir o cadastro, você precisa preencher o nome e o e-mail.” Só avançamos quando ambas as condições são satisfeitas.
+
+   Esse comportamento fica ainda mais claro quando olhamos para a tabela-verdade da conjunção, que mostra todas as combinações possíveis de P e Q:
 
 
- * A Disjunção Inclusiva (∨), representada pelo “ou”, indica alternativa, mas de modo inclusivo: a proposição composta é verdadeira quando pelo menos uma das proposições for verdadeira. Por exemplo: “Vou ao cinema ou vou ao parque”. Nesse sentido, tanto ir ao cinema, quanto ir ao parque, quanto ir aos dois lugares tornam a proposição verdadeira. Só será falsa se nenhuma das opções acontecer.
+                                           P  |  Q  |  P ∧ Q
+                                         -----|-----|---------
+                                           V  |  V  |    V
+                                           V  |  F  |    F
+                                           F  |  V  |    F
+                                           F  |  F  |    F
+
+   Note como a única linha que produz verdadeiro é quando P e Q são verdadeiros ao mesmo tempo. Em qualquer outra combinação, a conjunção falha: exatamente como duas engrenagens que só rodam juntas quando as duas estão funcionando.
+
+   A beleza da conjunção está em sua simplicidade e força: ela captura a essência do que significa “duas coisas ocorrerem simultaneamente”. Isso torna esse conectivo uma ferramenta poderosa tanto para organizar pensamentos do cotidiano quanto para construir estruturas lógicas mais complexas, algoritmos confiáveis e argumentos sólidos. É um dos pilares da lógica proposicional e abre caminho para conexões ainda mais ricas que veremos em seguida.
+
+
+ * Disjunção Inclusiva (∨):
+
+   A disjunção inclusiva é o conectivo lógico que expressa a ideia de “ou” no sentido amplo, um “ou” que permite uma opção, a outra, ou até as duas ao mesmo tempo. Em lógica, esse tipo de “ou” é representado pelo símbolo ∨ e funciona de maneira extremamente prática: ele é verdadeiro sempre que pelo menos uma das proposições for verdadeira. É um conectivo que abre possibilidades, como quando pensamos: “Vou ao cinema ou vou pedir comida em casa”, talvez uma opção aconteça, talvez a outra, e em alguns dias as duas acontecem juntas.
+
+   Quando trabalhamos com proposições, o funcionamento da disjunção inclusiva segue exatamente essa lógica. Se P significa “Maria estudou para a prova” e Q significa “Maria revisou os exercícios”, então P ∨ Q quer dizer: “Maria estudou para a prova ou revisou os exercícios.” Repare como essa frase continua verdadeira mesmo se Maria fez as duas coisas — afinal, basta que pelo menos uma delas seja verdadeira para que a disjunção inteira seja verdadeira. É como ter duas chaves para abrir uma porta: se você tiver uma delas, já pode entrar; mas se tiver as duas, melhor ainda.
+
+   No cotidiano usamos esse tipo de “ou” o tempo todo. Imagine que alguém diga: “Hoje eu vou caminhar ou vou ler um livro.” Essa frase não exclui a possibilidade de fazer as duas coisas — ela apenas abre duas alternativas viáveis. O mesmo acontece em formulários, aplicativos e sistemas: “Você pode entrar com e-mail ou com número de telefone.” Se a pessoa tiver ambos, continua tudo válido; o sistema só exige que pelo menos um seja verdadeiro. A lógica do “ou inclusivo” está em toda parte, guiando decisões, liberando caminhos e ampliando possibilidades.
+
+   Esse comportamento fica nítido quando olhamos para a tabela-verdade da disjunção inclusiva:
+
+
 
  * A Disjunção Exclusiva (⊕), expressa como “ou… ou”, é um tipo especial de alternativa em que somente uma das proposições pode ser verdadeira. Se as duas forem verdadeiras ou as duas forem falsas, a proposição composta é falsa. Por exemplo: “Ou João joga futebol, ou João joga basquete”. Nesse caso, a intenção é apontar escolha única, não simultânea.
 
