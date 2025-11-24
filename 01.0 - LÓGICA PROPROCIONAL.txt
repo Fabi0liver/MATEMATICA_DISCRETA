@@ -186,11 +186,11 @@ Vamos, então, olhar para esses princípios com calma.
 
  * Disjunção Inclusiva (∨):
 
-   A disjunção inclusiva é o conectivo lógico que expressa a ideia de “ou” no sentido amplo, um “ou” que permite uma opção, a outra, ou até as duas ao mesmo tempo. Em lógica, esse tipo de “ou” é representado pelo símbolo ∨ e funciona de maneira extremamente prática: ele é verdadeiro sempre que pelo menos uma das proposições for verdadeira. É um conectivo que abre possibilidades, como quando pensamos: “Vou ao cinema ou vou pedir comida em casa”, talvez uma opção aconteça, talvez a outra, e em alguns dias as duas acontecem juntas.
+   A disjunção inclusiva é o conectivo lógico que expressa a ideia de “ou” no sentido amplo, um “ou” que permite uma opção ou a outra, ou até as duas ao mesmo tempo. Em lógica, esse tipo de “ou” é representado pelo símbolo ∨ e funciona de maneira extremamente prática: ele é verdadeiro sempre que pelo menos uma das proposições for verdadeira. É um conectivo que abre possibilidades, como quando pensamos: “Vou ao cinema ou vou pedir comida em casa”, talvez uma opção aconteça ou talvez a outra, e em alguns dias as duas acontecem juntas.
 
-   Quando trabalhamos com proposições, o funcionamento da disjunção inclusiva segue exatamente essa lógica. Se P significa “Maria estudou para a prova” e Q significa “Maria revisou os exercícios”, então P ∨ Q quer dizer: “Maria estudou para a prova ou revisou os exercícios.” Repare como essa frase continua verdadeira mesmo se Maria fez as duas coisas — afinal, basta que pelo menos uma delas seja verdadeira para que a disjunção inteira seja verdadeira. É como ter duas chaves para abrir uma porta: se você tiver uma delas, já pode entrar; mas se tiver as duas, melhor ainda.
+   Quando trabalhamos com proposições, o funcionamento da disjunção inclusiva segue exatamente essa lógica. Se P significa “Maria estudou para a prova” e Q significa “Maria revisou os exercícios”, então P ∨ Q quer dizer: “Maria estudou para a prova ou revisou os exercícios.” Repare como essa frase continua verdadeira mesmo se Maria fez as duas coisas, afinal, basta que pelo menos uma delas seja verdadeira para que a disjunção inteira seja verdadeira. É como ter duas chaves para abrir uma porta: se você tiver uma delas, já pode entrar; mas se tiver as duas, melhor ainda.
 
-   No cotidiano usamos esse tipo de “ou” o tempo todo. Imagine que alguém diga: “Hoje eu vou caminhar ou vou ler um livro.” Essa frase não exclui a possibilidade de fazer as duas coisas — ela apenas abre duas alternativas viáveis. O mesmo acontece em formulários, aplicativos e sistemas: “Você pode entrar com e-mail ou com número de telefone.” Se a pessoa tiver ambos, continua tudo válido; o sistema só exige que pelo menos um seja verdadeiro. A lógica do “ou inclusivo” está em toda parte, guiando decisões, liberando caminhos e ampliando possibilidades.
+   No cotidiano usamos esse tipo de “ou” o tempo todo. Imagine que alguém diga: “Hoje eu vou caminhar ou vou ler um livro.” Essa frase não exclui a possibilidade de fazer as duas coisas, ela apenas abre duas alternativas viáveis. O mesmo acontece em formulários, aplicativos e sistemas: “Você pode entrar com e-mail ou com número de telefone.” Se a pessoa tiver ambos, continua tudo válido; o sistema só exige que pelo menos um seja verdadeiro. A lógica do “ou inclusivo” está em toda parte, guiando decisões, liberando caminhos e ampliando possibilidades.
 
    Esse comportamento fica nítido quando olhamos para a tabela-verdade da disjunção inclusiva:
 
@@ -201,13 +201,14 @@ Vamos, então, olhar para esses princípios com calma.
                                              F  |  V  |    V
                                              F  |  F  |    F
 
-   Perceba que a única situação em que a disjunção é falsa é quando nenhuma das proposições é verdadeira. Em todas as outras combinações — inclusive quando as duas são verdadeiras — a disjunção resulta em verdadeiro. É exatamente a lógica do “basta que ao menos uma condição seja satisfeita”.
+   Perceba que a única situação em que a disjunção é falsa é quando nenhuma das proposições é verdadeira. Em todas as outras combinações (inclusive quando as duas são verdadeiras) a disjunção resulta em verdadeiro. É exatamente a lógica do “basta que ao menos uma condição seja satisfeita”.
 
    A disjunção inclusiva é um instrumento poderoso para raciocínios que trabalham com alternativas e flexibilidades. Ela nos permite modelar escolhas, caminhos possíveis, condições paralelas e até cenários de decisão em algoritmos. À medida que avançamos na lógica proposicional, esse conectivo se tornará uma das peças fundamentais para construir expressões mais complexas, sempre com esse espírito acolhedor do “pelo menos uma opção funciona”.
 
 
 
- * A Disjunção Exclusiva (⊕), expressa como “ou… ou”, é um tipo especial de alternativa em que somente uma das proposições pode ser verdadeira. Se as duas forem verdadeiras ou as duas forem falsas, a proposição composta é falsa. Por exemplo: “Ou João joga futebol, ou João joga basquete”. Nesse caso, a intenção é apontar escolha única, não simultânea.
+ * Disjunção Exclusiva (⊕):
+
 
  
  * Condicional ou Implicação (→): 
