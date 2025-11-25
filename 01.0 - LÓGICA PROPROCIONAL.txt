@@ -415,18 +415,20 @@ Agora, vamos observar como cada um desses três tipos funciona na prática, com 
    E por que isso é tão importante? Porque as tautologias funcionam como pontos de apoio dentro da lógica, quase como aqueles degraus firmes que você usa para subir uma escada. Elas ajudam a garantir que certos raciocínios permaneçam sólidos, servindo de base para provas, demonstrações e técnicas de inferência. São, em resumo, verdades que sustentam outras verdades.
 
 
- * Contradição: A contradição é exatamente o oposto da tautologia: ela é sempre falsa, não importa o que aconteça. Mesmo variando os valores de verdade das proposições, a fórmula nunca se torna verdadeira. É como tentar dizer: “Eu estou acordado e dormindo ao mesmo tempo.” Não tem como encontrar uma situação na realidade (nem na lógica) em que isso seja coerente.
+ * Contradição: A contradição é o reflexo direto da tautologia, só que invertido: em vez de ser sempre verdadeira, ela é sempre falsa. Não importa como você combine os valores das proposições, não existe nenhuma situação em que essa fórmula consiga virar “V”. É como tentar afirmar algo que simplesmente não se sustenta, tipo dizer: “Eu estou dormindo e perfeitamente acordado ao mesmo tempo.” A frase até tem palavras compreensíveis, mas, no fundo, descreve algo impossível, tanto na vida real quanto na lógica proposicional.
 
-   O exemplo clássico é: P ∧ ¬P. Aqui, afirmamos que P é verdadeira e falsa simultaneamente — algo impossível dentro da lógica clássica. 
+   Um exemplo clássico desse tipo de impossibilidade é P ∧ ¬P. Essa expressão afirma que P é verdadeira enquanto também é falsa, simultaneamente. E, dentro da lógica clássica, isso nunca pode acontecer. É como tentar colocar dois pés em degraus que não existem: qualquer tentativa de apoiar o raciocínio ali faz tudo ruir.
 
-   A tabela-verdade confirma:
+   A tabela-verdade deixa isso evidente:
 
                                           P | ¬P | P ∧ ¬P
                                          ---|----|---------
                                           V |  F |    F
                                           F |  V |    F
 
-   Contradições são ferramentas poderosas para detectar erros e inconsistências. Quando uma teoria leva a uma contradição, sabemos imediatamente que algo está errado, funcionando como um alerta lógico que impede raciocínios inválidos.
+   Note que, independentemente do valor assumido por P, a última coluna permanece “F”. Isso confirma que a expressão nunca encontra um cenário em que possa ser verdadeira.
+
+   E por que as contradições são tão úteis? Porque elas funcionam como detectores automáticos de incoerência. Sempre que uma teoria, argumento ou raciocínio leva a uma contradição, isso acende uma luz vermelha: algo ali não pode estar certo. Em provas formais, contradições são usadas como sinal de alerta, ajudando a evitar erros e mostrando exatamente onde a lógica deixou de fazer sentido. É como ter um alarme que toca sempre que uma ideia tenta quebrar as regras fundamentais do pensamento coerente.
 
 
  * Contingência: A contingência representa a maioria das fórmulas com as quais lidamos na vida real. Ela pode ser verdadeira ou falsa, dependendo dos valores de suas proposições. Aqui, não temos nenhuma certeza absoluta — tudo varia conforme a combinação. É como dizer: “Se eu estudar, então passo na prova.” Às vezes é verdade, às vezes não, depende do que realmente acontecer.
