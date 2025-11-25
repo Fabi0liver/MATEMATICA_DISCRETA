@@ -441,6 +441,10 @@ O condicional só é falso quando P é verdadeiro e Q é falso.
    Contingências são importantes porque representam situações reais, nas quais a verdade depende de condições específicas. São elas que permitem à lógica modelar relações complexas e flexíveis, fundamentais para argumentos do dia a dia.
 
 
+ Em resumo...tautologias, contradições e contingências formam um trio essencial para entendermos o comportamento das fórmulas lógicas. Elas nos ajudam a enxergar quando uma expressão é inevitavelmente verdadeira, quando é logicamente impossível e quando depende das circunstâncias. Essa classificação nos dá um mapa para navegar pelos diferentes cenários possíveis dentro da lógica proposicional.
+
+ Quando dominamos esses conceitos, conseguimos analisar argumentos de maneira muito mais consciente e precisa. Passamos a reconhecer padrões, identificar erros escondidos e entender profundamente como combinações de proposições podem expressar verdades universais, impossibilidades ou condições específicas. É como ajustar o foco de uma câmera: a partir desse ponto, tudo na lógica passa a ficar mais nítido.
+
 
 
                   "Condições Necessárias, Suficientes e Condições Necessárias e Suficientes"
