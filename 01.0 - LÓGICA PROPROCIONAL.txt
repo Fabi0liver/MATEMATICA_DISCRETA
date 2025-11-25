@@ -396,11 +396,9 @@ O condicional só é falso quando P é verdadeiro e Q é falso.
 
  Para organizar essa diversidade de comportamentos, classificamos as fórmulas em três categorias fundamentais: tautologias, contradições e contingências. Cada uma representa um tipo específico de comportamento lógico, e entender essa divisão é como aprender a diferenciar sinais de trânsito: alguns dizem “sempre siga”, outros dizem “nunca siga”, e outros dizem “siga dependendo da situação”. Esse olhar criterioso nos permite analisar argumentos com clareza e prever como uma expressão se comportará em qualquer cenário.
 
- * Tautologia
+ * Tautologia: A tautologia é uma fórmula que é verdadeira em absolutamente todas as situações possíveis. Não importa como você combine os valores de verdade das proposições, a expressão final sempre resultará em “V”. É como umaquelas frases que, por definição, nunca podem estar erradas. Imagine alguém dizendo: “Ou chove ou não chove.” Parece óbvio, né? Pois é exatamente esse tipo de “verdade inevitável” que uma tautologia representa.
 
-   A tautologia é uma fórmula que é verdadeira em absolutamente todas as situações possíveis. Não importa como você combine os valores de verdade das proposições, a expressão final sempre resultará em “V”. É como umaquelas frases que, por definição, nunca podem estar erradas. Imagine alguém dizendo: “Ou chove ou não chove.” Parece óbvio, né? Pois é exatamente esse tipo de “verdade inevitável” que uma tautologia representa.
-
-   O exemplo clássico é P ∨ ¬P, o famoso princípio do terceiro excluído. Aqui, estamos afirmando que P é verdadeira ou não é verdadeira, ou seja, cobrimos todas as possibilidades. Não sobra espaço para o falso. Vamos verificar isso formalmente:
+   O exemplo clássico é :P ∨ ¬P. O famoso princípio do terceiro excluído. Aqui, estamos afirmando que P é verdadeira ou não é verdadeira, ou seja, cobrimos todas as possibilidades. Não sobra espaço para o falso. Vamos verificar isso formalmente:
 
                                           P | ¬P | P ∨ ¬P
                                          ---|----|--------
@@ -408,6 +406,18 @@ O condicional só é falso quando P é verdadeiro e Q é falso.
                                           F |  V |   V
 
    Tautologias são essenciais porque funcionam como pilares da lógica. Elas garantem que certos argumentos sempre se mantêm firmes, independentemente do contexto, servindo de base para provas, demonstrações e regras de inferência.
+
+
+ * Contradição: A contradição é exatamente o oposto da tautologia: ela é sempre falsa, não importa o que aconteça. Mesmo variando os valores de verdade das proposições, a fórmula nunca se torna verdadeira. É como tentar dizer: “Eu estou acordado e dormindo ao mesmo tempo.” Não tem como encontrar uma situação na realidade (nem na lógica) em que isso seja coerente.
+
+   O exemplo clássico é: P ∧ ¬P. Aqui, afirmamos que P é verdadeira e falsa simultaneamente — algo impossível dentro da lógica clássica. A tabela-verdade confirma:
+
+                                          P | ¬P | P ∧ ¬P
+                                         ---|----|---------
+                                          V |  F |    F
+                                          F |  V |    F
+
+   Contradições são ferramentas poderosas para detectar erros e inconsistências. Quando uma teoria leva a uma contradição, sabemos imediatamente que algo está errado, funcionando como um alerta lógico que impede raciocínios inválidos.
 
 
 
