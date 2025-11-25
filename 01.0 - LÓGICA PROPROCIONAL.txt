@@ -392,15 +392,22 @@ O condicional só é falso quando P é verdadeiro e Q é falso.
 
                                 "Tautologia, Contradição e Contingência"
 
- Em lógica proposicional, cada fórmula pode assumir comportamentos distintos dependendo da combinação de valores atribuídos às suas variáveis. Algumas expressões são inevitavelmente verdadeiras, outras são inevitavelmente falsas, e muitas variam conforme o contexto das proposições que as formam. Para classificar esses diferentes comportamentos, utilizamos três noções essenciais: tautologia, contradição e contingência.
+ Quando estudamos lógica proposicional, uma das primeiras perguntas que surge é: “Como uma fórmula se comporta quando mudamos os valores das proposições que a compõem?” Afinal, algumas expressões parecem sempre verdadeiras, outras soam impossíveis e algumas variam conforme o contexto. A lógica formaliza tudo isso com muito rigor, permitindo que a gente enxergue padrões que, no cotidiano, aparecem como intuições vagas.
 
- Uma tautologia é uma fórmula que resulta verdadeira em todas as possíveis atribuições de valores de verdade às suas proposições. Se você montar a tabela-verdade, a coluna final será composta exclusivamente por “V”. Um exemplo clássico é (P ∨ ¬P), que expressa a ideia de que uma proposição ou é verdadeira ou é falsa — não há terceira opção. As tautologias são cruciais porque representam verdades lógicas universais e são frequentemente usadas como base para justificar inferências e demonstrar propriedades lógico-matemáticas.
+ Para organizar essa diversidade de comportamentos, classificamos as fórmulas em três categorias fundamentais: tautologias, contradições e contingências. Cada uma representa um tipo específico de comportamento lógico, e entender essa divisão é como aprender a diferenciar sinais de trânsito: alguns dizem “sempre siga”, outros dizem “nunca siga”, e outros dizem “siga dependendo da situação”. Esse olhar criterioso nos permite analisar argumentos com clareza e prever como uma expressão se comportará em qualquer cenário.
 
- Uma contradição é o extremo oposto: trata-se de uma fórmula que é sempre falsa, independentemente da situação. Sua tabela-verdade termina apenas com “F”. O exemplo mais evidente é (P ∧ ¬P), que afirma simultaneamente que P é verdadeira e falsa, algo logicamente impossível. Contradições são úteis para detectar inconsistências, provar que certos raciocínios são inválidos e evitar conclusões absurdas dentro de sistemas lógicos.
+ * Tautologia
 
- Uma contingência é uma fórmula que não é sempre verdadeira nem sempre falsa. Ela assume “V” em algumas linhas da tabela-verdade e “F” em outras. A maioria das expressões usadas em raciocínios cotidianos é contingente, como (P → Q), que pode ser verdadeira ou falsa dependendo da relação entre P e Q. Contingências são importantes porque capturam situações reais em que a verdade depende do contexto, permitindo modelar argumentos flexíveis e não triviais.
+   A tautologia é uma fórmula que é verdadeira em absolutamente todas as situações possíveis. Não importa como você combine os valores de verdade das proposições, a expressão final sempre resultará em “V”. É como umaquelas frases que, por definição, nunca podem estar erradas. Imagine alguém dizendo: “Ou chove ou não chove.” Parece óbvio, né? Pois é exatamente esse tipo de “verdade inevitável” que uma tautologia representa.
 
- Em resumo, tautologias, contradições e contingências formam a base para compreender o comportamento das fórmulas na lógica proposicional. Essas três categorias ajudam a distinguir verdades universais, impossibilidades lógicas e enunciados dependentes de condições, permitindo avaliar argumentos com rigor e construir sistemas de raciocínio sólidos e coerentes.
+   O exemplo clássico é P ∨ ¬P, o famoso princípio do terceiro excluído. Aqui, estamos afirmando que P é verdadeira ou não é verdadeira, ou seja, cobrimos todas as possibilidades. Não sobra espaço para o falso. Vamos verificar isso formalmente:
+
+                                          P | ¬P | P ∨ ¬P
+                                         ---|----|--------
+                                          V |  F |   V
+                                          F |  V |   V
+
+   Tautologias são essenciais porque funcionam como pilares da lógica. Elas garantem que certos argumentos sempre se mantêm firmes, independentemente do contexto, servindo de base para provas, demonstrações e regras de inferência.
 
 
 
