@@ -431,11 +431,11 @@ Agora, vamos observar como cada um desses três tipos funciona na prática, com 
    E por que as contradições são tão úteis? Porque elas funcionam como detectores automáticos de incoerência. Sempre que uma teoria, argumento ou raciocínio leva a uma contradição, isso acende uma luz vermelha: algo ali não pode estar certo. Em provas formais, contradições são usadas como sinal de alerta, ajudando a evitar erros e mostrando exatamente onde a lógica deixou de fazer sentido. É como ter um alarme que toca sempre que uma ideia tenta quebrar as regras fundamentais do pensamento coerente.
 
 
- * Contingência: A contingência representa a maioria das fórmulas com as quais lidamos na vida real. Ela pode ser verdadeira ou falsa, dependendo dos valores de suas proposições. Aqui, não temos nenhuma certeza absoluta — tudo varia conforme a combinação. É como dizer: “Se eu estudar, então passo na prova.” Às vezes é verdade, às vezes não, depende do que realmente acontecer.
+ * Contingência: A contingência é como o terreno intermediário da lógica, nem certeza absoluta, nem impossibilidade total. Ela representa as fórmulas cujo valor pode mudar conforme as circunstâncias. Em outras palavras: às vezes são verdadeiras, às vezes são falsas. E isso tem tudo a ver com o nosso cotidiano, onde grande parte das afirmações depende do contexto. Pense na frase: “Se eu estudar, então passo na prova.” Em alguns dias, ela funciona perfeitamente; em outros, não. Tudo depende do esforço, do conteúdo, da prova… e até do humor do professor! Esse tipo de variabilidade é exatamente o que caracteriza uma contingência.
 
-   Como exemplo simples, podemos usar o condicional: P → Q. Ele não é sempre verdadeiro (como uma tautologia), nem sempre falso (como uma contradição). Seu valor depende da relação entre P e Q. 
+   Um exemplo clássico de contingência é o condicional P → Q. Ele não está fixado como eternamente verdadeiro (como uma tautologia), nem está condenado a ser sempre falso (como uma contradição). Seu valor lógico muda conforme a relação entre P e Q. É como um semáforo que às vezes abre e às vezes fecha: seu estado depende da situação naquele momento.
 
-   Veja:
+   Observe a tabela-verdade:
 
                                           P | Q | P → Q
                                          ---|---|--------
@@ -444,7 +444,9 @@ Agora, vamos observar como cada um desses três tipos funciona na prática, com 
                                           F | V |   V
                                           F | F |   V
 
-   Contingências são importantes porque representam situações reais, nas quais a verdade depende de condições específicas. São elas que permitem à lógica modelar relações complexas e flexíveis, fundamentais para argumentos do dia a dia.
+   Repare como há uma mistura de “V” e “F” na última coluna. Isso mostra exatamente o comportamento contingente: a fórmula não se fixa em apenas um resultado; ela acompanha as condições.
+
+   As contingências são valiosas porque refletem a vida real, onde muitas coisas não são preto no branco. Elas permitem que a lógica modele situações complexas, decisões condicionadas e argumentos que dependem de eventos específicos. Em essência, são essas fórmulas que tornam a lógica capaz de dialogar com o mundo concreto, onde a verdade, muitas vezes, depende do que realmente acontece.
 
 
  Em resumo...tautologias, contradições e contingências formam um trio essencial para entendermos o comportamento das fórmulas lógicas. Elas nos ajudam a enxergar quando uma expressão é inevitavelmente verdadeira, quando é logicamente impossível e quando depende das circunstâncias. Essa classificação nos dá um mapa para navegar pelos diferentes cenários possíveis dentro da lógica proposicional.
