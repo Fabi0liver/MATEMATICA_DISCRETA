@@ -12,7 +12,7 @@
 
 
 
-                                            "O que é a Lógica"
+                                          "O que é a Lógica"
 
  A lógica, de forma bem ampla, é o estudo das regras que orientam o bom raciocínio. É como aprender a identificar o que faz uma conclusão realmente “seguir” de uma ideia anterior. Quando você percebe que alguém está tentando te convencer de algo e pensa: “hmm… isso não faz muito sentido”, você está usando sua intuição lógica. Ela funciona como um filtro mental que nos ajuda a separar raciocínios sólidos de raciocínios falhos, como um cheirinho na cozinha que avisa se a comida está boa ou se tem algo estranho no ar. A lógica é essa sensibilidade transformada em disciplina.
 
@@ -24,7 +24,7 @@
 
 
 
-                                         "Os Princípios da Lógica"
+                                        "Os Princípios da Lógica"
 
  Quando começamos a estudar lógica, é natural pensar que tudo se resume a símbolos, conectivos e tabelas-verdade. Mas existe um fundamento mais profundo sustentando tudo isso: os princípios da lógica. Eles são como as “leis naturais” do pensamento formal, aquelas regras tão básicas e tão intuitivas que às vezes nem percebemos que estamos usando. São como as regras de convivência numa cozinha: você sabe que não pode fritar um ovo antes de ligar o fogão, mesmo sem ninguém te ensinar explicitamente. Esses princípios garantem que o raciocínio seja coerente, que as conclusões façam sentido e que as proposições se comportem de maneira previsível. E quando entramos na lógica proposicional, esses princípios aparecem de forma clara, agindo como um norte que guia todas as operações que vamos fazer.
 
