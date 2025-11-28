@@ -12,7 +12,7 @@
 
 
 
-                    "As Diferenças entre Lógica Proposicional e Lógica de Predicados"
+                     "As Diferenças entre Lógica Proposicional e Lógica de Predicados"
 
  A primeira grande diferença entre as duas lógicas está na forma como elas tratam a informação. A Lógica Proposicional trabalha com sentenças completas, que são verdadeiras ou falsas, mas que não podem ser analisadas internamente. É como lidar com caixas fechadas: você sabe o que cada caixa significa (“Está chovendo”, “Maria estuda”, “O computador está ligado”), mas não consegue abrir a caixa para examinar as partes internas. Já a Lógica de Predicados abre essas caixas, permitindo olhar para dentro das sentenças, identificar seus elementos e compreender como eles se relacionam. Isso transforma declarações simples em algo muito mais expressivo e detalhado.
 
