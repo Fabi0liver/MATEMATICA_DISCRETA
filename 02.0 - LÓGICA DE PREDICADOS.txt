@@ -80,4 +80,18 @@
 
 
 
+                                            "Funções Sentenciais"
+
+As Funções Sentenciais também chamadas de Funções Proposicionais, são expressões que ainda não são proposições completas, mas podem se tornar uma quando recebem valores para suas variáveis. Pense nelas como frases com lacunas a serem preenchidas. Por exemplo: “x é maior que 5”. Enquanto o x não for substituído, essa frase não pode ser considerada verdadeira ou falsa — ela está “incompleta”. Quando uma função sentencial recebe um valor, como “8 é maior que 5”, então ela se transforma numa proposição e pode ser avaliada como verdadeira ou falsa. Esse caráter intermediário — entre frase e proposição — é o que define sua natureza.
+
+Uma boa forma de compreender essa ideia é pensar em formulários de inscrição. Antes de você preencher seu nome, idade e cidade, o formulário não expressa nenhuma informação verdadeira ou falsa: ele apenas contém “espaços vazios” esperando serem completados. Assim também funciona a função sentencial: ela é uma estrutura que determina que tipo de proposição surgirá, mas depende da substituição de variáveis para ganhar significado pleno. É por isso que dizemos que funções sentenciais são predicados com variáveis livres; elas descrevem uma propriedade, mas ainda sem um sujeito definido.
+
+No cotidiano, usamos funções sentenciais o tempo todo sem perceber. Quando alguém diz “se uma pessoa treina todos os dias, ela melhora seu desempenho”, essa frase contém uma condição que vale para qualquer pessoa — e somente quando escolhemos uma pessoa específica é que podemos verificar se a frase se aplica. Na lógica, representamos esse tipo de expressão com letras maiúsculas para predicados, como P(x), Q(y) ou R(x, y). Antes de substituir a variável por uma constante ou um valor concreto, P(x) não é uma proposição; é apenas uma função sentencial descrevendo uma propriedade que alguns ou todos os elementos podem ter.
+
+Outra característica importante das funções sentenciais é sua capacidade de gerar proposições generalizadas quando combinadas com quantificadores — embora não entremos nisso agora, é útil perceber que esse é o “caminho natural” delas. Elas são como moldes de biscoito: antes de pressionar o molde na massa, você ainda não tem o biscoito; tem apenas uma forma que define como ele será. A função sentencial define o formato lógico; o valor substituído define o conteúdo. Juntos, eles criam uma proposição completa e verificável, pronta para ser analisada.
+
+Por fim, compreender funções sentenciais é essencial para dominar o raciocínio lógico mais avançado, porque elas permitem expressar relações, propriedades e condições de forma flexível e generalizável. Elas ampliam a linguagem lógica para além de proposições fechadas, criando estruturas que podem ser adaptadas conforme o contexto. É essa adaptabilidade que torna a Lógica de Predicados tão poderosa e tão próxima da forma como pensamos e falamos no dia a dia. Entender funções sentenciais é abrir a porta para entender como a lógica realmente descreve o mundo, não apenas por afirmações fixas, mas por padrões e propriedades que se aplicam a muitos casos diferentes.
+
+
+
  
