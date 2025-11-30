@@ -94,6 +94,20 @@
 
 
 
+                                            "O Que São Os Termos"
+
+Quando entramos no universo da Lógica de Predicados, um dos elementos mais importantes para entender como as expressões são construídas é a ideia de termo. Os termos funcionam como “blocos de construção” que representam objetos, entidades ou valores dentro do domínio que estamos estudando. Assim como em uma receita de bolo você precisa de ingredientes básicos para montar qualquer doce, na lógica você precisa de termos para montar qualquer fórmula. Eles são as peças fundamentais que alimentam predicados, funções e expressões mais complexas, permitindo que a lógica descreva situações do mundo real de forma estruturada.
+
+Um termo pode ser extremamente simples. Na verdade, o tipo mais básico de termo é apenas uma constante ou uma variável. Isso significa que, se você escreve algo como t, x, m, ou mesmo 3 (em certos contextos), você já está trabalhando com um termo. Em uma analogia cotidiana, pense em peças individuais de um jogo de tabuleiro: cada peça isolada — um peão, um cavalo, um dado — já é uma unidade completa. É isso que constantes e variáveis são para a lógica: unidades prontas para serem usadas em expressões maiores.
+
+Mas os termos também podem crescer em complexidade. Um termo pode ser composto, formado pela aplicação de uma função a outros termos. Isso aparece em expressões do tipo F(t1, t2, …, tn), onde F é uma função e cada ti é outro termo, simples ou composto. Aqui, a ideia lembra encaixar peças de Lego: você pode pegar blocos individuais e combiná-los para formar algo maior, ou usar uma peça pronta que já carrega outras coladas a ela. Esse formato permite que a lógica represente estruturas mais ricas, como “o pai do irmão de João”—que nada mais é do que funções aplicadas umas às outras.
+
+A força dos termos está justamente nessa flexibilidade: eles permitem que a lógica modele relações e entidades de diferentes níveis de detalhe. Com termos simples, você identifica um objeto específico. Com termos compostos, descreve relações internas, hierarquias e caminhos entre elementos. Em atividades do cotidiano, isso é como descrever rotinas: você pode dizer “acordei”, que é simples, ou “acordei depois que o alarme tocou”, que já envolve uma cadeia de eventos. Os termos compostos fazem essa espécie de “descrição encadeada” dentro da lógica.
+
+Por fim, compreender termos é essencial para interpretar corretamente fórmulas da Lógica de Predicados. Eles dizem de quem o predicado está falando, quais objetos estão envolvidos e como esses objetos estão conectados. Saber reconhecer um termo simples ou composto ajuda você a decifrar sentenças com segurança, assim como entender ingredientes e etapas ajuda a seguir uma receita sem se perder. Uma vez que você domina o conceito de termo, o restante da Lógica de Predicados começa a ganhar forma com muito mais clareza.
+
+
+
                                           "Funções Sentenciais"
 
  As Funções Sentenciais (também chamadas de Funções Proposicionais), são expressões que ainda não são sentenças completas, mas podem se tornar uma quando recebem valores para suas variáveis. Pense nelas como frases com lacunas a serem preenchidas. Por exemplo: “x é maior que 5”. Enquanto o x não for substituído, essa frase não pode ser considerada verdadeira ou falsa (ela está “incompleta”). Quando uma função sentencial recebe um valor, como “8 é maior que 5”, então ela se transforma numa sentenças completas e pode ser avaliada como verdadeira ou falsa. Esse caráter intermediário (entre frase e sentença) é o que define sua natureza.
