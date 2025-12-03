@@ -241,17 +241,7 @@
 
 
 
-                               "Sentenças Abertas vs. Sentenças Fechadas"
-
- No mundo da Lógica de Predicados, um dos pontos que realmente molda nossa compreensão é a diferença entre sentenças abertas e sentenças fechadas. Essa distinção revela se uma expressão lógica já está completa (pronta para receber um valor de verdade) ou se ainda depende de alguma informação. É como quando alguém diz “coloque o ingrediente na tigela”: você entende a ação, mas falta saber qual ingrediente. Essa falta de definição é justamente o que caracteriza uma estrutura aberta.
-
- As sentenças abertas são aquelas em que ainda restam variáveis livres, ou seja, variáveis que não foram vinculadas a nenhum quantificador. Isso deixa a expressão em um estado “em suspensão”, porque não é possível determinar se ela é verdadeira ou falsa enquanto essas variáveis não forem especificadas. Exemplos como P(x) (“x é maior que 10”), Ama(x, Maria) ou x + 2 > y ilustram bem esse caso: sabemos a relação expressa, mas não sabemos quem são x ou y. Essas sentenças podem até conter constantes, mas sempre terão ao menos uma variável livre, mantendo-as como estruturas incompletas.
-
-Do outro lado, temos as sentenças fechadas, aquelas em que todas as variáveis já foram quantificadas ou simplesmente não existem variáveis. Aqui nada fica indefinido: cada elemento está amarrado a um quantificador como ∀, ∃ ou ∃!. Isso significa que essas sentenças podem ser avaliadas como verdadeiras ou falsas dentro de um domínio específico. Expressões como ∀x P(x) (“para todo x, x é maior que 10”), ∃y Ama(y, Maria) (“existe alguém que ama Maria”) ou ∃!x Rei(x) (“existe exatamente um rei”) são fechadas porque todos os elementos já estão completamente especificados.
-
-Uma forma intuitiva de visualizar essa diferença é pensar em jogos de tabuleiro. Se alguém diz “mova a peça para a casa x”, ninguém sabe o que fazer enquanto x não for definido (essa é uma sentença aberta). Mas se a instrução for “mova a peça para a casa 4B”, tudo está claro e pode ser executado (essa é uma sentença fechada). Da mesma forma, P(x) permanece aberto, enquanto ∃x P(x) torna-se fechado, porque o quantificador finalmente determina o alcance da variável.
-
- Por fim, compreender essa distinção é fundamental para qualquer estudo de Lógica de Predicados. Sentenças abertas funcionam como moldes esperando valores para serem completados, enquanto sentenças fechadas formam afirmações completas que podem ser verificadas, usadas em deduções, analisadas ou combinadas com outras proposições. Quando aprendemos a identificar essas diferenças, avançamos com mais segurança na construção de argumentos, na interpretação de expressões e na análise formal de enunciados lógicos.
+                               "Ligação e Liberdade de Variáveis"
 
 
 
