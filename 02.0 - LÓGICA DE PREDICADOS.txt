@@ -347,7 +347,7 @@ Quando estudamos Lógica de Predicados, um conceito essencial é o de Fórmula B
 
 
 
-                     "Traduzir entre linguagem natural e lógica de predicados" 
+                     "Traduzir entre a Linguagem Natural e a Lógica de Predicados" 
 
  A tradução entre a linguagem natural e a lógica de predicados é uma das habilidades mais importantes para quem estuda lógica, porque permite transformar frases do cotidiano em expressões formais que um sistema lógico consegue interpretar sem ambiguidades. É como pegar uma receita bem “solta”, cheia de expressões informais (“um pouco disso”, “cozinhe até ficar bom”) e reescrevê-la com medidas exatas, tempos definidos e passos claros. A lógica de predicados faz exatamente isso: tira a ambiguidade e deixa o pensamento organizado, preciso e universalmente compreendido.
 
@@ -361,4 +361,4 @@ Traduções mais complexas muitas vezes exigem que você reorganize a frase para
 
  Em situações mais avançadas, frases com “exatamente um”, “pelo menos dois”, “ninguém”, “todos menos um” ou “cada um tem seu próprio...” podem exigir predicados extras ou combinações de quantificadores. Por exemplo, “Existe apenas um presidente da empresa” pode ser formalizado como ∃!x Presidente(x), que por sua vez equivale a dizer que existe um x que é presidente, e que qualquer y que também seja presidente deve ser igual a x. É como organizar um organograma: só pode existir um chefe máximo, e a lógica precisa refletir isso com precisão milimétrica.
 
- Em resumo, traduzir entre linguagem natural e lógica de predicados é um exercício de clareza mental: você desmonta uma frase informal, identifica sua estrutura lógica e a reconstrói de forma rigorosa e transparente. Essa prática fortalece o pensamento crítico, reduz ambiguidades e te ajuda a estudar problemas complexos com segurança. 
+ Em resumo, traduzir entre a linguagem natural e a lógica de predicados é muito mais do que uma habilidade técnica, é um exercício de organização mental que nos permite enxergar com nitidez aquilo que antes parecia nebuloso. Cada frase que você transforma em uma expressão lógica é como iluminar um corredor escuro: as ideias ganham contornos firmes, as ambiguidades desaparecem e o raciocínio se torna mais elegante e confiável. Quanto mais você pratica, mais naturalmente percebe a estrutura escondida por trás das palavras do dia a dia, como alguém que aprende a ler mapas e passa a entender qualquer caminho sem medo. 
