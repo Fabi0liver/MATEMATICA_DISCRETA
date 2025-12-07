@@ -421,6 +421,8 @@ Quando estudamos Lógica de Predicados, um conceito essencial é o de Fórmula B
 
  Quando juntamos tudo (quantificadores, manipulação de predicados, suposições temporárias e passos cuidadosamente justificados) a Dedução Natural se torna um método muito intuitivo. Cada linha é como um pequeno degrau, levando você de uma afirmação inicial a uma conclusão mais sólida. Mesmo quando a prova parece longa, ela segue um fio condutor semelhante ao de montar um quebra-cabeça: você encaixa as peças fáceis primeiro, cria regiões intermediárias e, com paciência, vê a figura final surgir. Essa sensação de clareza ao final de uma prova é exatamente o que torna o método tão agradável.
 
+ Em resumo, a Dedução Natural em Lógica de Predicados mostra que provar algo não é apenas seguir regras formais, mas construir um caminho de raciocínio claro e organizado, como quem monta um pequeno roteiro lógico onde cada passo depende do anterior. Ela nos ajuda a enxergar como quantificadores, suposições temporárias e regras de inferência se combinam para transformar ideias soltas em conclusões sólidas, quase como montar um quebra-cabeça em que a imagem final vai surgindo aos poucos. No fim, compreender esse método nos dá uma sensação de domínio e clareza: percebemos que provar afirmações não é um mistério, mas uma prática que se torna cada vez mais natural com treino, paciência e curiosidade.
+
 
 
 
