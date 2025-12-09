@@ -68,3 +68,6 @@
  Aqui temos um argumento tanto válido quanto sólido, o raciocínio é correto e as premissas são verdadeiras.
 
  Em provas matemáticas, essa distinção é essencial, porque buscamos sempre construir argumentos sólidos, isto é, raciocínios estruturados de forma impecável e baseados em fatos previamente demonstrados ou aceitos. É como construir um castelo de cartas em que cada carta é colocada cuidadosamente: se uma estiver torta (premissa falsa), ou se o encaixe estiver errado (falha estrutural), o castelo cai. A matemática preza por castelos que não tremem; por isso, tratamos validade e solidez com tanto cuidado. E lembre-se: compreender essa diferença é como afinar sua visão lógica para enxergar não apenas o que alguém está dizendo, mas como está estruturando o pensamento. É uma habilidade poderosa, dentro e fora da matemática.
+
+
+
