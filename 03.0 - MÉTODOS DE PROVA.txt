@@ -71,3 +71,16 @@
 
 
 
+                                    "Regras Básicas de Inferência"
+
+As regras básicas de inferência são como as peças fundamentais de um jogo de raciocínio lógico. Elas indicam quais movimentos são permitidos e garantem que, ao seguir um passo após o outro, o resultado final realmente faça sentido. Em outras palavras, são as “leis do trânsito” da lógica: mesmo que você saiba onde quer chegar, só pode avançar se usar movimentos válidos. Sem essas regras, qualquer prova matemática ficaria vulnerável a passos inseguros ou saltos ilógicos — como tentar montar um móvel pulando instruções importantes.
+
+Uma das regras mais conhecidas é o Modus Ponens, que diz basicamente o seguinte: se sabemos que “se A, então B” é verdade, e também sabemos que A aconteceu, então podemos concluir B. Isso é tão intuitivo quanto seguir uma rotina: “Se eu apertar o botão do interruptor (A), a luz acende (B). Apertei o botão (A). Logo, a luz acendeu (B).” Essa regra aparece o tempo todo em provas e funciona como aquela engrenagem confiável que nunca falha.
+
+Outra regra muito útil é o Modus Tollens, que é quase o “irmão gêmeo” do Modus Ponens, mas olhando a situação pelo lado contrário. Ele diz: se “se A, então B” é verdade, e sabemos que B não aconteceu, então podemos afirmar que A também não aconteceu. No cotidiano, isso se parece com: “Se chovesse hoje (A), as ruas estariam molhadas (B). As ruas não estão molhadas (¬B). Logo, não choveu (¬A).” É a lógica funcionando como uma investigação: se o efeito não está presente, a causa não pode ter acontecido.
+
+Além disso, temos a Simplificação e a Conjunção, duas regras simples que ajudam a organizar informações. A simplificação diz que, se sabemos que “A e B” são verdadeiros juntos, podemos concluir cada um separadamente. É como abrir uma mochila com dois itens: se você sabe que tem um caderno e um lápis lá dentro, então com certeza tem o caderno e, separadamente, tem o lápis. Já a conjunção faz o caminho inverso: se sabemos que A é verdadeiro e B também é verdadeiro, podemos unir as duas ideias e afirmar “A e B”. É como juntar dois ingredientes que você já deixou separados na bancada para preparar a massa de um bolo.
+
+Outra regra bastante presente é a Adição, que permite ampliar uma afirmação verdadeira com outra que não conhecemos. Se sabemos que A é verdadeiro, podemos afirmar que “A ou B” também é verdadeiro, mesmo que nada saibamos sobre B. Isso pode parecer estranho, mas pense em frases do dia a dia: “Estou com fome.” Dessa frase, você pode concluir “Estou com fome ou vou ao cinema.” Mesmo que você não vá ao cinema, a frase inteira continua verdadeira, porque a primeira parte já é verdadeira. É uma forma de construir afirmações mais amplas sem perder a validade lógica.
+
+Essas regras, embora pareçam simples, são a espinha dorsal de todas as provas matemáticas mais elaboradas. Cada argumento sólido que construímos usa essas inferências como degraus firmes. Quando aprendemos a reconhecê-las, o processo de prova deixa de parecer um labirinto e passa a se parecer mais com seguir um mapa: cada seta indica um movimento permitido, e cada movimento leva naturalmente ao próximo. Com tempo e prática, você começará a aplicá-las de forma tão natural quanto seguir instruções de um jogo que você já domina.
