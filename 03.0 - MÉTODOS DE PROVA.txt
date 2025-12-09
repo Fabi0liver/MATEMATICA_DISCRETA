@@ -105,7 +105,7 @@
 
                                                 "Prova Direta"
 
-A prova direta é um dos métodos mais intuitivos e acolhedores da matemática. Ela segue um fluxo natural: você começa aceitando a hipótese como verdadeira e, passo a passo, usando definições, propriedades e raciocínio lógico, chega à tese, que é o que precisa ser demonstrado. É como seguir uma trilha bem sinalizada: você começa no ponto A e caminha de forma contínua até o ponto B. Nada de atalhos estranhos ou desvios inesperados — tudo acontece de maneira clara e ordenada.
+ A prova direta é um dos métodos mais intuitivos e acolhedores da matemática. Ela segue um fluxo natural: você começa aceitando a hipótese como verdadeira e, passo a passo, usando definições, propriedades e raciocínio lógico, chega à tese, que é o que precisa ser demonstrado. É como seguir uma trilha bem sinalizada: você começa no ponto A e caminha de forma contínua até o ponto B. Nada de atalhos estranhos ou desvios inesperados, tudo acontece de maneira clara e ordenada.
 
 Uma boa maneira de visualizar a prova direta é imaginar uma receita simples, como fazer um brigadeiro. A hipótese seria algo como: "Tenho leite condensado, chocolate e manteiga". A conclusão desejada: "Consigo preparar um brigadeiro." A prova direta é o processo de misturar os ingredientes, mexer no fogo baixo e chegar ao resultado final. Você não precisa inventar ingredientes novos ou fazer malabarismos; apenas segue o processo natural que conecta a condição inicial ao objetivo final. Na lógica, esse processo representa exatamente o movimento de P → Q, onde assumimos P para chegar logicamente em Q.
 
@@ -116,6 +116,8 @@ Aqui, a hipótese (P) é "n é par", ou seja, n = 2k para algum inteiro k. A tes
 Agora vejamos um exemplo falso para você observar por contraste:
 Proposição (falsa): "Se um número é par, então ele é múltiplo de 4."
 A hipótese "n é par" continua sendo n = 2k. A conclusão que queremos testar seria "n é múltiplo de 4", ou seja, n = 4m. Mas isso não vale para todos os pares: 6 é par, mas não é múltiplo de 4. Aqui, a prova direta falha justamente porque não há caminho lógico que leve da hipótese à tese. É como tentar chegar ao segundo andar pulando do térreo sem escada — você pode até chegar por sorte, mas não há um método seguro para isso.
+
+Para deixar ainda mais próximo da vida real, pense na frase: “Se eu estudar, eu passo de ano.” Essa é uma típica proposição no formato P → Q. A prova direta seria assumir que você estudou (hipótese) e mostrar, com base em fatos concretos, que isso leva ao resultado desejado — passar de ano (tese). A ideia aqui não é discutir exceções ou condições externas, mas construir uma linha clara de raciocínio que conecta causa e consequência. Em provas matemáticas, fazemos exatamente isso: começamos com P e trabalhamos logicamente até alcançar Q.
 
 A beleza da prova direta é que ela nos força a enxergar claramente como as coisas se conectam, etapa por etapa. Ao escrever uma prova direta, você está construindo uma ponte sólida entre o que é dado e o que precisa ser provado. Nada é assumido sem justificativa; cada passo tem fundamento, como peças de um dominó cuidadosamente alinhadas, onde cada uma cai naturalmente após a outra. Isso torna a leitura fluida e a compreensão quase inevitável — como seguir instruções de um manual bem escrito.
 
