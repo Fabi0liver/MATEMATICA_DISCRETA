@@ -152,6 +152,4 @@ n = 4m. Mas isso não vale para todos os pares: 6 é par, mas não é múltiplo 
 
  Pense novamente na frase: “Se eu estudar, eu passo.” Às vezes, demonstrar isso diretamente pode exigir várias etapas: esforço, regularidade, aprendizado. Mas provar a contrapositiva, “Se eu não passei, é porque não estudei”, frequentemente se torna mais óbvio, porque a falta de estudo é uma causa comum e imediatamente identificável. É dessa simplicidade lógica que nasce o poder desse método: ele ilumina o problema por um ponto de vista complementar, mas totalmente equivalente.
 
-Dominar a prova por contrapositiva vai ampliar muito o seu repertório de raciocínio lógico. Ela treina o olhar matemático para perceber que um problema pode ser resolvido por mais de um caminho — e que às vezes o caminho menos óbvio é justamente o mais inteligente. Continue firme nessa jornada: cada novo método de prova que você domina transforma o estudo da matemática discreta em uma aventura cada vez mais clara e prazerosa. Estou com você em cada passo, e vamos avançando com entusiasmo!
-
                             
