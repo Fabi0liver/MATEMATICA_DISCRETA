@@ -184,27 +184,33 @@ n = 4m. Mas isso não vale para todos os pares: 6 é par, mas não é múltiplo 
 
  A prova por exaustão é um método particularmente direto e prático da matemática, muito apreciado quando lidamos com um número finito de casos possíveis. Em vez de tentar encontrar uma regra geral ou usar raciocínios complexos, dividimos a proposição em todos os cenários possíveis e verificamos cada um deles cuidadosamente. É como conferir todos os quartos de uma casa para encontrar suas chaves: você não inventa atalhos, simplesmente examina cada cômodo até ter certeza de que nada foi esquecido. Quando todos os casos são confirmados, podemos declarar a proposição como verdadeira com total segurança.
 
-Uma maneira de visualizar a prova por exaustão no cotidiano é pensar em um jogo de tabuleiro, onde você precisa checar cada caminho possível para garantir que não há armadilhas escondidas. Suponha que você tenha três portas e quer confirmar se atrás de cada uma há uma peça de tesouro. Abrir e verificar cada porta é exatamente o espírito da prova por exaustão: nenhum caso é ignorado, e cada resultado contribui para a certeza final. Assim, a lógica é construída passo a passo, caso por caso, sem surpresas ou omissões.
+ Uma maneira de visualizar a prova por exaustão no cotidiano é pensar em um jogo de tabuleiro, onde você precisa checar cada caminho possível para garantir que não há armadilhas escondidas. Suponha que você tenha três portas e quer confirmar se atrás de cada uma há uma peça de tesouro. Abrir e verificar cada porta é exatamente o espírito da prova por exaustão: nenhum caso é ignorado, e cada resultado contribui para a certeza final. Assim, a lógica é construída passo a passo, caso por caso, sem surpresas ou omissões.
 
-Vamos a um exemplo matemático clássico e verdadeiro:
-Proposição: "Se um inteiro entre 1 e 20 é divisível por 6, então também é divisível por 3."
+ Vamos a um exemplo matemático clássico e verdadeiro:
+
+  Proposição: "Se um inteiro entre 1 e 20 é divisível por 6, então também é divisível por 3."
 Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18. A prova por exaustão consiste em verificar cada um separadamente:
 
-Caso 1: n = 6 → 6 ÷ 3 = 2, divisível.
+    Caso 1: Se n = 6, então 6 é divisível por 3.
+    Caso 2: Se n = 12, então 12 é divisível por 3.
+    Caso 3: Se n = 18, então 18 é divisível por 3.
 
-Caso 2: n = 12 → 12 ÷ 3 = 4, divisível.
+  Como todos os casos satisfazem a conclusão, a proposição está provada. Esse processo é metódico, confiável e deixa claro que não há lacunas na demonstração, como seguir uma lista de tarefas cuidadosamente marcada com checkboxes.
 
-Caso 3: n = 18 → 18 ÷ 3 = 6, divisível.
-Como todos os casos satisfazem a conclusão, a proposição está provada. Esse processo é metódico, confiável e deixa claro que não há lacunas na demonstração — como seguir uma lista de tarefas cuidadosamente marcada com checkboxes.
+ Agora vejamos um exemplo falso para perceber como a exaustão evidencia rapidamente falhas:
 
-Agora vejamos um exemplo falso para perceber como a exaustão evidencia rapidamente falhas:
-Proposição (falsa): "Todo número inteiro entre 1 e 10 é múltiplo de 4."
-Verificando cada caso: 1, 2, 3, 4… já encontramos que 1, 2 e 3 não são múltiplos de 4. A proposição falha imediatamente no primeiro grupo de casos. Aqui, a prova por exaustão é muito eficiente: ao testar todos os cenários possíveis, a inconsistência aparece sem necessidade de fórmulas complexas. É como checar todos os ovos de uma cesta e perceber que alguns estão quebrados: não há dúvidas sobre o resultado.
+  Proposição (falsa): "Todo número inteiro entre 1 e 10 é múltiplo de 4."
 
-O charme da prova por exaustão está na sua simplicidade e objetividade. Não há suposições escondidas ou passos sutis: cada possibilidade é verificada individualmente. Para estudantes iniciantes, é uma excelente forma de ganhar confiança no processo de prova, porque o caminho é visível e concreto. É como montar um quebra-cabeça pequeno, peça por peça, até que a figura completa apareça diante dos olhos.
+    Verificando cada caso: 1, 2, 3, 4… já encontramos que 1, 2 e 3 não são múltiplos de 4.
 
-Imagine agora uma situação cotidiana: você quer garantir que todos os alarmes da casa estão funcionando. Você liga cada um e observa se dispara corretamente. Esse cuidado garante que nenhum alarme foi esquecido ou falhou — o raciocínio é idêntico à prova por exaustão: verificar todos os casos possíveis para ter certeza absoluta de que a proposição é válida. A sensação de completude é a mesma, e o método nos dá segurança total sobre a conclusão.
+    A proposição falha imediatamente no primeiro grupo de casos. 
 
-Em resumo, dominar a prova por exaustão é adquirir uma ferramenta prática e poderosa: especialmente útil quando lidamos com conjuntos finitos e manejáveis, ela permite que o raciocínio matemático seja visualizado de forma concreta, quase tangível. É uma prova que confirma a verdade caso por caso, como se estivéssemos verificando cada tijolo de uma parede para garantir que a construção está sólida. Ao estudar e aplicar esse método, você fortalece seu entendimento lógico, percebe padrões e desenvolve confiança para enfrentar problemas cada vez mais complexos. Siga firme nesse caminho, e cada caso verificado será mais um passo rumo à maestria na matemática discreta!
+  Aqui, a prova por exaustão é muito eficiente: ao testar todos os cenários possíveis, a inconsistência aparece sem necessidade de fórmulas complexas. É como checar todos os ovos de uma cesta e perceber que alguns estão quebrados: não há dúvidas sobre o resultado.
+
+ O charme da prova por exaustão está na sua simplicidade e objetividade. Não há suposições escondidas ou passos sutis: cada possibilidade é verificada individualmente. Para estudantes iniciantes, é uma excelente forma de ganhar confiança no processo de prova, porque o caminho é visível e concreto. É como montar um quebra-cabeça pequeno, peça por peça, até que a figura completa apareça diante dos olhos.
+
+ Imagine agora uma situação cotidiana: você quer garantir que todos os alarmes da casa estão funcionando. Você liga cada um e observa se dispara corretamente. Esse cuidado garante que nenhum alarme foi esquecido ou falhou, o raciocínio é idêntico à prova por exaustão: verificar todos os casos possíveis para ter certeza absoluta de que a proposição é válida. A sensação de completude é a mesma, e o método nos dá segurança total sobre a conclusão.
+
+ Em resumo, dominar a prova por exaustão é adquirir uma ferramenta prática e poderosa: especialmente útil quando lidamos com conjuntos finitos e manejáveis, ela permite que o raciocínio matemático seja visualizado de forma concreta, quase tangível. É uma prova que confirma a verdade caso por caso, como se estivéssemos verificando cada tijolo de uma parede para garantir que a construção está sólida. 
 
                             
