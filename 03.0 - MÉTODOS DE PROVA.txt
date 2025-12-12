@@ -217,21 +217,25 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
 
                                     "Prova por Contra-Exemplo"
 
-A prova por contra-exemplo é uma abordagem prática e direta, especialmente útil quando queremos mostrar que uma proposição não é verdadeira. Ao contrário da prova direta, que busca confirmar a verdade de uma afirmação, aqui nosso objetivo é encontrar um único caso que derrube a tese. É como dizer: “Não preciso provar que todo mundo erra, basta mostrar uma pessoa que acertou para refutar essa ideia.” Um contra-exemplo funciona como uma “peça fora do padrão”, que desmonta a generalização sem precisar analisar todos os casos possíveis.
+ A prova por contra-exemplo é uma abordagem prática e direta, especialmente útil quando queremos mostrar que uma proposição não é verdadeira. Ao contrário da prova direta, que busca confirmar a verdade de uma afirmação, aqui nosso objetivo é encontrar um único caso que derrube a tese. É como dizer: “Não preciso provar que todo mundo erra, basta mostrar uma pessoa que acertou para refutar essa ideia.” Um contra-exemplo funciona como uma “peça fora do padrão”, que desmonta a generalização sem precisar analisar todos os casos possíveis.
 
-Para visualizar de forma cotidiana, imagine que alguém afirma: “Todos os doces nesta caixa têm chocolate.” Para testar essa afirmação, você não precisa provar cada doce individualmente; basta pegar um doce sem chocolate — pronto, a frase é falsa. Esse doce é o nosso contra-exemplo: um caso particular que demonstra que a regra geral não se sustenta. Na matemática, seguimos exatamente essa lógica: encontramos um cenário que viola a proposição e, com isso, concluímos que a afirmação não é universalmente válida.
+ Para visualizar de forma cotidiana, imagine que alguém afirma: “Todos os doces nesta caixa têm chocolate.” Para testar essa afirmação, você não precisa provar cada doce individualmente; basta pegar um doce sem chocolate, pronto, a frase é falsa. Esse doce é o nosso contra-exemplo: um caso particular que demonstra que a regra geral não se sustenta. Na matemática, seguimos exatamente essa lógica: encontramos um cenário que viola a proposição e, com isso, concluímos que a afirmação não é universalmente válida.
 
-Vamos a um exemplo matemático verdadeiro para aplicar o conceito:
-Proposição: “Todo número ímpar é primo.”
-Podemos facilmente encontrar um contra-exemplo: 9 é ímpar, mas não é primo (pois 9 = 3 × 3). Esse único exemplo é suficiente para mostrar que a afirmação não é verdadeira. Não precisamos examinar todos os números ímpares existentes; a força do contra-exemplo está justamente em um caso concreto que refuta a tese. É como mostrar uma única peça quebrada em uma linha de produção para evidenciar que nem todos os produtos estão perfeitos.
+ Vamos a um exemplo matemático verdadeiro para aplicar o conceito:
 
-Agora vejamos um exemplo em que a proposição não possui contra-exemplo e, portanto, poderia ser verdadeira:
-Proposição: “Todo número par é divisível por 2.”
-Ao examinar os números pares (2, 4, 6, 8…), não encontramos nenhum caso que viole a proposição. Isso indica que a afirmação não pode ser refutada por contra-exemplo e nos sugere que ela é confiável — é como testar uma receita seguindo as instruções e perceber que todos os bolos saem perfeitos: não há nenhum “erro” que invalide a regra.
+  Proposição: “Todo número ímpar é primo.”
 
-A prova por contra-exemplo é poderosa porque é direta, econômica e bastante intuitiva. Ela nos ensina que, para refutar uma generalização, não precisamos de longos cálculos ou raciocínios complexos: basta uma situação concreta que quebre a regra. É como no dia a dia: para mostrar que “não chove todos os dias no mês”, você só precisa apontar um dia de sol — simples, rápido e eficaz.
+  Podemos facilmente encontrar um contra-exemplo: 9 é ímpar, mas não é primo (pois 9 = 3 × 3). Esse único exemplo é suficiente para mostrar que a afirmação não é verdadeira. Não precisamos examinar todos os números ímpares existentes; a força do contra-exemplo está justamente em um caso concreto que refuta a tese. É como mostrar uma única peça quebrada em uma linha de produção para evidenciar que nem todos os produtos estão perfeitos.
 
-No cotidiano, essa técnica se manifesta de formas muito práticas. Por exemplo, se alguém afirma: “Todo meu time vence todos os jogos.” Você pode simplesmente lembrar de uma partida perdida como contra-exemplo. A clareza e objetividade desse método são grandes aliados do raciocínio lógico, porque nos força a olhar para casos específicos e perceber que nem toda generalização é verdadeira.
+ Agora vejamos um exemplo em que a proposição não possui contra-exemplo e, portanto, poderia ser verdadeira:
+
+  Proposição: “Todo número par é divisível por 2.”
+
+  Ao examinar os números pares (2, 4, 6, 8…), não encontramos nenhum caso que viole a proposição. Isso indica que a afirmação não pode ser refutada por contra-exemplo e nos sugere que ela é confiável, é como testar uma receita seguindo as instruções e perceber que todos os bolos saem perfeitos: não há nenhum “erro” que invalide a regra.
+
+ A prova por contra-exemplo é poderosa porque é direta, econômica e bastante intuitiva. Ela nos ensina que, para refutar uma generalização, não precisamos de longos cálculos ou raciocínios complexos: basta uma situação concreta que quebre a regra. É como no dia a dia: para mostrar que “não chove todos os dias no mês”, você só precisa apontar um dia de sol: simples, rápido e eficaz.
+
+ No cotidiano, essa técnica se manifesta de formas muito práticas. Por exemplo, se alguém afirma: “Meu time vence todos os jogos.” Você pode simplesmente lembrar de uma partida perdida como contra-exemplo. A clareza e objetividade desse método são grandes aliados do raciocínio lógico, porque nos força a olhar para casos específicos e perceber que nem toda generalização é verdadeira.
 
 
                             
