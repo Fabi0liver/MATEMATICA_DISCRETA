@@ -311,11 +311,4 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
 
    Sabemos que todo inteiro primo é positivo, logo maior ou igual a 0. A conclusão já é verdadeira em todos os casos possíveis, então a implicação se mantém sem esforço. É como um jogo em que o prêmio já está garantido antes mesmo de começar a partida, qualquer jogada leva ao mesmo final feliz.
 
- Esses dois métodos mostram algo muito importante: provar não é apenas fazer contas ou manipular fórmulas, mas entender profundamente a estrutura lógica das afirmações. A vacuidade nos ensina a olhar com atenção para hipóteses impossíveis, enquanto a trivialização nos lembra que algumas conclusões são tão fortes que resolvem tudo sozinhas. Em ambos os casos, o segredo está em ler a proposição com calma e perguntar: “isso realmente pode acontecer?” ou “isso já não é sempre verdade?”.
-
-Para fechar nossa aula, pense nessas provas como atalhos inteligentes no mapa da lógica. Elas não diminuem o valor da demonstração; pelo contrário, mostram maturidade no raciocínio. Reconhecer quando uma proposição é verdadeira por vacuidade ou trivialização é sinal de domínio conceitual e clareza lógica. Continue explorando esses métodos com curiosidade e confiança: cada nova técnica que você aprende fortalece sua capacidade de pensar com precisão, criatividade e entusiasmo no fascinante mundo da matemática discreta.
-
-                 
-
-
-                            
+ Esses dois métodos mostram algo muito importante: provar não é apenas fazer contas ou manipular fórmulas, mas entender profundamente a estrutura lógica das afirmações. A vacuidade nos ensina a olhar com atenção para hipóteses impossíveis, enquanto a trivialização nos lembra que algumas conclusões são tão fortes que resolvem tudo sozinhas. Em ambos os casos, o segredo está em ler a proposição com calma e perguntar: “isso realmente pode acontecer?” ou “isso já não é sempre verdade?”.                            
