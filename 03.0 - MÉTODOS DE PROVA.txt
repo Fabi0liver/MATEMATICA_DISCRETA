@@ -293,21 +293,25 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
 
                                “Prova por Vacuidade e Trivialização”
 
-A prova por vacuidade e a prova por trivialização costumam causar estranhamento no primeiro contato, justamente porque parecem “fáceis demais”. Mas essa sensação engana: esses métodos são profundamente lógicos e aparecem com frequência na matemática discreta. Ambos estão ligados a proposições do tipo “se P, então Q”, mas em situações em que o raciocínio se resolve quase sozinho. É como chegar a uma sala e perceber que a luz já está apagada ou que nem existe lâmpada ali — o resultado é verdadeiro, mas por um motivo especial.
+ A prova por vacuidade e a prova por trivialização costumam causar estranhamento no primeiro contato, justamente porque parecem “fáceis demais”. Mas essa sensação engana: esses métodos são profundamente lógicos e aparecem com frequência na matemática discreta. Ambos estão ligados a proposições do tipo “se P, então Q”, mas em situações em que o raciocínio se resolve quase sozinho. É como chegar a uma sala e perceber que a luz já está apagada ou que nem existe lâmpada ali, o resultado é verdadeiro, mas por um motivo especial.
 
-Vamos começar pela prova por vacuidade. Ela acontece quando a hipótese (P) de uma implicação é falsa. Na lógica, uma afirmação do tipo “se P, então Q” é considerada verdadeira sempre que P é falso, independentemente de Q. Pode soar estranho, mas pense assim: a promessa só vale se a condição acontecer. Por exemplo, a frase “se chover hoje, eu levo guarda-chuva” não é quebrada se não chover. Como a condição inicial não aconteceu, a frase continua verdadeira. Esse é exatamente o espírito da prova por vacuidade.
+ Vamos começar pela prova por vacuidade. Ela acontece quando a hipótese (P) de uma implicação é falsa. Na lógica, uma afirmação do tipo “se P, então Q” é considerada verdadeira sempre que P é falso, independentemente de Q. Pode soar estranho, mas pense assim: a promessa só vale se a condição acontecer. Por exemplo, a frase “se chover hoje, eu levo guarda-chuva” não é quebrada se não chover. Como a condição inicial não aconteceu, a frase continua verdadeira. Esse é exatamente o espírito da prova por vacuidade.
 
-Um exemplo matemático ajuda a clarear:
-Proposição: “Todo número inteiro negativo que seja maior que 5 é par.”
-Repare que não existe nenhum inteiro negativo maior que 5. Logo, não há casos para verificar. A hipótese nunca acontece, então a proposição é verdadeira por vacuidade. É como um professor dizer: “todo aluno desta turma que tirou nota maior que 100 está aprovado”. Como ninguém pode tirar mais que 100, a afirmação é logicamente verdadeira, mesmo parecendo estranha à primeira vista.
+ Um exemplo matemático ajuda a clarear:
 
-Agora vamos à prova por trivialização, que funciona quase como o espelho da vacuidade. Aqui, o foco não está na hipótese, mas na conclusão. Uma implicação “se P, então Q” é verdadeira sempre que Q é verdadeira, não importa qual seja P. Ou seja, a conclusão já é garantida. Imagine dizer: “se eu estudar matemática, então 2 + 2 = 4”. Essa frase é verdadeira porque 2 + 2 = 4 é sempre verdadeiro, independentemente de você estudar ou não. A conclusão é tão sólida que sustenta a proposição sozinha.
+  Proposição: “Todo número inteiro negativo que seja maior que 5 é par.”
 
-Um exemplo matemático simples:
-Proposição: “Se um número inteiro é primo, então ele é maior ou igual a 0.”
-Sabemos que todo inteiro primo é positivo, logo maior ou igual a 0. A conclusão já é verdadeira em todos os casos possíveis, então a implicação se mantém sem esforço. É como um jogo em que o prêmio já está garantido antes mesmo de começar a partida — qualquer jogada leva ao mesmo final feliz.
+  Repare que não existe nenhum inteiro negativo maior que 5. Logo, não há casos para verificar. A hipótese nunca acontece, então a proposição é verdadeira por vacuidade. É como um professor dizer: “todo aluno desta turma que tirou nota maior que 100 está aprovado”. Como ninguém pode tirar mais que 100, a afirmação é logicamente verdadeira, mesmo parecendo estranha à primeira vista.
 
-Esses dois métodos mostram algo muito importante: provar não é apenas fazer contas ou manipular fórmulas, mas entender profundamente a estrutura lógica das afirmações. A vacuidade nos ensina a olhar com atenção para hipóteses impossíveis, enquanto a trivialização nos lembra que algumas conclusões são tão fortes que resolvem tudo sozinhas. Em ambos os casos, o segredo está em ler a proposição com calma e perguntar: “isso realmente pode acontecer?” ou “isso já não é sempre verdade?”.
+ Agora vamos à prova por trivialização, que funciona quase como o espelho da vacuidade. Aqui, o foco não está na hipótese, mas na conclusão. Uma implicação “se P, então Q” é verdadeira sempre que Q é verdadeira, não importa qual seja P. Ou seja, a conclusão já é garantida. Imagine dizer: “se eu estudar matemática, então 2 + 2 = 4”. Essa frase é verdadeira porque 2 + 2 = 4 é sempre verdadeiro, independentemente de você estudar ou não. A conclusão é tão sólida que sustenta a proposição sozinha.
+
+ Um exemplo matemático simples:
+
+  Proposição: “Se um número inteiro é primo, então ele é maior ou igual a 0.”
+
+   Sabemos que todo inteiro primo é positivo, logo maior ou igual a 0. A conclusão já é verdadeira em todos os casos possíveis, então a implicação se mantém sem esforço. É como um jogo em que o prêmio já está garantido antes mesmo de começar a partida, qualquer jogada leva ao mesmo final feliz.
+
+ Esses dois métodos mostram algo muito importante: provar não é apenas fazer contas ou manipular fórmulas, mas entender profundamente a estrutura lógica das afirmações. A vacuidade nos ensina a olhar com atenção para hipóteses impossíveis, enquanto a trivialização nos lembra que algumas conclusões são tão fortes que resolvem tudo sozinhas. Em ambos os casos, o segredo está em ler a proposição com calma e perguntar: “isso realmente pode acontecer?” ou “isso já não é sempre verdade?”.
 
 Para fechar nossa aula, pense nessas provas como atalhos inteligentes no mapa da lógica. Elas não diminuem o valor da demonstração; pelo contrário, mostram maturidade no raciocínio. Reconhecer quando uma proposição é verdadeira por vacuidade ou trivialização é sinal de domínio conceitual e clareza lógica. Continue explorando esses métodos com curiosidade e confiança: cada nova técnica que você aprende fortalece sua capacidade de pensar com precisão, criatividade e entusiasmo no fascinante mundo da matemática discreta.
 
