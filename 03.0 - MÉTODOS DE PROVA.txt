@@ -263,7 +263,6 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
 
  No cotidiano, usamos raciocínio existencial o tempo todo sem perceber. Quando alguém diz “existe um jeito de resolver esse problema”, a resposta muitas vezes vem com um exemplo concreto: “olha, faz assim que funciona”. Esse “assim” é a prova existencial em ação. Na matemática discreta, aprender a identificar quando uma proposição pede apenas a existência de um caso economiza tempo, esforço e confusão, além de deixar o raciocínio muito mais claro.
 
- Para encerrar, lembre-se: a prova existencial nos ensina que uma boa ideia, bem colocada, pode valer mais do que mil tentativas. Encontrar um único exemplo correto já é uma vitória lógica completa. Ao dominar esse método, você amplia seu repertório de ferramentas mentais e ganha mais confiança para enfrentar proposições novas, curiosas e desafiadoras. Continue avançando com entusiasmo — cada método de prova que você aprende é como adicionar uma nova peça poderosa ao seu tabuleiro de pensamento lógico.
 
 
 
