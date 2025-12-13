@@ -289,8 +289,6 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
 
  No cotidiano, usamos raciocínio universal quando dizemos coisas como “sempre que eu apertar esse botão, a luz acende”. Não testamos apenas uma vez; confiamos que o mecanismo foi pensado para funcionar em qualquer situação normal. Na matemática discreta, a prova universal exige essa mesma clareza: definir bem as condições iniciais e mostrar, com lógica sólida, que o resultado sempre se segue delas.
 
-Para encerrar nossa aula, vale reforçar: a prova universal é um exercício poderoso de disciplina lógica. Ela ensina a pensar de forma geral, cuidadosa e sem brechas. Dominar esse método fortalece sua capacidade de argumentação e te prepara para desafios mais profundos em algoritmos, lógica e ciência da computação como um todo. Continue avançando com curiosidade e confiança — cada prova universal bem compreendida é um grande passo na construção de um pensamento matemático maduro e seguro.
-
 
 
                  
