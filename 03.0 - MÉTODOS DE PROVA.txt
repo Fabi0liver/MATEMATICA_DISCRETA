@@ -356,17 +356,17 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
 
                                          "Falácias em Provas"
 
-Quando começamos a estudar métodos de prova, é muito comum acreditar que qualquer sequência de passos “bem escrita” já garante que um argumento é correto. Mas a matemática é exigente: ela não se impressiona com aparência, apenas com lógica válida. É nesse ponto que entram as falácias em provas. Uma falácia é um erro de raciocínio que faz a prova parecer correta, quando na verdade existe um deslize lógico escondido em algum passo. Muitas vezes, esse erro é sutil e passa despercebido, principalmente para quem está começando.
+ Quando começamos a estudar métodos de prova, é muito comum acreditar que qualquer sequência de passos “bem escrita” já garante que um argumento é correto. Mas a matemática é exigente: ela não se impressiona com aparência, apenas com lógica válida. É nesse ponto que entram as falácias em provas. Uma falácia é um erro de raciocínio que faz a prova parecer correta, quando na verdade existe um deslize lógico escondido em algum passo. Muitas vezes, esse erro é sutil e passa despercebido, principalmente para quem está começando.
 
-Você pode pensar em uma falácia como um bolo bonito por fora, bem decorado, mas que por dentro foi feito com a receita errada. À primeira vista, tudo parece certo, mas quando analisamos com cuidado, algo não se sustenta. Estudar falácias é essencial porque elas nos treinam a ler provas com atenção crítica, a questionar cada passo e a não aceitar conclusões apenas porque “soam verdadeiras”.
+ Você pode pensar em uma falácia como um bolo bonito por fora, bem decorado, mas que por dentro foi feito com a receita errada. À primeira vista, tudo parece certo, mas quando analisamos com cuidado, algo não se sustenta. Estudar falácias é essencial porque elas nos treinam a ler provas com atenção crítica, a questionar cada passo e a não aceitar conclusões apenas porque “soam verdadeiras”.
 
-Vale deixar claro que as falácias não surgem apenas por descuido: muitas aparecem por confusão conceitual, abuso de intuição ou uso indevido de propriedades matemáticas. Agora, vamos conhecer algumas das falácias mais frequentes nos Métodos de Prova, sempre com exemplos e analogias para tornar tudo mais claro.
+ Vale deixar claro que as falácias não surgem apenas por descuido: muitas aparecem por confusão conceitual, abuso de intuição ou uso indevido de propriedades matemáticas. Agora, vamos conhecer algumas das falácias mais frequentes nos Métodos de Prova, sempre com exemplos e analogias para tornar tudo mais claro.
 
 
 
-Compreender falácias em provas é um passo fundamental no amadurecimento do raciocínio matemático. Elas mostram que não basta chegar a uma conclusão correta: o caminho até ela precisa ser logicamente válido. Ao identificar falácias, você aprende a desconfiar de argumentos “bonitos demais”, a examinar cada passo com cuidado e a perceber que pequenos deslizes — como uma suposição indevida ou uma divisão escondida por zero — podem comprometer toda a prova. Esse olhar crítico é uma das habilidades mais valiosas na matemática discreta.
+ Compreender falácias em provas é um passo fundamental no amadurecimento do raciocínio matemático. Elas mostram que não basta chegar a uma conclusão correta: o caminho até ela precisa ser logicamente válido. Ao identificar falácias, você aprende a desconfiar de argumentos “bonitos demais”, a examinar cada passo com cuidado e a perceber que pequenos deslizes (como uma suposição indevida ou uma divisão escondida por zero) podem comprometer toda a prova. Esse olhar crítico é uma das habilidades mais valiosas na matemática discreta.
 
-Mais do que evitar erros, o estudo das falácias fortalece sua autonomia como estudante. Você passa a construir provas mais sólidas, a justificar melhor suas ideias e a ganhar confiança no próprio raciocínio. Pense nisso como um treinamento do olhar lógico: quanto mais você reconhece essas armadilhas, mais seguro caminha pelo território das provas matemáticas.
+ Mais do que evitar erros, o estudo das falácias fortalece sua autonomia como estudante. Você passa a construir provas mais sólidas, a justificar melhor suas ideias e a ganhar confiança no próprio raciocínio. Pense nisso como um treinamento do olhar lógico: quanto mais você reconhece essas armadilhas, mais seguro caminha pelo território das provas matemáticas.
 
 
                                                   
