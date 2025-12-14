@@ -362,52 +362,27 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
 
  Vale deixar claro que as falácias não surgem apenas por descuido: muitas aparecem por confusão conceitual, abuso de intuição ou uso indevido de propriedades matemáticas. Agora, vamos conhecer algumas das falácias mais frequentes nos Métodos de Prova, sempre com exemplos e analogias para tornar tudo mais claro.
 
+  Afirmação do Consequente: Essa falácia acontece quando, a partir de uma implicação do tipo “Se P, então Q”, alguém assume que o inverso também é verdadeiro. Por exemplo: “Se eu estudo, eu passo. Eu passei, logo estudei”. Isso não é logicamente válido, pois existem outros motivos para passar. É como dizer: “Se chove, a rua molha. A rua está molhada, então choveu” — quando alguém pode ter lavado a calçada. Em matemática, esse erro aparece quando confundimos consequência com causa.
 
-Afirmação do Consequente
+  Negação do Antecedente: Aqui, o erro ocorre ao negar a hipótese e concluir que a tese também é falsa. Algo como: “Se eu estudar, eu passo. Eu não estudei, logo não passei”. Isso não é garantido. É como achar que, se uma receita diz “se usar fermento, o bolo cresce”, então “se não usar fermento, o bolo não cresce” — ignorando outros fatores. A lógica não autoriza essa conclusão.
 
-Essa falácia acontece quando, a partir de uma implicação do tipo “Se P, então Q”, alguém assume que o inverso também é verdadeiro. Por exemplo: “Se eu estudo, eu passo. Eu passei, logo estudei”. Isso não é logicamente válido, pois existem outros motivos para passar. É como dizer: “Se chove, a rua molha. A rua está molhada, então choveu” — quando alguém pode ter lavado a calçada. Em matemática, esse erro aparece quando confundimos consequência com causa.
+  Generalização Indevida: Essa falácia surge quando observamos alguns poucos casos verdadeiros e concluímos que a afirmação vale para todos. Por exemplo, testar a propriedade para n = 1, 2 e 3 e concluir que ela vale para todo n. É como experimentar três sabores de um restaurante e afirmar que todo o cardápio é excelente. Em matemática, poucos exemplos nunca substituem uma prova geral.
 
-Negação do Antecedente
+  Divisão por Zero Disfarçada: Uma das falácias mais traiçoeiras. Em algum ponto da prova, divide-se por uma expressão que pode ser zero, sem perceber. O argumento parece correto, mas está apoiado em algo proibido. É como atravessar uma ponte sem notar que uma das vigas está quebrada. O caminho parece sólido, mas o erro estrutural invalida tudo.
 
-Aqui, o erro ocorre ao negar a hipótese e concluir que a tese também é falsa. Algo como: “Se eu estudar, eu passo. Eu não estudei, logo não passei”. Isso não é garantido. É como achar que, se uma receita diz “se usar fermento, o bolo cresce”, então “se não usar fermento, o bolo não cresce” — ignorando outros fatores. A lógica não autoriza essa conclusão.
+  Prova Circular (Petição de Princípio): Aqui, a conclusão que se quer provar já é usada como parte da justificativa. É como dizer: “Isso é verdade porque é verdade”. Em termos cotidianos, seria afirmar: “Eu sou confiável porque sempre digo a verdade”. Em matemática, esse tipo de prova não avança; ela gira em círculos e não constrói nada novo.
 
-Generalização Indevida
+  Confundir ‘Existe’ com ‘Para Todo’: Essa falácia aparece quando se prova que algo funciona para um caso específico e se conclui que funciona para todos. Por exemplo: mostrar que existe um número par com certa propriedade e afirmar que todos os pares têm essa propriedade. É como encontrar uma pessoa alta em uma sala e concluir que todos ali são altos.
 
-Essa falácia surge quando observamos alguns poucos casos verdadeiros e concluímos que a afirmação vale para todos. Por exemplo, testar a propriedade para n = 1, 2 e 3 e concluir que ela vale para todo n. É como experimentar três sabores de um restaurante e afirmar que todo o cardápio é excelente. Em matemática, poucos exemplos nunca substituem uma prova geral.
+  Falsa Contrapositiva: Nem toda negação “invertida” é uma contrapositiva válida. Às vezes, a pessoa troca P e Q e nega ambos de forma incorreta. É como transformar “Se eu treino, fico saudável” em “Se eu não treino, fico doente”, achando que são equivalentes. A contrapositiva verdadeira exige muito mais cuidado lógico.
 
-Divisão por Zero Disfarçada
+  Falácia da Ambiguidade: Ocorre quando uma palavra ou expressão muda de significado ao longo da prova. Um termo começa com um sentido e termina com outro, sem aviso. É como jogar um jogo de tabuleiro onde as regras mudam no meio da partida. Em matemática, precisão de linguagem é essencial — uma palavra ambígua pode derrubar toda a prova.
 
-Uma das falácias mais traiçoeiras. Em algum ponto da prova, divide-se por uma expressão que pode ser zero, sem perceber. O argumento parece correto, mas está apoiado em algo proibido. É como atravessar uma ponte sem notar que uma das vigas está quebrada. O caminho parece sólido, mas o erro estrutural invalida tudo.
+  Falácia do Caso Particular: Parecida com a generalização indevida, mas mais sutil: escolhe-se um caso “bonito” ou conveniente para provar algo geral. Por exemplo, provar uma propriedade apenas para números pares e concluir que ela vale para todos os inteiros. É como testar um sapato só no pé direito e garantir que o par inteiro serve perfeitamente.
 
-Prova Circular (Petição de Princípio)
+  Falácia do Falso Dilema: Aqui, o argumento assume que só existem duas possibilidades, quando na verdade existem mais. Algo como: “Ou a prova é direta ou está errada”. Em matemática, esse tipo de pensamento ignora métodos como indução, contradição, contrapositiva, entre outros. É como achar que só existe caminho A ou B, quando há várias rotas possíveis.
 
-Aqui, a conclusão que se quer provar já é usada como parte da justificativa. É como dizer: “Isso é verdade porque é verdade”. Em termos cotidianos, seria afirmar: “Eu sou confiável porque sempre digo a verdade”. Em matemática, esse tipo de prova não avança; ela gira em círculos e não constrói nada novo.
-
-Confundir ‘Existe’ com ‘Para Todo’
-
-Essa falácia aparece quando se prova que algo funciona para um caso específico e se conclui que funciona para todos. Por exemplo: mostrar que existe um número par com certa propriedade e afirmar que todos os pares têm essa propriedade. É como encontrar uma pessoa alta em uma sala e concluir que todos ali são altos.
-
-Falsa Contrapositiva
-
-Nem toda negação “invertida” é uma contrapositiva válida. Às vezes, a pessoa troca P e Q e nega ambos de forma incorreta. É como transformar “Se eu treino, fico saudável” em “Se eu não treino, fico doente”, achando que são equivalentes. A contrapositiva verdadeira exige muito mais cuidado lógico.
-
-Falácia da Ambiguidade
-
-Ocorre quando uma palavra ou expressão muda de significado ao longo da prova. Um termo começa com um sentido e termina com outro, sem aviso. É como jogar um jogo de tabuleiro onde as regras mudam no meio da partida. Em matemática, precisão de linguagem é essencial — uma palavra ambígua pode derrubar toda a prova.
-
-Falácia do Caso Particular
-
-Parecida com a generalização indevida, mas mais sutil: escolhe-se um caso “bonito” ou conveniente para provar algo geral. Por exemplo, provar uma propriedade apenas para números pares e concluir que ela vale para todos os inteiros. É como testar um sapato só no pé direito e garantir que o par inteiro serve perfeitamente.
-
-Falácia do Falso Dilema
-
-Aqui, o argumento assume que só existem duas possibilidades, quando na verdade existem mais. Algo como: “Ou a prova é direta ou está errada”. Em matemática, esse tipo de pensamento ignora métodos como indução, contradição, contrapositiva, entre outros. É como achar que só existe caminho A ou B, quando há várias rotas possíveis.
-
-Apelo à Intuição (ou ao ‘é óbvio’)
-
-Talvez a mais sedutora de todas. A prova pula etapas importantes dizendo que algo é “claro” ou “evidente”. O problema é que o que é óbvio para um pode não ser para outro — e, pior, pode estar errado. Em matemática, intuição ajuda a pensar, mas não substitui a justificativa formal. É como montar um móvel sem seguir o manual porque “parece simples”.
-
-
+  Apelo à Intuição (ou ao ‘é óbvio’): Talvez a mais sedutora de todas. A prova pula etapas importantes dizendo que algo é “claro” ou “evidente”. O problema é que o que é óbvio para um pode não ser para outro — e, pior, pode estar errado. Em matemática, intuição ajuda a pensar, mas não substitui a justificativa formal. É como montar um móvel sem seguir o manual porque “parece simples”.
 
  Compreender falácias em provas é um passo fundamental no amadurecimento do raciocínio matemático. Elas mostram que não basta chegar a uma conclusão correta: o caminho até ela precisa ser logicamente válido. Ao identificar falácias, você aprende a desconfiar de argumentos “bonitos demais”, a examinar cada passo com cuidado e a perceber que pequenos deslizes (como uma suposição indevida ou uma divisão escondida por zero) podem comprometer toda a prova. Esse olhar crítico é uma das habilidades mais valiosas na matemática discreta.
 
