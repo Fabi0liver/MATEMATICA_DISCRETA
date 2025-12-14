@@ -353,4 +353,14 @@ Neste caso, existem apenas três inteiros que atendem à condição: 6, 12 e 18.
  Para concluir, a prova por indução matemática nos ensina uma lição valiosa sobre pensamento lógico e construção de argumentos sólidos: grandes resultados nascem de bases bem estabelecidas e de regras de continuidade bem definidas. Ela nos mostra que, com um começo correto e um passo consistente, podemos alcançar o infinito de forma segura e elegante. Esse tipo de raciocínio aparece constantemente em algoritmos, estruturas de repetição e análises computacionais, tornando a indução uma ferramenta essencial para quem estuda matemática discreta e ciência da computação. 
 
 
+
+                                         "Falácias em Provas"
+
+Quando começamos a estudar métodos de prova, é muito comum acreditar que qualquer sequência de passos “bem escrita” já garante que um argumento é correto. Mas a matemática é exigente: ela não se impressiona com aparência, apenas com lógica válida. É nesse ponto que entram as falácias em provas. Uma falácia é um erro de raciocínio que faz a prova parecer correta, quando na verdade existe um deslize lógico escondido em algum passo. Muitas vezes, esse erro é sutil e passa despercebido, principalmente para quem está começando.
+
+Você pode pensar em uma falácia como um bolo bonito por fora, bem decorado, mas que por dentro foi feito com a receita errada. À primeira vista, tudo parece certo, mas quando analisamos com cuidado, algo não se sustenta. Estudar falácias é essencial porque elas nos treinam a ler provas com atenção crítica, a questionar cada passo e a não aceitar conclusões apenas porque “soam verdadeiras”.
+
+Vale deixar claro que as falácias não surgem apenas por descuido: muitas aparecem por confusão conceitual, abuso de intuição ou uso indevido de propriedades matemáticas. Agora, vamos conhecer algumas das falácias mais frequentes nos Métodos de Prova, sempre com exemplos e analogias para tornar tudo mais claro.
+
+
                                                   
