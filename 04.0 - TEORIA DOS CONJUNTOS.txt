@@ -26,4 +26,4 @@
 
  Vale destacar que um conjunto não precisa reunir coisas “parecidas” entre si. O conjunto X = {Maçã, amarelo, 3, cadeia} mostra exatamente isso: objetos de naturezas diferentes podem coexistir no mesmo conjunto, desde que exista a intenção de agrupá-los. É como uma gaveta de “coisas importantes” em casa: pode ter uma chave, um documento, um pendrive e uma moeda antiga, todos juntos, mesmo sendo completamente diferentes.
 
- Para encerrar, pense no conjunto como uma ferramenta de organização do pensamento. Antes de resolver problemas mais complexos ou estudar algoritmos, precisamos aprender a agrupar, classificar e definir claramente as coisas com as quais estamos lidando. Esse é o primeiro passo de uma longa caminhada — e você acabou de firmar o chão sob os pés. Continue avançando com curiosidade e confiança: cada novo conceito ficará mais claro porque você já domina essa base essencial.
+ Em suma, pense no conjunto como uma ferramenta de organização do pensamento. Antes de resolver problemas mais complexos ou estudar algoritmos, precisamos aprender a agrupar, classificar e definir claramente as coisas com as quais estamos lidando. 
