@@ -8,79 +8,96 @@ Conjuntos:  um conjunto é uma coleção ordena ou não ordenada de objetos ou s
 
  O = {1, 3, 5, 7, 9} ( Conjuntos de números ímpares menores que 10)
 
- P = {2, 3, 5, 7, 11, ...} ( Conjunto dos números primos positivos)
+ P = {2, 3, 5, 7, 11, ...} ( Conjunto dos números primos positivos)
 
  X = { Maçã, amarelo, 3, cadeia} ( Pode haver conjuntos que não estão relacionados}
 
 
 Pertinência entre Elemento e Conjunto: E o vínculo que conecta essas duas ideias, no caso da teoria de conjuntos e se um elemento faz parte ou não faz parte de um conjunto.
 
- ∈: Quando um elemento pertence a um conjunto, que pode ser lido como  " e elemento de", "está em", "faz parte de", entre outras.
- 
- ∉: Quando um elemento não pertence a um conjunto, que pode ser lido como  " não e elemnto de", "não está em", "não faz parte de", entre outras.
+ ∈: Quando um elemento pertence a um conjunto, que pode ser lido como  " e elemento de", "está em", "faz parte de", entre outras.
+ 
+ ∉: Quando um elemento não pertence a um conjunto, que pode ser lido como  " não e elemnto de", "não está em", "não faz parte de", entre outras.
 
 
 Como representar conjuntos: O conjunto será representado por uma letra maiúscula com os elementos ou sua representação dentro de chaves ({}) a não quando for diagrama.
 
- Enumeração (listagem):
+ Enumeração (listagem):
 
    O = {1, 3, 5, 7, 9}
 
- Descrição por propriedade:
+ Descrição por propriedade:
 
    O = {x|x é um número inteiro, positivo e ímpar menor que 10}
 
    O = { X ∈ ℤ+|x é ímpar e x < 10}
 
-  Diagramas de Venn: 
+  Diagramas de Venn:
 
-    Em forma de diagrama seria um circulo fechado, com todos os elemntos que  fazem parte desse conjunto dentro do 
-   circulo, tudo que está fora desse circulo não faz parte desse conjunto.
+    Em forma de diagrama seria um circulo fechado, com todos os elemntos que  fazem parte desse conjunto dentro do
+   circulo, tudo que está fora desse circulo não faz parte desse conjunto.
 
- Obs.: Quando o conjunto e infinito se coloca as reticências (...) no ultimo elemento do conjunto para desmostra a  
-      continuidade dos números ou no começo para representar que tem elemntos antes ( como em numeros inteiros), 
-      demostrando que esse conjunto e infinito.
-         
-         Exemplo: P = {2, 3, 5, 7, 11, ...} ( Conjunto dos números primos positivos)
-                         ou 
-                  I = {..., -2, -1, 0, 1, 2, ...} (Conjuntos dos números inteiros)
+ Obs.: Quando o conjunto e infinito se coloca as reticências (...) no ultimo elemento do conjunto para desmostra a
+      continuidade dos números ou no começo para representar que tem elemntos antes ( como em numeros inteiros),
+      demostrando que esse conjunto e infinito.
+ 
+         Exemplo: P = {2, 3, 5, 7, 11, ...} ( Conjunto dos números primos positivos)
+                         ou
+                  I = {..., -2, -1, 0, 1, 2, ...} (Conjuntos dos números inteiros)
 
 
-       Tambem se usa as reticências (...), quando o números de elementos de um conjunto e muito grande mesmo sendo 
-      finito para ser representado, então se usa as reticências como continuidade e no final se acrecenta o ultimo    
-      elemento.
+       Tambem se usa as reticências (...), quando o números de elementos de um conjunto e muito grande mesmo sendo
+      finito para ser representado, então se usa as reticências como continuidade e no final se acrecenta o ultimo
+      elemento.
 
-         Exemplo: A = { 0, 1, 2, 3, 4, 5, ..., 300) (Conjunto dos números inteiros de 0 a 300)
- 
+         Exemplo: A = { 0, 1, 2, 3, 4, 5, ..., 300) (Conjunto dos números inteiros de 0 a 300)
+ 
 
 
  Conjuntos numéricos clássicos:
  
- ℕ = {0, 1, 2,  3, , ...}, Conjuntos dos números naturais, que vai do 0 até o infinito
+ Números Naturais (ℕ): Os números naturais formam o conjunto usado para contar e ordenar quantidades inteiras não negativas. São os primeiros números que aprendemos na matemática e representam ideias simples como quantidade, posição e ordem. Os naturais são usados sempre que lidamos com contagem direta: número de alunos em uma sala, quantidade de páginas de um livro, passos dados em uma caminhada.Pense nos naturais como marcadores de contagem, semelhantes a risquinhos feitos no papel para contar algo.
 
- ℤ = {..., -2, -1, 0, 1, 2, ...}, Conjuntos dos números inteiros, que vai do -infinito ao o +infinito
+   ℕ = {0, 1, 2,  3, , ...}
 
- ℚ = { p/q | (p ∈ ℤ) ∧ (q ∈ ℤ) ∧ (q ≠ 0)}, conjuntos dos números racionais
+(Em alguns contextos, o 0 pode ser excluído; isso depende da convenção adotada.)
 
- 𝕀 = conjunto dos números irracionais
 
- ℝ = conjuntos dos números reais
+Números Inteiros (ℤ): Os números inteiros surgem quando percebemos que os números naturais não são suficientes para representar todas as situações do dia a dia. Eles incluem números positivos, negativos e o zero. Os inteiros permitem representar situações como: temperaturas abaixo de zero (−5 °C), dívidas (−100 reais), andares subterrâneos de um prédio. Sem os inteiros, essas situações não poderiam ser descritas corretamente usando apenas os naturais
+
+   ℤ = {..., -2, -1, 0, 1, 2, ...}
+
+
+ Números Racionais (ℚ): Os números racionais são todos os números que podem ser escritos na forma de fração de dois números inteiros, com denominador diferente de zero. Sempre que você compara quantidades (como “metade”, “um terço”, “três para quatro”) está lidando com números racionais.
+
+  ℚ = { a/b | a ∈ ℤ, b ∈ ℤ e b ≠ 0 }
+
+
+ Números Irracionais (𝕀): Os números irracionais são números reais que não podem ser escritos como fração de dois números inteiros. Quando representados na forma decimal, eles possuem infinitas casas decimais sem repetição periódica. Enquanto nos racionais os decimais terminam ou se repetem, nos irracionais não existe padrão.
+Não importa o quanto você avance nas casas decimais: nunca haverá um ciclo fixo.
+
+ 𝕀 =   {..., √2, √3, √7, 3.141592, π,  ...}
+
+
+ Números Reais (ℝ): Os números reais formam o conjunto mais completo usado na matemática básica e intermediária. Eles representam todos os valores possíveis que podem ser localizados em uma reta numérica, sem lacunas. O conjunto dos números reais reúne quatro grandes subconjuntos: Naturais, Inteiros, Racionais e Irracionais.
+
+   R= {ℕ, ℤ, ℚ, 𝕀}
 
 
 
  Conjuntos especiais:
  
-   Conjuntos unitários: Possui apenas 1 elemento
+   Conjuntos unitários: Possui apenas 1 elemento
 
    Conjunto Vazio (Conjuntos Nulo): Não Possui nenhum elemento. Poder representado por S = {} ou S = ∅
 
-                                      Obs.: S = {∅}, não é um conjunto vazio e uma representação de um conjunto 
-                                           unitário.
+                                      Obs.: S = {∅}, não é um conjunto vazio e uma representação de um conjunto
+                                           unitário.
 
-    Conjunto Universo: É quando desenvolvemos um assunto, admitimos a existencia de um conjunto "U" ao qual 
-                      pertence todos os elemntos nesse assunto. Esse conjunto "U" é chamado de conjunto universo.
+    Conjunto Universo: É quando desenvolvemos um assunto, admitimos a existencia de um conjunto "U" ao qual
+                      pertence todos os elemntos nesse assunto. Esse conjunto "U" é chamado de conjunto universo.
  
-   
+ 
 
 Igualdade de conjuntos: Dois conjuntos são iguais se e somente se eles tem os mesmos elementos.
 
@@ -117,9 +134,9 @@ Propriedade de Conjuntos:
 
 * Qualquer conjunto e um subconjunto dele mesmo:
     Notação: S ⊆ S
-    Formalização: A = B ⇔ ( A ⊆ B) ∧ (B ⊆ A)
+    Formalização: A = B ⇔ ( A ⊆ B) ∧ (B ⊆ A)
 
-                  A = B ⇔ ∀x(x ∈ A ⇔ x ∈ B)
+                  A = B ⇔ ∀x(x ∈ A ⇔ x ∈ B)
 
 
 Conjunto das Partes ou Conjunto Potência: Dado um conjunto S, o conjunto das partes de S e o conjunto de todos os subconjuntos do conjunto S. O conjunto das partes de S é indicado por 𝒫(S).
@@ -138,7 +155,7 @@ Exemplo: A = {1, 2} e B = {a, b, c}
 
 Alem disso o produto cartesiano de A x B e diferente de B x A
 Exemplo: B = {a, b, c} e A = {1, 2}
-   
+ 
 B x A = {(a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}
 
 Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). Mas dentro do conjunto a ondem não
