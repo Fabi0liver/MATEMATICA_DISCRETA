@@ -115,7 +115,7 @@
 
    Exemplos de elementos naturais: 0, 1, 2, 3, 4, 10, 25.
 
-  Uma boa analogia é pensar nos naturais como marcadores de contagem, semelhantes aos risquinhos feitos no papel para contar algo. Cada risco representa um elemento do conjunto. Assim como não faz sentido ter “meio risco” nesse tipo de contagem, os naturais não incluem frações ou valores negativos, apenas elementos inteiros usados para contar. Em alguns contextos, o 0 pode ser excluído; isso depende da convenção adotada.
+  Uma boa analogia é pensar nos naturais como marcadores de contagem, semelhantes aos risquinhos feitos no papel para contar algo. Cada risco representa um elemento do conjunto. Assim como não faz sentido ter “meio risco” nesse tipo de contagem, os naturais não incluem frações ou valores negativos, apenas elementos inteiros usados para contar. Em alguns contextos matemáticos, o zero também é incluído nesse conjunto, representando a ideia de ausência de quantidade; em outros, ele é deixado de fora, dependendo da convenção adotada, mas a essência do conjunto permanece a mesma.
 
 
   Números Inteiros(ℤ): Os números inteiros ampliam o conjunto dos naturais ao incluir elementos negativos, além do zero e dos positivos. Eles surgem da necessidade de representar situações em que apenas contar não é suficiente. Temperaturas abaixo de zero, dívidas e andares subterrâneos são exemplos clássicos.
