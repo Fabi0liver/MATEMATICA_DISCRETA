@@ -61,5 +61,3 @@
  Outro ponto importante é que a pertinência sempre envolve um elemento e um conjunto, nunca dois conjuntos ao mesmo tempo. Isso ajuda a manter o raciocínio bem organizado. É como perguntar se um livro está em uma estante específica, e não se uma estante está dentro de outra. Esse cuidado evita erros comuns e prepara o terreno para conceitos mais avançados no futuro.
 
  Na matemática discreta e na computação, essa ideia aparece o tempo todo. Quando um programa verifica se um dado faz parte de uma lista ou se um usuário está cadastrado em um sistema, ele está, na prática, testando a pertinência. Visualizar esse processo como uma simples pergunta (“isso pertence aqui?”) torna o entendimento muito mais intuitivo e próximo da realidade.
-
-Para encerrar, quero que você veja a pertinência como um gesto de reconhecimento: o conjunto “aceita” ou “recusa” um elemento. Entender bem essa relação é fundamental para avançar com segurança na matemática discreta e nos algoritmos. Continue estudando com calma e curiosidade — cada símbolo aprendido é uma nova ferramenta que amplia sua capacidade de pensar de forma lógica, clara e confiante.
