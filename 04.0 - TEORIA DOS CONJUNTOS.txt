@@ -70,26 +70,22 @@
 
  Essas representações não mudam o conjunto em si, apenas o jeito de enxergá-lo e descrevê-lo. É como falar do mesmo lugar usando um mapa, uma foto aérea ou uma descrição em palavras: cada forma destaca um aspecto diferente, mas o lugar continua sendo o mesmo. A Teoria dos Conjuntos oferece algumas formas clássicas de representação, e entender cada uma delas ajuda muito a ganhar fluidez no raciocínio matemático. 
 
- Vamos, então, conhecer essas formas com calma e naturalidade.
+ Vamos agora conhecer essas formas, entendendo quando e por que usar cada uma delas.
 
-  Enumeração (ou Listagem): A enumeração é, talvez, a forma mais intuitiva de representar um conjunto. Nela, escrevemos todos os elementos explicitamente dentro de chaves {}, separando-os por vírgulas. 
+  Enumeração (ou Listagem): A enumeração, também chamada de listagem, é a forma mais direta de representar um conjunto. Nela, escrevemos o nome do conjunto com uma letra maiúscula, seguido do símbolo de igualdade, e colocamos todos os elementos entre chaves({}). É como fazer uma lista de convidados para uma festa: você simplesmente escreve os nomes de todos que vão participar, um após o outro.
 
-    Por exemplo: O = {1, 3, 5, 7, 9}.
+  Por exemplo:  O = {1, 3, 5, 7, 9}
 
-  Essa forma lembra muito uma lista de tarefas ou uma lista de compras: você simplesmente escreve tudo o que faz parte daquele grupo, de maneira direta e visível.
-
-  Essa representação funciona muito bem quando o conjunto é pequeno ou fácil de listar. É como organizar cartas em cima da mesa durante um jogo: você vê todas ao mesmo tempo e sabe exatamente quais estão em jogo. Quando o conjunto é muito grande ou infinito, usamos as reticências (...) para indicar continuidade, como em P = {2, 3, 5, 7, 11, ...}. As reticências funcionam como um “continua…”, avisando que a lista segue além do que está escrito.
+  Estamos mostrando claramente todos os elementos do conjunto. Essa forma é muito intuitiva e funciona muito bem quando o conjunto tem poucos elementos ou quando eles são fáceis de listar. Quando o conjunto é infinito ou muito grande, usamos as reticências (…) para indicar continuidade, assim como fazemos quando dizemos “etc.” em uma conversa informal.
 
 
-  Descrição por Propriedade: Na descrição por propriedade, em vez de listar todos os elementos, explicamos a regra que define quem pode fazer parte do conjunto. 
+  Descrição por Propriedade: Já a descrição por propriedade é usada quando queremos definir um conjunto explicando qual característica os elementos possuem, em vez de listar todos um por um. Assim como  na numeração, escrevemos o nome do conjunto com uma letra maiúscula, seguido do símbolo de igualdade, e colocamos a descrição dos elementos entre chaves ({}). É como dizer: “todos os alunos que usam óculos”, sem precisar citar cada nome. Aqui, descrevemos a regra que define quem pertence ao conjunto.
 
-    Por exemplo: O = {x | x é um número inteiro, positivo e ímpar menor que 10}.
+  Por exemplo: O = {x | x é um número inteiro, positivo e ímpar menor que 10}
+                                     ou
+               O = {x ∈ ℤ⁺ | x é ímpar e x < 10}
 
-  Aqui, é como se estivéssemos dizendo: “todo elemento que obedece a essas condições entra no conjunto”. É semelhante a definir quem pode participar de um torneio: idade mínima, categoria e regras bem estabelecidas.Essa forma é especialmente útil quando o conjunto é grande ou infinito. 
-
-  Usando símbolos matemáticos, podemos escrever também:O = {x ∈ ℤ⁺ | x é ímpar e x < 10}.
-
-  Apesar de parecer mais formal, a ideia continua simples: estamos descrevendo um critério, não uma lista. É como dizer “todos os alunos matriculados neste semestre” em vez de escrever nome por nome.
+  Essas duas formas dizem a mesma coisa: os elementos do conjunto são definidos por uma condição clara. Essa representação é muito poderosa quando o conjunto é grande ou infinito, pois evita listas enormes e torna a ideia mais elegante e organizada.
 
 
   Diagramas de Venn: Os diagramas de Venn representam conjuntos de forma visual, usando geralmente círculos fechados. Tudo o que está dentro do círculo pertence ao conjunto; tudo o que está fora, não pertence. Essa forma é excelente para quem aprende melhor olhando e comparando visualmente. Pense em um cercado: quem está dentro faz parte, quem está fora não faz.
