@@ -13,7 +13,11 @@ Conjuntos:  um conjunto é uma coleção ordena ou não ordenada de objetos ou s
  X = { Maçã, amarelo, 3, cadeia} ( Pode haver conjuntos que não estão relacionados}
 
 
-Pertinência entre Elemento e Conjunto(∈, ∉)
+Pertinência entre Elemento e Conjunto: E o vínculo que conecta essas duas ideias, no caso da teoria de conjuntos e se um elemento faz parte ou não faz parte de um conjunto.
+
+ ∈: Quando um elemento pertence a um conjunto, que pode ser lido como  " e elemento de", "está em", "faz parte de", entre outras.
+ 
+ ∉: Quando um elemento não pertence a um conjunto, que pode ser lido como  " não e elemnto de", "não está em", "não faz parte de", entre outras.
 
 
 Como representar conjuntos: O conjunto será representado por uma letra maiúscula com os elementos ou sua representação dentro de chaves ({}) a não quando for diagrama.
@@ -50,7 +54,7 @@ Como representar conjuntos: O conjunto será representado por uma letra maiúscu
  
 
 
- Conjuntos importantes:
+ Conjuntos numéricos clássicos:
  
  ℕ = {0, 1, 2,  3, , ...}, Conjuntos dos números naturais, que vai do 0 até o infinito
 
@@ -131,8 +135,6 @@ Formalização: A x B = {(a, b) | (a ∈ A) ∧ (b ∈ B)}
 
 Exemplo: A = {1, 2} e B = {a, b, c}
            A x B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}
-
-
 
 Alem disso o produto cartesiano de A x B e diferente de B x A
 Exemplo: B = {a, b, c} e A = {1, 2}
