@@ -161,10 +161,17 @@ A partir de agora, vamos conhecer esses conjuntos especiais com calma, entendend
 
 
  Conjunto Unitário: é aquele que possui apenas um único elemento. Mesmo sendo simples, ele tem grande importância, pois mostra que um conjunto pode existir mesmo com apenas um elemento.
-Exemplo:
-A = {5}
-Nesse caso, o conjunto A possui exatamente um elemento, o número 5.
+Exemplo: A = {5}, Nesse caso, o conjunto A possui exatamente um elemento, o número 5.
 
 Uma boa analogia é pensar em uma caixa com um único objeto dentro. A caixa continua sendo uma caixa, mesmo contendo apenas um item. Da mesma forma, um conjunto não precisa ter vários elementos para existir — basta um. Essa ideia ajuda a quebrar a falsa impressão de que conjuntos sempre precisam ser “grandes”.
 
 O conjunto unitário é muito usado para representar situações específicas, decisões únicas ou casos particulares. Ele ensina algo fundamental: na matemática, o que importa não é a quantidade de elementos, mas a clareza da definição. Mesmo um conjunto pequeno pode ter grande significado dentro de um problema.
+
+
+  Conjunto Vazio (ou Conjunto Nulo): O conjunto vazio é aquele que não possui nenhum elemento. Ele é representado por chaves vazias ({}) ou pelo símbolo de um circulo com um traço no meio (∅).
+
+Exemplo: S = {} ou S = ∅
+
+Uma analogia simples é imaginar uma gaveta completamente vazia. Ela continua sendo uma gaveta, mesmo sem conter nada dentro. Da mesma forma, o conjunto vazio existe como um conjunto legítimo, mesmo sem elementos. Ele representa a ideia de “nenhuma possibilidade” dentro de um determinado contexto.
+
+É muito importante não confundir S = ∅ com S = {∅}. No primeiro caso, o conjunto não possui nenhum elemento. No segundo, ele possui exatamente um elemento — e esse elemento é o símbolo do conjunto vazio. Ou seja, {∅} é um conjunto unitário, não vazio. Essa distinção é sutil, mas essencial para evitar erros conceituais no futuro.
