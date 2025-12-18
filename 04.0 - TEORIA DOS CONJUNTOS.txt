@@ -160,4 +160,11 @@ Esses conjuntos não surgem por acaso. Eles ajudam a organizar o raciocínio, es
 A partir de agora, vamos conhecer esses conjuntos especiais com calma, entendendo o que eles representam e por que são tão importantes.
 
 
- Conjunto Unitário:
+ Conjunto Unitário: é aquele que possui apenas um único elemento. Mesmo sendo simples, ele tem grande importância, pois mostra que um conjunto pode existir mesmo com apenas um elemento.
+Exemplo:
+A = {5}
+Nesse caso, o conjunto A possui exatamente um elemento, o número 5.
+
+Uma boa analogia é pensar em uma caixa com um único objeto dentro. A caixa continua sendo uma caixa, mesmo contendo apenas um item. Da mesma forma, um conjunto não precisa ter vários elementos para existir — basta um. Essa ideia ajuda a quebrar a falsa impressão de que conjuntos sempre precisam ser “grandes”.
+
+O conjunto unitário é muito usado para representar situações específicas, decisões únicas ou casos particulares. Ele ensina algo fundamental: na matemática, o que importa não é a quantidade de elementos, mas a clareza da definição. Mesmo um conjunto pequeno pode ter grande significado dentro de um problema.
