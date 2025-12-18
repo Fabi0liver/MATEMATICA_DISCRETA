@@ -155,36 +155,35 @@
 
  Depois de entender o que são conjuntos, elementos e como funciona a relação de pertencimento, começamos a perceber que nem todos os conjuntos se comportam da mesma forma. Alguns possuem características tão particulares que recebem nomes próprios e um papel especial dentro da Teoria dos Conjuntos. Esses são chamados de conjuntos especiais, e eles aparecem com muita frequência ao longo da matemática discreta.
 
-Esses conjuntos não surgem por acaso. Eles ajudam a organizar o raciocínio, estabelecer limites claros e simplificar explicações mais complexas no futuro. É como em um jogo de tabuleiro: existem peças comuns, mas também existem peças especiais que seguem regras próprias. 
+ Esses conjuntos não surgem por acaso. Eles ajudam a organizar o raciocínio, estabelecer limites claros e simplificar explicações mais complexas no futuro. É como em um jogo de tabuleiro: existem peças comuns, mas também existem peças especiais que seguem regras próprias. 
 
-A partir de agora, vamos conhecer esses conjuntos especiais com calma, entendendo o que eles representam e por que são tão importantes.
+ A partir de agora, vamos conhecer alguns desses conjuntos especiais com calma, entendendo o que eles representam e por que são tão importantes.
 
+  Conjunto Unitário: é aquele que possui apenas um único elemento. Mesmo sendo simples, ele tem grande importância, pois mostra que um conjunto pode existir mesmo com apenas um elemento.
 
- Conjunto Unitário: é aquele que possui apenas um único elemento. Mesmo sendo simples, ele tem grande importância, pois mostra que um conjunto pode existir mesmo com apenas um elemento.
-Exemplo: A = {5}, Nesse caso, o conjunto A possui exatamente um elemento, o número 5.
+   Exemplo: A = {5}, Nesse caso, o conjunto A possui exatamente um elemento, o número 5.
 
-Uma boa analogia é pensar em uma caixa com um único objeto dentro. A caixa continua sendo uma caixa, mesmo contendo apenas um item. Da mesma forma, um conjunto não precisa ter vários elementos para existir — basta um. Essa ideia ajuda a quebrar a falsa impressão de que conjuntos sempre precisam ser “grandes”.
+  Uma boa analogia é pensar em uma caixa com um único objeto dentro. A caixa continua sendo uma caixa, mesmo contendo apenas um item. Da mesma forma, um conjunto não precisa ter vários elementos para existir, basta um. Essa ideia ajuda a quebrar a falsa impressão de que conjuntos sempre precisam ser “grandes”.
 
-O conjunto unitário é muito usado para representar situações específicas, decisões únicas ou casos particulares. Ele ensina algo fundamental: na matemática, o que importa não é a quantidade de elementos, mas a clareza da definição. Mesmo um conjunto pequeno pode ter grande significado dentro de um problema.
+  O conjunto unitário é muito usado para representar situações específicas, decisões únicas ou casos particulares. Ele ensina algo fundamental: na matemática, o que importa não é a quantidade de elementos, mas a clareza da definição. Mesmo um conjunto pequeno pode ter grande significado dentro de um problema.
 
 
   Conjunto Vazio (ou Conjunto Nulo): é o conjunto que não possui nenhum elemento. Ele é representado por chaves vazias ({}) ou pelo símbolo ∅, que visualmente reforça a ideia de ausência total de elementos.
 
-Exemplo: S = {} ou S = ∅
+    Exemplo: S = {} ou S = ∅
 
-Uma analogia simples é imaginar uma gaveta completamente vazia. Ela continua sendo uma gaveta, mesmo sem conter nada dentro. Da mesma forma, o conjunto vazio existe como um conjunto legítimo, mesmo sem elementos. Ele representa a ideia de “nenhuma possibilidade” dentro de um determinado contexto.
+  Uma analogia simples é imaginar uma gaveta completamente vazia. Ela continua sendo uma gaveta, mesmo sem conter nada dentro. Da mesma forma, o conjunto vazio existe como um conjunto legítimo, mesmo sem elementos. Ele representa a ideia de “nenhuma possibilidade” dentro de um determinado contexto.
 
-É muito importante não confundir S = ∅ com S = {∅}. No primeiro caso, o conjunto não possui nenhum elemento. No segundo, ele possui exatamente um elemento — e esse elemento é o símbolo do conjunto vazio. Ou seja, {∅} é um conjunto unitário, não vazio. Essa distinção é sutil, mas essencial para evitar erros conceituais no futuro.
+  É muito importante não confundir S = ∅ com S = {∅}. No primeiro caso, o conjunto não possui nenhum elemento. No segundo, ele possui exatamente um elemento, e esse elemento é o símbolo do conjunto vazio. Ou seja, {∅} é um conjunto unitário, não vazio. Essa distinção é sutil, mas essencial para evitar erros conceituais no futuro.
 
 
   Conjunto Universo: É o conjunto que contém todos os elementos relevantes dentro de um determinado estudo ou problema. Ele é geralmente representado pela letra U. Ao definir um conjunto universo, estamos estabelecendo o “limite do jogo”, ou seja, tudo o que será considerado pertence a esse conjunto.
  
-  Exemplo: se estamos estudando números naturais menores que 10, 
-          o conjunto universo pode ser U = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+    Exemplo: se estamos estudando números naturais menores que 10, o conjunto universo pode ser:
+                             U = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
 
-Uma ótima analogia é pensar em uma sala de aula. Se o assunto são os alunos presentes naquela sala, o conjunto universo é formado apenas por eles — pessoas fora da sala simplesmente não entram na discussão. O conjunto universo define o cenário e evita que consideremos elementos que não fazem sentido naquele contexto.
+  Uma ótima analogia é pensar em uma sala de aula. Se o assunto são os alunos presentes naquela sala, o conjunto universo é formado apenas por eles,pessoas fora da sala simplesmente não entram na discussão. O conjunto universo define o cenário e evita que consideremos elementos que não fazem sentido naquele contexto.
 
-Esse conjunto é fundamental porque todas as análises passam a acontecer dentro dele. Quando dizemos que algo pertence ou não pertence a um conjunto, essa comparação sempre acontece em relação ao universo definido. Ele funciona como o pano de fundo que dá coerência a todo o estudo.
-
+  Esse conjunto é fundamental porque todas as análises passam a acontecer dentro dele. Quando dizemos que algo pertence ou não pertence a um conjunto, essa comparação sempre acontece em relação ao universo definido. Ele funciona como o pano de fundo que dá coerência a todo o estudo.
 
  Em suma, os conjuntos especiais deixam claro que a Teoria dos Conjuntos não se resume a simplesmente juntar elementos, mas a modelar ideias, limites e cenários específicos do raciocínio matemático. Eles representam casos extremos e fundamentais: o conjunto unitário mostra que até uma única informação pode formar um conjunto válido; o conjunto vazio nos ensina a lidar formalmente com a ausência, com o “nada”, sem ambiguidades; e o conjunto universo define o cenário completo onde todas as análises fazem sentido. Juntos, esses conjuntos funcionam como marcos de referência, ajudando a estruturar o pensamento, evitar interpretações equivocadas e construir argumentos mais sólidos, claros e bem fundamentados, que serão essenciais ao avançarmos para conceitos mais sofisticados da matemática discreta e dos algoritmos.
