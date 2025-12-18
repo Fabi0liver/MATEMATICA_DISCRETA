@@ -94,21 +94,37 @@ Não importa o quanto você avance nas casas decimais: nunca haverá um ciclo fi
                                       Obs.: S = {∅}, não é um conjunto vazio e uma representação de um conjunto
                                            unitário.
 
-    Conjunto Universo: É quando desenvolvemos um assunto, admitimos a existencia de um conjunto "U" ao qual
-                      pertence todos os elemntos nesse assunto. Esse conjunto "U" é chamado de conjunto universo.
+    Conjunto Universo: É quando desenvolvemos um assunto, admitimos a existência de um conjunto "U" ao qual
+                      pertence todos os elementos nesse assunto. Esse conjunto "U" é chamado de conjunto universo.
  
  
 
-Igualdade de conjuntos: Dois conjuntos são iguais se e somente se eles tem os mesmos elementos.
+Igualdade de conjuntos: Usados para comparar conjuntos como objetos completos, verificando se eles representam exatamente a mesma coleção de elementos ou não. Dois conjuntos são iguais se e somente se eles tem os mesmos elementos.
 
-  Notação: A = B
+O símbolo = indica que dois conjuntos são iguais, ou seja, possuem exatamente os mesmos elementos, sem importar a ordem ou repetições.
+
+   Notação: A = B
  
-  Formalização: ∀x(x ∈ A ⇔ x ∈ B)
+   Formalização: ∀x(x ∈ A ⇔ x ∈ B)
 
-  Exemplo:
-           {1, 3, 5} = { 3, 5, 1} ou
+   Exemplo:
+            {1, 3, 5} = { 3, 5, 1} ou
 
-           {1, 3, 3, 3, 3, 5, 5} =  {1, 3, 5}
+            {1, 3, 3, 3, 3, 5, 5} =  {1, 3, 5}
+
+            Mesmo escritos de formas diferentes, os conjuntos são iguais porque contêm os mesmos elementos.
+
+
+O símbolo ≠ indica que dois conjuntos não são iguais, isto é, existe pelo menos um elemento que pertence a um conjunto e não pertence ao outro.
+
+   Notação: A ≠ B
+
+   Formalização: A ≠ B ⇔ ∃x (x ∈ A ∧ x ∉ B) ou ∃x (x ∈ B ∧ x ∉ A)
+
+   Exemplo:
+            {1, 2, 3} ≠ {1, 2, 4}
+
+            Os conjuntos são diferentes porque o elemento 3 não está no segundo conjunto (e o 4 não está no primeiro).
 
 
 
