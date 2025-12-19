@@ -168,7 +168,7 @@
   O conjunto unitário é muito usado para representar situações específicas, decisões únicas ou casos particulares. Ele ensina algo fundamental: na matemática, o que importa não é a quantidade de elementos, mas a clareza da definição. Mesmo um conjunto pequeno pode ter grande significado dentro de um problema.
 
 
-  Conjunto Vazio (ou Conjunto Nulo): é o conjunto que não possui nenhum elemento. Ele é representado por chaves vazias ({}) ou pelo símbolo ∅, que visualmente reforça a ideia de ausência total de elementos.
+  Conjunto Vazio (ou Conjunto Nulo): é o conjunto que não possui nenhum elemento. Ele é representado por "{}" (chaves vazias) ou pelo símbolo ∅ (um circulo cortado por um traço), que visualmente reforça a ideia de ausência total de elementos.
 
     Exemplo: S = {} ou S = ∅
 
