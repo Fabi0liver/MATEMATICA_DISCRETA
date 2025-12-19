@@ -249,5 +249,3 @@
  Outra analogia ajuda a fixar bem essa distinção: pense em uma turma de alunos e em um grupo formado por todos os alunos da turma. Esse grupo é um subconjunto da turma, mas não é um subconjunto estrito, pois não sobra ninguém de fora. Já um grupo formado apenas pelos alunos sentados na primeira fileira é um subconjunto estrito da turma inteira, porque a turma tem mais alunos além desses.
 
  Perceber essa diferença é essencial para evitar confusões em raciocínios mais avançados. Subconjunto fala apenas de contenção, enquanto subconjunto estrito fala de contenção com diferença real de tamanho ou conteúdo. Esse cuidado conceitual aparece com frequência em provas, definições formais e, mais adiante, em algoritmos e estruturas de dados.
-
-Para encerrar, lembre-se de que aprender matemática é como organizar um grande quebra-cabeça: cada conceito encaixa melhor quando entendemos seus detalhes. O subconjunto estrito nos ensina a observar não apenas se algo cabe dentro de outra coisa, mas se essa relação é completa ou parcial. Continue estudando com calma e curiosidade — esses fundamentos bem construídos tornam o caminho pelos algoritmos muito mais claro e prazeroso.
