@@ -170,7 +170,9 @@
 
   Conjunto Vazio (ou Conjunto Nulo): é o conjunto que não possui nenhum elemento. Ele é representado por "{}" (chaves vazias) ou pelo símbolo ∅ (um circulo cortado por um traço), que visualmente reforça a ideia de ausência total de elementos.
 
-    Exemplo: S = {} ou S = ∅
+    Exemplo: S = {x|x é um número natural ímpar divisível por 2}, 
+             como não há número natural impar divisivel por 2, 
+             será representado como: S = {} ou S = ∅.
 
   Uma analogia simples é imaginar uma gaveta completamente vazia. Ela continua sendo uma gaveta, mesmo sem conter nada dentro. Da mesma forma, o conjunto vazio existe como um conjunto legítimo, mesmo sem elementos. Ele representa a ideia de “nenhuma possibilidade” dentro de um determinado contexto.
 
