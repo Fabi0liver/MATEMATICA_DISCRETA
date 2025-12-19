@@ -155,20 +155,6 @@ Exemplo:
 
 
 
-
-Propriedade de Conjuntos:
-* O conjunto Vazio e um subconjunto de qualquer conjunto.
-    Notação: ∅ ⊆ S
-
-* Qualquer conjunto e um subconjunto dele mesmo:
-    Notação: S ⊆ S
-    Formalização: A = B ⇔ ( A ⊆ B) ∧ (B ⊆ A)
-
-                  A = B ⇔ ∀x(x ∈ A ⇔ x ∈ B)
-
-
-
-
 Produto Cartesiano: Considere A e B como conjuntos. O produto cartesiano de A e B, indicado por A x B , é o conjunto de todos os pares ordenados (a, b) em  que a ∈ A e b ∈ B.
 Notação: A x B
 Formalização: A x B = {(a, b) | (a ∈ A) ∧ (b ∈ B)}
@@ -189,6 +175,16 @@ Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). M
       elemntos, 2x3 = 6. Então o produto cartesiano de A e B terá 6 elementos.
 
 
+
+Propriedade de Conjuntos:
+* O conjunto Vazio e um subconjunto de qualquer conjunto.
+    Notação: ∅ ⊆ S
+
+* Qualquer conjunto e um subconjunto dele mesmo:
+    Notação: S ⊆ S
+    Formalização: A = B ⇔ ( A ⊆ B) ∧ (B ⊆ A)
+
+                  A = B ⇔ ∀x(x ∈ A ⇔ x ∈ B)
 
 
 
