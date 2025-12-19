@@ -264,26 +264,25 @@
 
  A seguir, vamos explorar algumas das propriedades mais importantes e recorrentes da teoria dos conjuntos.
 
-  O conjunto vazio é subconjunto de qualquer conjunto: Uma das propriedades mais curiosas — e ao mesmo tempo mais elegantes — afirma que o conjunto vazio é subconjunto de qualquer conjunto, o que escrevemos como ∅ ⊆ N. Isso significa que, independentemente de qual seja o conjunto S, o conjunto vazio sempre estará contido nele. À primeira vista, isso pode soar estranho, mas a lógica por trás é bastante simples.
+  O conjunto vazio é subconjunto de qualquer conjunto: Uma das propriedades mais curiosas (e ao mesmo tempo mais elegantes) afirma que o conjunto vazio é subconjunto de qualquer conjunto, o que escrevemos como ∅ ⊆ N. Isso significa que, independentemente de qual seja o conjunto N, o conjunto vazio sempre estará contido nele. À primeira vista, isso pode soar estranho, mas a lógica por trás é bastante simples.
 
-Pense em uma lista de convidados para uma festa. Se você tem uma lista vazia, não há nenhum nome nela que viole a lista oficial de convidados. Como não existe nenhum elemento “fora do lugar”, a condição de subconjunto é automaticamente satisfeita. Assim, o conjunto vazio funciona como uma receita sem ingredientes: ela não entra em conflito com nenhuma despensa, pois simplesmente não exige nada dela.
+  Pense em uma lista de convidados para uma festa. Se você tem uma lista vazia, não há nenhum nome nela que viole a lista oficial de convidados. Como não existe nenhum elemento “fora do lugar”, a condição de subconjunto é automaticamente satisfeita. Assim, o conjunto vazio funciona como uma receita sem ingredientes: ela não entra em conflito com nenhuma despensa, pois simplesmente não exige nada dela.
 
  
   Propriedade Reflexiva: Essa popriedade diz que todo conjunto é subconjunto de si mesmo, o que é representado por S ⊆ S. Essa ideia reforça que todos os elementos de um conjunto pertencem, naturalmente, ao próprio conjunto. Embora pareça óbvio, essa propriedade é essencial para manter a coerência lógica da teoria.
 
-Uma boa analogia é pensar em uma pasta no computador. Todos os arquivos que estão dentro dessa pasta pertencem a ela mesma. Não faria sentido dizer que a pasta não contém seus próprios arquivos. Da mesma forma, um conjunto sempre “se contém”, e essa autorreferência é um ponto de partida para várias outras propriedades.
+  Uma boa analogia é pensar em uma pasta no computador. Todos os arquivos que estão dentro dessa pasta pertencem a ela mesma. Não faria sentido dizer que a pasta não contém seus próprios arquivos. Da mesma forma, um conjunto sempre “se contém”, e essa autorreferência é um ponto de partida para várias outras propriedades.
 
 
-  Propriedade Antissimétrica: Essa propriedade afirma que, (A ⊆ B) ∧ (B ⊆ A) → A = B (se A pertencem a outro conjunto B e B pertencem a outro conjunto A, então o conjunto A e igual ao conjuto B). Em outras palavras, se dois conjuntos contêm exatamente os mesmos elementos, eles são, de fato, o mesmo conjunto — ainda que tenham sido descritos de formas diferentes.
+  Propriedade Antissimétrica: Essa propriedade afirma que, (A ⊆ B) ∧ (B ⊆ A) → A = B (se A pertencem a outro conjunto B e B pertencem a outro conjunto A, então o conjunto A e igual ao conjuto B). Em outras palavras, se dois conjuntos contêm exatamente os mesmos elementos, eles são, de fato, o mesmo conjunto, ainda que tenham sido descritos de formas diferentes.
 
-Imagine duas listas de compras feitas por pessoas diferentes. Se tudo o que está na lista A também está na lista B, e tudo o que está na lista B também está na lista A, então as listas são equivalentes. Não importa a ordem ou o jeito como foram escritas: o conteúdo é o mesmo. Essa propriedade nos ensina que, em matemática, o que define um conjunto são seus elementos, não sua aparência.
-
-
-  Propriedade Transitiva: Essa propriedade diz que,((A ⊆ B) ∧ (B ⊆ C)) → A ⊆ C (se A pertencem a outro conjunto B e B pertencem a outro conjunto C, então A pertencem a outro conjunto C). Aqui é importante fazer uma observação: a conclusão correta é que A é subconjunto de C, e não necessariamente igual a C. Essa propriedade mostra como relações de inclusão podem “se encadear”.
-
-Uma analogia simples é pensar em caixas encaixadas. Se uma caixa pequena está dentro de uma caixa média, e a caixa média está dentro de uma caixa grande, então a caixa pequena também está dentro da caixa grande. Essa ideia aparece com muita frequência em matemática e em algoritmos, especialmente quando lidamos com hierarquias, níveis ou classificações.
+  Imagine duas listas de compras feitas por pessoas diferentes. Se tudo o que está na lista A também está na lista B, e tudo o que está na lista B também está na lista A, então as listas são equivalentes. Não importa a ordem ou o jeito como foram escritas: o conteúdo é o mesmo. Essa propriedade nos ensina que, em matemática, o que define um conjunto são seus elementos, não sua aparência.
 
 
-As propriedades dos conjuntos funcionam como pilares invisíveis que sustentam todo o edifício da teoria dos conjuntos. Elas garantem que nossas comparações sejam consistentes, que nossos argumentos façam sentido e que possamos avançar com confiança para conceitos mais complexos. Sem essas propriedades, o estudo dos conjuntos seria frágil e cheio de ambiguidades.
+  Propriedade Transitiva: Essa propriedade diz que,(A ⊆ B) ∧ (B ⊆ C) → A ⊆ C (se A pertencem a outro conjunto B e B pertencem a outro conjunto C, então A pertencem a outro conjunto C). Aqui é importante fazer uma observação: a conclusão correta é que A é subconjunto de C, e não necessariamente igual a C. Essa propriedade mostra como relações de inclusão podem “se encadear”.
+
+  Uma analogia simples é pensar em caixas encaixadas. Se uma caixa pequena está dentro de uma caixa média, e a caixa média está dentro de uma caixa grande, então a caixa pequena também está dentro da caixa grande. Essa ideia aparece com muita frequência em matemática e em algoritmos, especialmente quando lidamos com hierarquias, níveis ou classificações.
+
+ As propriedades dos conjuntos funcionam como pilares invisíveis que sustentam todo o edifício da teoria dos conjuntos. Elas garantem que nossas comparações sejam consistentes, que nossos argumentos façam sentido e que possamos avançar com confiança para conceitos mais complexos. Sem essas propriedades, o estudo dos conjuntos seria frágil e cheio de ambiguidades.
 
 Ao dominar essas ideias, você não está apenas aprendendo matemática — está treinando seu pensamento lógico, sua capacidade de organização e sua clareza de raciocínio. Encare esse aprendizado como a base sólida de uma construção maior. Continue avançando com curiosidade e entusiasmo: cada conceito bem compreendido hoje será uma poderosa ferramenta nos algoritmos e estruturas que você estudará amanhã.
