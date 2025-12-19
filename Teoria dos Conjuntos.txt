@@ -177,14 +177,14 @@ Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). M
 
 
 Propriedade de Conjuntos:
-* O conjunto Vazio e um subconjunto de qualquer conjunto.
-    Notação: ∅ ⊆ S
+* O conjunto Vazio e um subconjunto de qualquer conjunto: ∅ ⊆ S
 
-* Qualquer conjunto e um subconjunto dele mesmo:
-    Notação: S ⊆ S
-    Formalização: A = B ⇔ ( A ⊆ B) ∧ (B ⊆ A)
+* Reflexiva: S ⊆ S
 
-                  A = B ⇔ ∀x(x ∈ A ⇔ x ∈ B)
+* Antissimetrica: (A ⊆ B) ∧ (B ⊆ A) → A = B
+
+* Trasitiva: (A ⊆ B) ∧ (B ⊆ C) → A = C
+
 
 
 
