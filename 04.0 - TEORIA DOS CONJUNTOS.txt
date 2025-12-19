@@ -258,7 +258,7 @@
 
                                        "Propriedade de Conjuntos"
 
- Depois de entender o que são conjuntos, elementos, subconjuntos e subconjuntos estritos, é natural avançarmos para um nível um pouco mais estrutural do pensamento matemático: as propriedades dos conjuntos. Essas propriedades funcionam como regras de convivência entre conjuntos, ajudando-nos a compreender como eles se relacionam entre si de forma lógica, previsível e organizada. Elas não tratam de “quem são” os elementos, mas de como os conjuntos se comportam quando comparados uns com os outros.
+ Depois de compreender o que são conjuntos e explorar seus conceitos fundamentais, e é natural avançarmos para um nível um pouco mais estrutural do pensamento matemático: as propriedades dos conjuntos. Essas propriedades funcionam como regras de convivência entre conjuntos, ajudando-nos a compreender como eles se relacionam entre si de forma lógica, previsível e organizada. Elas não tratam de “quem são” os elementos, mas de como os conjuntos se comportam quando comparados uns com os outros.
 
  Podemos pensar nas propriedades dos conjuntos como princípios básicos, semelhantes às regras de um jogo de tabuleiro. Antes de jogar, precisamos saber o que é permitido, o que sempre vale e quais consequências surgem quando certas condições são atendidas. Da mesma forma, essas propriedades nos dão segurança para construir argumentos corretos, evitando conclusões apressadas ou incoerentes. 
 
@@ -279,10 +279,11 @@
   Imagine duas listas de compras feitas por pessoas diferentes. Se tudo o que está na lista A também está na lista B, e tudo o que está na lista B também está na lista A, então as listas são equivalentes. Não importa a ordem ou o jeito como foram escritas: o conteúdo é o mesmo. Essa propriedade nos ensina que, em matemática, o que define um conjunto são seus elementos, não sua aparência.
 
 
-  Propriedade Transitiva: Essa propriedade diz que,(A ⊆ B) ∧ (B ⊆ C) → A ⊆ C (se A pertencem a outro conjunto B e B pertencem a outro conjunto C, então A pertencem a outro conjunto C). Aqui é importante fazer uma observação: a conclusão correta é que A é subconjunto de C, e não necessariamente igual a C. Essa propriedade mostra como relações de inclusão podem “se encadear”.
+  Propriedade Transitiva: Essa propriedade diz que,(A ⊆ B) ∧ (B ⊆ C) → A ⊆ C (se A pertencem a outro conjunto B e B pertencem a outro conjunto C, então A pertencem a outro conjunto C). Em termos simples, se tudo que está em A também está em B, e tudo que está em B também está em C, então tudo que está em A também está em C.
 
   Uma analogia simples é pensar em caixas encaixadas. Se uma caixa pequena está dentro de uma caixa média, e a caixa média está dentro de uma caixa grande, então a caixa pequena também está dentro da caixa grande. Essa ideia aparece com muita frequência em matemática e em algoritmos, especialmente quando lidamos com hierarquias, níveis ou classificações.
 
- As propriedades dos conjuntos funcionam como pilares invisíveis que sustentam todo o edifício da teoria dos conjuntos. Elas garantem que nossas comparações sejam consistentes, que nossos argumentos façam sentido e que possamos avançar com confiança para conceitos mais complexos. Sem essas propriedades, o estudo dos conjuntos seria frágil e cheio de ambiguidades.
 
-Ao dominar essas ideias, você não está apenas aprendendo matemática — está treinando seu pensamento lógico, sua capacidade de organização e sua clareza de raciocínio. Encare esse aprendizado como a base sólida de uma construção maior. Continue avançando com curiosidade e entusiasmo: cada conceito bem compreendido hoje será uma poderosa ferramenta nos algoritmos e estruturas que você estudará amanhã.
+ As propriedades dos conjuntos podem ser vistas como leis fundamentais silenciosas que organizam e dão estabilidade a toda a Teoria dos Conjuntos. Elas definem como os conjuntos se comportam, como podem ser comparados e como se relacionam entre si de maneira lógica e previsível, evitando interpretações confusas ou contraditórias. Graças a essas propriedades, conseguimos construir argumentos matemáticos sólidos, encadear ideias com segurança e reconhecer padrões que se repetem em diferentes contextos. 
+
+ Sem esse conjunto de regras bem estabelecidas, o estudo dos conjuntos perderia clareza, rigor e utilidade prática, tornando muito mais difícil avançar para temas como relações, funções, estruturas matemáticas e algoritmos, que dependem diretamente dessa base conceitual bem definida.
