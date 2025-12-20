@@ -12,13 +12,7 @@ Conjuntos:  um conjunto é uma coleção ordena ou não ordenada de objetos ou s
 
  X = { Maçã, amarelo, 3, cadeia} ( Pode haver conjuntos que não estão relacionados}
 
-
-Pertinência entre Elemento e Conjunto: E o vínculo que conecta essas duas ideias, no caso da teoria de conjuntos e se um elemento faz parte ou não faz parte de um conjunto.
-
- ∈: Quando um elemento pertence a um conjunto, que pode ser lido como  " e elemento de", "está em", "faz parte de", entre outras.
  
- ∉: Quando um elemento não pertence a um conjunto, que pode ser lido como  " não e elemnto de", "não está em", "não faz parte de", entre outras.
-
 
 Como representar conjuntos: O conjunto será representado por uma letra maiúscula com os elementos ou sua representação dentro de chaves ({}) a não quando for diagrama.
 
@@ -128,6 +122,27 @@ O símbolo ≠ indica que dois conjuntos não são iguais, isto é, existe pelo 
 
 
 
+Relação de Pertinência: Relação entre elemento e conjunto.
+
+Pertence (∈): Quando um elemento pertence a um conjunto, que pode ser lido como  " e elemento de", "está em", "faz parte de", entre outras.
+ 
+ Não pertece (∉): Quando um elemento não pertence a um conjunto, que pode ser lido como  " não e elemnto de", "não está em", "não faz parte de", entre outras.
+
+
+
+Relação de inclusão: relação de conjunto com conjunto
+
+⊂: está contido
+
+⊄: não está contido
+
+⊃: contém
+ 
+⊅: Não contém
+
+
+Diferenças entre Subconjunto e Subconjunto estrito:
+
  Subconjunto: O conjunto A é um subconjunto do conjunto B se e somente se todo elemento de A for também elemento
 de B.
 
@@ -141,6 +156,19 @@ de B.
 
     Notação: A ⊂ B
     Formalização: ∀x(x ∈ A → x ∈ B) ∧ ∃x(x ∈ B ∧ x ∉ A)
+
+
+
+Propriedade de Conjuntos:
+* O conjunto Vazio e um subconjunto de qualquer conjunto: ∅ ⊆ S
+
+* Reflexiva: S ⊆ S
+
+* Antissimetrica: (A ⊆ B) ∧ (B ⊆ A) → A = B
+
+* Trasitiva: (A ⊆ B) ∧ (B ⊆ C) → A = C
+
+
 
 
 Conjunto das Partes ou Conjunto Potência: Dado um conjunto S, o conjunto das partes de S e o conjunto de todos os subconjuntos do conjunto S. O conjunto das partes de S é indicado por 𝒫(S).
@@ -175,15 +203,6 @@ Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). M
       elemntos, 2x3 = 6. Então o produto cartesiano de A e B terá 6 elementos.
 
 
-
-Propriedade de Conjuntos:
-* O conjunto Vazio e um subconjunto de qualquer conjunto: ∅ ⊆ S
-
-* Reflexiva: S ⊆ S
-
-* Antissimetrica: (A ⊆ B) ∧ (B ⊆ A) → A = B
-
-* Trasitiva: (A ⊆ B) ∧ (B ⊆ C) → A = C
 
 
 
