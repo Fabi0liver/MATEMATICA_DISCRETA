@@ -217,6 +217,8 @@ Operações com conjuntos:
 
   Propriedade: A ∪ A = A, O elemento neutro da união e o conjunto vazio(A ∪ ∅ = A),  comutativa (A ∪ B = B ∪ A), Associativa( (A ∪ B) ∪ C = A ∪ (B ∪ C))
 
+ Numero de elementos da união: m(A ∪ B) = m(A) + m(B) - m(A ∩ B)
+
 
  Interseção (∩): Dados dois comjunto A e B, chama-se interseção de A e B o conjunto formado pelos elementos que pertencem a A e a B.
 
@@ -225,6 +227,9 @@ Operações com conjuntos:
   Exemplo: A = {2, 4, 7, 9}
            B = {7, 9, 10, 12}
            A ∩ B = {7, 9}
+
+ Propriedade: A ∩ A = A, O elemento neutro da Interseção e o conjunto universal (A ∩ U = A),  comutativa (A ∩ B = B ∩ A), Associativa( (A ∩ B) ∩ C = A ∪ (B ∩ C))
+
 
 
  Diferença (-): A - B: {x|x ∈ A e x ∉ B}
