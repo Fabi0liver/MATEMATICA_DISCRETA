@@ -158,6 +158,18 @@ de B.
     Formalização: ∀x(x ∈ A → x ∈ B) ∧ ∃x(x ∈ B ∧ x ∉ A)
 
 
+Conjunto das Partes ou Conjunto Potência: Dado um conjunto S, o conjunto das partes de S e o conjunto de todos os subconjuntos do conjunto S. O conjunto das partes de S é indicado por 𝒫(S).
+
+Obs.: O números de subconjuntos de um determinado conjunto é 2 elevando a n
+
+Exemplo:
+
+     Qual é o conjunto das parte do conjunto: S = {0, 1, 2}
+
+     Representação do Conjunto das partes:  𝒫({0, 1, 2}) = {∅, {0}, {1}, {2}, {0, 1}, {0, 2}, {1, 2}, {0, 1, 2}}
+
+
+
 
 Propriedade de Conjuntos:
 * O conjunto Vazio e um subconjunto de qualquer conjunto: ∅ ⊆ S
@@ -168,18 +180,6 @@ Propriedade de Conjuntos:
 
 * Trasitiva: (A ⊆ B) ∧ (B ⊆ C) → A = C
 
-
-
-
-Conjunto das Partes ou Conjunto Potência: Dado um conjunto S, o conjunto das partes de S e o conjunto de todos os subconjuntos do conjunto S. O conjunto das partes de S é indicado por 𝒫(S).
-
-Obs.: O números de subconjuntos de um determinado conjunto é 2 elevando a n
-
-Exemplo:
-
-     Qual é o conjunto das parte do conjunto: S = {0, 1, 2}
-
-     Representação do Conjunto das partes:  𝒫({0, 1, 2}) = {∅, {0}, {1}, {2}, {0, 1}, {0, 2}, {1, 2}, {0, 1, 2}}
 
 
 
