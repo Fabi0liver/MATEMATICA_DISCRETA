@@ -204,6 +204,39 @@ Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). M
 
 
 
+Operações com conjuntos:
+
+ 
+ União (∪):   Dados dois comjunto A e B, chama-se união de A e B o conjunto formado pelos elementos que pertencem a A ou a B.
+
+    A ∪ B = {x|x ∈ A ou x ∈ B}
+
+  Exemplo: A = {2, 4, 7, 9}
+           B = {7, 9, 10, 12}
+           A ∪ B = {2, 4, 7, 9, 10, 12}
+
+  Propriedade: A ∪ A = A, O elemento neutro da união e o conjunto vazio(A ∪ ∅ = A),  comutativa (A ∪ B = B ∪ A), Associativa( (A ∪ B) ∪ C = A ∪ (B ∪ C))
+
+
+ Interseção (∩): Dados dois comjunto A e B, chama-se interseção de A e B o conjunto formado pelos elementos que pertencem a A e a B.
+
+  A ∩ B = {x|x ∈ A e x ∈ B}
+
+  Exemplo: A = {2, 4, 7, 9}
+           B = {7, 9, 10, 12}
+           A ∩ B = {7, 9}
+
+
+ Diferença (-): A - B: {x|x ∈ A e x ∉ B}
+                B - A: {x|x ∈ B e x ∉ A}
+
+  Exemplo: A = {2, 4, 7, 9}
+           B = {7, 9, 10, 12}
+           A - B = {2, 4}
+           B - A = {10, 12}
+
+
+ Complemento: Se o B ⊂ A então A - B = Complentar de B em relação a A
 
 
 
