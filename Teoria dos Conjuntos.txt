@@ -181,9 +181,20 @@ Propriedade de Conjuntos:
 * Trasitiva: (A ⊆ B) ∧ (B ⊆ C) → A = C
 
 
-Conceito de Conjuntos Disjuntos: Dois conjuntos são disjuntos quando não possuem nenhum elemento em comum. Formalmente, isso significa que a interseção entre eles é o conjunto vazio. Definição formal: A e B são disjuntos ⇔ A ∩ B = ∅ Exemplo: A = {1, 2, 3} B = {4, 5, 6} A ∩ B = ∅ → A e B são disjuntos Obs.: Se dois conjuntos compartilham pelo menos um elemento, eles não são disjuntos. Exemplo: A = {1, 2, 3} B = {3, 4, 5} A ∩ B = {3} → não são disjuntos
+Conceito de Conjuntos Disjuntos: Dois conjuntos são disjuntos quando não possuem nenhum elemento em comum. Formalmente, isso significa que a interseção entre eles é o conjunto vazio. 
+
+ Definição formal: A e B são disjuntos ⇔ A ∩ B = ∅ 
+
+ Exemplo: A = {1, 2, 3} 
+          B = {4, 5, 6} 
+          A ∩ B = ∅ → A e B são disjuntos
 
 
+Obs.: Se dois conjuntos compartilham pelo menos um elemento, eles não são disjuntos. 
+
+  Exemplo: A = {1, 2, 3} 
+           B = {3, 4, 5} 
+           A ∩ B = {3} → não são disjuntos
 
 
 Produto Cartesiano: Considere A e B como conjuntos. O produto cartesiano de A e B, indicado por A x B , é o conjunto de todos os pares ordenados (a, b) em  que a ∈ A e b ∈ B.
