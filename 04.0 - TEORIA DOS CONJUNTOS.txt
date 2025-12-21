@@ -379,74 +379,72 @@ Assim, temos: 𝑆({0,1,2})={∅, {0},{1},{2},{0, 1},{0, 2},{1, 2},{0, 1, 2}}.
 
  Depois de entendermos o que são conjuntos, elementos, pertinência e relações entre conjuntos, damos agora um passo muito importante: aprender a operar com conjuntos. As operações com conjuntos nos permitem combinar, comparar e separar conjuntos de forma sistemática, seguindo regras bem definidas. É como aprender operações básicas da aritmética (soma, subtração), só que agora aplicadas a grupos de elementos, e não a números isolados.
 
-Essas operações ajudam a organizar informações, resolver problemas e modelar situações do mundo real. Sempre que precisamos juntar dados, encontrar o que há em comum, separar o que é exclusivo ou descobrir o que “falta” para completar algo, estamos, mesmo sem perceber, usando operações com conjuntos. 
+ Essas operações ajudam a organizar informações, resolver problemas e modelar situações do mundo real. Sempre que precisamos juntar dados, encontrar o que há em comum, separar o que é exclusivo ou descobrir o que “falta” para completar algo, estamos, mesmo sem perceber, usando operações com conjuntos. 
 
-A seguir, vamos explorar cada uma dessas operações com calma, exemplos claros e analogias do cotidiano para tornar tudo mais intuitivo.
+ A seguir, vamos explorar cada uma dessas operações com calma, exemplos claros e analogias do cotidiano para tornar tudo mais intuitivo.
 
+  União de conjuntos (∪): Essa operação de dois conjuntos reúne todos os elementos que pertencem a um conjunto ou ao outro. A palavra “ou” aqui deve ser entendida no sentido inclusivo: o elemento pode estar em A, em B ou em ambos. Em essência, a união cria um conjunto maior que contém tudo o que aparece em pelo menos um dos conjuntos envolvidos.
 
-União de conjuntos (∪): Essa operação de dois conjuntos reúne todos os elementos que pertencem a um conjunto ou ao outro. A palavra “ou” aqui deve ser entendida no sentido inclusivo: o elemento pode estar em A, em B ou em ambos. Em essência, a união cria um conjunto maior que contém tudo o que aparece em pelo menos um dos conjuntos envolvidos.
+   Formalmente, escrevemos: A ∪ B = {x∣ x ∈ A ou x ∈ B}
 
-Formalmente, escrevemos: A ∪ B = {x∣ x ∈ A ou x ∈ B}
-
-Por exemplo: Se A = {2, 4, 7, 9} 
-              e B = {7, 9, 10, 12}. 
+   Por exemplo: Se A = {2, 4, 7, 9} 
+                 e B = {7, 9, 10, 12}. 
              
-             Então: A ∪ B = {2, 4, 7, 9, 10, 12}
+                Então: A ∪ B = {2, 4, 7, 9, 10, 12}
 
-             Note que os elementos comuns (7 e 9) aparecem uma única vez, pois conjuntos não repetem elementos.
+    Note que os elementos comuns (7 e 9) aparecem uma única vez, pois conjuntos não repetem elementos.
 
-Visualmente, em um diagrama de Venn, a união corresponde a toda a área dos dois círculos, incluindo a parte de sobreposição. Uma boa analogia é pensar em duas listas de convidados para uma festa: uma lista feita por você e outra por um amigo. A união representa todas as pessoas convidadas, independentemente de quem as convidou.
+  Visualmente, em um diagrama de Venn, a união corresponde a toda a área dos dois círculos, incluindo a parte de sobreposição. Uma boa analogia é pensar em duas listas de convidados para uma festa: uma lista feita por você e outra por um amigo. A união representa todas as pessoas convidadas, independentemente de quem as convidou.
 
-A união possui propriedades importantes: unir um conjunto com ele mesmo não muda nada (A ∪ A = A); o conjunto vazio é o elemento neutro (A ∪ ∅ = A); e a ordem não importa (A ∪ B = B ∪ A). Tudo isso reforça a ideia de que a união é uma operação natural e estável, essencial para organizar informações.
+  A união possui propriedades importantes: unir um conjunto com ele mesmo não muda nada (A ∪ A = A); o conjunto vazio é o elemento neutro (A ∪ ∅ = A); e a ordem não importa (A ∪ B = B ∪ A). Tudo isso reforça a ideia de que a união é uma operação natural e estável, essencial para organizar informações.
 
 
-Interseção de conjuntos (∩): Essa operação é, de certa forma, o oposto da união. Em vez de juntar tudo, ela seleciona apenas os elementos que pertencem simultaneamente aos dois conjuntos. Ou seja, são os elementos que A e B têm em comum.
+  Interseção de conjuntos (∩): Essa operação é, de certa forma, o oposto da união. Em vez de juntar tudo, ela seleciona apenas os elementos que pertencem simultaneamente aos dois conjuntos. Ou seja, são os elementos que A e B têm em comum.
 
-Formalmente:A ∩ B = {x∣x ∈ A e x ∈ B}
+   Formalmente:A ∩ B = {x∣x ∈ A e x ∈ B}
 
-Usando os mesmos conjuntos do exemplo anterior:  Se A = {2, 4, 7, 9} 
-                                                  e B = {7, 9, 10, 12}. 
+   Usando os mesmos conjuntos do exemplo anterior:  Se A = {2, 4, 7, 9} 
+                                                     e B = {7, 9, 10, 12}. 
                                                  
-                                                  Então A ∩ B= {7, 9}
+                                                    Então A ∩ B = {7, 9}
 
-Esses são exatamente os elementos que aparecem nos dois conjuntos ao mesmo tempo.
+   Esses são exatamente os elementos que aparecem nos dois conjuntos ao mesmo tempo.
 
-No diagrama de Venn, a interseção é representada apenas pela região de sobreposição entre os círculos. Uma analogia simples é pensar em alunos que fazem dois cursos diferentes: a interseção representa os alunos que estão matriculados nos dois cursos ao mesmo tempo.
+  No diagrama de Venn, a interseção é representada apenas pela região de sobreposição entre os círculos. Uma analogia simples é pensar em alunos que fazem dois cursos diferentes: a interseção representa os alunos que estão matriculados nos dois cursos ao mesmo tempo.
 
-A interseção também possui propriedades importantes: A ∩ A = A; o conjunto universal atua como elemento neutro (A ∩ U = A); e a operação é comutativa e associativa. Essas propriedades garantem consistência e previsibilidade ao trabalhar com conjuntos, algo essencial para raciocínios mais complexos.
-
-
-Diferença de conjuntos (−): A diferença entre dois conjuntos destaca aquilo que pertence a um conjunto, mas não pertence ao outro. É uma operação direcional: A - B não é o mesmo que B - A. Cada uma responde a uma pergunta diferente.
-
-Formalmente: A - B = {x∣x ∈ A e x ∉ B}
-             B - A = {x∣x ∈ B e x ∉ A}
-
-No exemplo: Se A = {2, 4, 7, 9} 
-             e B = {7, 9, 10, 12}
-
-            Então A - B = {2 , 4},
-                  B - A = {10, 12}
-
-No diagrama de Venn, a diferença é representada pela parte de um círculo que não se sobrepõe ao outro. Uma analogia cotidiana é pensar em duas playlists: a diferença A − B são as músicas que estão apenas na sua playlist, mas não na do seu amigo.
-
-Essa operação é muito útil quando queremos identificar exclusividade, isto é, o que pertence a um grupo e não ao outro. Ela ajuda a separar informações e entender contrastes entre conjuntos.
+  A interseção também possui propriedades importantes: A ∩ A = A; o conjunto universal atua como elemento neutro (A ∩ U = A); e a operação é comutativa e associativa. Essas propriedades garantem consistência e previsibilidade ao trabalhar com conjuntos, algo essencial para raciocínios mais complexos.
 
 
-Complemento de um conjunto: O complemento é um caso especial da diferença, em que um conjunto está contido dentro de outro. Ele representa aquilo que falta em um conjunto menor para que ele se torne igual ao conjunto maior. Para que o complemento exista, é necessário que haja inclusão entre os conjuntos.
+  Diferença de conjuntos (−): A diferença entre dois conjuntos destaca aquilo que pertence a um conjunto, mas não pertence ao outro. É uma operação direcional: A - B não é o mesmo que B - A. Cada uma responde a uma pergunta diferente.
 
-Se B ⊂ A, o complemento de B em relação a A é: A - B
+   Formalmente: A - B = {x∣x ∈ A e x ∉ B}
+                B - A = {x∣x ∈ B e x ∉ A}
 
-Por exemplo: Se A = {0, 2, 4, 6, 8}
-              e B = {0, 4, 8}
+   No exemplo: Se A = {2, 4, 7, 9} 
+                e B = {7, 9, 10, 12}
 
-             Então o complemento de B em relação a A é: A - B = {2, 6}
+               Então A - B = {2 , 4},
+                     B - A = {10, 12}
 
-Uma analogia simples é pensar em um álbum de figurinhas. O conjunto A representa todas as figurinhas do álbum, e B representa as figurinhas que você já tem. O complemento de B em relação a A são exatamente as figurinhas que ainda faltam para completar o álbum.
+  No diagrama de Venn, a diferença é representada pela parte de um círculo que não se sobrepõe ao outro. Uma analogia cotidiana é pensar em duas playlists: a diferença A − B são as músicas que estão apenas na sua playlist, mas não na do seu amigo.
 
-O complemento nos ajuda a enxergar o que está ausente dentro de um contexto bem definido, sendo uma ferramenta fundamental para organização, análise e resolução de problemas.
+  Essa operação é muito útil quando queremos identificar exclusividade, isto é, o que pertence a um grupo e não ao outro. Ela ajuda a separar informações e entender contrastes entre conjuntos.
 
 
-Em suma, as operações com conjuntos representam o verdadeiro núcleo funcional da teoria dos conjuntos, pois são elas que transformam conceitos abstratos em mecanismos práticos de análise e decisão. Por meio da união, aprendemos a reunir informações; com a interseção, identificamos o que há em comum; com a diferença, destacamos exclusividades; e com o complemento, compreendemos o que está faltando dentro de um contexto bem definido.
+  Complemento de um conjunto: O complemento é um caso especial da diferença, em que um conjunto está contido dentro de outro. Ele representa aquilo que falta em um conjunto menor para que ele se torne igual ao conjunto maior. Para que o complemento exista, é necessário que haja inclusão entre os conjuntos.
+
+   Se B ⊂ A, o complemento de B em relação a A é: A - B
+
+   Por exemplo: Se A = {0, 2, 4, 6, 8}
+                 e B = {0, 4, 8}
+
+                Então o complemento de B em relação a A é: A - B = {2, 6}
+
+  Uma analogia simples é pensar em um álbum de figurinhas. O conjunto A representa todas as figurinhas do álbum, e B representa as figurinhas que você já tem. O complemento de B em relação a A são exatamente as figurinhas que ainda faltam para completar o álbum.
+
+  O complemento nos ajuda a enxergar o que está ausente dentro de um contexto bem definido, sendo uma ferramenta fundamental para organização, análise e resolução de problemas.
+
+ Em suma, as operações com conjuntos representam o verdadeiro núcleo funcional da teoria dos conjuntos, pois são elas que transformam conceitos abstratos em mecanismos práticos de análise e decisão. Por meio da união, aprendemos a reunir informações; com a interseção, identificamos o que há em comum; com a diferença, destacamos exclusividades; e com o complemento, compreendemos o que está faltando dentro de um contexto bem definido.
 
  Essas operações não servem apenas para resolver exercícios matemáticos, mas estruturam o pensamento lógico utilizado em áreas como algoritmos, bancos de dados, inteligência artificial, probabilidade e organização de informações no cotidiano. Ao dominá-las, o estudante passa a enxergar conjuntos não apenas como coleções estáticas, mas como entidades dinâmicas que podem ser manipuladas, comparadas e exploradas de forma consciente, fortalecendo o raciocínio e preparando o caminho para estudos mais avançados com segurança e clareza.
                                     
