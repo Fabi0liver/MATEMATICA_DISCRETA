@@ -246,18 +246,35 @@ Operações com conjuntos:
 
 
 
- Diferença (-): A - B: {x|x ∈ A e x ∉ B}
+ Diferença (-): Dados dois comjunto A e B, chama-se diferença de A e B o conjunto formado pelos elementos  de A que não pertencem a B ou elementos de B que não pertencem a A.
+
+                A - B: {x|x ∈ A e x ∉ B}
                 B - A: {x|x ∈ B e x ∉ A}
 
-  Exemplo: A = {2, 4, 7, 9}
+  Exemplo: A = {2, 4, 7, 9} 
            B = {7, 9, 10, 12}
            A - B = {2, 4}
            B - A = {10, 12}
 
 
- Complemento: Se o B ⊂ A então A - B = Complentar de B em relação a A
+ Complemento: Dados dois comjunto A e B, tais que B ⊂ A ou A ⊂ B , chama-se complementar de B em relação a A o conjunto A - B ou chama-se complementar de A em relação a B o conjunto B - A
+
+             Complentar de B em relação a A ( Sinbolo de um C grande com o B sobrescrito e o A subscrito) = A - B (e necessario o B ⊂ A, se não, não há complementar).
+
+             Ou Complentar de A em relação a B (Sinbolo de um C grande com o A sobrescrito e o B subscrito) = B - A (e necessario o A ⊂ B, se não, não há complementar).
 
 
+ Uma boa analogia e pensar que o Complentar de B em relação a A e o que falta no B para ser igual ao A e o Complentar de A em relação a B e o que falta do A para ser igual ao B
+
+  Exemplo: A = {0, 2, 4, 6, 8}
+           B = {0, 4, 8}
+           Complentar de B em relação a A = A - B = {2, 6}
+
+           A = {1, 3, 5}
+           B = {0, 1, 2, 3, 4, 5, 6}
+           Complentar de A em relação a B = B - A = {0, 2, 4, 6}
+
+               
 
 
  
