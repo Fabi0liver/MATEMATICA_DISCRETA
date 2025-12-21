@@ -173,7 +173,7 @@
 
 
 
-                                "Conceito de Conjuntos Disjuntos"
+                                    "Conceito de Conjuntos Disjuntos"
 
  Os conjuntos disjuntos aparecem quando começamos a analisar como diferentes conjuntos podem ou não se relacionar entre si. A ideia central aqui é bastante intuitiva: estamos interessados em saber se dois conjuntos compartilham algum elemento. Quando a resposta é “não”, dizemos que esses conjuntos são disjuntos. Esse conceito ajuda a organizar situações em que grupos são totalmente separados, sem qualquer sobreposição.
 
@@ -375,6 +375,28 @@ Assim, temos: 𝑆({0,1,2})={∅, {0},{1},{2},{0, 1},{0, 2},{1, 2},{0, 1, 2}}.
 
 
 
+                                        "Operações Com Conjuntos"
+
+ Depois de entendermos o que são conjuntos, elementos, pertinência e relações entre conjuntos, damos agora um passo muito importante: aprender a operar com conjuntos. As operações com conjuntos nos permitem combinar, comparar e separar conjuntos de forma sistemática, seguindo regras bem definidas. É como aprender operações básicas da aritmética (soma, subtração), só que agora aplicadas a grupos de elementos, e não a números isolados.
+
+Essas operações ajudam a organizar informações, resolver problemas e modelar situações do mundo real. Sempre que precisamos juntar dados, encontrar o que há em comum, separar o que é exclusivo ou descobrir o que “falta” para completar algo, estamos, mesmo sem perceber, usando operações com conjuntos. 
+
+A seguir, vamos explorar cada uma dessas operações com calma, exemplos claros e analogias do cotidiano para tornar tudo mais intuitivo.
+
+
+União de conjuntos (∪): A união de dois conjuntos reúne todos os elementos que pertencem a um conjunto ou ao outro. A palavra “ou” aqui deve ser entendida no sentido inclusivo: o elemento pode estar em A, em B ou em ambos. Em essência, a união cria um conjunto maior que contém tudo o que aparece em pelo menos um dos conjuntos envolvidos.
+
+Formalmente, escrevemos: A ∪ B = {x∣ x ∈ A ou x ∈ B}
+
+Por exemplo: Se A = {2, 4, 7, 9} e 
+                B = {7, 9, 10, 12}. 
+             Então: A ∪ B = {2, 4, 7, 9, 10, 12}
+
+             Note que os elementos comuns (7 e 9) aparecem uma única vez, pois conjuntos não repetem elementos.
+
+Visualmente, em um diagrama de Venn, a união corresponde a toda a área dos dois círculos, incluindo a parte de sobreposição. Uma boa analogia é pensar em duas listas de convidados para uma festa: uma lista feita por você e outra por um amigo. A união representa todas as pessoas convidadas, independentemente de quem as convidou.
+
+A união possui propriedades importantes: unir um conjunto com ele mesmo não muda nada (A ∪ A = A); o conjunto vazio é o elemento neutro (A ∪ ∅ = A); e a ordem não importa (A ∪ B = B ∪ A). Tudo isso reforça a ideia de que a união é uma operação natural e estável, essencial para organizar informações.
                                     
 
 
