@@ -385,7 +385,7 @@ Assim, temos: 𝑆({0,1,2})={∅, {0},{1},{2},{0, 1},{0, 2},{1, 2},{0, 1, 2}}.
 
   União de conjuntos (∪): Essa operação de dois conjuntos reúne todos os elementos que pertencem a um conjunto ou ao outro. A palavra “ou” aqui deve ser entendida no sentido inclusivo: o elemento pode estar em A, em B ou em ambos. Em essência, a união cria um conjunto maior que contém tudo o que aparece em pelo menos um dos conjuntos envolvidos.
 
-   Formalmente, escrevemos: A ∪ B = {x∣ x ∈ A ou x ∈ B}
+   Formalmente, escrevemos: A ∪ B = {x ∣ (x ∈ A) ou (x ∈ B)}
 
    Por exemplo: Se A = {2, 4, 7, 9} 
                  e B = {7, 9, 10, 12}. 
@@ -401,7 +401,7 @@ Assim, temos: 𝑆({0,1,2})={∅, {0},{1},{2},{0, 1},{0, 2},{1, 2},{0, 1, 2}}.
 
   Interseção de conjuntos (∩): Essa operação é, de certa forma, o oposto da união. Em vez de juntar tudo, ela seleciona apenas os elementos que pertencem simultaneamente aos dois conjuntos. Ou seja, são os elementos que A e B têm em comum.
 
-   Formalmente:A ∩ B = {x∣x ∈ A e x ∈ B}
+   Formalmente:A ∩ B = {x ∣ (x ∈ A) e (x ∈ B)}
 
    Usando os mesmos conjuntos do exemplo anterior:  Se A = {2, 4, 7, 9} 
                                                      e B = {7, 9, 10, 12}. 
@@ -417,8 +417,8 @@ Assim, temos: 𝑆({0,1,2})={∅, {0},{1},{2},{0, 1},{0, 2},{1, 2},{0, 1, 2}}.
 
   Diferença de conjuntos (−): A diferença entre dois conjuntos destaca aquilo que pertence a um conjunto, mas não pertence ao outro. É uma operação direcional: A - B não é o mesmo que B - A. Cada uma responde a uma pergunta diferente.
 
-   Formalmente: A - B = {x∣x ∈ A e x ∉ B}
-                B - A = {x∣x ∈ B e x ∉ A}
+   Formalmente: A - B = {x ∣ (x ∈ A) e (x ∉ B)}
+                B - A = {x ∣ (x ∈ B) e (x ∉ A)}
 
    No exemplo: Se A = {2, 4, 7, 9} 
                 e B = {7, 9, 10, 12}
@@ -431,7 +431,20 @@ Assim, temos: 𝑆({0,1,2})={∅, {0},{1},{2},{0, 1},{0, 2},{1, 2},{0, 1, 2}}.
   Essa operação é muito útil quando queremos identificar exclusividade, isto é, o que pertence a um grupo e não ao outro. Ela ajuda a separar informações e entender contrastes entre conjuntos.
 
 
-  Complemento de um conjunto: O complemento é um caso especial da diferença, em que um conjunto está contido dentro de outro. Ele representa aquilo que falta em um conjunto menor para que ele se torne igual ao conjunto maior. Para que o complemento exista, é necessário que haja inclusão entre os conjuntos.
+Diferença Simétrica (⊕): A diferença simétrica reúne os elementos que estão em apenas um dos conjuntos, mas não nos dois ao mesmo tempo. Ou seja, ela exclui exatamente a parte comum. É como juntar as diferenças dos dois lados.
+
+Formalmente: A ⊕ B = {x ∣ [(x ∈ A) ou (x ∈ B)] [(x ∉ A) ou (x ∉ B)]}
+
+No diagrama de Venn, a diferença simétrica corresponde às duas “pontas” dos círculos, excluindo a interseção central.
+
+Exemplo: Se A = {2, 4, 7, 9}
+          e B = {7, 9, 10, 12}.
+         Então A ⊕ B = {2, 4, 10, 12}.
+
+Uma analogia é comparar duas listas de gostos musicais e destacar apenas as músicas que pertencem a apenas uma das listas. Essa operação é muito usada em computação e lógica.
+
+
+  Complemento (Relativo): O complemento relativo é um caso especial da diferença, em que um conjunto está contido dentro de outro. Ele representa aquilo que falta em um conjunto menor para que ele se torne igual ao conjunto maior. Para que o complemento exista, é necessário que haja inclusão entre os conjuntos.
 
    Se B ⊂ A, o complemento de B em relação a A é: A - B
 
@@ -443,6 +456,19 @@ Assim, temos: 𝑆({0,1,2})={∅, {0},{1},{2},{0, 1},{0, 2},{1, 2},{0, 1, 2}}.
   Uma analogia simples é pensar em um álbum de figurinhas. O conjunto A representa todas as figurinhas do álbum, e B representa as figurinhas que você já tem. O complemento de B em relação a A são exatamente as figurinhas que ainda faltam para completar o álbum.
 
   O complemento nos ajuda a enxergar o que está ausente dentro de um contexto bem definido, sendo uma ferramenta fundamental para organização, análise e resolução de problemas.
+
+
+Complemento Absoluto (em relação ao Universo): O complemento absoluto considera o conjunto universo U. O complemento de A são todos os elementos do universo que não pertencem a A. Ele amplia o olhar para tudo que está fora do conjunto analisado.
+
+Formalmente: Ā = U - A = {x ∣ x ∉ A}
+
+No diagrama de Venn, é toda a área do universo fora do círculo de A.
+
+Exemplo:    Se U = {1, 2, 3, 4, 5}
+             e A = {1, 2}.
+         Então Ā = {3, 4, 5}.
+
+Uma boa analogia é pensar em tudo o que não foi escolhido dentro de um cardápio completo. Essa operação é essencial para análises mais globais.
 
  Em suma, as operações com conjuntos representam o verdadeiro núcleo funcional da teoria dos conjuntos, pois são elas que transformam conceitos abstratos em mecanismos práticos de análise e decisão. Por meio da união, aprendemos a reunir informações; com a interseção, identificamos o que há em comum; com a diferença, destacamos exclusividades; e com o complemento, compreendemos o que está faltando dentro de um contexto bem definido.
 
