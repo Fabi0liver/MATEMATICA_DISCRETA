@@ -222,7 +222,7 @@ Operações com conjuntos:
  
  União (∪):   Dados dois comjunto A e B, chama-se união de A e B o conjunto formado pelos elementos que pertencem a A ou a B.
 
-    A ∪ B = {x|x ∈ A ou x ∈ B}
+    A ∪ B = {x|(x ∈ A) ou (x ∈ B)}
 
   Exemplo: A = {2, 4, 7, 9}
            B = {7, 9, 10, 12}
@@ -235,7 +235,7 @@ Operações com conjuntos:
 
  Interseção (∩): Dados dois comjunto A e B, chama-se interseção de A e B o conjunto formado pelos elementos que pertencem a A e a B.
 
-  A ∩ B = {x|x ∈ A e x ∈ B}
+  A ∩ B = {x|(x ∈ A) e (x ∈ B)}
 
   Exemplo: A = {2, 4, 7, 9}
            B = {7, 9, 10, 12}
@@ -247,14 +247,23 @@ Operações com conjuntos:
 
  Diferença (-): Dados dois comjunto A e B, chama-se diferença de A e B o conjunto formado pelos elementos  de A que não pertencem a B ou elementos de B que não pertencem a A.
 
-                A - B: {x|x ∈ A e x ∉ B}
-                B - A: {x|x ∈ B e x ∉ A}
+                A - B: {x|(x ∈ A) e (x ∉ B)}
+                B - A: {x|(x ∈ B) e (x ∉ A)}
 
   Exemplo: A = {2, 4, 7, 9} 
            B = {7, 9, 10, 12}
            A - B = {2, 4}
            B - A = {10, 12}
 
+
+ Diferença Simétrica(⊕): Sejam A e B conjuntos. A diferença simétrica dos conjuntos A e B é o conjuntos dos elementos que estão em A ou B mais não estão em ambos.
+
+                 A ⊕ B = {x|((x ∈ A) ou (x ∈ B)) e ((x ∉ A) ou (x ∉ B))}
+
+   Exemplo: A = {2, 4, 7, 9} 
+            B = {7, 9, 10, 12}
+            A ⊕ B = {2, 4, 10, 12}      
+           
 
  Complemento: Dados dois comjunto A e B, tais que B ⊂ A ou A ⊂ B , chama-se complementar de B em relação a A o conjunto A - B ou chama-se complementar de A em relação a B o conjunto B - A
 
