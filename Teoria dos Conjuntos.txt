@@ -262,7 +262,6 @@ Operações com conjuntos:
 
              Ou Complentar de A em relação a B (Sinbolo de um C grande com o A sobrescrito e o B subscrito) = B - A (e necessario o A ⊂ B, se não, não há complementar).
 
-
  Uma boa analogia e pensar que o Complentar de B em relação a A e o que falta no B para ser igual ao A e o Complentar de A em relação a B e o que falta do A para ser igual ao B
 
   Exemplo: A = {0, 2, 4, 6, 8}
@@ -275,5 +274,15 @@ Operações com conjuntos:
 
                
 
+ Complemento absoluto (ou complemento em relação ao universo): Considere U como o conjunto universo. O Complemento de A, indicada por Ā é o complemnto de A em relação a U. Em outras palavras  Ā = U - A
 
+ Um boa analogia e pensar que o complemento absoluto e o que falta de um conjunto para virar o universo.
+
+               Ā = { x|x ∉ A}
+
+  Exemplo:  U = {1, 2, 3, 4, 5}
+            A = {1, 2}
+         
+            Ā = {3, 4, 5}
+            
  
