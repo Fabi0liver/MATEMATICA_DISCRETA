@@ -201,13 +201,13 @@ Produto Cartesiano: Considere A e B como conjuntos. O produto cartesiano de A e 
 Notação: A x B
 Formalização: A x B = {(a, b) | (a ∈ A) ∧ (b ∈ B)}
 
-Exemplo: A = {1, 2} e B = {a, b, c}
+  Exemplo: A = {1, 2} e B = {a, b, c}
            A x B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}
 
 Alem disso o produto cartesiano de A x B e diferente de B x A
-Exemplo: B = {a, b, c} e A = {1, 2}
- 
-B x A = {(a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}
+  
+  Exemplo: B = {a, b, c} e A = {1, 2}
+           B x A = {(a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}
 
 Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). Mas dentro do conjunto a ondem não
       importa, então os pode se misturar ou embaralhar esses pares ondenados.
@@ -219,7 +219,6 @@ Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). M
 
 
 Operações com conjuntos:
-
  
  União (∪):   Dados dois comjunto A e B, chama-se união de A e B o conjunto formado pelos elementos que pertencem a A ou a B.
 
