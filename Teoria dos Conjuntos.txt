@@ -197,26 +197,6 @@ Obs.: Se dois conjuntos compartilham pelo menos um elemento, eles não são disj
            A ∩ B = {3} → não são disjuntos
 
 
-Produto Cartesiano: Considere A e B como conjuntos. O produto cartesiano de A e B, indicado por A x B , é o conjunto de todos os pares ordenados (a, b) em  que a ∈ A e b ∈ B.
-Notação: A x B
-Formalização: A x B = {(a, b) | (a ∈ A) ∧ (b ∈ B)}
-
-  Exemplo: A = {1, 2} e B = {a, b, c}
-           A x B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}
-
-Alem disso o produto cartesiano de A x B e diferente de B x A
-  
-  Exemplo: B = {a, b, c} e A = {1, 2}
-           B x A = {(a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}
-
-Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). Mas dentro do conjunto a ondem não
-      importa, então os pode se misturar ou embaralhar esses pares ondenados.
-       Outro ponto interessante é que o numeros de elemntos (números de pares ordenados), é exatamento o tamnho do
-
-      conjunto A vezes o tamanho do conjunto B. No nosso exemplo o conjunto A tem 2 elemntos e o conjunto B tem 3
-      elemntos, 2x3 = 6. Então o produto cartesiano de A e B terá 6 elementos.
-
-
 
 Operações com conjuntos:
  
@@ -293,5 +273,29 @@ Operações com conjuntos:
             A = {1, 2}
          
             Ā = {3, 4, 5}
+
+
+Produto Cartesiano: Considere A e B como conjuntos. O produto cartesiano de A e B, indicado por A x B , é o conjunto de todos os pares ordenados (a, b) em  que a ∈ A e b ∈ B.
+
+  Notação: A x B
+
+  Formalização: A x B = {(a, b) | (a ∈ A) ∧ (b ∈ B)}
+
+  Exemplo: A = {1, 2} e B = {a, b, c}
+           A x B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}
+
+Alem disso o produto cartesiano de A x B e diferente de B x A
+  
+  Exemplo: B x A = {(a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}
+
+Obs: Dentro dos parenteses a ordem e relavante ((a, 1) e diferente de (1, a)). Mas dentro do conjunto a ondem não
+      importa, então os pode se misturar ou embaralhar esses pares ondenados.
+       Outro ponto interessante é que o numeros de elemntos (números de pares ordenados), é exatamento o tamnho do
+      conjunto A vezes o tamanho do conjunto B. No nosso exemplo o conjunto A tem 2 elemntos e o conjunto B tem 3
+      elemntos, 2x3 = 6. Então o produto cartesiano de A e B terá 6 elementos.
+
+
+
+
             
  
