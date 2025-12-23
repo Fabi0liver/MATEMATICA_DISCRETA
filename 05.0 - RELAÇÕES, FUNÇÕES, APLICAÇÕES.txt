@@ -29,7 +29,9 @@
 
  Quando começamos a falar de "Pares Ordenados", damos um pequeno passo em direção às relações. Um par ordenado é formado por dois elementos, escritos em uma ordem específica, como (a, b). A ordem importa, assim como em um endereço: rua e número não podem ser trocados sem mudar completamente o significado. Esse conceito é fundamental porque ele nos permite representar associações entre elementos de forma estruturada.
 
- A partir dos pares ordenados, chegamos ao "Produto Cartesiano", que pode parecer intimidador pelo nome, mas é uma ideia bem simples. Ele representa todas as combinações possíveis entre elementos de dois conjuntos. Imagine um guarda-roupa com camisas e calças: o produto cartesiano corresponde a todas as combinações possíveis de camisa com calça. Cada combinação é um par ordenado, e esse conjunto de pares será a base para definir relações e funções.
+ A partir dos pares ordenados, chegamos ao "Produto Cartesiano". Ele surge quando combinamos todos os elementos de um conjunto com todos os elementos de outro, formando pares ordenados possíveis. Pense em um cardápio: de um lado temos pratos, do outro bebidas. O produto cartesiano representa todas as combinações possíveis de prato com bebida. É exatamente esse conceito que serve de base para definir relações entre conjuntos.
+
+ Vale reforçar que o produto cartesiano não escolhe “as melhores combinações”, ele cria todas as possibilidades. Cabe depois às relações selecionar quais dessas combinações fazem sentido dentro de um contexto específico. Essa distinção é importante para não confundir o terreno: primeiro criamos o espaço de possibilidades, depois definimos as conexões relevantes.
 
  Perceba como, pouco a pouco, tudo vai se encaixando. Elementos formam conjuntos, conjuntos podem conter subconjuntos, pares ordenados criam associações, e o produto cartesiano organiza todas essas associações possíveis. Nada aqui é excessivamente complexo, o segredo está em enxergar essas ideias como ferramentas simples que, combinadas, constroem estruturas mais poderosas.
 
