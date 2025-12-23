@@ -15,3 +15,22 @@
 
  Essa introdução serve justamente para criar familiaridade, não para exigir domínio imediato. Assim como ninguém aprende a cozinhar pratos elaborados antes de entender o básico da cozinha, aqui o objetivo é reconhecer as ideias centrais, entender o “espírito” do assunto e perceber por que ele é tão importante dentro da matemática discreta e da computação.
 
+
+
+                                  "Revisão Sobre Teoria dos Conjuntos"
+
+ Antes de mergulharmos de vez em relações, funções e aplicações, vale a pena fazer uma pausa estratégica e revisar a Teoria dos Conjuntos, que é o alicerce silencioso de tudo o que vem a seguir. Pense nessa revisão como organizar a bancada antes de começar uma receita: quando os ingredientes estão claros e bem separados, todo o processo fica mais simples e menos abstrato.
+
+Começamos pelo conceito mais básico: o conjunto. Um conjunto é apenas uma coleção de elementos bem definidos, como uma caixa onde guardamos objetos semelhantes. Pode ser uma lista de números, letras ou até ideias. O ponto importante aqui não é o que está dentro da caixa, mas o fato de conseguirmos dizer claramente se algo pertence ou não a ela, assim como sabemos se um ingrediente está ou não na despensa.
+
+Em seguida, falamos de subconjuntos, que são conjuntos “menores” dentro de um conjunto maior. É como pegar uma playlist completa de músicas e criar uma nova só com as favoritas. Tudo que está nessa playlist menor já existia na maior, apenas foi selecionado. Essa noção será essencial quando começarmos a restringir relações e funções a partes específicas de um conjunto.
+
+Outro elemento fundamental é o par ordenado, que pode parecer simples, mas carrega uma ideia poderosa. Um par ordenado é como um endereço: rua e número. A ordem importa. Trocar os valores muda completamente o significado. Essa noção de ordem será crucial quando falarmos de relações, pois elas são construídas justamente a partir desses pares.
+
+A partir dos pares ordenados, surge o produto cartesiano, que pode ser visto como todas as combinações possíveis entre elementos de dois conjuntos. Imagine um cardápio com comidas e bebidas: o produto cartesiano representa todas as combinações possíveis de um prato com uma bebida. Essa ideia ajuda a visualizar de onde surgem as relações, pois toda relação é, na prática, uma seleção especial dentro desse “cardápio completo”.
+
+Também é importante lembrar que conjuntos podem ser descritos de diferentes formas: listando seus elementos ou definindo uma regra que todos eles seguem. Isso é semelhante a dizer “traga todos os jogos de tabuleiro” em vez de listar jogo por jogo. Essa flexibilidade torna a teoria dos conjuntos uma ferramenta muito prática e adaptável.
+
+Ao revisar esses conceitos, o objetivo não é decorar definições, mas ganhar intimidade com as ideias. Quando você reconhece conjuntos, subconjuntos, pares ordenados e produtos cartesianos como estruturas familiares, o estudo deixa de parecer um território abstrato e passa a soar como uma linguagem organizada para falar sobre conexões.
+
+Encerrando essa revisão, quero que você leve consigo a seguinte sensação: você já tem o mapa necessário para seguir adiante. Relações, funções e aplicações não surgem do nada — elas nascem diretamente dessas ideias que acabamos de revisitar. Continue com confiança e curiosidade, porque cada passo dado aqui aproxima você do coração dos algoritmos e do pensamento computacional que dá vida à matemática discreta.
