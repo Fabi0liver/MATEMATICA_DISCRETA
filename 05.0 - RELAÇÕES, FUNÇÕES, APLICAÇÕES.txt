@@ -41,25 +41,12 @@
 
                                         "O Conceito de Relação"
 
-Agora que revisamos a base da teoria dos conjuntos, estamos prontos para dar um passo importante no nosso caminho: compreender o conceito de relação na matemática discreta. Pense nesse momento como aprender a observar conexões. Se antes lidávamos apenas com conjuntos “parados”, agora começamos a enxergar como elementos de diferentes conjuntos podem se ligar, criando significados e estruturas mais ricas.
+ Agora que revisamos a base da teoria dos conjuntos, estamos prontos para dar um passo importante no nosso caminho: compreender o conceito de relação na matemática discreta. Pense nesse momento como aprender a observar conexões. Se antes lidávamos apenas com conjuntos “parados”, agora começamos a enxergar como elementos de diferentes conjuntos podem se ligar, criando significados e estruturas mais ricas.
 
 De forma simples e direta, uma relação é um conjunto de pares ordenados. Cada par indica que existe algum tipo de vínculo entre dois elementos. É como uma lista de combinações possíveis: aluno–matrícula, produto–preço, pessoa–cidade onde mora. Algumas dessas combinações fazem sentido, outras não, e a relação serve justamente para registrar quais vínculos são válidos dentro de um determinado contexto.
 
-Formalmente — mas sem mistério — dizemos que uma relação 
-𝑅
-R de um conjunto 
-𝐴
-A para um conjunto 
-𝐵
-B é um subconjunto do produto cartesiano 
-𝐴
-×
-𝐵
-A×B. Em linguagem cotidiana, isso significa que começamos com todas as combinações possíveis entre elementos de 
-𝐴
-A e 
-𝐵
-B, e depois escolhemos apenas aquelas que nos interessam. É como ter todas as roupas do guarda-roupa disponíveis, mas selecionar apenas os conjuntos que realmente combinam.
+Formalmente (mas sem mistério) dizemos que uma relação 𝑅 de um conjunto 𝐴 para um conjunto  𝐵 é um subconjunto do produto cartesiano 𝐴×𝐵. Em linguagem cotidiana, isso significa que começamos com todas as combinações possíveis entre elementos de 
+𝐴 e 𝐵, e depois escolhemos apenas aquelas que nos interessam.  É como ter todas as roupas do guarda-roupa disponíveis, mas selecionar apenas os conjuntos que realmente combinam.
 
 Quando um par ordenado 
 (
