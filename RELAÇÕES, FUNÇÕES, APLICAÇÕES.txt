@@ -26,12 +26,41 @@ Não é necessário um regra especial para definir uma relação.
 Comparação entre representações
 
 
-Domínio, contradomínio e imagem de relações:
+Domínio, imagem e contradomínio de relações:
 
- Domínio: O domínio de uma relação ℛ, denotado por Dom(ℛ), é o conjunto de todos os primeiros elementos
-dos pares ordenados que estão em ℛ.
+ Domínio: O domínio de uma relação ℛ é o conjunto no qual estão definidos os possíveis primeiros elementos dos pares ordenados da relação.
 
-         Isto é: Dom(ℛ) = {a:(∃b) (a, b) e ℛ}
+ Em outras palavras, é o conjunto de partida previamente estabelecido para a relação.
+
+ Se a relação ℛ é definida como um subconjunto de um produto cartesiano 𝐴×𝐵.
+
+                       Isto é: ℛ ⊆ 𝐴 × 𝐵
+
+  Então o domínio potencial da relação é o conjunto 𝐴.
+
+  No entanto, o domínio efetivo da relação ℛ, denotado por Dom(ℛ), é formado apenas pelos elementos de 𝐴 que realmente aparecem como primeiro componente em algum par ordenado da relação.
+
+        Isto é: Dom(ℛ) = {a|(∃b)(a, b) ∈ ℛ}
+
+ O domínio contém apenas os elementos do conjunto 𝐴 que estão associados a pelo menos um elemento do contradomínio por meio da relação.
+
+ Obs: Para qualquer relação ℛ definida em 𝐴×𝐵, vale sempre: Dom(ℛ) ⊆ 𝐵
+
+      Ou seja, o domínio é sempre um subconjunto do conjunto de partida, mas nem todo elemento de 𝐴 precisa necessariamente participar da relação.
+
+
+
+ Imagem: A imagem de uma relação ℛ, denotada por Im(ℛ), é o conjunto de todos os segundos elementos dos pares ordenados que pertencem a ℛ.
+
+         Isto é:  Im(ℛ) = {a|(∃a)(a, b) ∈ ℛ}
+
+
+ A imagem contém apenas os elementos do contradomínio que realmente aparecem em algum par da relação.
+
+ Obs.: Para qualquer relação ℛ definida em 𝐴×𝐵, vale sempre: Im(ℛ) ⊆ 𝐵
+
+       Ou seja, a imagem é sempre um subconjunto do contradomínio, mas nem todo elemento do contradomínio precisa pertencer à imagem.
+
 
 
  Contradomínio: O contradomínio de uma relação ℛ é o conjunto no qual estão definidos os possíveis segundos elementos dos pares ordenados da relação.
@@ -46,5 +75,8 @@ A×B.
  Então o contradomínio de ℛ é o conjunto 𝐵.
 
  Formalmente, o contradomínio não depende de quais pares aparecem em ℛ, mas sim de como a relação foi definida.
+
+
+                      
 
  
