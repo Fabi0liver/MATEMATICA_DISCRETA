@@ -28,9 +28,23 @@ Comparação entre representações
 
 Domínio, contradomínio e imagem de relações:
 
-Domínio: O domínio de uma relação ℛ, denotado por Dom(ℛ), é o conjunto de todos os primeiros elementos
+ Domínio: O domínio de uma relação ℛ, denotado por Dom(ℛ), é o conjunto de todos os primeiros elementos
 dos pares ordenados que estão em ℛ.
 
          Isto é: Dom(ℛ) = {a:(∃b) (a, b) e ℛ}
+
+
+ Contradomínio: O contradomínio de uma relação ℛ é o conjunto no qual estão definidos os possíveis segundos elementos dos pares ordenados da relação.
+
+Em outras palavras, é o conjunto de chegada previamente estabelecido para a relação.
+
+ Se a relação ℛ é definida como um subconjunto de um produto cartesiano 𝐴×𝐵
+A×B.
+ 
+         Isto é: ℛ ⊆ 𝐴 × 𝐵
+
+ Então o contradomínio de ℛ é o conjunto 𝐵.
+
+ Formalmente, o contradomínio não depende de quais pares aparecem em ℛ, mas sim de como a relação foi definida.
 
  
