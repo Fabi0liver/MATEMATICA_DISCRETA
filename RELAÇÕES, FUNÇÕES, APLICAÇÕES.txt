@@ -1,0 +1,28 @@
+Conceito de Relações: Um relação é um conjunto de pares ordenados. Uma relação denota algum tipo de vínculo entre elementos em conjuntos , que pode ou não ser verdadeiro.
+Uma relação ℛ de um conjunto A para um conjunto B é um sub-conjunto de A × B. Em outras palavras, é um conjunto de pares ordenados (a, b) com a ∈ A e b ∈ B.
+Em geral usa-se a notação aℛb ("a" está relacionado com "b" pela relação ℛ) para dizer que (a, b) ∈ ℛ e a!ℛb ("a" não está relacionado com "b" pela relação ℛ) para dizer que (a, b) ∉ ℛ. Se (a, b) ∈ ℛ dizemos que a está relacionado com b pela relação ℛ.
+ℛ ⊆ A × B → uma relação ℛ é um subconjunto do produto cartesiano
+
+ Exemplo: Sejam A = {1, 2, 3}, B = {4, 5, 6}.
+Então**,** ℛ = (1, 4),(2, 5),(3, 5),(3, 6)
+ 	 é uma relação de A para B.
+Neste exemplo, temos 2ℛ5 e 3ℛ5, mas 2!ℛ4 e 5!ℛ/2
+
+
+Formas de Representação de Relação:
+Diagramas
+
+ Tabelas
+
+ Grafos direcionados
+
+Como pares ordenados: (a,1) ∈ ℛ
+
+Da forma mais utilizada: xℛy
+        exemplo: Se ℛ representa "menor ou igual".
+(1,3) ∈ ℛ ↔ 1ℛ3 ↔ 1≤3
+Incluímos um par ordenado (x,y) em ℛ apenas quando (x, y) satisfaz a relação ℛ.
+Não é necessário um regra especial para definir uma relação.
+Comparação entre representações
+
+ 
