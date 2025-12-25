@@ -25,4 +25,12 @@ Incluímos um par ordenado (x,y) em ℛ apenas quando (x, y) satisfaz a relaçã
 Não é necessário um regra especial para definir uma relação.
 Comparação entre representações
 
+
+Domínio, contradomínio e imagem de relações:
+
+Domínio: O domínio de uma relação ℛ, denotado por Dom(ℛ), é o conjunto de todos os primeiros elementos
+dos pares ordenados que estão em ℛ.
+
+         Isto é: Dom(ℛ) = {a:(∃b) (a, b) e ℛ}
+
  
