@@ -97,6 +97,9 @@ Domínio, imagem e contradomínio de relações:
        Ou seja, a imagem é sempre contida no contradomínio, mas mas o contradomínio pode conter elementos que não participam da relação.
 
 
+ Observe que um conjunto de pares ordenados ℛ é uma relação de 𝐴 para 𝐵 se, e somente se, Dom(ℛ) ⊆ 𝐵 e Im(ℛ) ⊆ 𝐵.
+
+
 
  Resumo:
 
