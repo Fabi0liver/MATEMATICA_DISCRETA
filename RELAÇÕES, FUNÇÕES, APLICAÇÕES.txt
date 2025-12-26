@@ -96,6 +96,16 @@ Domínio, imagem e contradomínio de relações:
 
        Ou seja, a imagem é sempre contida no contradomínio, mas mas o contradomínio pode conter elementos que não participam da relação.
 
+
+
+ Resumo:
+
+ Domínio:  primeiros elementos que realmente aparecem
+
+ Imagem: segundos elementos que realmente aparecem
+
+ Contradomínio:  segundos elementos que poderiam aparecer
+
  
 
 
