@@ -87,30 +87,35 @@
 
                                   "Domínio, Imagem e Contradomínio"
 
-Antes de aprofudamos em relações propriamente ditas, precisamos consolidar três ideias que funcionam como o mapa de orientação das relações: domínio, imagem e contradomínio. Esses conceitos ajudam a responder perguntas simples, mas fundamentais, como: “de onde partem as relações?”, “aonde elas chegam de fato?” e “quais destinos estavam previstos, mesmo que não tenham sido usados?”. Sem essa clareza, as relações ficam abstratas demais e difíceis de visualizar.
+ Antes de aprofudamos em relações propriamente ditas, precisamos consolidar três ideias que funcionam como o mapa de orientação das relações: domínio, imagem e contradomínio. Esses conceitos ajudam a responder perguntas simples, mas fundamentais, como: “de onde partem as relações?”, “aonde elas chegam de fato?” e “quais destinos estavam previstos, mesmo que não tenham sido usados?”. Sem essa clareza, as relações ficam abstratas demais e difíceis de visualizar.
 
-Uma boa forma de encarar esses conceitos é pensar em um sistema de rotas. Existe um ponto de partida previamente definido, um conjunto de possíveis destinos e, dentro disso, apenas alguns caminhos realmente utilizados. Domínio, imagem e contradomínio surgem exatamente para organizar essas ideias, separando o que pode acontecer do que de fato acontece dentro de uma relação.
+ Uma boa forma de encarar esses conceitos é pensar em um sistema de rotas. Existe um ponto de partida previamente definido, um conjunto de possíveis destinos e, dentro disso, apenas alguns caminhos realmente utilizados. Domínio, imagem e contradomínio surgem exatamente para organizar essas ideias, separando o que pode acontecer do que de fato acontece dentro de uma relação.
 
-Domínio é o ponto de partida da relação. Formalmente, o domínio de uma relação ℛ é o conjunto dos elementos que aparecem como primeiro componente de algum par ordenado da relação. Em termos intuitivos, são os elementos que realmente “entram no jogo”. Se a relação ℛ é definida como um subconjunto de um produto cartesiano A × B, então A é o conjunto de partida potencial, mas isso não significa que todos os seus elementos serão usados.
+  Domínio: É o ponto de partida da relação. Formalmente, o domínio de uma relação ℛ é o conjunto dos elementos que aparecem como primeiro componente de algum par ordenado da relação. Em termos intuitivos, são os elementos que realmente “entram no jogo”. Se a relação ℛ é definida como um subconjunto de um produto cartesiano A × B, então A é o conjunto de partida potencial, mas isso não significa que todos os seus elementos serão usados.
 
-O domínio efetivo, indicado por Dom(ℛ), contém apenas os elementos de A que realmente participam da relação. A notação formal é
-Dom(ℛ) = { a | (∃b) (a, b) ∈ ℛ }.
-Pense em uma lista de alunos inscritos em uma disciplina: a turma inteira foi oferecida, mas só faz parte do domínio efetivo quem realmente se matriculou.
+  O domínio efetivo, indicado por Dom(ℛ), contém apenas os elementos de A que realmente participam da relação. 
 
-Por exemplo, se A = {1, 2, 3} e ℛ = {(1,4), (3,5)}, então Dom(ℛ) = {1, 3}. O número 2 faz parte do conjunto A, mas não participa da relação, como um ingrediente que está na despensa, mas não foi usado na receita daquele dia.
+   A notação formal é: Dom(ℛ) = { a | (∃b) (a, b) ∈ ℛ }.
 
-É importante destacar que Dom(ℛ) ⊆ A: o domínio sempre é um subconjunto do conjunto de partida, mas não precisa conter todos os seus elementos. Essa distinção é essencial para evitar confusões quando avançarmos para funções e algoritmos, onde nem toda entrada possível é necessariamente utilizada.
+  Pense em uma lista de alunos inscritos em uma disciplina: a turma inteira foi oferecida, mas só faz parte do domínio efetivo quem realmente se matriculou.
 
-A imagem representa o outro lado da relação: são os elementos que realmente são atingidos. Formalmente, a imagem de uma relação ℛ é o conjunto dos segundos elementos dos pares ordenados que pertencem à relação. Em linguagem simples, é para onde a relação realmente chega.
+  Por exemplo, se A = {1, 2, 3} e ℛ = {(1,4), (3,5)}, então Dom(ℛ) = {1, 3}. O número 2 faz parte do conjunto A, mas não participa da relação, como um ingrediente que está na despensa, mas não foi usado na receita daquele dia.
 
-Se ℛ ⊆ A × B, então B é o conjunto de chegada potencial. No entanto, a imagem efetiva, denotada por Im(ℛ), contém apenas os elementos de B que aparecem de fato em algum par da relação. A definição formal é
-Im(ℛ) = { b | (∃a) (a, b) ∈ ℛ }.
+  É importante destacar que Dom(ℛ) ⊆ A: o domínio sempre é um subconjunto do conjunto de partida, mas não precisa conter todos os seus elementos. Essa distinção é essencial para evitar confusões quando avançarmos para funções e aplicações, onde nem toda entrada possível é necessariamente utilizada.
 
-Voltando à analogia da viagem, a imagem corresponde apenas às cidades que foram realmente visitadas, não a todas as cidades que estavam no mapa. Se B = {4, 5, 6} e ℛ = {(1,4), (3,5)}, então Im(ℛ) = {4, 5}. O número 6 era um destino possível, mas não foi alcançado.
 
-Assim como o domínio, a imagem sempre satisfaz Im(ℛ) ⊆ B. Nem todo elemento do conjunto de chegada precisa aparecer na relação, e isso é perfeitamente normal. Essa ideia será crucial quando falarmos de funções que “não cobrem” todo o contradomínio.
+  Imagem: Representa o outro lado da relação: são os elementos que realmente são atingidos. Formalmente, a imagem de uma relação ℛ é o conjunto dos segundos elementos dos pares ordenados que pertencem à relação. Em linguagem simples, é para onde a relação realmente chega.
 
-O contradomínio, por sua vez, é o conjunto mais “teórico” dos três. Ele representa o conjunto dos possíveis segundos elementos, definido antes mesmo de observar quais pares aparecem na relação. Se ℛ ⊆ A × B, então, por definição, o contradomínio da relação é o conjunto B.
+  Se ℛ ⊆ A × B, então B é o conjunto de chegada potencial. No entanto, a imagem efetiva, denotada por Im(ℛ), contém apenas os elementos de B que aparecem de fato em algum par da relação. 
+
+   A definição formal é: Im(ℛ) = { b | (∃a) (a, b) ∈ ℛ }.
+
+  Voltando à analogia da viagem, a imagem corresponde apenas às cidades que foram realmente visitadas, não a todas as cidades que estavam no mapa. Se B = {4, 5, 6} e ℛ = {(1,4), (3,5)}, então Im(ℛ) = {4, 5}. O número 6 era um destino possível, mas não foi alcançado.
+
+  Assim como o domínio, a imagem sempre satisfaz Im(ℛ) ⊆ B. Nem todo elemento do conjunto de chegada precisa aparecer na relação, e isso é perfeitamente normal. Essa ideia será crucial quando falarmos de funções que “não cobrem” todo o contradomínio.
+
+
+  Contradomínio: Por sua vez, é o conjunto mais “teórico” dos três. Ele representa o conjunto dos possíveis segundos elementos, definido antes mesmo de observar quais pares aparecem na relação. Se ℛ ⊆ A × B, então, por definição, o contradomínio da relação é o conjunto B.
 
 Diferentemente da imagem, o contradomínio não depende da relação em si, mas da forma como ela foi definida. Mesmo que certos elementos de B nunca apareçam como segundo componente em um par ordenado, eles continuam pertencendo ao contradomínio. É como o cardápio completo de um restaurante, mesmo que você escolha apenas alguns pratos.
 
