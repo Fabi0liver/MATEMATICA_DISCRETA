@@ -117,15 +117,16 @@
 
   Contradomínio: Por sua vez, é o conjunto mais “teórico” dos três. Ele representa o conjunto dos possíveis segundos elementos, definido antes mesmo de observar quais pares aparecem na relação. Se ℛ ⊆ A × B, então, por definição, o contradomínio da relação é o conjunto B.
 
-Diferentemente da imagem, o contradomínio não depende da relação em si, mas da forma como ela foi definida. Mesmo que certos elementos de B nunca apareçam como segundo componente em um par ordenado, eles continuam pertencendo ao contradomínio. É como o cardápio completo de um restaurante, mesmo que você escolha apenas alguns pratos.
+  Diferentemente da imagem, o contradomínio não depende da relação em si, mas da forma como ela foi definida. Mesmo que certos elementos de B nunca apareçam como segundo componente em um par ordenado, eles continuam pertencendo ao contradomínio. É como o cardápio completo de um restaurante, mesmo que você escolha apenas alguns pratos.
 
-Por exemplo, se B = {4, 5, 6} e a relação utiliza apenas os valores 4 e 5, o contradomínio continua sendo {4, 5, 6}. O número 6 não foi usado, mas ainda é uma possibilidade prevista.
+  Por exemplo, se B = {4, 5, 6} e a relação utiliza apenas os valores 4 e 5, o contradomínio continua sendo {4, 5, 6}. O número 6 não foi usado, mas ainda é uma possibilidade prevista.
 
-Essa distinção é resumida pela relação
-Im(ℛ) ⊆ contradomínio(ℛ) = B.
-Ou seja, a imagem está sempre contida no contradomínio, mas o contradomínio pode conter elementos que nunca participam da relação.
+  Essa distinção é resumida pela relação: Im(ℛ) ⊆ contradomínio(ℛ) = B.
 
-Em síntese, uma relação ℛ é dita uma relação de A para B quando seus pares respeitam esses conjuntos, com Dom(ℛ) ⊆ A e Im(ℛ) ⊆ B. Cada um desses conceitos cumpre um papel específico: o domínio mostra quem participa, a imagem mostra quem é alcançado e o contradomínio mostra quem poderia ser alcançado.
+  Ou seja, a imagem está sempre contida no contradomínio, mas o contradomínio pode conter elementos que nunca participam da relação.
+
+
+ Em síntese, uma relação ℛ é dita uma relação de A para B quando seus pares respeitam esses conjuntos, com Dom(ℛ) ⊆ A e Im(ℛ) ⊆ B. Cada um desses conceitos cumpre um papel específico: o domínio mostra quem participa, a imagem mostra quem é alcançado e o contradomínio mostra quem poderia ser alcançado.
 
 Para encerrar, pense em domínio, imagem e contradomínio como três lentes diferentes para observar a mesma estrutura. Juntas, elas tornam as relações muito mais claras e menos abstratas. Ao dominar esses conceitos agora, você cria uma base sólida para entender funções, aplicações e, mais adiante, algoritmos com confiança. Continue avançando com tranquilidade — cada passo bem compreendido transforma a matemática discreta em uma jornada lógica, elegante e profundamente satisfatória.
 
