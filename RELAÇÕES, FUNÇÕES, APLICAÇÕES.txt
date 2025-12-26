@@ -50,12 +50,21 @@ Domínio, imagem e contradomínio de relações:
 
 
 
- Imagem: A imagem de uma relação ℛ, denotada por Im(ℛ), é o conjunto de todos os segundos elementos dos pares ordenados que pertencem a ℛ.
+ Imagem: Se a imagem de uma relação ℛ é o conjunto formado pelos possíveis segundos elementos dos pares ordenados da relação.
 
-         Isto é:  Im(ℛ) = {a|(∃a)(a, b) ∈ ℛ}
+ Em outras palavras, é o conjunto dos valores que realmente são atingidos pela relação a partir do domínio.
 
+ Se a relação ℛ é definida como um subconjunto de um produto cartesiano 𝐴×𝐵.
 
- A imagem contém apenas os elementos do contradomínio que realmente aparecem em algum par da relação.
+         Isto é: ℛ ⊆ 𝐴 × 𝐵
+
+ Então, o conjunto de chegada potencial da relação é o conjunto 𝐵.
+
+ No entanto, a imagem efetiva da relação ℛ, denotada por Im(ℛ), é formada apenas pelos elementos de 𝐵 que realmente aparecem como segundo componente em algum par ordenado da relação.
+
+         Isto é:  Im(ℛ) = {b|(∃a)(a, b) ∈ ℛ}
+
+ A imagem contém apenas os elementos do conjunto 𝐵 que estão associados a pelo menos um elemento do domínio por meio da relação.
 
  Obs.: Para qualquer relação ℛ definida em 𝐴×𝐵, vale sempre: Im(ℛ) ⊆ 𝐵
 
