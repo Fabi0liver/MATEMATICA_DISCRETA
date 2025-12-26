@@ -128,5 +128,4 @@
 
  Em síntese, uma relação ℛ é dita uma relação de A para B quando seus pares respeitam esses conjuntos, com Dom(ℛ) ⊆ A e Im(ℛ) ⊆ B. Cada um desses conceitos cumpre um papel específico: o domínio mostra quem participa, a imagem mostra quem é alcançado e o contradomínio mostra quem poderia ser alcançado.
 
-Para encerrar, pense em domínio, imagem e contradomínio como três lentes diferentes para observar a mesma estrutura. Juntas, elas tornam as relações muito mais claras e menos abstratas. Ao dominar esses conceitos agora, você cria uma base sólida para entender funções, aplicações e, mais adiante, algoritmos com confiança. Continue avançando com tranquilidade — cada passo bem compreendido transforma a matemática discreta em uma jornada lógica, elegante e profundamente satisfatória.
-
+ Em suma, pense em domínio, imagem e contradomínio como três lentes diferentes para observar a mesma estrutura. Juntas, elas tornam as relações muito mais claras e menos abstratas. Ao dominar esses conceitos agora, você cria uma base sólida para entender funções e aplicações. 
