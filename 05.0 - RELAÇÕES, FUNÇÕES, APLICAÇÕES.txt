@@ -153,62 +153,66 @@
 
 
 
-                                   "Propriedades das Relações"
+                                    "Propriedades das Relações"
 
  Antes de estudarmos tipos especiais de relações, precisamos entender algo essencial: as propriedades das relações. Elas funcionam como “regras de comportamento”, dizendo como os elementos se conectam entre si. É como observar o trânsito de uma cidade: não basta saber que existem ruas, é preciso entender se a via é de mão dupla, mão única ou se permite retorno. As propriedades nos ajudam exatamente a classificar esses comportamentos.
 
-Essas propriedades são fundamentais porque aparecem constantemente em matemática, computação e algoritmos. Quando falamos de ordenação, hierarquias, classificação de dados ou comparação entre elementos, estamos implicitamente usando relações com certas propriedades. Vamos analisá-las com calma, sempre conectando a definição formal com exemplos simples do cotidiano.
+ Essas propriedades são fundamentais porque aparecem constantemente em matemática, computação e algoritmos. Quando falamos de ordenação, hierarquias, classificação de dados ou comparação entre elementos, estamos implicitamente usando relações com certas propriedades. Vamos analisá-las com calma, sempre conectando a definição formal com exemplos simples do cotidiano.
 
-Reflexividade significa que todo elemento se relaciona consigo mesmo. Formalmente, dizemos que uma relação ℛ em um conjunto A é reflexiva se, para todo a ∈ A, vale (a, a) ∈ ℛ. Em outras palavras, ninguém fica “de fora” dessa autorrelação.
+  Reflexividade: Significa que todo elemento se relaciona consigo mesmo. Formalmente, dizemos que uma relação ℛ em um conjunto A é reflexiva se, para todo a ∈ A, vale (a, a) ∈ ℛ. Em outras palavras, ninguém fica “de fora” dessa autorrelação.
 
-Uma analogia simples é o espelho: toda pessoa se vê refletida nele. Não importa quem seja, a relação “ver a si mesmo no espelho” sempre acontece. Na matemática, isso se traduz diretamente na presença de todos os pares (a, a).
+  Uma analogia simples é o espelho: toda pessoa se vê refletida nele. Não importa quem seja, a relação “ver a si mesmo no espelho” sempre acontece. Na matemática, isso se traduz diretamente na presença de todos os pares (a, a).
 
-Um exemplo clássico é a relação “menor ou igual” (≤) nos números reais. Todo número é menor ou igual a ele mesmo, como 5 ≤ 5. Isso garante que a relação seja reflexiva.
+  Um exemplo clássico é a relação “menor ou igual” (≤) nos números reais. Todo número é menor ou igual a ele mesmo, como 5 ≤ 5. Isso garante que a relação seja reflexiva.
 
-Se faltar ao menos um desses pares, a relação deixa de ser reflexiva. Por exemplo, se A = {1, 2} e ℛ = {(1, 2)}, não aparecem nem (1,1) nem (2,2). Isso já é suficiente para dizer que ℛ não é reflexiva.
+  Se faltar ao menos um desses pares, a relação deixa de ser reflexiva. Por exemplo, se A = {1, 2} e ℛ = {(1, 2)}, não aparecem nem (1,1) nem (2,2). Isso já é suficiente para dizer que ℛ não é reflexiva.
 
-A irreflexividade é o oposto da reflexividade. Aqui, nenhum elemento pode se relacionar consigo mesmo. Formalmente, uma relação ℛ é irreflexiva se, para todo a ∈ A, temos (a, a) ∉ ℛ.
 
-Imagine uma corrida: ninguém corre “antes de si mesmo”. A relação “chegar antes” nunca vale para a mesma pessoa. Essa ideia casa perfeitamente com a irreflexividade.
+  Irreflexividade: É o oposto da reflexividade. Aqui, nenhum elemento pode se relacionar consigo mesmo. Formalmente, uma relação ℛ é irreflexiva se, para todo a ∈ A, temos (a, a) ∉ ℛ.
 
-Um exemplo matemático é a relação “menor que” (<) nos números reais. Não existe número que seja menor do que ele mesmo, como 3 < 3, o que torna essa relação irreflexiva.
+  Imagine uma corrida: ninguém corre “antes de si mesmo”. A relação “chegar antes” nunca vale para a mesma pessoa. Essa ideia casa perfeitamente com a irreflexividade.
 
-Se aparecer apenas um par do tipo (a, a), a relação deixa imediatamente de ser irreflexiva. Basta uma exceção para quebrar completamente essa propriedade.
+  Um exemplo matemático é a relação “menor que” (<) nos números reais. Não existe número que seja menor do que ele mesmo, como 3 < 3, o que torna essa relação irreflexiva.
 
-A simetria diz respeito à reciprocidade. Uma relação ℛ é simétrica se, sempre que (a, b) ∈ ℛ, então também (b, a) ∈ ℛ. Em palavras simples: se a se relaciona com b, então b também se relaciona com a.
+  Se aparecer apenas um par do tipo (a, a), a relação deixa imediatamente de ser irreflexiva. Basta uma exceção para quebrar completamente essa propriedade.
 
-Pense em amizade em uma rede social tradicional: se eu sou amigo de você, você também é meu amigo. Não existe amizade “de mão única”. Essa é a essência da simetria.
 
-Um exemplo clássico é a relação “ter o mesmo aniversário”. Se Ana faz aniversário no mesmo dia que Bruno, então Bruno faz aniversário no mesmo dia que Ana. A relação funciona nos dois sentidos.
+  Simetria: Diz respeito à reciprocidade. Uma relação ℛ é simétrica se, sempre que (a, b) ∈ ℛ, então também (b, a) ∈ ℛ. Em palavras simples: se a se relaciona com b, então b também se relaciona com a.
 
-Um contraexemplo ocorre quando existe (a, b) ∈ ℛ, mas (b, a) ∉ ℛ. Nesse caso, a relação falha imediatamente em ser simétrica.
+  Pense em amizade em uma rede social tradicional: se eu sou amigo de você, você também é meu amigo. Não existe amizade “de mão única”. Essa é a essência da simetria.
 
-A antissimetria costuma causar confusão no início, mas a ideia é bem clara: só pode haver reciprocidade se os elementos forem iguais. Formalmente, se (a, b) ∈ ℛ e (b, a) ∈ ℛ, então a = b.
+  Um exemplo clássico é a relação “ter o mesmo aniversário”. Se Ana faz aniversário no mesmo dia que Bruno, então Bruno faz aniversário no mesmo dia que Ana. A relação funciona nos dois sentidos.
 
-Uma boa analogia é a hierarquia no trabalho. Se um funcionário manda no gerente e o gerente manda no funcionário, então estamos falando da mesma pessoa — caso contrário, a hierarquia perde o sentido.
+  Um contraexemplo ocorre quando existe (a, b) ∈ ℛ, mas (b, a) ∉ ℛ. Nesse caso, a relação falha imediatamente em ser simétrica.
 
-Um exemplo clássico é a relação “menor ou igual” (≤) nos inteiros. Se a ≤ b e b ≤ a, então só pode acontecer que a = b.
 
-Se existir (1,2) ∈ ℛ e (2,1) ∈ ℛ com 1 ≠ 2, a relação automaticamente deixa de ser antissimétrica.
+  Antissimetria: Costuma causar confusão no início, mas a ideia é bem clara: só pode haver reciprocidade se os elementos forem iguais. Formalmente, se (a, b) ∈ ℛ e (b, a) ∈ ℛ, então a = b.
 
-A assimetria vai ainda mais longe: se a relação ocorre em um sentido, o sentido inverso é proibido. Formalmente, se (a, b) ∈ ℛ, então (b, a) ∉ ℛ.
+  Uma boa analogia é a hierarquia no trabalho. Se um funcionário manda no gerente e o gerente manda no funcionário, então estamos falando da mesma pessoa,caso contrário, a hierarquia perde o sentido.
 
-Imagine uma corrida novamente: se Ana chegou antes de Bruno, então Bruno não pode ter chegado antes de Ana. As duas coisas não podem acontecer ao mesmo tempo.
+  Um exemplo clássico é a relação “menor ou igual” (≤) nos inteiros. Se a ≤ b e b ≤ a, então só pode acontecer que a = b.
 
-Um exemplo matemático é a relação “menor que” (<) nos naturais. Se 2 < 5, então 5 < 2 é impossível.
+  Se existir (1,2) ∈ ℛ e (2,1) ∈ ℛ com 1 ≠ 2, a relação automaticamente deixa de ser antissimétrica.
 
-Um ponto importante é que toda relação assimétrica é automaticamente irreflexiva. Afinal, se (a, a) existisse, isso violaria a regra de que o inverso não pode ocorrer.
 
-A transitividade descreve a ideia de propagação da relação. Uma relação ℛ é transitiva se, sempre que (a, b) ∈ ℛ e (b, c) ∈ ℛ, então (a, c) ∈ ℛ.
+  Assimetria: Vai ainda mais longe: se a relação ocorre em um sentido, o sentido inverso é proibido. Formalmente, se (a, b) ∈ ℛ, então (b, a) ∉ ℛ.
 
-Pense em herança familiar: se João é pai de Maria, e Maria é mãe de Ana, então João é avô de Ana. A relação “ser ancestral de” se propaga naturalmente.
+  Imagine uma corrida novamente: se Ana chegou antes de Bruno, então Bruno não pode ter chegado antes de Ana. As duas coisas não podem acontecer ao mesmo tempo.
 
-Um exemplo matemático claro é novamente a relação “menor ou igual” (≤). Se a ≤ b e b ≤ c, então a ≤ c, sem exceção.
+  Um exemplo matemático é a relação “menor que” (<) nos naturais. Se 2 < 5, então 5 < 2 é impossível.
 
-Se existirem (1,2) ∈ ℛ e (2,3) ∈ ℛ, mas (1,3) ∉ ℛ, a relação não é transitiva, mesmo que funcione em alguns casos.
+  Um ponto importante é que toda relação assimétrica é automaticamente irreflexiva. Afinal, se (a, a) existisse, isso violaria a regra de que o inverso não pode ocorrer.
 
-Antes de encerrar, vale reforçar algumas observações importantes. Relações simétricas não são o mesmo que antissimétricas, e uma relação pode possuir várias propriedades ao mesmo tempo. Além disso, certas combinações são tão importantes que recebem nomes próprios, como a ordem parcial (reflexiva, antissimétrica e transitiva) e a relação de equivalência (reflexiva, simétrica e transitiva).
 
-Com isso, você passa a enxergar as relações não apenas como conjuntos de pares, mas como estruturas com comportamento bem definido. Esse entendimento será essencial quando avançarmos para funções, ordenações e algoritmos. Continue firme e curioso — dominar essas propriedades é como aprender as regras do jogo antes de se tornar um grande estrategista no mundo da matemática discreta.
+  Transitividade: Descreve a ideia de propagação da relação. Uma relação ℛ é transitiva se, sempre que (a, b) ∈ ℛ e (b, c) ∈ ℛ, então (a, c) ∈ ℛ.
 
+  Pense em herança familiar: se João é pai de Maria, e Maria é mãe de Ana, então João é avô de Ana. A relação “ser ancestral de” se propaga naturalmente.
+
+  Um exemplo matemático claro é novamente a relação “menor ou igual” (≤). Se a ≤ b e b ≤ c, então a ≤ c, sem exceção.
+
+  Se existirem (1,2) ∈ ℛ e (2,3) ∈ ℛ, mas (1,3) ∉ ℛ, a relação não é transitiva, mesmo que funcione em alguns casos.
+
+ Vale reforçar algumas observações importantes. Relações simétricas não são o mesmo que antissimétricas, e uma relação pode possuir várias propriedades ao mesmo tempo. Além disso, certas combinações são tão importantes que recebem nomes próprios, como a ordem parcial (reflexiva, antissimétrica e transitiva) e a relação de equivalência (reflexiva, simétrica e transitiva).
+
+ Em suma, com isso, você passa a enxergar as relações não apenas como conjuntos de pares, mas como estruturas com comportamento bem definido. Esse entendimento será essencial quando avançarmos para funções, ordenações e algoritmos. 
 
