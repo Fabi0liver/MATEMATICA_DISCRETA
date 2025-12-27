@@ -137,21 +137,21 @@ Propriedades das Relações:
 
  Simétrica: Se 𝑎 se relaciona com 𝑏, então 𝑏 se relaciona com 𝑎.
 
-                   Definição formal: ∀𝑎, 𝑏 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ⇒ (𝑏, 𝑎) ∈ ℛ
+                        Definição formal: ∀𝑎, 𝑏 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ⇒ (𝑏, 𝑎) ∈ ℛ
 
             Exemplo: Relação “ter o mesmo aniversário”.
 
-            Contraexemplo formal: (1, 2) ∈ ℛ e(2, 1) ∉ ℛ
+            Contraexemplo formal: (1, 2) ∈ ℛ e (2, 1) ∉ ℛ
 
 
-
- Antissimétrica: Se existe uma direção, a inversa é proibida.
+ Antissimétrica: Só pode haver reciprocidade se os elementos forem iguais.
      
-                 Definição formal: ∀𝑎, 𝑏 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ⇒ (𝑏, 𝑎) ∉ ℛ
+                 Definição formal: ∀𝑎, 𝑏 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ∧ (𝑏, 𝑎) ∈ ℛ ⇒  𝑎 = 𝑏
+             
+                            Exemplo: ≤ nos inteiros
 
+                 Contraexemplo formal: (1, 2) ∈ ℛ  e (2, 1) ∈ ℛ com 1 ≠ 2
        
-
-
 
  Assimetria: Se existe uma direção, a inversa é proibida.
      
