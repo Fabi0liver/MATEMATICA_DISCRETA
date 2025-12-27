@@ -115,7 +115,9 @@ Propriedades das Relações:
 
  Reflexiva: Todo elemento se relaciona consigo mesmo.
 
-             Definição formal: ∀a ∈ A, (a, a) ∈ ℛ
+                      (𝑎, 𝑎) ∈ ℛ
+
+             Definição formal: ∀𝑎 ∈ A, (𝑎, 𝑎) ∈ ℛ
 
              Exemplo: ≤ nos números reais.
  
@@ -127,6 +129,8 @@ Propriedades das Relações:
  
  Irreflexividade: Nenhum elemento se relaciona consigo mesmo.
 
+                            (𝑎, 𝑎) ∉ ℛ
+
                   Definição formal:  ∀a ∈ A, (a, a) ∉  ℛ
                   
                   Exemplo: < nos números reais.
@@ -137,7 +141,9 @@ Propriedades das Relações:
 
  Simétrica: Se 𝑎 se relaciona com 𝑏, então 𝑏 se relaciona com 𝑎.
 
-                        Definição formal: ∀𝑎, 𝑏 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ⇒ (𝑏, 𝑎) ∈ ℛ
+                       (𝑎, 𝑏) ⇒ (𝑏, 𝑎) 
+
+                           Definição formal: ∀𝑎, 𝑏 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ⇒ (𝑏, 𝑎) ∈ ℛ
 
             Exemplo: Relação “ter o mesmo aniversário”.
 
@@ -145,15 +151,19 @@ Propriedades das Relações:
 
 
  Antissimétrica: Só pode haver reciprocidade se os elementos forem iguais.
+
+                       (𝑎, 𝑏)  ∧ (𝑏, 𝑎) ⇒ 𝑎 =  𝑏
      
                  Definição formal: ∀𝑎, 𝑏 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ∧ (𝑏, 𝑎) ∈ ℛ ⇒  𝑎 = 𝑏
              
-                            Exemplo: ≤ nos inteiros
+                                   Exemplo: ≤ nos inteiros
 
                  Contraexemplo formal: (1, 2) ∈ ℛ  e (2, 1) ∈ ℛ com 1 ≠ 2
        
 
  Assimetria: Se existe uma direção, a inversa é proibida.
+
+                  (𝑎, 𝑏) ⇒ ¬(𝑏, 𝑎) 
      
              Definição formal: ∀𝑎, 𝑏  ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ⇒ (𝑏, 𝑎)  ∉ ℛ
 
@@ -164,7 +174,16 @@ Propriedades das Relações:
              Contraexemplo formal: Se existir (𝑎, 𝑏) ∈ ℛ e (𝑏, 𝑎) ∈ ℛ.
 
 
- Transitiva
+ Transitiva: A relação “se propaga”.
+
+                 (𝑎, 𝑏) ∧ (𝑏, 𝑐)  ⇒ (𝑎, 𝑐)
+
+             Definição formal: ∀𝑎, 𝑏, 𝑐 ∈ 𝐴, (𝑎, 𝑏) ∈ ℛ ∧ (𝑏, 𝑐) ∈ ℛ ⇒ (𝑎, 𝑐) ∈ ℛ
+
+             Exemplo: ≤, “ser ancestral de”.
+
+             Contraexemplo formal: (1, 2) ∈ ℛ, (2, 3) ∈ ℛ, mas (1, 3) ∉ ℛ.
+
 
 
  
