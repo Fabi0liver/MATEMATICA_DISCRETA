@@ -185,6 +185,19 @@ Propriedades das Relações:
              Contraexemplo formal: (1, 2) ∈ ℛ, (2, 3) ∈ ℛ, mas (1, 3) ∉ ℛ.
 
 
+ * Observações conceituais importantes
+
+       Simétrica ≠ Antissimétrica
+
+       Assimétrica ⇒ Irreflexiva
+
+       Uma relação pode ter várias propriedades ao mesmo tempo
+
+       Ordem parcial = reflexiva + antissimétrica + transitiva
+
+       Relação de equivalência = reflexiva + simétrica + transitiva
+
+
 
  
 
