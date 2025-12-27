@@ -109,6 +109,23 @@ Domínio, imagem e contradomínio de relações:
 
  Contradomínio:  segundos elementos que poderiam aparecer
 
+
+
+Propriedades das Relações:
+
+ Reflexiva
+
+ Irreflexividade
+
+ Simétrica
+
+ Antissimétrica
+
+ Assimetria
+
+ Transitiva
+
+ Contraexemplos formais
  
 
 
