@@ -113,9 +113,20 @@ Domínio, imagem e contradomínio de relações:
 
 Propriedades das Relações:
 
- Reflexiva
+ Reflexiva: Todo elemento se relaciona consigo mesmo.
 
- Irreflexividade
+             Definição formal: ∀ a ∈ A, (a, a) ∈ ℛ
+
+             Exemplo: ≤ nos números reais.
+ 
+             Contraexemplo formal: Se existir 𝑎 ∈ 𝐴 tal que (𝑎, 𝑎) ∉ ℛ  então ℛ não é reflexiva.
+     
+                                   Exemplo: A= {1,  2}, ℛ = {(1, 2)} → (1, 1) ∉, ℛ (2, 2) ∉ ℛ
+
+
+
+ 
+ Irreflexividade:Nenhum elemento se relaciona consigo mesmo.
 
  Simétrica
 
