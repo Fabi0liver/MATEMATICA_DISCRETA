@@ -150,7 +150,6 @@
 
 
 
-
                                        "Domínio, Imagem e Contradomínio"
 
  Antes de aprofudamos em relações propriamente ditas, precisamos consolidar três ideias que funcionam como o mapa de orientação das relações: domínio, imagem e contradomínio. Esses conceitos ajudam a responder perguntas simples, mas fundamentais, como: “de onde partem as relações?”, “aonde elas chegam de fato?” e “quais destinos estavam previstos, mesmo que não tenham sido usados?”. Sem essa clareza, as relações ficam abstratas demais e difíceis de visualizar.
