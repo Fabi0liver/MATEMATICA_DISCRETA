@@ -214,8 +214,6 @@
 
  No contexto da matemática discreta e da computação, relações binárias são fundamentais porque servem de base para conceitos mais avançados, como funções, ordens, equivalências e estruturas de dados. Entender bem essa noção agora é como aprender a ler partitura antes de tocar uma música mais complexa.
 
-Encerramos esta etapa com uma mensagem importante: relações binárias são simples na definição, mas profundas nas aplicações. Ao compreender bem esse conceito, você dá um passo decisivo rumo ao entendimento de funções e algoritmos. Continue avançando com curiosidade e confiança — cada nova relação que você entende é mais uma ponte construída no seu caminho pelo pensamento matemático e computacional.
-
 
 
                                             "Relações n-árias"
