@@ -242,21 +242,23 @@
 
  Quando falamos em relação inversa, estamos basicamente olhando para uma relação a partir do ponto de vista oposto. É como refazer um caminho, mas agora voltando do destino para a origem. Se antes dizíamos “a está relacionado com b”, na relação inversa passamos a dizer “b está relacionado com a”. Essa simples troca de perspectiva revela muitas informações importantes sobre a estrutura da relação original.
 
-De forma formal, se temos uma relação ℛ definida como um subconjunto de A × B, a relação inversa de ℛ, indicada por ℛ⁻¹, é formada por todos os pares (b, a) tais que (a, b) ∈ ℛ. Em notação matemática, escrevemos:
-ℛ⁻¹ = { (b, a) | (a, b) ∈ ℛ }.
-Essa definição pode parecer técnica à primeira vista, mas a ideia é tão simples quanto trocar a ordem dos ingredientes em uma lista de compras — o conteúdo é o mesmo, apenas a organização muda.
+ De forma formal, se temos uma relação ℛ definida como um subconjunto de A × B, a relação inversa de ℛ, indicada por ℛ⁻¹, é formada por todos os pares (b, a) tais que (a, b) ∈ ℛ. 
 
-Um exemplo ajuda bastante a fixar essa ideia. Suponha que ℛ represente a relação “é pai de”. Se (João, Maria) ∈ ℛ, isso significa que João é pai de Maria. Na relação inversa ℛ⁻¹, teremos (Maria, João), que pode ser lido como “Maria é filha de João”. Observe que a relação inversa não é apenas um espelho automático da original, mas uma nova relação, com seu próprio significado.
+ Em notação matemática, escrevemos: ℛ⁻¹ = { (b, a) | (a, b) ∈ ℛ }.
 
-A notação também acompanha essa inversão. Se escrevemos aℛb para indicar que (a, b) pertence à relação ℛ, então, na relação inversa, escrevemos bℛ⁻¹a. É como ler a mesma frase de trás para frente, mas mantendo o sentido lógico correto. Essa simetria na escrita ajuda muito na manipulação algébrica e na análise das relações.
+ Essa definição pode parecer técnica à primeira vista, mas a ideia é tão simples quanto trocar a ordem dos ingredientes em uma lista de compras: o conteúdo é o mesmo, apenas a organização muda.
 
-É importante perceber que nem toda relação é igual à sua inversa. Algumas relações mudam completamente quando invertidas, enquanto outras permanecem essencialmente as mesmas. Pense na relação “é maior que”: se 5 é maior que 3, isso não implica que 3 seja maior que 5. Já na relação “é amigo de”, muitas vezes a inversa coincide com a própria relação, pois a amizade costuma ser mútua.
+ Um exemplo ajuda bastante a fixar essa ideia. Suponha que ℛ represente a relação “é pai de”. Se (João, Maria) ∈ ℛ, isso significa que João é pai de Maria. Na relação inversa ℛ⁻¹, teremos (Maria, João), que pode ser lido como “Maria é filha de João”. Observe que a relação inversa não é apenas um espelho automático da original, mas uma nova relação, com seu próprio significado.
 
-Visualmente, se representarmos uma relação por um grafo direcionado, a relação inversa é obtida simplesmente invertendo o sentido de todas as setas. É como pegar um mapa de estradas de mão única e transformar todas as vias em mão contrária. Essa imagem mental ajuda bastante a entender o que está acontecendo por trás da definição formal.
+ A notação também acompanha essa inversão. Se escrevemos aℛb para indicar que (a, b) pertence à relação ℛ, então, na relação inversa, escrevemos bℛ⁻¹a. É como ler a mesma frase de trás para frente, mas mantendo o sentido lógico correto. Essa simetria na escrita ajuda muito na manipulação algébrica e na análise das relações.
 
-A relação inversa também tem um papel importante na matemática discreta e na computação, especialmente quando analisamos estruturas reversíveis, dependências ou fluxos de informação. Entender como inverter uma relação é um passo essencial para compreender conceitos mais avançados, como funções inversas e estruturas algébricas.
+ É importante perceber que nem toda relação é igual à sua inversa. Algumas relações mudam completamente quando invertidas, enquanto outras permanecem essencialmente as mesmas. Pense na relação “é maior que”: se 5 é maior que 3, isso não implica que 3 seja maior que 5. Já na relação “é amigo de”, muitas vezes a inversa coincide com a própria relação, pois a amizade costuma ser mútua.
 
-Quanto ao domínio, imagem e contradomínio, se ℛ ⊆ A × B, então a relação inversa ℛ⁻¹ ⊆ B × A. Assim, o domínio de ℛ⁻¹ é a imagem de ℛ, a imagem de ℛ⁻¹ é o domínio de ℛ, e o contradomínio de ℛ⁻¹ passa a ser o conjunto A. Em outras palavras, ao inverter a relação, também trocamos os papéis de partida e chegada.
+ Visualmente, se representarmos uma relação por um grafo direcionado, a relação inversa é obtida simplesmente invertendo o sentido de todas as setas. É como pegar um mapa de estradas de mão única e transformar todas as vias em mão contrária. Essa imagem mental ajuda bastante a entender o que está acontecendo por trás da definição formal.
+
+ A relação inversa também tem um papel importante na matemática discreta e na computação, especialmente quando analisamos estruturas reversíveis, dependências ou fluxos de informação. Entender como inverter uma relação é um passo essencial para compreender conceitos mais avançados, como funções inversas e estruturas algébricas.
+
+ Quanto ao domínio, imagem e contradomínio, se ℛ ⊆ A × B, então a relação inversa ℛ⁻¹ ⊆ B × A. Assim, o domínio de ℛ⁻¹ é a imagem de ℛ, a imagem de ℛ⁻¹ é o domínio de ℛ, e o contradomínio de ℛ⁻¹ passa a ser o conjunto A. Em outras palavras, ao inverter a relação, também trocamos os papéis de partida e chegada.
 
 Para encerrar, pense na relação inversa como uma forma elegante de enxergar o mesmo vínculo sob outra perspectiva. Essa mudança de olhar amplia nossa compreensão e prepara o terreno para ideias ainda mais ricas, como funções inversas e algoritmos reversíveis. Continue explorando com curiosidade — cada novo conceito é mais um passo firme nessa jornada lógica e fascinante pela matemática discreta.
 
