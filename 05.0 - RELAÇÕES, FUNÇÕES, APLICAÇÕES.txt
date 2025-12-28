@@ -1,4 +1,4 @@
-                                    RELAÇÕES, FUNÇÕES, APLICAÇÕES
+                                      RELAÇÕES, FUNÇÕES, APLICAÇÕES
 
 
  Após compreendermos Teoria dos Conjuntos, é natural darmos o próximo passo e começarmos a falar sobre Relações, Funções e Aplicações. Pense nesse momento como sair da fase de conhecer os “ingredientes” e começar a entender como eles se conectam para formar receitas mais interessantes. Se antes lidávamos apenas com conjuntos isolados, agora passamos a observar como elementos de conjuntos diferentes (ou do mesmo conjunto) se relacionam entre si, criando estruturas que descrevem dependências, vínculos e correspondências.
@@ -17,7 +17,7 @@
 
 
 
-                                  "Revisão Sobre Teoria dos Conjuntos"
+                                   "Revisão Sobre Teoria dos Conjuntos"
 
  Antes de avançarmos para relações, funções e aplicações, vale a pena fazer uma pausa estratégica e revisar a teoria dos conjuntos, porque ela é o alicerce de tudo o que vem a seguir. Pense nisso como revisar o alfabeto antes de escrever um texto: não é algo complexo, mas garante que todos estejam falando a mesma língua. Essa revisão ajuda a tornar o estudo menos abstrato e mais concreto, permitindo que os novos conceitos façam sentido de forma natural.
 
@@ -39,7 +39,7 @@
 
 
 
-                                        "O Conceito de Relação"
+                                         "O Conceito de Relação"
 
  Agora que já revisitamos a teoria dos conjuntos, estamos prontos para entrar, com mais segurança, no conceito de relação na matemática discreta. Pense neste momento como quando começamos a ligar peças de um quebra-cabeça: antes elas estavam separadas, agora começamos a observar como uma peça se conecta à outra. Relações surgem exatamente para formalizar essas conexões entre elementos de conjuntos, dando sentido a vínculos, associações e comparações.
 
@@ -61,7 +61,7 @@
 
 
 
-                                    "Formas de Representar as Relações"
+                                     "Formas de Representar as Relações"
 
  Antes de explorarmos propriedades e tipos de relações, é importante aprender como representar uma relação de diferentes maneiras. Representar bem uma relação é como escolher a melhor forma de explicar uma ideia: às vezes um desenho ajuda mais, outras vezes uma tabela ou uma escrita simbólica é mais clara. Em matemática discreta, não existe uma única forma “correta”, mas sim formas mais adequadas para cada situação.
 
@@ -85,7 +85,7 @@
 
 
 
-                                     "Propriedades das Relações"
+                                          "Propriedades das Relações"
 
  Antes de estudarmos tipos especiais de relações, precisamos entender algo essencial: as propriedades das relações. Elas funcionam como “regras de comportamento”, dizendo como os elementos se conectam entre si. É como observar o trânsito de uma cidade: não basta saber que existem ruas, é preciso entender se a via é de mão dupla, mão única ou se permite retorno. As propriedades nos ajudam exatamente a classificar esses comportamentos.
 
@@ -196,7 +196,7 @@
 
 
 
-                                          "Relações n-árias"
+                                            "Relações n-árias"
 
  Até agora, trabalhamos principalmente com relações que conectam dois conjuntos, usando pares ordenados. Mas, na prática, muitos problemas do mundo real envolvem mais de duas “dimensões” ao mesmo tempo. É justamente para lidar com esse tipo de situação que surgem as relações n-árias. Pense nelas como uma evolução natural: se antes conectávamos dois elementos por vez, agora passamos a relacionar vários elementos simultaneamente.
 
