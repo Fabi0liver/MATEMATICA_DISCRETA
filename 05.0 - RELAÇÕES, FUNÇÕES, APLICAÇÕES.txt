@@ -270,7 +270,7 @@
 
  Um exemplo simples ajuda bastante. Considere a relação “ter a mesma idade” definida sobre um conjunto de pessoas. Se duas pessoas têm a mesma idade, dizemos que elas são equivalentes nesse sentido. Não importa o nome, a altura ou a profissão: o critério é apenas a idade. Essa relação respeita as propriedades necessárias e, por isso, é uma relação de equivalência.
 
- A notação acompanha essa ideia de forma natural. Se ℛ é uma relação de equivalência, escrever aℛb significa que a e b são equivalentes segundo o critério definido. Muitas vezes, usamos símbolos como “~” para indicar equivalência, escrevendo a ~ b. O símbolo muda, mas a ideia permanece a mesma: estamos afirmando que os dois elementos pertencem à mesma categoria.
+ A notação acompanha essa ideia de forma natural. Se ℛ é uma relação de equivalência, escrever aℛb significa que a e b são equivalentes segundo o critério definido. Muitas vezes, usamos símbolos como “~” (til) para indicar equivalência, escrevendo a ~ b. O símbolo muda, mas a ideia permanece a mesma: estamos afirmando que os dois elementos pertencem à mesma categoria.
 
  Uma consequência direta das relações de equivalência é o surgimento das classes de equivalência. A classe de equivalência de um elemento a é o conjunto de todos os elementos que são equivalentes a ele. Em notação, escrevemos [a] = { x ∈ A | xℛa }. É como escolher uma pessoa e listar todas as outras que têm a mesma idade: esse grupo forma uma classe de equivalência.
 
