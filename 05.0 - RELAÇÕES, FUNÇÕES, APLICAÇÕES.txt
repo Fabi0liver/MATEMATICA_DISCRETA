@@ -280,6 +280,5 @@
 
  O mais interessante é que, ao trabalhar com classes de equivalência, muitas vezes deixamos de lidar com elementos individuais e passamos a trabalhar com grupos inteiros. Isso simplifica problemas e torna a estrutura matemática mais clara, especialmente em áreas como álgebra, teoria da computação e análise de algoritmos.
 
-Para encerrar, pense nas relações de equivalência como uma poderosa ferramenta de organização do pensamento. Elas nos ensinam a agrupar, simplificar e enxergar padrões onde antes havia apenas elementos soltos. Ao compreender bem esse conceito, você dá mais um passo firme rumo a uma matemática discreta mais estruturada e elegante. Continue explorando com entusiasmo — cada nova ideia bem compreendida amplia sua capacidade de raciocinar de forma lógica e criativa.
-
+Em suma, pense nas relações de equivalência como uma poderosa ferramenta de organização do pensamento. Elas nos ensinam a agrupar, simplificar e enxergar padrões onde antes havia apenas elementos soltos. Ao compreender bem esse conceito, você dá mais um passo firme rumo a uma matemática discreta mais estruturada e elegante. 
 
