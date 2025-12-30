@@ -387,10 +387,10 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
 
   Função Sobrejetiva: A função sobrejetiva muda o foco: agora, o importante é que nada fique de fora no contradomínio. Dizemos que uma função 𝑓: 𝐴 → 𝐵 é sobrejetiva quando todo elemento de 𝐵 é imagem de pelo menos um elemento de 𝐴. 
 
-  Em notação: ∀𝑦 ∈ 𝐵, ∃𝑥 ∈ 𝐴 tal que  𝑓(𝑥)  = 𝑦.
+   Em notação: ∀𝑦 ∈ 𝐵, ∃𝑥 ∈ 𝐴 tal que  𝑓(𝑥)  = 𝑦.
                               Ou, de forma equivalente é: Im(𝑓) = 𝐵.
 
-  A analogia clássica é a de vagas de estacionamento. Imagine que 𝐵 são as vagas e 𝐴 são os carros. Se todas as vagas estão ocupadas, então a função é sobrejetiva. Não importa se alguns carros dividem a mesma vaga (o que seria estranho na vida real, mas possível na matemática), o que importa é que nenhuma vaga fique vazia.
+   A analogia clássica é a de vagas de estacionamento. Imagine que 𝐵 são as vagas e 𝐴 são os carros. Se todas as vagas estão ocupadas, então a função é sobrejetiva. Não importa se alguns carros dividem a mesma vaga (o que seria estranho na vida real, mas possível na matemática), o que importa é que nenhuma vaga fique vazia.
 
   Um exemplo simples é a função 𝑓: ℝ → ℝ, dada por 𝑓(𝑥) = 𝑥³.  Todo número real pode ser obtido como o cubo de algum outro real. Logo, a imagem da função coincide com o contradomínio, tornando-a sobrejetiva.
 
@@ -399,11 +399,11 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
 
   Formalmente, uma função 𝑓: 𝐴 → 𝐵 é bijetiva se: 𝑥₁ ≠ 𝑥₂ ⇒ 𝑓(𝑥₁) ≠ 𝑓(𝑥₂) e Im(𝑓) = 𝐵.
 
-  Intuitivamente, pense em pessoas sentando em cadeiras numeradas. Cada pessoa senta em uma única cadeira, e todas as cadeiras estão ocupadas. Não há duas pessoas na mesma cadeira e nenhuma cadeira vazia. Essa correspondência perfeita é a essência da bijetividade.
+   Intuitivamente, pense em pessoas sentando em cadeiras numeradas. Cada pessoa senta em uma única cadeira, e todas as cadeiras estão ocupadas. Não há duas pessoas na mesma cadeira e nenhuma cadeira vazia. Essa correspondência perfeita é a essência da bijetividade.
 
   Um exemplo clássico é a função 𝑓: {1, 2, 3} → {𝑎, 𝑏, 𝑐}, com 𝑓(1) =  𝑎,  𝑓(2) = 𝑏,  𝑓(3) = 𝑐.
 
-  Cada elemento do domínio corresponde a exatamente um elemento do contradomínio, e vice-versa. Funções bijetivas são especialmente importantes porque permitem inverter a função, algo muito usado em matemática e algoritmos.
+   Cada elemento do domínio corresponde a exatamente um elemento do contradomínio, e vice-versa. Funções bijetivas são especialmente importantes porque permitem inverter a função, algo muito usado em matemática e algoritmos.
 
 
  Em suma, pense nos tipos de funções como lentes diferentes para observar a mesma ideia básica de associação. A injetiva se preocupa em não misturar resultados, a sobrejetiva garante que nada fique de fora, e a bijetiva equilibra perfeitamente essas duas exigências. Cada uma modela situações diferentes do mundo real e dos sistemas computacionais.
