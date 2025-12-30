@@ -405,7 +405,6 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
 
    Cada elemento do domínio corresponde a exatamente um elemento do contradomínio, e vice-versa. Funções bijetivas são especialmente importantes porque permitem inverter a função, algo muito usado em matemática e algoritmos.
 
-
  Em suma, pense nos tipos de funções como lentes diferentes para observar a mesma ideia básica de associação. A injetiva se preocupa em não misturar resultados, a sobrejetiva garante que nada fique de fora, e a bijetiva equilibra perfeitamente essas duas exigências. Cada uma modela situações diferentes do mundo real e dos sistemas computacionais.
 
  Dominar esses conceitos é como aprender novas formas de organizar informações com clareza e segurança. Vá com calma, revisite os exemplos e confie no processo. A matemática discreta vai ficando cada vez mais elegante à medida que essas peças se encaixam, e você está construindo uma base sólida para compreender algoritmos com muito mais entusiasmo e maturidade.
