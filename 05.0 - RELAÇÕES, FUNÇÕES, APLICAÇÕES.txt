@@ -306,7 +306,7 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
 
 
 
-                                         "Fechos de Relações"
+                                          "Fechos de Relações"
 
  Quando falamos em fechos de relações, estamos lidando com a ideia de completar uma relação, ajustando-a para que ela passe a satisfazer certas propriedades importantes. Imagine uma receita de bolo que está quase pronta, mas falta um ingrediente essencial para que o resultado saia perfeito. O fecho funciona exatamente assim: ele adiciona apenas o que está faltando, sem alterar o que já existe, para que a relação tenha o comportamento desejado.
 
@@ -327,3 +327,7 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
  Em suma, os fechos de relações são ferramentas poderosas para ajustar e fortalecer estruturas relacionais. Cada tipo de fecho atende a uma necessidade específica: o reflexivo garante identidade, o simétrico garante reciprocidade e o transitivo garante continuidade lógica. Juntos, eles ajudam a transformar relações simples em estruturas mais robustas e úteis.
 
  Pense nos fechos como pequenos ajustes que trazem grande clareza. Ao aprender a aplicá-los, você ganha mais controle sobre o comportamento das relações e se prepara para compreender estruturas mais avançadas da matemática discreta e dos algoritmos. 
+
+
+
+                                         "O Conceito de Funções"
