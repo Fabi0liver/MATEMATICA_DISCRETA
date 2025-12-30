@@ -199,6 +199,72 @@ Propriedades das Relações:
 
 
 
+ Tipos de Funções:
+
+Função Injetiva: Uma função 𝑓: 𝐴 → 𝐵  é injetiva quando elementos diferentes de A são transformados por 𝑓  em elementos   
+                diferentes de B. 
+
+                                              Elementos distintos do domínio produzem imagens distintas no contradomínio
+
+                  Ou seja: x1 ≠ x2 em A ⇒ 𝑓(x1) ≠ 𝑓(x2) em B 
+                                        
+
+                  Intuição correta: Nenhum elemento de B recebe duas setas vindas de elementos diferentes de A.
+
+                                    Cada elemento do domínio está associado a um único elemento da imagem, sem 
+                                   colisões.
+
+                  Pense em alunos (A) recebendo números de matrícula (B). Se dois alunos diferentes não podem ter o 
+                 mesmo número → função injetiva.
+
+
+                  Obs.: Toda função associa cada elemento do domínio a um único valor.Isso não caracteriza 
+                       injetividade, isso é apenas a definição de função. A injetividade trata do retorno, não da 
+                       ida.
+
+ 
+Função Sobrejetiva: Uma função 𝑓: 𝐴 → 𝐵  é sobrejetiva quando todo elemento de y ∈ B, é  imagem de x ∈ A.
+
+                    Todo elemento do contradomínio é imagem de pelo menos um elemento do domínio.
+
+                    Ou seja: ∀y ∈ B, ∃x ∈ A tal que 𝑓(x) =  y 
+                             
+                                                           Ou, de forma equivalente: Im(𝑓) = B 
+
+
+                                Intuição correta: Nenhum elemento de B fica “sem seta”.
+
+                                    O contradomínio é totalmente coberto pela imagem da função.
+                    
+
+                    Pense em vagas de estacionamento (B) e carros (A). Se todas as vagas estão ocupadas, a função é 
+                                                                      sobrejetiva.
+                             
+
+
+Função bijetiva: Uma função 𝑓: 𝐴 → 𝐵  é bijetiva se ela for, simultaneamente, injetiva e sobrejita.
+                   
+                 Os os elementos do dominio está ligada a apenas um elemento da imagem e a imagem é igual ao 
+                contradomínio.
+
+                 Ou seja: x1 ≠ x2 em A → 𝑓(x1) ≠ 𝑓(x2) em B e Im(𝑓) = B 
+
+                 
+                                   Intuição correta: Cada elemento de A corresponde a um único elemento de B.
+
+                                  Cada elemento de B corresponde a um único elemento de A
+
+                 Pense em pessoas (A) e cadeiras numeradas (B). Cada pessoa senta em uma cadeira única, Todas as 
+                cadeiras estão ocupadas
+
+                
+
+
+                 
+
+
+
+
  
 
 
