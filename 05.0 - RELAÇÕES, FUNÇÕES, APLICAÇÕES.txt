@@ -365,3 +365,48 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
   Essa distinção é extremamente importante em matemática discreta e computação. Em algoritmos, por exemplo, funções parciais aparecem quando uma operação só faz sentido em certas condições: como acessar um elemento de uma lista apenas se o índice existir. Já as funções totais são preferidas quando queremos sistemas mais previsíveis, onde cada entrada válida sempre gera um resultado.
 
  Em suma, funções totais garantem respostas para todas as entradas; funções parciais aceitam que algumas perguntas não tenham resposta. Entender essa diferença é essencial para modelar problemas reais com clareza e segurança. 
+
+
+
+                                           "Tipos de Funções"
+
+Vamos avançar mais um degrau no nosso estudo sobre funções falando agora dos Tipos de Funções. Até aqui, entendemos que uma função é uma regra bem organizada que associa elementos de um conjunto a outro, como uma máquina confiável: você coloca uma entrada, ela devolve uma saída. Quando falamos em “tipos”, estamos basicamente observando como essa associação se comporta, se ela evita repetições, se cobre tudo ou se faz as duas coisas ao mesmo tempo.
+
+Uma boa analogia é pensar em diferentes formas de organizar pessoas, objetos ou tarefas no dia a dia. Às vezes, queremos evitar confusão (ninguém pode ter o mesmo crachá), às vezes queremos garantir que tudo seja usado (nenhuma vaga fique vazia), e às vezes queremos as duas coisas juntas. Os tipos de funções — injetiva, sobrejetiva e bijetiva — surgem exatamente para descrever esses comportamentos com precisão matemática, mas com ideias bem próximas da nossa realidade.
+
+Função Injetiva: A função injetiva é aquela que evita “colisões”. Formalmente, dizemos que uma função 𝑓: 𝐴 → 𝐵 é injetiva quando elementos diferentes do domínio levam a elementos diferentes no contradomínio. 
+
+ Em notação: 𝑥₁ ≠ 𝑥₂ ⇒ 𝑓(𝑥₁) ≠ 𝑓(𝑥₂).
+
+A ideia central aqui não está na ida, mas no retorno: ninguém chega no mesmo lugar vindo de caminhos diferentes.
+
+Intuitivamente, pense em alunos recebendo números de matrícula. Cada aluno pode ter apenas um número, mas, mais importante, dois alunos diferentes não podem ter o mesmo número. Se isso acontece, a função é injetiva. Não importa se sobram números não usados — isso não quebra a injetividade.
+
+Como exemplo, considere 𝑓: ℕ → ℕ definida por 𝑓(𝑥) = 𝑥 + 1. Números diferentes produzem resultados diferentes, então não há sobreposição. Observe um detalhe importante: toda função associa cada elemento do domínio a um único valor, mas isso é apenas a definição de função. A injetividade fala sobre não repetir resultados, não apenas sobre existir uma associação.
+
+
+Função Sobrejetiva: A função sobrejetiva muda o foco: agora, o importante é que nada fique de fora no contradomínio. Dizemos que uma função 𝑓: 𝐴 → 𝐵 é sobrejetiva quando todo elemento de 𝐵 é imagem de pelo menos um elemento de 𝐴. 
+
+Em notação: ∀𝑦 ∈ 𝐵, ∃𝑥 ∈ 𝐴 tal que  𝑓(𝑥) = 𝑦.
+                  Ou, de forma equivalente é: Im(𝑓) = 𝐵.
+
+A analogia clássica é a de vagas de estacionamento. Imagine que 𝐵 são as vagas e 𝐴 são os carros. Se todas as vagas estão ocupadas, então a função é sobrejetiva. Não importa se alguns carros dividem a mesma vaga (o que seria estranho na vida real, mas possível na matemática), o que importa é que nenhuma vaga fique vazia.
+
+Um exemplo simples é a função 𝑓: ℝ → ℝ, dada por 𝑓(𝑥) = 𝑥³.  Todo número real pode ser obtido como o cubo de algum outro real. Logo, a imagem da função coincide com o contradomínio, tornando-a sobrejetiva.
+
+
+Função Bijetiva: A função bijetiva é o cenário ideal: ela é injetiva e sobrejetiva ao mesmo tempo. Isso significa que não há repetições e não há sobras. 
+
+ Formalmente, uma função 𝑓: 𝐴 → 𝐵 é bijetiva se: 𝑥₁ ≠ 𝑥₂ ⇒ 𝑓(𝑥₁) ≠ 𝑓(𝑥₂) e Im(𝑓) = 𝐵.
+
+
+Intuitivamente, pense em pessoas sentando em cadeiras numeradas. Cada pessoa senta em uma única cadeira, e todas as cadeiras estão ocupadas. Não há duas pessoas na mesma cadeira e nenhuma cadeira vazia. Essa correspondência perfeita é a essência da bijetividade.
+
+Um exemplo clássico é a função 𝑓: {1, 2, 3} → {𝑎, 𝑏, 𝑐}, com 𝑓(1) = 𝑎,  𝑓(2) = 𝑏,  𝑓(3) = 𝑐.
+
+ Cada elemento do domínio corresponde a exatamente um elemento do contradomínio, e vice-versa. Funções bijetivas são especialmente importantes porque permitem inverter a função, algo muito usado em matemática e algoritmos.
+
+
+Para fechar nossa aula, pense nos tipos de funções como lentes diferentes para observar a mesma ideia básica de associação. A injetiva se preocupa em não misturar resultados, a sobrejetiva garante que nada fique de fora, e a bijetiva equilibra perfeitamente essas duas exigências. Cada uma modela situações diferentes do mundo real e dos sistemas computacionais.
+
+Dominar esses conceitos é como aprender novas formas de organizar informações com clareza e segurança. Vá com calma, revisite os exemplos e confie no processo. A matemática discreta vai ficando cada vez mais elegante à medida que essas peças se encaixam — e você está construindo uma base sólida para compreender algoritmos com muito mais entusiasmo e maturidade.
