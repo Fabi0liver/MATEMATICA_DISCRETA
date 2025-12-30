@@ -347,3 +347,76 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
  A partir disso, chegamos à chamada lei da função, que é a regra que descreve como a associação acontece. Ela pode ser dada por uma fórmula, como 𝑓(𝑥) = 𝑥 + 1, por uma tabela, por um algoritmo ou até por uma descrição em palavras. Pense nela como a receita do bolo: ela explica exatamente o que fazer com cada ingrediente para chegar ao resultado final, sempre seguindo o mesmo passo a passo.
 
  Em matemática discreta, funções aparecem o tempo todo: para modelar algoritmos, representar estados de sistemas, descrever transições em autômatos ou mapear dados de entrada para dados de saída. Entender bem esse conceito é como aprender a ler a partitura antes de tocar uma música: tudo fica mais claro, organizado e previsível quando a regra da associação está bem definida. Vale reforçar: funções trazem ordem, clareza e confiança ao estudo das relações. Elas nos ensinam que, quando cada entrada tem um destino certo, conseguimos construir estruturas sólidas e raciocínios mais poderosos.
+
+
+
+                                         "Funções Totais e Parciais"
+
+ Depois de entendermos o que é uma função e como ela organiza relações de forma bem definida, chegou a hora de dar um passo importante e falar sobre funções totais e funções parciais. Esse tema aprofunda a ideia de “entrada e saída” e nos ajuda a perceber que nem sempre uma regra funciona para todos os elementos possíveis. É como uma receita que, às vezes, funciona para qualquer ingrediente listado e, em outras, só faz sentido para alguns bem específicos.
+
+Começando pelas funções totais, a ideia é simples e reconfortante: elas funcionam para todos os elementos do domínio. Formalmente, uma função total 
+𝑓
+:
+𝐴
+→
+𝐵
+f:A→B é aquela em que todo elemento 
+𝑎
+∈
+𝐴
+a∈A possui uma imagem bem definida em 
+𝐵
+B. Uma boa analogia é o horário escolar: todo aluno matriculado tem uma sala definida para assistir aula. Não existe aluno “sem sala”. Em matemática, isso significa que nenhuma entrada fica sem saída.
+
+Um exemplo clássico de função total é 
+𝑓
+(
+𝑥
+)
+=
+𝑥
+2
+f(x)=x
+2
+, definida de 
+𝑍
+Z em 
+𝑍
+Z. Qualquer número inteiro que você escolher pode ser elevado ao quadrado, sem exceções. Em notação, dizemos que o domínio inteiro está totalmente coberto pela regra da função. Em termos computacionais, funções totais são como algoritmos que sempre sabem o que fazer, não importa qual dado válido você forneça como entrada.
+
+Agora vamos às funções parciais, que trazem uma nuance importante. Uma função parcial é aquela em que nem todos os elementos do domínio possuem imagem definida. Formalmente, dizemos que ela é uma função definida apenas em um subconjunto do domínio original. A analogia aqui é uma máquina que só aceita certos tipos de moedas: se você tentar usar outra, ela simplesmente não funciona. A regra existe, mas não vale para todos os casos possíveis.
+
+Um exemplo simples é a função 
+𝑓
+(
+𝑥
+)
+=
+1
+𝑥
+f(x)=
+x
+1
+	​
+
+, definida de 
+𝑅
+R em 
+𝑅
+R. Ela funciona para quase todos os números reais, mas falha quando 
+𝑥
+=
+0
+x=0. Nesse caso, dizemos que a função é parcial se considerarmos o domínio como todos os reais. Em notação, muitas vezes escrevemos 
+𝑓
+:
+𝐴
+⇀
+𝐵
+f:A⇀B para indicar que a função é parcial, destacando que nem todo elemento de 
+𝐴
+A precisa ter imagem.
+
+Essa distinção é extremamente importante em matemática discreta e computação. Em algoritmos, por exemplo, funções parciais aparecem quando uma operação só faz sentido em certas condições — como acessar um elemento de uma lista apenas se o índice existir. Já as funções totais são preferidas quando queremos sistemas mais previsíveis, onde cada entrada válida sempre gera um resultado.
+
+Para fechar nossa aula, guarde a ideia central: funções totais garantem respostas para todas as entradas; funções parciais aceitam que algumas perguntas não tenham resposta. Entender essa diferença é essencial para modelar problemas reais com clareza e segurança. Continue avançando com confiança — cada novo conceito amplia sua visão sobre como a matemática discreta sustenta algoritmos e sistemas computacionais. Você está no caminho certo, e o melhor ainda está por vir.
