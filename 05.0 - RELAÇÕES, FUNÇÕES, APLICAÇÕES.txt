@@ -340,45 +340,11 @@ Para entender melhor, vale comparar relação e função. Toda função é uma r
 
 Nesse contexto surgem três termos fundamentais: domínio, contradomínio e imagem. O domínio é o conjunto das entradas possíveis da função — os “ingredientes” que podem entrar na receita. O contradomínio é o conjunto que contém todas as saídas possíveis, mesmo aquelas que talvez nunca sejam usadas. Já a imagem é o subconjunto do contradomínio que realmente aparece como resultado da função. Por exemplo, se a função associa alunos às suas notas finais, o domínio são os alunos, o contradomínio pode ser todas as notas de 0 a 10, e a imagem são apenas as notas que os alunos realmente tiraram.
 
-Agora vamos olhar para a definição formal, sem perder a leveza. Dizemos que uma função 
-𝑓
-f de um conjunto 
-𝐴
-A para um conjunto 
-𝐵
-B é uma relação 
-𝑓
-⊆
-𝐴
-×
-𝐵
-f⊆A×B tal que, para todo 
-𝑎
-∈
-𝐴
-a∈A, existe um único 
-𝑏
-∈
-𝐵
-b∈B com 
-(
-𝑎
-,
-𝑏
-)
-∈
-𝑓
-(a,b)∈f. Em notação, escrevemos 
-𝑓
-:
-𝐴
-→
-𝐵
-f:A→B. Traduzindo isso para o dia a dia: cada elemento do conjunto de partida tem um destino bem definido, sem ambiguidades.
+Agora vamos olhar para a definição formal, sem perder a leveza. Dizemos que uma função 𝑓 de um conjunto 𝐴 para um conjunto 𝐵 é uma relação 𝑓 ⊆ 𝐴 × 𝐵 tal que, para todo  𝑎 ∈ 𝐴, existe um único 𝑏∈  𝐵 com (𝑎, 𝑏) ∈ 𝑓. Em notação, escrevemos 𝑓: 𝐴 → 𝐵. Traduzindo isso para o dia a dia: cada elemento do conjunto de partida tem um destino bem definido, sem ambiguidades.
 
 Essa definição nos leva às condições de funcionalidade, que são as regras que uma relação precisa obedecer para ser considerada uma função. A primeira condição é a existência: todo elemento do domínio precisa estar associado a alguém no contradomínio. A segunda é a unicidade: esse elemento do domínio não pode estar associado a dois resultados diferentes. É como um jogo de tabuleiro em que cada casa leva você a apenas uma próxima casa possível, nunca a duas ao mesmo tempo.
 
-A partir disso, chegamos à chamada lei da função, que é a regra que descreve como a associação acontece. Ela pode ser dada por uma fórmula, como 𝑓(𝑥) = 𝑥 + 1, por uma tabela, por um algoritmo ou até por uma descrição em palavras. Pense nela como a receita do bolo: ela explica exatamente o que fazer com cada ingrediente para chegar ao resultado final, sempre seguindo o mesmo passo a passo.
+A partir disso, chegamos à chamada lei da função, que é a regra que descreve como a associação acontece. Ela pode ser dada por uma fórmula, como 𝑓(𝑥) = 𝑥 +  1, por uma tabela, por um algoritmo ou até por uma descrição em palavras. Pense nela como a receita do bolo: ela explica exatamente o que fazer com cada ingrediente para chegar ao resultado final, sempre seguindo o mesmo passo a passo.
 
 Em matemática discreta, funções aparecem o tempo todo: para modelar algoritmos, representar estados de sistemas, descrever transições em autômatos ou mapear dados de entrada para dados de saída. Entender bem esse conceito é como aprender a ler a partitura antes de tocar uma música — tudo fica mais claro, organizado e previsível quando a regra da associação está bem definida.
 
