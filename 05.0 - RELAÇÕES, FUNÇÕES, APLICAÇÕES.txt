@@ -1,4 +1,4 @@
-                                      RELAÇÕES, FUNÇÕES, APLICAÇÕES
+                                      RELAÇÕES, FUNÇÕES E APLICAÇÕES
 
 
  Após compreendermos Teoria dos Conjuntos, é natural darmos o próximo passo e começarmos a falar sobre Relações, Funções e Aplicações. Pense nesse momento como sair da fase de conhecer os “ingredientes” e começar a entender como eles se conectam para formar receitas mais interessantes. Se antes lidávamos apenas com conjuntos isolados, agora passamos a observar como elementos de conjuntos diferentes (ou do mesmo conjunto) se relacionam entre si, criando estruturas que descrevem dependências, vínculos e correspondências.
