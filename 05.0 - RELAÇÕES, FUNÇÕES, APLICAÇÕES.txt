@@ -408,3 +408,183 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
  Em suma, pense nos tipos de funções como lentes diferentes para observar a mesma ideia básica de associação. A injetiva se preocupa em não misturar resultados, a sobrejetiva garante que nada fique de fora, e a bijetiva equilibra perfeitamente essas duas exigências. Cada uma modela situações diferentes do mundo real e dos sistemas computacionais.
 
  Dominar esses conceitos é como aprender novas formas de organizar informações com clareza e segurança. Vá com calma, revisite os exemplos e confie no processo. A matemática discreta vai ficando cada vez mais elegante à medida que essas peças se encaixam, e você está construindo uma base sólida para compreender algoritmos com muito mais entusiasmo e maturidade.
+
+
+
+                                               "Funções Inversas"
+
+ Vamos avançar mais um passo natural no nosso estudo falando agora sobre Funções Inversas, um conceito que costuma parecer abstrato à primeira vista, mas que fica muito claro quando pensamos nele como um caminho de ida e volta. Até aqui, vimos funções como regras que levam elementos de um conjunto 𝐴 para um conjunto 𝐵. A função inversa surge quando queremos desfazer esse caminho, retornando de 
+𝐵
+B para 
+𝐴
+A, sem confusão e sem ambiguidades.
+
+Uma boa analogia é imaginar uma estrada. Se existe apenas um sentido, você até consegue ir, mas não consegue voltar. Para existir ida e volta organizada, cada ponto de partida precisa levar a um único destino, e cada destino precisa saber exatamente de onde veio. É essa ideia de “voltar pelo mesmo caminho” que está no coração das funções inversas.
+
+Formalmente, se temos uma função 
+𝑓
+:
+𝐴
+→
+𝐵
+f:A→B, sua inversa é denotada por 
+𝑓
+−
+1
+:
+𝐵
+→
+𝐴
+f
+−1
+:B→A. A definição diz que 
+𝑓
+−
+1
+(
+𝑦
+)
+=
+𝑥
+f
+−1
+(y)=x se, e somente se, 
+𝑓
+(
+𝑥
+)
+=
+𝑦
+f(x)=y. Em outras palavras, a inversa apenas troca os papéis: aquilo que antes era entrada vira saída, e o que era saída vira entrada. É como inverter os papéis de remetente e destinatário em uma entrega.
+
+Essa relação também pode ser escrita de forma equivalente como 
+𝑓
+−
+1
+(
+𝑓
+(
+𝑥
+)
+)
+=
+𝑥
+f
+−1
+(f(x))=x e 
+𝑓
+(
+𝑓
+−
+1
+(
+𝑦
+)
+)
+=
+𝑦
+f(f
+−1
+(y))=y. Essas expressões reforçam a ideia de que aplicar a função e depois a inversa (ou o contrário) nos leva exatamente de volta ao ponto inicial, como apertar “desfazer” depois de um comando bem executado.
+
+No entanto, nem toda função admite inversa, e aqui entra uma condição fundamental: a função precisa ser bijetiva. A injetividade garante que não haja dois caminhos diferentes chegando ao mesmo destino — se isso acontecesse, a inversa não saberia para qual ponto voltar. Já a sobrejetividade garante que nenhum elemento de 
+𝐵
+B fique sem origem, pois a inversa precisa estar definida para todo o contradomínio.
+
+Um exemplo simples ajuda bastante. Considere 
+𝐴
+=
+{
+1
+,
+2
+,
+3
+}
+A={1,2,3} e 
+𝐵
+=
+{
+𝑎
+,
+𝑏
+,
+𝑐
+}
+B={a,b,c}, com a função definida por 
+𝑓
+(
+1
+)
+=
+𝑎
+f(1)=a, 
+𝑓
+(
+2
+)
+=
+𝑏
+f(2)=b e 
+𝑓
+(
+3
+)
+=
+𝑐
+f(3)=c. Aqui, cada elemento de 
+𝐴
+A vai para um único elemento de 
+𝐵
+B, e todos os elementos de 
+𝐵
+B são atingidos. A função inversa surge naturalmente: 
+𝑓
+−
+1
+(
+𝑎
+)
+=
+1
+f
+−1
+(a)=1, 
+𝑓
+−
+1
+(
+𝑏
+)
+=
+2
+f
+−1
+(b)=2 e 
+𝑓
+−
+1
+(
+𝑐
+)
+=
+3
+f
+−1
+(c)=3. É como reorganizar uma lista trocando colunas.
+
+No cotidiano, pense em pessoas e cadeiras numeradas. Se cada pessoa senta em uma única cadeira e todas as cadeiras estão ocupadas, você consegue inverter a relação sem problemas: dada uma cadeira, você sabe exatamente quem está nela. Se duas pessoas compartilhassem a mesma cadeira ou se alguma cadeira estivesse vazia, essa inversão se tornaria impossível ou incompleta.
+
+É importante também evitar alguns erros comuns. Um deles é achar que toda função tem inversa, o que não é verdade. Outro é confundir 
+𝑓
+−
+1
+f
+−1
+ com 
+1
+/
+𝑓
+1/f, como se fosse uma fração — são conceitos completamente diferentes. Além disso, ignorar o contradomínio ao definir a inversa pode gerar inconsistências, pois a inversa depende diretamente de como a função original foi definida.
+
+Para encerrar, pense nas funções inversas como uma prova de organização perfeita. Elas mostram que a relação entre dois conjuntos está tão bem estruturada que é possível ir e voltar sem perder informação. Esse conceito aparece com força tanto na matemática quanto nos algoritmos, especialmente quando falamos de reversibilidade, decodificação e transformação de dados. Continue avançando com curiosidade — cada novo conceito que você domina torna o caminho mais claro e o aprendizado ainda mais empolgante.
