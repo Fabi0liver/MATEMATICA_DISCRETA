@@ -298,6 +298,32 @@ Função bijetiva: Uma função 𝑓: 𝐴 → 𝐵  é bijetiva se ela for, sim
                           Confundir 𝑓⁻¹ com 1/𝑓⁻¹
 
                           Ignorar o contradomínio ao definir a inversa
+
+
+
+Princípio da Casa dos Pombos: Se mais pombos do que casas forem colocados nas casas, então pelo menos uma casa 
+                             conterá dois ou mais pombos.
+
+                              Traduzindo para funções: Pombos → elementos do domínio
+
+                                                     Casas → elementos do contradomínio
+
+                                                     Atribuir pombos às casas → definir uma função
+
+                               O Princípio da Casa dos Pombos pode ser formulado exatamente em termos de funções.
+                                                                                  Seja 𝐴 e 𝐵 conjuntos finitos 𝑓: 𝐴 → 𝐵.
+
+                               Então: |𝐴| > |𝐵| , Se houver mais pombos do que casas, então 𝑓 não é injetiva.
+                                      Dois (ou mais) elementos distintos do domínio são enviados para o mesmo elemento do 
+                                                                                                   contradomínio.
+                                
+                                      |𝐴| < |𝐵|,  Se houver menos pombos do que casas, então 𝑓 não é sobrejetiva.
+                                      Pelo menos um elemento do contradomínio não é imagem de nenhum elemento do domínio.
+
+             
+
+
+                          
 	​
  
 
