@@ -261,9 +261,9 @@ Função bijetiva: Uma função 𝑓: 𝐴 → 𝐵  é bijetiva se ela for, sim
 
 
  Funções Inversas: Uma função inversa faz exatamente o caminho de volta de uma função original. Se uma função 𝑓  
-                  leva elementos de 𝐴 para 𝐵, a inversa tenta levar elementos de 𝐵 de volta para 𝐴.     
+                                    leva elementos de 𝐴 para 𝐵, a inversa tenta levar elementos de 𝐵 de volta para 𝐴.     
                     
-                   É como uma estrada de mão dupla, Se a estrada só vai, não existe volta. Para haver ida e volta 
+                                      É como uma estrada de mão dupla, Se a estrada só vai, não existe volta. Para haver ida e volta 
                   sem confusão, a correspondência precisa ser perfeita.          
 
                    Definição Formal: Seja uma função: 𝑓: 𝐴 → 𝐵
@@ -272,7 +272,35 @@ Função bijetiva: Uma função 𝑓: 𝐴 → 𝐵  é bijetiva se ela for, sim
 
                                      tal que: 𝑓⁻¹(𝑦) = 𝑥 ⟺ 𝑓(𝑥) = 𝑦
 
-                                                             Ou, de forma equivalente: 𝑓⁻¹(𝑓(𝑥)) = 𝑥 e 𝑓(𝑓⁻¹(𝑦)) = 𝑦
+                                                                           Ou, de forma equivalente: 𝑓⁻¹(𝑓(𝑥)) = 𝑥 e 𝑓(𝑓⁻¹(𝑦)) = 𝑦
+
+                    
+                               Condição de Existência: Uma função admite inversa se, e somente se, for bijetiva.
+
+                                           Sem injetividade dois elementos diferentes de 𝐴 teriam a mesma imagem, a 
+                                          inversa não saberia para qual voltar.
+
+                                           Sem sobrejetividade  sobrariam elementos em 𝐵 sem pré-imagem, a inversa não 
+                                                                                                                 estaria definida para todo 𝐵.
+
+
+                   Exemplo: Considere, 𝐴 = {1, 2, 3}, 𝐵 = {𝑎, 𝑏, 𝑐}
+
+                            Defina: 𝑓(1) = 𝑎, 𝑓(2) = 𝑏, 𝑓(3) = 𝑐
+
+                            A inversa é: 𝑓⁻¹(𝑎) = 1, 𝑓⁻¹(𝑏) = 2, 𝑓⁻¹ (𝑐) = 3
+
+                            𝑓 é injetiva, 𝑓 e sobrejetiva, então 𝑓⁻¹ e valida.
+
+
+                   Erros: Achar que toda função tem inversa 
+
+                          Confundir 𝑓⁻¹ com 1/𝑓⁻¹
+
+                          Ignorar o contradomínio ao definir a inversa
+	​
+ 
+
 
  
 
