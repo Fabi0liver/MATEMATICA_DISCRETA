@@ -260,10 +260,19 @@ Função bijetiva: Uma função 𝑓: 𝐴 → 𝐵  é bijetiva se ela for, sim
                 
 
 
-                 
+ Funções Inversas: Uma função inversa faz exatamente o caminho de volta de uma função original. Se uma função 𝑓  
+                  leva elementos de 𝐴 para 𝐵, a inversa tenta levar elementos de 𝐵 de volta para 𝐴.     
+                    
+                   É como uma estrada de mão dupla, Se a estrada só vai, não existe volta. Para haver ida e volta 
+                  sem confusão, a correspondência precisa ser perfeita.          
 
+                   Definição Formal: Seja uma função: 𝑓: 𝐴 → 𝐵
 
+                                     A função inversa de 𝑓, denotada por 𝑓⁻¹, é uma função: 𝑓⁻¹: 𝐵 → 𝐴
 
+                                     tal que: 𝑓⁻¹(𝑦) = 𝑥 ⟺ 𝑓(𝑥) = 𝑦
+
+                                                             Ou, de forma equivalente: 𝑓⁻¹(𝑓(𝑥)) = 𝑥 e 𝑓(𝑓⁻¹(𝑦)) = 𝑦
 
  
 
