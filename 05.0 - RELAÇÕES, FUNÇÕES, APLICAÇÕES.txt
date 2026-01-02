@@ -504,6 +504,8 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
 
  De forma intuitiva, provar algo em matemática é como explicar por que uma receita sempre dá certo. Você não diz apenas “fica bom”, mas mostra passo a passo que, seguindo certos ingredientes e regras, o resultado será inevitavelmente aquele. Em relações e funções, as provas servem para confirmar propriedades como injetividade, sobrejetividade, existência de inversa ou validade de uma relação, sempre com argumentos claros e bem estruturados.
 
+ Agora, vamos conhecer alguns dos tipos de prova mais usados e eficazes quando trabalhamos com relações e funções.
+
   Prova direta: É a forma mais natural de provar algo. Nela, partimos diretamente das hipóteses e, passo a passo, chegamos à conclusão desejada. Em notação, costuma aparecer como: “Suponha 𝑥 ∈ 𝐴 tal que… então… logo…”. É como seguir um caminho reto em um mapa, sem desvios ou surpresas.
 
   Por exemplo, para provar que uma função 𝑓(𝑥) = 2𝑥 é injetiva, assumimos que 𝑓(𝑥₁) = 𝑓(𝑥₂). Daí temos 2𝑥₁ = 2𝑥₂, o que implica 𝑥₁ = 𝑥₂. Pronto: chegamos diretamente ao que queríamos mostrar. A analogia aqui é uma sequência lógica de passos, como montar um móvel seguindo exatamente o manual.
