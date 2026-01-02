@@ -500,40 +500,44 @@ Em suma, pense nas relações de equivalência como uma poderosa ferramenta de o
 
                                    "Provas em Relações e Funções"
 
- Chegamos agora a uma parte essencial da matemática discreta: as provas em relações e funções. Até aqui, aprendemos definições, propriedades e exemplos, mas a prova é o momento em que a matemática mostra sua alma: é quando deixamos de “achar que algo é verdade” e passamos a demonstrar com segurança que aquilo realmente funciona. Pense nas provas como o manual de garantia de uma máquina — não basta ela parecer boa, precisamos ter certeza de que funciona em todas as situações previstas.
+ Chegamos agora a uma das parte essencial da matemática discreta: as provas em relações e funções. Até aqui, aprendemos definições, propriedades e exemplos, mas a prova é o momento em que a matemática mostra sua alma: é quando deixamos de “achar que algo é verdade” e passamos a demonstrar com segurança que aquilo realmente funciona. Pense nas provas como o manual de garantia de uma máquina: não basta ela parecer boa, precisamos ter certeza de que funciona em todas as situações previstas.
 
-De forma intuitiva, provar algo em matemática é como explicar por que uma receita sempre dá certo. Você não diz apenas “fica bom”, mas mostra passo a passo que, seguindo certos ingredientes e regras, o resultado será inevitavelmente aquele. Em relações e funções, as provas servem para confirmar propriedades como injetividade, sobrejetividade, existência de inversa ou validade de uma relação, sempre com argumentos claros e bem estruturados.
+ De forma intuitiva, provar algo em matemática é como explicar por que uma receita sempre dá certo. Você não diz apenas “fica bom”, mas mostra passo a passo que, seguindo certos ingredientes e regras, o resultado será inevitavelmente aquele. Em relações e funções, as provas servem para confirmar propriedades como injetividade, sobrejetividade, existência de inversa ou validade de uma relação, sempre com argumentos claros e bem estruturados.
 
-Prova direta: É a forma mais natural de provar algo. Nela, partimos diretamente das hipóteses e, passo a passo, chegamos à conclusão desejada. Em notação, costuma aparecer como: “Suponha 𝑥 ∈ 𝐴 tal que… então… logo…”. É como seguir um caminho reto em um mapa, sem desvios ou surpresas.
+  Prova direta: É a forma mais natural de provar algo. Nela, partimos diretamente das hipóteses e, passo a passo, chegamos à conclusão desejada. Em notação, costuma aparecer como: “Suponha 𝑥 ∈ 𝐴 tal que… então… logo…”. É como seguir um caminho reto em um mapa, sem desvios ou surpresas.
 
-Por exemplo, para provar que uma função 𝑓(𝑥) = 2𝑥 é injetiva, assumimos que 𝑓(𝑥₁) = 𝑓(𝑥₂). Daí temos 2𝑥₁ = 2𝑥₂, o que implica 𝑥₁ = 𝑥₂. Pronto: chegamos diretamente ao que queríamos mostrar. A analogia aqui é uma sequência lógica de passos, como montar um móvel seguindo exatamente o manual.
+  Por exemplo, para provar que uma função 𝑓(𝑥) = 2𝑥 é injetiva, assumimos que 𝑓(𝑥₁) = 𝑓(𝑥₂). Daí temos 2𝑥₁ = 2𝑥₂, o que implica 𝑥₁ = 𝑥₂. Pronto: chegamos diretamente ao que queríamos mostrar. A analogia aqui é uma sequência lógica de passos, como montar um móvel seguindo exatamente o manual.
 
-A grande vantagem da prova direta é a clareza. Quando o problema permite esse tipo de abordagem, ela costuma ser a mais elegante e fácil de acompanhar, especialmente para quem está começando.
+  A grande vantagem da prova direta é a clareza. Quando o problema permite esse tipo de abordagem, ela costuma ser a mais elegante e fácil de acompanhar, especialmente para quem está começando.
 
-Prova por contraposição: Que troca o foco do argumento. Em vez de provar “se P então Q”, provamos o equivalente lógico “se não Q então não P”. Isso é muito útil quando a conclusão é difícil de alcançar diretamente. É como dizer: “Se o bolo não cresceu, então o fermento não foi colocado”.
 
-Em notação, usamos algo como: para provar 𝑃 ⇒ 𝑄, mostramos ¬𝑄 ⇒ ¬𝑃. Por exemplo, para provar que uma função é injetiva, podemos assumir que 𝑥₁ ≠ 𝑥₂ não é verdade, e mostrar que isso levaria a imagens iguais. Esse tipo de prova costuma simplificar bastante o raciocínio.
+  Prova por contraposição: Que troca o foco do argumento. Em vez de provar “se P então Q”, provamos o equivalente lógico “se não Q então não P”. Isso é muito útil quando a conclusão é difícil de alcançar diretamente. É como dizer: “Se o bolo não cresceu, então o fermento não foi colocado”.
 
-A contraposição é muito comum em matemática discreta, pois várias propriedades ficam mais claras quando vistas “de trás para frente”, como analisar um jogo voltando jogadas para entender onde ocorreu o erro.
+  Em notação, usamos algo como: para provar 𝑃 ⇒ 𝑄, mostramos ¬𝑄 ⇒ ¬𝑃. Por exemplo, para provar que uma função é injetiva, podemos assumir que 𝑥₁ ≠ 𝑥₂ não é verdade, e mostrar que isso levaria a imagens iguais. Esse tipo de prova costuma simplificar bastante o raciocínio.
 
-Prova por Contradição: Segue uma ideia diferente das outras provas e muito poderosa. Nela, assumimos que a afirmação que queremos provar é falsa e mostramos que isso leva a um absurdo. Quando surge a contradição, concluímos que a suposição inicial estava errada, e portanto a afirmação original é verdadeira.
+  A contraposição é muito comum em matemática discreta, pois várias propriedades ficam mais claras quando vistas “de trás para frente”, como analisar um jogo voltando jogadas para entender onde ocorreu o erro.
 
-Formalmente, assumimos ¬𝑃 e, após alguns passos lógicos, chegamos a algo impossível, como 1 = 0. Um exemplo clássico é provar que uma função não pode ter inversa se não for injetiva. Assumimos que ela tem inversa, mesmo não sendo injetiva, e logo surgem ambiguidades impossíveis. É como assumir que duas pessoas diferentes ocupam a mesma cadeira numerada — algo claramente incoerente.
 
-Esse tipo de prova é muito usado quando não conseguimos construir um caminho direto até a conclusão, mas conseguimos mostrar que o contrário simplesmente não pode acontecer.
+  Prova por Contradição: Segue uma ideia diferente das outras provas e muito poderosa. Nela, assumimos que a afirmação que queremos provar é falsa e mostramos que isso leva a um absurdo. Quando surge a contradição, concluímos que a suposição inicial estava errada, e portanto a afirmação original é verdadeira.
 
-Contraexemplo: Em vez de provar que algo é verdadeiro, usamos um único exemplo bem escolhido para mostrar que uma afirmação é falsa. É como alguém dizer “todos os cisnes são brancos” e você mostrar um cisne negro.
+  Formalmente, assumimos ¬𝑃 e, após alguns passos lógicos, chegamos a algo impossível, como 1 = 0. Um exemplo clássico é provar que uma função não pode ter inversa se não for injetiva. Assumimos que ela tem inversa, mesmo não sendo injetiva, e logo surgem ambiguidades impossíveis. É como assumir que duas pessoas diferentes ocupam a mesma cadeira numerada, algo claramente incoerente.
 
-Em relações e funções, um contraexemplo pode ser uma função que não é injetiva, apesar de parecer à primeira vista, ou uma relação que não possui certa propriedade. Basta um único caso inválido para derrubar uma afirmação universal. Em notação, normalmente apresentamos explicitamente o conjunto, a relação ou a função problemática.
+  Esse tipo de prova é muito usado quando não conseguimos construir um caminho direto até a conclusão, mas conseguimos mostrar que o contrário simplesmente não pode acontecer.
 
-O contraexemplo ensina uma lição valiosa: intuição não basta. Ele nos obriga a respeitar definições e limites formais, algo essencial na formação matemática e computacional.
 
-Construção Explícita: Que consiste em provar algo mostrando diretamente como ele é construído. Em vez de apenas dizer “existe uma função com tal propriedade”, nós a definimos claramente. 
+  Contraexemplo: Em vez de provar que algo é verdadeiro, usamos um único exemplo bem escolhido para mostrar que uma afirmação é falsa. É como alguém dizer “todos os cisnes são brancos” e você mostrar um cisne negro.
 
-Por exemplo: “Defina 𝑓: 𝐴 → 𝐵 por 𝑓(𝑥) = 𝑥 + 1”. Isso já é, em si, uma prova de existência.
+  Em relações e funções, um contraexemplo pode ser uma função que não é injetiva, apesar de parecer à primeira vista, ou uma relação que não possui certa propriedade. Basta um único caso inválido para derrubar uma afirmação universal. Em notação, normalmente apresentamos explicitamente o conjunto, a relação ou a função problemática.
 
-A analogia aqui é montar algo na frente de alguém: não basta dizer que dá para montar, você mostra como fazer. Em matemática discreta, esse tipo de prova é muito comum para demonstrar a existência de funções, inversas ou correspondências entre conjuntos.
+  O contraexemplo ensina uma lição valiosa: intuição não basta. Ele nos obriga a respeitar definições e limites formais, algo essencial na formação matemática e computacional.
 
-A construção explícita traz muita clareza e costuma ser bastante didática, pois o leitor consegue “ver” o objeto matemático funcionando.
+  
+  Construção Explícita: Que consiste em provar algo mostrando diretamente como ele é construído. Em vez de apenas dizer “existe uma função com tal propriedade”, nós a definimos claramente.  
 
-Em suma, lembre-se: provar é explicar com rigor por que algo funciona. Cada tipo de prova é uma ferramenta diferente na sua caixa de ferramentas matemáticas, e saber quando usar cada uma faz toda a diferença. Não tenha medo das provas — com prática, elas deixam de ser um obstáculo e passam a ser um poderoso meio de compreensão. Continue avançando com confiança e curiosidade: dominar provas é um passo fundamental para pensar como um verdadeiro matemático e cientista da computação.
+  Por exemplo: “Defina 𝑓: 𝐴 → 𝐵 por 𝑓(𝑥) = 𝑥 + 1”. Isso já é, em si, uma prova de existência.
+
+  A analogia aqui é montar algo na frente de alguém: não basta dizer que dá para montar, você mostra como fazer. Em matemática discreta, esse tipo de prova é muito comum para demonstrar a existência de funções, inversas ou correspondências entre conjuntos.
+
+  A construção explícita traz muita clareza e costuma ser bastante didática, pois o leitor consegue “ver” o objeto matemático funcionando.
+
+ Em suma, provar é explicar com rigor por que algo funciona. Cada tipo de prova é uma ferramenta diferente na sua caixa de ferramentas matemáticas, e saber quando usar cada uma faz toda a diferença. Não tenha medo das provas, com prática, elas deixam de ser um obstáculo e passam a ser um poderoso meio de compreensão. 
