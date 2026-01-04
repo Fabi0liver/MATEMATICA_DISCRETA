@@ -1,0 +1,13 @@
+Seja 𝑃(𝑛) uma proposição definida para  𝑛 ∈ ℕ.
+
+O princípio afirma que:
+
+                       (𝑃(1) ∧ ∀𝑛 ∈ ℕ, (𝑃(𝑛) ⇒ 𝑃(𝑛 + 1))) ⇒ ∀𝑛 ∈ ℕ, 𝑃(𝑛)
+
+Em palavras:
+
+              𝑃(1) é verdadeira;e
+
+              Se 𝑃(k) é verdadeiro ∀𝑛 ∈ ℕ,  então  𝑃(k + 1) também é verdadeiro.
+
+              Então 𝑃(𝑛) é verdadeira para todo ∀𝑛 ∈ ℕ
