@@ -19,55 +19,18 @@
 
                                                  "Caso Base"
 
- Quando falamos em Indução Matemática, o caso base é o ponto onde tudo começa. Ele funciona como a primeira peça do dominó que mencionamos antes: se ela não cair corretamente, nenhuma outra cairá depois. Em termos simples, o caso base consiste em verificar se a propriedade que queremos provar realmente vale para o menor valor de 
-𝑛
-n considerado. É uma checagem inicial, mas essencial, porque é ela que dá sustentação lógica a todo o raciocínio que vem em seguida.
+ Quando falamos em Indução Matemática, o caso base é o ponto onde tudo começa. Ele funciona como a primeira peça do dominó que mencionamos antes: se ela não cair corretamente, nenhuma outra cairá depois. Em termos simples, o caso base consiste em verificar se a propriedade que queremos provar realmente vale para o menor valor de 𝑛 considerado. É uma checagem inicial, mas essencial, porque é ela que dá sustentação lógica a todo o raciocínio que vem em seguida.
 
 O papel do caso base, portanto, é garantir que o processo não começa no vazio. Imagine uma receita de bolo que explica apenas como repetir os passos, mas não diz como preparar a massa inicial. Mesmo que as etapas seguintes estejam perfeitas, o bolo nunca existirá sem esse começo bem definido. Da mesma forma, na indução, o caso base assegura que há um primeiro “ingrediente matemático” correto sobre o qual todo o restante será construído.
 
-Escolher corretamente o menor valor de 
-𝑛
-n é um detalhe que parece simples, mas faz toda a diferença. Nem sempre esse valor é 
-𝑛
-=
-1
-n=1; às vezes, o problema só faz sentido a partir de 
-𝑛
-=
-0
-n=0, 
-𝑛
-=
-2
-n=2 ou outro valor específico. É como um jogo de tabuleiro que só começa quando todos os jogadores estão posicionados corretamente: começar antes da hora pode quebrar as regras, e começar depois pode deixar lacunas no jogo.
+Escolher corretamente o menor valor de 𝑛 é um detalhe que parece simples, mas faz toda a diferença. Nem sempre esse valor é 𝑛 = 1; às vezes, o problema só faz sentido a partir de 𝑛 = 0,  𝑛 = 2 ou outro valor específico. É como um jogo de tabuleiro que só começa quando todos os jogadores estão posicionados corretamente: começar antes da hora pode quebrar as regras, e começar depois pode deixar lacunas no jogo.
 
-Em alguns casos, um único caso base não é suficiente. Há situações em que precisamos verificar dois ou mais valores iniciais de 
-𝑛
-n. Isso acontece, por exemplo, quando a regra que liga um caso ao seguinte “pula” mais de uma casa, como uma escada em que você sobe dois degraus de cada vez. Para garantir estabilidade, você precisa confirmar que os dois primeiros degraus estão firmes antes de continuar subindo.
+Em alguns casos, um único caso base não é suficiente. Há situações em que precisamos verificar dois ou mais valores iniciais de 𝑛. Isso acontece, por exemplo, quando a regra que liga um caso ao seguinte “pula” mais de uma casa, como uma escada em que você sobe dois degraus de cada vez. Para garantir estabilidade, você precisa confirmar que os dois primeiros degraus estão firmes antes de continuar subindo.
 
-Os erros mais comuns no caso base geralmente envolvem descuido ou excesso de confiança. Um erro típico é simplesmente esquecer de verificá-lo, assumindo que ele “é óbvio”. Outro erro frequente é escolher um valor inicial errado, provando algo para um 
-𝑛
-n que nem pertence ao domínio do problema. É como testar uma rotina diária em um domingo e concluir que ela funciona para todos os dias da semana — algo claramente enganoso.
+Os erros mais comuns no caso base geralmente envolvem descuido ou excesso de confiança. Um erro típico é simplesmente esquecer de verificá-lo, assumindo que ele “é óbvio”. Outro erro frequente é escolher um valor inicial errado, provando algo para um 𝑛 que nem pertence ao domínio do problema. É como testar uma rotina diária em um domingo e concluir que ela funciona para todos os dias da semana — algo claramente enganoso.
 
-Para tornar isso mais concreto, pense em um exemplo clássico de somatório simples, como a soma dos primeiros números naturais. O caso base costuma verificar se a fórmula funciona para 
-𝑛
-=
-1
-n=1. Ao substituir esse valor, vemos rapidamente que os dois lados da igualdade coincidem. Essa verificação simples é como testar uma lâmpada antes de instalar toda a fiação: rápida, mas indispensável.
+Para tornar isso mais concreto, pense em um exemplo clássico de somatório simples, como a soma dos primeiros números naturais. O caso base costuma verificar se a fórmula funciona para 𝑛 = 1. Ao substituir esse valor, vemos rapidamente que os dois lados da igualdade coincidem. Essa verificação simples é como testar uma lâmpada antes de instalar toda a fiação: rápida, mas indispensável.
 
-Outro exemplo comum envolve potências, como afirmações do tipo 
-2
-𝑛
-≥
-𝑛
-+
-1
-2
-n
-≥n+1 para certos valores de 
-𝑛
-n. Aqui, o caso base confirma que a desigualdade vale para o primeiro valor relevante de 
-𝑛
-n. Mesmo que o crescimento exponencial “pareça” óbvio, é o caso base que transforma essa intuição em uma afirmação matemática sólida.
+Outro exemplo comum envolve potências, como afirmações do tipo 2𝑛 ≥ 𝑛+ 1 para certos valores de 𝑛. Aqui, o caso base confirma que a desigualdade vale para o primeiro valor relevante de 𝑛. Mesmo que o crescimento exponencial “pareça” óbvio, é o caso base que transforma essa intuição em uma afirmação matemática sólida.
 
 Encerrando, quero que você enxergue o caso base não como uma formalidade chata, mas como um gesto de cuidado intelectual. Ele mostra atenção aos detalhes e respeito pela lógica do processo. Ao dominar esse primeiro passo, você fortalece toda a prova e se prepara para avançar com confiança, não apenas na indução matemática, mas também na análise de algoritmos e na construção de argumentos bem fundamentados ao longo de toda a sua formação.
