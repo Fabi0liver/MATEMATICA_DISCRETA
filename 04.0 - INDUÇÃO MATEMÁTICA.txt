@@ -19,7 +19,11 @@
 
                                     "Princípio da Indução Matemática"
 
- O Princípio da Indução Matemática é o coração da indução, a regra que dá sustentação a todo o método. Ele formaliza aquela intuição do “efeito dominó” de que falamos antes, transformando uma ideia simples em uma ferramenta lógica extremamente poderosa. Em vez de enxergar a indução como algo abstrato, pense nela como um acordo lógico: se certas condições forem cumpridas, podemos confiar que uma afirmação vale para todos os números naturais.
+ O Princípio da Indução Matemática é o coração da indução, a regra que sustenta todo esse método de prova tão importante na Matemática Discreta. Ele transforma uma intuição simples (como o efeito dominó) em uma afirmação lógica rigorosa, capaz de garantir verdades sobre infinitos números naturais usando apenas alguns passos bem definidos. É aqui que a matemática mostra como organização e lógica podem substituir tentativas infinitas.
+
+Formalmente, o princípio afirma que: (𝑃(1) ∧ ∀𝑛 ∈ ℕ, (𝑃(𝑛) ⇒ 𝑃(𝑛 + 1))) ⇒ ∀𝑛 ∈ ℕ, 𝑃(𝑛)
+
+Mesmo que essa expressão pareça densa à primeira vista, ela nada mais é do que a tradução simbólica de uma ideia bastante intuitiva. Pense nela como um manual de instruções bem escrito: se você seguir as condições iniciais e respeitar a regra de transição, o resultado final é garantido.
 
 Tudo começa com a proposição 𝑃(𝑛), que nada mais é do que uma frase matemática dependente de um número natural 𝑛. Por exemplo, 𝑃(𝑛) pode ser algo como “a soma dos primeiros 𝑛 números naturais é 𝑛(𝑛 + 1) / 2”. O princípio da indução não se preocupa, nesse momento, com o conteúdo específico da proposição, mas com a forma como ela se comporta ao avançarmos de um número para o próximo.
 
