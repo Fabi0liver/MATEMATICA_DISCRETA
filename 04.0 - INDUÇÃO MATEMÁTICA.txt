@@ -1,5 +1,6 @@
                                           INDUÇÃO MATEMÁTICA
 
+
  Quando estudamos Matemática Discreta, lidamos constantemente com padrões, estruturas e propriedades que se repetem ao longo dos números naturais. É nesse cenário que surge a Indução Matemática, não como um truque complicado, mas como uma forma elegante de raciocinar sobre infinitos casos usando passos bem finitos. Pense nela como uma ponte entre o que conseguimos verificar diretamente e aquilo que queremos garantir de forma geral, com segurança lógica e clareza.
 
  De maneira intuitiva, a Indução Matemática é um método de prova que nos permite afirmar que uma propriedade vale para todos os números naturais, sem precisar testar um por um. Em vez de checar infinitos casos, seguimos uma estratégia inteligente: mostramos que a propriedade funciona no começo e que, se funcionar em um caso qualquer, então também funcionará no próximo. É como seguir uma receita de bolo bem escrita: se você sabe que a primeira etapa deu certo e que cada etapa seguinte depende corretamente da anterior, o bolo inteiro tende a sair como esperado.
