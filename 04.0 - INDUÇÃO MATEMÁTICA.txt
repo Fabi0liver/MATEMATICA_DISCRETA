@@ -21,83 +21,15 @@
 
  O Princípio da Indução Matemática é o coração da indução, a regra que dá sustentação a todo o método. Ele formaliza aquela intuição do “efeito dominó” de que falamos antes, transformando uma ideia simples em uma ferramenta lógica extremamente poderosa. Em vez de enxergar a indução como algo abstrato, pense nela como um acordo lógico: se certas condições forem cumpridas, podemos confiar que uma afirmação vale para todos os números naturais.
 
-Tudo começa com a proposição 
-𝑃
-(
-𝑛
-)
-P(n), que nada mais é do que uma frase matemática dependente de um número natural 
-𝑛
-n. Por exemplo, 
-𝑃
-(
-𝑛
-)
-P(n) pode ser algo como “a soma dos primeiros 
-𝑛
-n números naturais é 
-𝑛
-(
-𝑛
-+
-1
-)
-/
-2
-n(n+1)/2”. O princípio da indução não se preocupa, nesse momento, com o conteúdo específico da proposição, mas com a forma como ela se comporta ao avançarmos de um número para o próximo.
+Tudo começa com a proposição 𝑃(𝑛), que nada mais é do que uma frase matemática dependente de um número natural 𝑛. Por exemplo, 𝑃(𝑛) pode ser algo como “a soma dos primeiros 𝑛 números naturais é 𝑛(𝑛 + 1) / 2”. O princípio da indução não se preocupa, nesse momento, com o conteúdo específico da proposição, mas com a forma como ela se comporta ao avançarmos de um número para o próximo.
 
-A primeira condição do princípio é garantir que 
-𝑃
-(
-1
-)
-P(1) seja verdadeira. Esse passo é chamado, informalmente, de caso base. Ele funciona como o primeiro degrau de uma escada ou a primeira peça de dominó. Se a escada não tiver o primeiro degrau firme, não adianta falar dos próximos; se o primeiro dominó não cair, nenhum outro cairá. Esse passo inicial ancora toda a prova.
+A primeira condição do princípio é garantir que 𝑃(1) seja verdadeira. Esse passo é chamado, informalmente, de caso base. Ele funciona como o primeiro degrau de uma escada ou a primeira peça de dominó. Se a escada não tiver o primeiro degrau firme, não adianta falar dos próximos; se o primeiro dominó não cair, nenhum outro cairá. Esse passo inicial ancora toda a prova.
 
-A segunda condição afirma que, se 
-𝑃
-(
-𝑛
-)
-P(n) é verdadeira para algum número natural 
-𝑛
-n, então 
-𝑃
-(
-𝑛
-+
-1
-)
-P(n+1) também é verdadeira. Esse é o chamado passo indutivo. Aqui, não estamos dizendo que 
-𝑃
-(
-𝑛
-)
-P(n) é verdadeira para todos os 
-𝑛
-n, mas assumindo que ela seja verdadeira para um valor qualquer e mostrando que isso obriga o próximo caso a funcionar também. É como uma rotina diária: se você consegue acordar cedo hoje e sabe que o mesmo método vale para amanhã, então o hábito tende a se manter indefinidamente.
+A segunda condição afirma que, se 𝑃(𝑛) é verdadeira para algum número natural 𝑛, então 𝑃(𝑛 + 1) também é verdadeira. Esse é o chamado passo indutivo. Aqui, não estamos dizendo que 𝑃(𝑛) é verdadeira para todos os 𝑛, mas assumindo que ela seja verdadeira para um valor qualquer e mostrando que isso obriga o próximo caso a funcionar também. É como uma rotina diária: se você consegue acordar cedo hoje e sabe que o mesmo método vale para amanhã, então o hábito tende a se manter indefinidamente.
 
-Quando juntamos essas duas ideias — o caso base e o passo indutivo — chegamos à conclusão poderosa do princípio: 
-𝑃
-(
-𝑛
-)
-P(n) é verdadeira para todo número natural. Em termos práticos, é como dizer: “o primeiro dominó caiu, e cada dominó sempre derruba o seguinte; logo, todos cairão”. Não precisamos empurrar cada peça individualmente, pois a lógica do processo garante o resultado final.
+Quando juntamos essas duas ideias (o caso base e o passo indutivo) chegamos à conclusão poderosa do princípio: 𝑃(𝑛) é verdadeira para todo número natural. Em termos práticos, é como dizer: “o primeiro dominó caiu, e cada dominó sempre derruba o seguinte; logo, todos cairão”. Não precisamos empurrar cada peça individualmente, pois a lógica do processo garante o resultado final.
 
-Um exemplo simples ajuda a fixar a ideia. Imagine que queremos provar que, para todo 
-𝑛
-n, a soma dos primeiros 
-𝑛
-n números naturais é sempre um número positivo. Verificamos primeiro 
-𝑛
-=
-1
-n=1: a soma é 1, o que é verdadeiro. Depois mostramos que, se a soma até 
-𝑛
-n é positiva, ao adicionar 
-𝑛
-+
-1
-n+1 ela continua positiva. Pronto: sem testar todos os valores possíveis, temos uma garantia geral.
+Um exemplo simples ajuda a fixar a ideia. Imagine que queremos provar que, para todo 𝑛, a soma dos primeiros 𝑛 números naturais é sempre um número positivo. Verificamos primeiro 𝑛 = 1: a soma é 1, o que é verdadeiro. Depois mostramos que, se a soma até 𝑛 é positiva, ao adicionar 𝑛 + 1 ela continua positiva. Pronto: sem testar todos os valores possíveis, temos uma garantia geral.
 
 É importante perceber que o princípio da indução não é um truque mágico, mas um raciocínio extremamente cuidadoso. Ele explora a estrutura dos números naturais, que avançam sempre de um em um, como casas em um jogo de tabuleiro. Cada jogada depende da anterior, e o tabuleiro inteiro pode ser percorrido seguindo a mesma regra básica.
 
