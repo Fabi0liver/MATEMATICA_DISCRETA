@@ -24,3 +24,32 @@ Passo Indutivo:
  Encadeamento lógico correto
 
  Escrita formal
+
+
+Provas Completas com Indução Simples:
+
+ Provas envolvendo:
+
+  Somatórios
+
+  Produtos
+
+  Potências
+
+ Identificação de padrões indutivos
+
+
+
+Indução Forte:
+
+    Diferença entre indução simples e forte
+
+    Quando a indução forte é necessária
+
+    Comparação entre os dois métodos 
+
+    Exemplos clássicos (divisibilidade, decomposição)
+
+
+
+
