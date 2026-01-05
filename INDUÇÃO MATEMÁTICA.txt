@@ -11,3 +11,16 @@ Em palavras:
               Se 𝑃(k) é verdadeiro ∀𝑛 ∈ ℕ,  então  𝑃(k + 1) também é verdadeiro.
 
               Então 𝑃(𝑛) é verdadeira para todo ∀𝑛 ∈ ℕ
+
+
+Passo Indutivo:
+
+ Construção do passo 𝑛 → 𝑛 + 1
+
+ Uso correto da hipótese de indução
+
+ Manipulação algébrica típicas
+
+ Encadeamento lógico correto
+
+ Escrita formal
