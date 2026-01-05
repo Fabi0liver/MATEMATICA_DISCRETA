@@ -125,32 +125,15 @@
 
  A principal diferença entre a indução simples e a indução forte está na forma como usamos a hipótese de indução. Na indução simples, assumimos que a proposição vale para um único valor 𝑘 e mostramos que ela vale para 𝑘 + 1. Já na indução forte, assumimos que a proposição vale para todos os valores anteriores até 𝑘 e, a partir desse conjunto de informações, provamos o caso 𝑘 + 1. É como construir uma parede: às vezes, apoiar-se em apenas um tijolo anterior não basta, e precisamos de toda a base já construída para seguir adiante.
 
-A indução forte se torna necessária quando o próximo passo depende de mais do que apenas o caso imediatamente anterior. Em alguns problemas, especialmente os que envolvem divisibilidade ou decomposição de números, o caso 
-𝑘
-+
-1
-k+1 pode depender de vários valores menores. Nesses cenários, a indução simples até poderia funcionar, mas exigiria contorções artificiais; a indução forte surge como o caminho mais natural e elegante.
+ A indução forte se torna necessária quando o próximo passo depende de mais do que apenas o caso imediatamente anterior. Em alguns problemas, especialmente os que envolvem divisibilidade ou decomposição de números, o caso 
+𝑘 + 1 pode depender de vários valores menores. Nesses cenários, a indução simples até poderia funcionar, mas exigiria contorções artificiais; a indução forte surge como o caminho mais natural e elegante.
 
 Uma boa forma de comparar os dois métodos é pensar em subir uma escada. Na indução simples, cada degrau depende apenas do degrau imediatamente abaixo. Na indução forte, você pode usar qualquer degrau anterior como apoio para subir o próximo. O destino final é o mesmo, mas o modo de chegar até ele muda conforme a estrutura da escada.
 
-Um exemplo clássico de indução forte aparece em provas de divisibilidade. Suponha que queremos mostrar que todo número natural maior que certo valor pode ser escrito como combinação de outros números. Para provar o caso 
-𝑘
-+
-1
-k+1, muitas vezes precisamos saber que a propriedade vale não só para 
-𝑘
-k, mas também para 
-𝑘
-−
-1
-k−1, 
-𝑘
-−
-2
-k−2 ou outros valores menores. A indução forte permite esse acesso livre a todos os casos anteriores.
+ Um exemplo clássico de indução forte aparece em provas de divisibilidade. Suponha que queremos mostrar que todo número natural maior que certo valor pode ser escrito como combinação de outros números. Para provar o caso 𝑘 + 1, muitas vezes precisamos saber que a propriedade vale não só para 𝑘, mas também para 𝑘 − 1, 𝑘 − 2 ou outros valores menores. A indução forte permite esse acesso livre a todos os casos anteriores.
 
-Outro exemplo famoso está na decomposição de números, como escrever um número como produto de primos. Para justificar essa decomposição, assumimos que todos os números menores já podem ser decompostos corretamente. Essa suposição ampla torna o raciocínio direto e intuitivo, como montar um quebra-cabeça sabendo que todas as peças menores já estão prontas.
+ Outro exemplo famoso está na decomposição de números, como escrever um número como produto de primos. Para justificar essa decomposição, assumimos que todos os números menores já podem ser decompostos corretamente. Essa suposição ampla torna o raciocínio direto e intuitivo, como montar um quebra-cabeça sabendo que todas as peças menores já estão prontas.
 
-Apesar das diferenças, é importante perceber que indução simples e indução forte são logicamente equivalentes: ambas garantem a validade da proposição para todos os números naturais. A escolha entre uma e outra é mais uma questão de clareza e conveniência do que de poder lógico. Um bom matemático sabe escolher a ferramenta que deixa o argumento mais limpo e compreensível.
+ Apesar das diferenças, é importante perceber que indução simples e indução forte são logicamente equivalentes: ambas garantem a validade da proposição para todos os números naturais. A escolha entre uma e outra é mais uma questão de clareza e conveniência do que de poder lógico. Um bom matemático sabe escolher a ferramenta que deixa o argumento mais limpo e compreensível.
 
-Para encerrar, quero que você veja a indução forte como uma ampliação natural do seu repertório lógico. Ela não substitui a indução simples, mas caminha ao lado dela, oferecendo novas possibilidades de raciocínio. Dominar essa técnica é mais um passo importante para pensar com maturidade matemática e compreender algoritmos e estruturas complexas com confiança, curiosidade e entusiasmo contínuo.
+ Em suma, a indução forte é como uma ampliação natural do seu repertório lógico. Ela não substitui a indução simples, mas caminha ao lado dela, oferecendo novas possibilidades de raciocínio. Dominar essa técnica é mais um passo importante para pensar com maturidade matemática e compreender algoritmos e estruturas complexas com confiança, curiosidade e entusiasmo contínuo.
