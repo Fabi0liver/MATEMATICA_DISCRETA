@@ -65,60 +65,16 @@
 
  Quando entramos no coração do processo indutivo, encontramos a hipótese de indução, um dos pontos que mais geram dúvidas, mas também um dos mais elegantes da Indução Matemática. Ela representa um acordo temporário dentro da prova: assumimos que uma afirmação é verdadeira para um certo número natural, não porque já a provamos de forma geral, mas porque essa suposição será usada como apoio para avançar um passo adiante.
 
-Assumir a hipótese de indução significa considerar que 
-𝑃
-(
-𝑛
-)
-P(n) é verdadeira para um valor genérico 
-𝑛
-n. É importante entender que isso não significa afirmar que 
-𝑃
-(
-𝑛
-)
-P(n) é verdadeira para todos os números naturais, nem muito menos que estamos “trapaceando” na prova. Pense nisso como em um jogo de tabuleiro: você assume que está corretamente posicionado em uma casa do jogo para mostrar que consegue avançar para a próxima, seguindo as regras.
+Assumir a hipótese de indução significa considerar que 𝑃(𝑛) é verdadeira para um valor genérico 𝑛. É importante entender que isso não significa afirmar que 𝑃(𝑛) é verdadeira para todos os números naturais, nem muito menos que estamos “trapaceando” na prova. Pense nisso como em um jogo de tabuleiro: você assume que está corretamente posicionado em uma casa do jogo para mostrar que consegue avançar para a próxima, seguindo as regras.
 
-A formulação correta da hipótese é fundamental. Ela deve ser escrita de forma clara e precisa, normalmente algo como: “Suponha que 
-𝑃
-(
-𝑘
-)
-P(k) seja verdadeira para algum 
-𝑘
-∈
-𝑁
-k∈N”. Repare que não escolhemos um valor específico, como 5 ou 10, mas um número genérico. É como dizer: “independente de qual seja o degrau em que eu esteja, se ele for firme, consigo subir para o próximo”.
+A formulação correta da hipótese é fundamental. Ela deve ser escrita de forma clara e precisa, normalmente algo como: “Suponha que 𝑃(𝑘) seja verdadeira para algum 𝑘 ∈ ℕ”. Repare que não escolhemos um valor específico, como 5 ou 10, mas um número genérico. É como dizer: “independente de qual seja o degrau em que eu esteja, se ele for firme, consigo subir para o próximo”.
 
-Aqui entra um ponto crucial: o que pode e o que não pode ser assumido. Podemos assumir apenas a veracidade de 
-𝑃
-(
-𝑛
-)
-P(n), exatamente como definida no enunciado. Não podemos assumir versões mais fortes da proposição, nem consequências que ainda não foram provadas. É como seguir uma receita de bolo: você pode assumir que já misturou os ingredientes do passo anterior, mas não pode assumir que o bolo já está assado antes de colocá-lo no forno.
+Aqui entra um ponto crucial: o que pode e o que não pode ser assumido. Podemos assumir apenas a veracidade de 𝑃(𝑛), exatamente como definida no enunciado. Não podemos assumir versões mais fortes da proposição, nem consequências que ainda não foram provadas. É como seguir uma receita de bolo: você pode assumir que já misturou os ingredientes do passo anterior, mas não pode assumir que o bolo já está assado antes de colocá-lo no forno.
 
-Vista da forma correta, a hipótese de indução funciona como uma verdadeira ferramenta de prova. Ela não é o objetivo final, mas o apoio que permite construir o passo indutivo. Sem ela, não teríamos como ligar um caso ao seguinte. Com ela, conseguimos transformar uma afirmação local — “isso vale para 
-𝑛
-n” — em um argumento que empurra a prova adiante.
+Vista da forma correta, a hipótese de indução funciona como uma verdadeira ferramenta de prova. Ela não é o objetivo final, mas o apoio que permite construir o passo indutivo. Sem ela, não teríamos como ligar um caso ao seguinte. Com ela, conseguimos transformar uma afirmação local — “isso vale para 𝑛” — em um argumento que empurra a prova adiante.
 
-Um exemplo guiado ajuda bastante. Suponha que queremos provar uma fórmula envolvendo a soma dos primeiros 
-𝑛
-n números naturais. Na hipótese de indução, assumimos que a fórmula vale para 
-𝑛
-=
-𝑘
-n=k. A partir disso, mostramos que, ao somar o próximo termo, a expressão continua válida para 
-𝑘
-+
-1
-k+1. Observe que não estamos usando a fórmula pronta para todos os casos, apenas para um caso específico, exatamente como permitido.
+Um exemplo guiado ajuda bastante. Suponha que queremos provar uma fórmula envolvendo a soma dos primeiros 𝑛 números naturais. Na hipótese de indução, assumimos que a fórmula vale para 𝑛 = 𝑘. A partir disso, mostramos que, ao somar o próximo termo, a expressão continua válida para 𝑘 + 1. Observe que não estamos usando a fórmula pronta para todos os casos, apenas para um caso específico, exatamente como permitido.
 
-Outro exemplo comum aparece em desigualdades. Assumimos que uma desigualdade é verdadeira para 
-𝑛
-n e usamos essa suposição para manipulá-la, acrescentar termos ou reorganizar expressões até chegar ao caso 
-𝑛
-+
-1
-n+1. É como uma rotina diária: se hoje você seguiu todos os passos corretamente, consegue planejar amanhã usando a experiência de hoje, sem precisar reinventar tudo do zero.
+Outro exemplo comum aparece em desigualdades. Assumimos que uma desigualdade é verdadeira para 𝑛 e usamos essa suposição para manipulá-la, acrescentar termos ou reorganizar expressões até chegar ao caso 𝑛 + 1. É como uma rotina diária: se hoje você seguiu todos os passos corretamente, consegue planejar amanhã usando a experiência de hoje, sem precisar reinventar tudo do zero.
 
 Para finalizar, quero que você veja a hipótese de indução como um apoio seguro, não como um atalho perigoso. Ela ensina a confiar no processo lógico, passo a passo, e a usar suposições de forma responsável e controlada. Com o tempo, essa ideia se torna natural e poderosa, ajudando não apenas em provas matemáticas, mas também no entendimento profundo de algoritmos e estruturas computacionais. Continue avançando com curiosidade — cada passo bem dado fortalece toda a caminhada.
