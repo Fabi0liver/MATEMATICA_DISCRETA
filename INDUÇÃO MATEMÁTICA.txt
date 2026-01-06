@@ -63,3 +63,14 @@ Indução Estrutural:
 
    Comparação com indução numérica
 
+
+ Indução e Teoria da Computação:
+
+  Indução em provas sobre linguagens formais
+
+  Indução estrutural em árvores sintáticas
+
+  Provas em autômatos e gramáticas
+
+  Relação com semântica operacional 
+
