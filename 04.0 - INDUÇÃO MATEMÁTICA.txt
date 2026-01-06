@@ -200,34 +200,15 @@ Uma boa forma de comparar os dois métodos é pensar em subir uma escada. Na ind
 
 
 
-                                 "Erros Sutis e Falácias Indutivas"
+                                  "Erros Sutis e Falácias Indutivas"
 
  Ao estudar indução matemática, é natural que surjam erros sutis, muitas vezes difíceis de perceber à primeira leitura. Isso acontece porque a indução cria uma sensação de segurança lógica: quando o caso base e o passo indutivo parecem encaixar, tudo “soa correto”. Justamente por isso, aprender a identificar falácias indutivas é tão importante quanto aprender a construir boas provas. É como revisar uma ponte antes de atravessá-la — ela pode parecer firme, mas pequenos detalhes fazem toda a diferença.
 
-Um erro clássico é a circularidade no passo indutivo. Isso ocorre quando, ao tentar provar 
-𝑃
-(
-𝑘
-+
-1
-)
-P(k+1), o argumento acaba assumindo implicitamente que 
-𝑃
-(
-𝑘
-+
-1
-)
-P(k+1) já é verdadeiro. É como tentar empurrar um dominó dizendo que ele caiu porque já estava caído. À primeira vista, o texto parece lógico, mas o raciocínio gira em círculo e não avança de fato.
+Um erro clássico é a circularidade no passo indutivo. Isso ocorre quando, ao tentar provar 𝑃(𝑘 + 1), o argumento acaba assumindo implicitamente que 𝑃(𝑘 + 1)já é verdadeiro. É como tentar empurrar um dominó dizendo que ele caiu porque já estava caído. À primeira vista, o texto parece lógico, mas o raciocínio gira em círculo e não avança de fato.
 
 Outro problema frequente é o caso base inadequado. Às vezes o aluno escolhe um valor inicial que não corresponde ao domínio real do problema ou que não sustenta o passo indutivo. É como começar uma corrida alguns metros à frente da linha oficial de largada: mesmo que o restante do percurso esteja correto, a prova não representa o problema verdadeiro.
 
-A hipótese de indução mal formulada também gera confusão. Quando a proposição 
-𝑃
-(
-𝑛
-)
-P(n) é vaga, incompleta ou mal definida, o passo indutivo perde força. É semelhante a seguir uma receita com instruções ambíguas: mesmo com boa vontade, o resultado final dificilmente será confiável. Em indução, clareza na formulação é essencial.
+A hipótese de indução mal formulada também gera confusão. Quando a proposição 𝑃(𝑛) é vaga, incompleta ou mal definida, o passo indutivo perde força. É semelhante a seguir uma receita com instruções ambíguas: mesmo com boa vontade, o resultado final dificilmente será confiável. Em indução, clareza na formulação é essencial.
 
 Outro erro sutil aparece nas conclusões sem justificativa formal. Às vezes, depois de algumas manipulações algébricas, o autor simplesmente afirma que o resultado está provado, sem mostrar claramente a ligação com a hipótese de indução. É como pular etapas em um cálculo mental esperando que o leitor “acompanhe no automático”. Em matemática, cada passo precisa ser sustentado.
 
