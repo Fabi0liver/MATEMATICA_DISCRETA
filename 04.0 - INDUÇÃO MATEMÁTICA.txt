@@ -241,7 +241,3 @@ Uma boa forma de comparar os dois métodos é pensar em subir uma escada. Na ind
  Mais do que um conteúdo isolado, a indução matemática se conecta diretamente com algoritmos, estruturas de dados e pensamento computacional. Muitos processos que vemos em programação seguem exatamente a mesma lógica: começar corretamente, manter a regra e confiar que o padrão se sustenta ao longo do caminho.
 
  Para encerrar, quero que você leve consigo a ideia de que dominar a indução é ganhar uma nova forma de pensar. No início, ela pode parecer desafiadora, mas com prática se torna natural e até prazerosa. Continue explorando, questionando e aplicando esse raciocínio: ele será um grande aliado na sua jornada pela matemática discreta e pelo fascinante universo dos algoritmos.
-
-
-
-     
