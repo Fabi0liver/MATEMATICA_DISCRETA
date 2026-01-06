@@ -74,3 +74,22 @@ Indução Estrutural:
 
   Relação com semântica operacional 
 
+
+Erros Sutis e Falácias Indutivas:
+
+  Circularidade no passo indutivo
+
+  Caso base inadequado
+
+  Hipótese mal formulada
+
+  Conclusões sem justificativa formal
+
+  Provas aparentemente corretas, mas inválidas
+
+  Uso indevido da hipótese
+
+  Generalizações ilegítimas
+
+  Análise crítica de provas reais
+
