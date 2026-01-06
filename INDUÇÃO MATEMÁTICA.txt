@@ -51,5 +51,15 @@ Indução Forte:
     Exemplos clássicos (divisibilidade, decomposição)
 
 
+Indução Estrutural:
 
+   Definição formal de estruturas recursivas
+
+   Árvores, expressões, listas e grafos
+
+   Relação com gramáticas e linguagens formais
+
+   Aplicações em combinatória
+
+   Comparação com indução numérica
 
