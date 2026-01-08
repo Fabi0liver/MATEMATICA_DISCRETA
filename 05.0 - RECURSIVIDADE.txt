@@ -34,4 +34,4 @@
 
  Entender essa diferença é um passo importante para amadurecer o raciocínio matemático. Você começa a perceber quando está descrevendo uma estrutura e quando está executando um procedimento. Essa clareza evita confusões conceituais e torna o estudo da recursividade muito mais natural e elegante.
 
- Em resumo, definições recursivas constroem o mapa do território, enquanto processos recursivos descrevem o caminho que percorremos nele.
+ Em resumo, definições recursivas estabelecem a estrutura e as regras fundamentais do território, determinando o que ele é e como se organiza, enquanto processos recursivos descrevem o movimento dentro desse espaço, explicando passo a passo o caminho percorrido e a forma como cada etapa se apoia na anterior para avançar.
