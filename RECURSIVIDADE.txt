@@ -1,0 +1,9 @@
+O que é recursividade (definição informal):
+
+  Conceito de definição recursiva
+
+  Ideia de autorreferência “definir algo em termos de si mesmo”
+
+  Comparação: processos iterativos × recursivos
+
+  Exemplos do cotidiano (espelhos, bonecas russas, pastas)
