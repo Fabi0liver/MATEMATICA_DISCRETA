@@ -76,6 +76,5 @@
 
  Por isso, aprender a estruturar corretamente uma definição recursiva é como aprender a escrever boas instruções: quanto mais claras e bem pensadas, mais fácil será usá-las e confiar nelas. Com essa base bem construída, você está preparado para compreender estruturas mais complexas, sequências e algoritmos recursivos com segurança.
 
- Para encerrar, encare a estrutura formal da recursividade não como um obstáculo, mas como um apoio. Ela existe para tornar o raciocínio mais claro, previsível e elegante. Com prática e atenção a esses detalhes, a recursividade deixa de ser um mistério e se transforma em uma ferramenta poderosa — e você está no caminho certo para dominá-la com confiança e entusiasmo.
 
  
