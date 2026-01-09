@@ -7,3 +7,18 @@ O que é recursividade (definição informal):
   Comparação: processos iterativos × recursivos
 
   Exemplos do cotidiano (espelhos, bonecas russas, pastas)
+
+
+Estrutura Formal de Definições Recursivas:
+
+  Caso base (condição inicial)
+
+  Passo recursivo
+
+  Regra recursiva
+
+  Importância da condição de parada
+
+  Importância da existência e unicidade da definição  
+
+  Erros comuns em definições recursivas 
