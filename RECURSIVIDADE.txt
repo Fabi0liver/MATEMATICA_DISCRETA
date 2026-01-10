@@ -22,3 +22,24 @@ Estrutura Formal de Definições Recursivas:
   Importância da existência e unicidade da definição  
 
   Erros comuns em definições recursivas 
+
+
+Sequências Definidas Recursivamente
+
+  Sequências numéricas recursivas
+
+  Sequências de primeira ordem
+
+  Sequências de ordem superior
+
+  Sequências Clássicas:
+
+     Fatorial
+
+     Progressões
+
+     Fibonacci
+
+     Sequências lineares simples
+
+  Cálculo e interpretação de termos
