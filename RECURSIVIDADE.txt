@@ -27,8 +27,6 @@ Estrutura Formal de Definições Recursivas:
 Sequências Definidas Recursivamente
 
   Sequências numéricas recursivas
- 
-  Definição recursiva e condições iniciais
   
   Sequências de primeira ordem
  
@@ -41,4 +39,4 @@ Sequências Definidas Recursivamente
    – Progressões definidas recursivamente (PA e PG)
    – Recorrências lineares simples
 
-  Cálculo, interpretação e análise de termos
+ 
