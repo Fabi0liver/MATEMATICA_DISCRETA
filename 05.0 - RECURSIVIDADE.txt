@@ -100,7 +100,7 @@
 
 
 
-                           "Definições Recursivas de Funções e Conjuntos"
+                              "Definições Recursivas de Funções e Conjuntos"
 
  Ao avançarmos no estudo da recursividade, chegamos a um ponto em que ela passa a definir não apenas sequências, mas também funções e conjuntos inteiros. Aqui, a recursividade deixa de ser apenas uma forma de calcular valores e se transforma em uma maneira elegante de descrever estruturas completas. Em vez de listar tudo explicitamente, dizemos como essas estruturas nascem e crescem a partir de regras simples, sempre conectadas a um ponto inicial bem definido.
 
