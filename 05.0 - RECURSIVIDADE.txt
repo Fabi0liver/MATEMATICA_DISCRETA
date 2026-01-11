@@ -176,4 +176,4 @@
 
  O tamanho de uma estrutura recursiva segue uma lógica parecida. Contar quantos elementos existem em uma lista ou quantos nós há em uma árvore pode ser feito observando o tamanho das partes menores e combinando esses valores. Isso torna o raciocínio mais organizado e evita a necessidade de contar tudo do zero a cada vez.
 
- Para encerrar nossa aula, quero que você veja as estruturas recursivas como uma forma elegante de enxergar o mundo matemático: o grande construído a partir do pequeno, sempre seguindo regras simples e repetíveis. Ao dominar essa visão, você estará muito mais preparado para entender algoritmos, estruturas de dados e problemas complexos com clareza e confiança. Continue explorando com curiosidade — a recursividade é uma aliada poderosa, e você está avançando com solidez e entusiasmo nesse caminho.
+ Em suma, as estruturas recursivas é uma forma elegante de enxergar o mundo matemático: o grande construído a partir do pequeno, sempre seguindo regras simples e repetíveis. Ao dominar essa visão, você estará muito mais preparado para entender algoritmos, estruturas de dados e problemas complexos com clareza e confiança. 
