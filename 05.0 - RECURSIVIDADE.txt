@@ -196,5 +196,5 @@
 
  À medida que você se acostuma com esse tipo de prova, começa a enxergar padrões. Provar algo sobre uma estrutura recursiva passa a ser quase automático, pois o próprio formato da definição indica o caminho da prova. Isso traz uma sensação de clareza e controle, transformando algo que parecia abstrato em um processo lógico e organizado.
 
- Para encerrar nossa aula, quero que você encare as provas recursivas não como um obstáculo, mas como uma conversa bem estruturada com a matemática. Elas mostram, com calma e coerência, que as ideias fazem sentido do começo ao fim. Com prática e paciência, você perceberá que provar propriedades recursivas é tão natural quanto defini-las — e esse domínio abre portas importantes para compreender algoritmos e estruturas mais avançadas com confiança e entusiasmo.
+ Em suma, encare as provas recursivas não como um obstáculo, mas como uma conversa bem estruturada com a matemática. Elas mostram, com calma e coerência, que as ideias fazem sentido do começo ao fim. Com prática e paciência, você perceberá que provar propriedades recursivas é tão natural quanto defini-las.
         
