@@ -39,4 +39,35 @@ Sequências Definidas Recursivamente
    – Progressões definidas recursivamente (PA e PG)
    – Recorrências lineares simples
 
+
+Definições Recursivas de Funções e Conjuntos
+
+  Definições recursivas em ℕ
+
+  Conjuntos minimamente fechados
+
+  Funções definidas recursivamente
+
+  Conjuntos definidos por regras recursivas
+
+  Construção gradual de elementos
+
+  Fecho indutivo e operadores monotônicos
+
+  Provas de minimalidade
+
+
+
+Estruturas Recursivas em Matemática Discreta
+
+  Árvores
+
+  Listas
+
+  Grafos (definições recursivas)
+
+  Estruturas auto-similares
+
+  Altura, tamanho e propriedades estruturais
+
  
