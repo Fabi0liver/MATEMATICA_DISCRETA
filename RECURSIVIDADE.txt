@@ -58,4 +58,16 @@ Definições Recursivas de Funções e Conjuntos
 
 
 
+Estruturas Recursivas em Matemática Discreta
+
+  Árvores
+
+  Listas
+
+  Grafos (definições recursivas)
+
+  Estruturas auto-similares
+
+  Altura, tamanho e propriedades estruturais
+
  
