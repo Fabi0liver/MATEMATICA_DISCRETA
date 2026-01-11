@@ -156,4 +156,4 @@
 
  É importante perceber que indução não é um “truque”, mas uma forma rigorosa de raciocinar sobre processos infinitos a partir de passos finitos. Assim como confiar em uma rotina bem testada no dia a dia, a indução nos dá segurança para afirmar que algo funciona sempre, e não apenas nos primeiros casos que conseguimos testar manualmente.
 
- Para encerrar nossa aula, quero que você leve consigo a ideia de que recursão e indução são como dois lados da mesma ponte: uma constrói o caminho, a outra garante que ele é seguro até o fim. Dominar essa relação é um grande salto no entendimento da matemática discreta e dos algoritmos. Continue avançando com curiosidade e confiança — cada novo conceito se encaixa no anterior, e você está construindo, passo a passo, uma base sólida e inspiradora para seguir aprendendo.
+ Em suma, a ideia de que recursão e indução são como dois lados da mesma ponte: uma constrói o caminho, a outra garante que ele é seguro até o fim. Dominar essa relação é um grande salto no entendimento da matemática discreta e dos algoritmos. 
