@@ -136,4 +136,4 @@
 
  O grande valor das relações de recorrência está no fato de que elas organizam o raciocínio. Em vez de tentar entender tudo de uma vez, você foca na transição de um estado para o próximo. Essa forma de pensar é extremamente poderosa, pois permite decompor problemas grandes em partes menores e mais manejáveis, algo essencial tanto na matemática quanto na computação.
 
- Para encerrar nossa aula, quero que você veja as relações de recorrência como pontes entre o simples e o complexo. Elas mostram como estruturas crescem, evoluem e se conectam ao longo do tempo. Ao dominar essa ideia, você estará dando um passo decisivo para compreender algoritmos, eficiência e modelagem matemática. Continue avançando com curiosidade e confiança — cada recorrência entendida é mais uma ferramenta sólida no seu caminho de aprendizado.
+ Em suma, as relações de recorrência são como pontes entre o simples e o complexo. Elas mostram como estruturas crescem, evoluem e se conectam ao longo do tempo. Ao dominar essa ideia, você estará dando um passo decisivo para compreender algoritmos, eficiência e modelagem matemática. 
