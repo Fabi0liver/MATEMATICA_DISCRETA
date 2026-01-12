@@ -236,5 +236,4 @@
 
  Além disso, é importante lembrar que a recursividade não elimina a necessidade de provas e verificações. Uma definição recursiva mal pensada pode parecer correta à primeira vista, mas esconder ambiguidades ou inconsistências. É como uma regra de jogo mal escrita: enquanto ninguém testa a fundo, tudo parece funcionar, mas logo surgem conflitos.
 
- Para encerrar nossa aula, quero reforçar que entender os erros e limites da recursividade não diminui seu valor — pelo contrário, fortalece seu uso consciente. Ao reconhecer onde ela brilha e onde precisa de cuidado, você se torna um estudante mais crítico e confiante. Continue explorando com curiosidade e equilíbrio: a recursividade é uma aliada poderosa, e você está aprendendo a usá-la com maturidade e entusiasmo.
-        
+ Em suma, os erros e limites da recursividade não diminui seu valor, pelo contrário, fortalece seu uso consciente. Ao reconhecer onde ela brilha e onde precisa de cuidado, você se torna um estudante mais crítico e confiante.         
