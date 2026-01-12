@@ -216,5 +216,5 @@
 
  Um cuidado importante na computação é o uso consciente da recursividade, pois cada chamada consome recursos do sistema. Assim como empilhar muitas caixas pode tornar difícil alcançar a de baixo, chamadas recursivas profundas podem exigir muita memória. Saber quando usar recursão e quando optar por outra abordagem faz parte do amadurecimento como estudante de algoritmos.
 
- Para encerrar, veja a recursividade como uma ponte elegante entre matemática discreta e computação. Ela traduz ideias abstratas em soluções práticas, claras e poderosas. Ao dominar esse conceito, você ganha uma ferramenta valiosa para pensar algoritmos de forma estruturada e criativa. Continue estudando com curiosidade e entusiasmo — cada novo passo aprofunda sua compreensão e fortalece sua confiança nesse caminho fascinante.
+ Para encerrar, a recursividade é como uma ponte elegante entre matemática discreta e computação. Ela traduz ideias abstratas em soluções práticas, claras e poderosas. Ao dominar esse conceito, você ganha uma ferramenta valiosa para pensar algoritmos de forma estruturada e criativa. 
         
