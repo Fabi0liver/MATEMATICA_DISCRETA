@@ -17,40 +17,15 @@
 
                                     "Componentes de uma Recorrência"
 
- Quando falamos em componentes de uma recorrência, estamos basicamente desmontando a “receita” que define como uma sequência é construída. Toda relação de recorrência, por mais simples ou sofisticada que seja, é formada por algumas peças fundamentais que trabalham juntas. Entender esses componentes é como aprender a identificar os ingredientes e as instruções de preparo antes de realmente cozinhar: você ainda não está assando o bolo, mas já sabe exatamente o que faz o bolo existir.
+ Agora que já temos uma noção geral do que são as relações de recorrência, é hora de olhar “por dentro” delas e entender quais são as peças que as formam. Toda relação de recorrência, por mais simples ou sofisticada que seja, é formada por algumas peças fundamentais que trabalham juntas. Entender esses componentes é como aprender a identificar os ingredientes e as instruções de preparo antes de realmente cozinhar: você ainda não está assando o bolo, mas já sabe exatamente o que faz o bolo existir.
 
-O primeiro componente essencial é a sequência ou conjunto de valores que estamos descrevendo. Em matemática discreta, normalmente lidamos com sequências ordenadas, como 
-𝑎
-0
-,
-𝑎
-1
-,
-𝑎
-2
-,
-…
-a
-0
-	​
-
-,a
-1
-	​
-
-,a
-2
-	​
-
-,…. Pense nisso como uma fila de peças de dominó: cada peça tem sua posição bem definida e faz parte de um conjunto organizado. A recorrência não existe sozinha; ela sempre está ligada a essa coleção de elementos que queremos compreender ou prever.
+O primeiro componente essencial é a sequência ou conjunto de valores que estamos descrevendo. Em matemática discreta, normalmente lidamos com sequências ordenadas, como 𝑎0, 𝑎1, 𝑎2, …. Pense nisso como uma fila de peças de dominó: cada peça tem sua posição bem definida e faz parte de um conjunto organizado. A recorrência não existe sozinha; ela sempre está ligada a essa coleção de elementos que queremos compreender ou prever.
 
 O segundo componente é a regra de recorrência, que diz como um termo depende de um ou mais termos anteriores. Essa regra funciona como as instruções de um jogo de tabuleiro: “avance duas casas se tirou um número par no dado”. Em termos matemáticos, é a parte que afirma algo como “o próximo valor é calculado usando valores anteriores”. Essa regra é o coração da recorrência, pois define o padrão de crescimento ou comportamento da sequência.
 
 Outro componente fundamental são os termos iniciais, também chamados de condições iniciais. Eles são o ponto de partida da recorrência. Imagine uma rotina diária: para escovar os dentes, você primeiro precisa acordar. Sem esse começo bem definido, a rotina não acontece. Da mesma forma, sem termos iniciais, a regra de recorrência não consegue gerar novos valores, porque não há nada anterior para usar como base.
 
-Também é importante observar o índice, geralmente representado por 
-𝑛
-n, que indica a posição do termo dentro da sequência. Esse índice funciona como a numeração das páginas de um livro: ele não muda a história em si, mas permite localizar exatamente onde estamos. Na recorrência, o índice ajuda a organizar a dependência entre os termos, deixando claro quem vem antes e quem vem depois.
+Também é importante observar o índice, geralmente representado por 𝑛, que indica a posição do termo dentro da sequência. Esse índice funciona como a numeração das páginas de um livro: ele não muda a história em si, mas permite localizar exatamente onde estamos. Na recorrência, o índice ajuda a organizar a dependência entre os termos, deixando claro quem vem antes e quem vem depois.
 
 Em algumas recorrências, aparece ainda o componente da ordem da recorrência, que indica quantos termos anteriores são necessários para calcular o próximo. É como uma receita que pede “use o molho feito ontem” ou “misture os ingredientes das duas etapas anteriores”. Se o próximo passo depende apenas do passo imediatamente anterior, temos uma ordem simples; se depende de dois ou mais passos passados, a estrutura fica um pouco mais rica.
 
