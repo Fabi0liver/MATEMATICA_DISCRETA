@@ -37,9 +37,9 @@
 
                                           "Regra de Recorrência" 
 
-Quando falamos em regra de recorrência, também chamada de lei de formação, estamos olhando diretamente para a engrenagem que faz a sequência “andar”. É ela que responde à pergunta essencial: como um termo nasce a partir dos anteriores? Antes de pensar em fórmulas ou símbolos, vale imaginar essa regra como uma instrução clara, quase um combinado, que diz como cada novo passo deve ser dado. Sem essa regra, a sequência não sabe para onde ir, como um jogo sem regras definidas.
+ Quando falamos em regra de recorrência, também chamada de lei de formação, estamos olhando diretamente para a engrenagem que faz a sequência “andar”. É ela que responde à pergunta essencial: como um termo nasce a partir dos anteriores? Antes de pensar em fórmulas ou símbolos, vale imaginar essa regra como uma instrução clara, quase um combinado, que diz como cada novo passo deve ser dado. Sem essa regra, a sequência não sabe para onde ir, como um jogo sem regras definidas.
 
-De forma simples, a regra de recorrência descreve a relação entre um termo e aqueles que vieram antes dele. É muito parecido com uma rotina doméstica: “todo dia, depois do almoço, lave a louça”. O ato de lavar a louça depende diretamente do fato de já ter acontecido o almoço. Na matemática discreta, essa dependência é expressa por uma regra que conecta o presente ao passado de maneira bem definida.
+ De forma simples, a regra de recorrência descreve a relação entre um termo e aqueles que vieram antes dele. É muito parecido com uma rotina doméstica: “todo dia, depois do almoço, lave a louça”. O ato de lavar a louça depende diretamente do fato de já ter acontecido o almoço. Na matemática discreta, essa dependência é expressa por uma regra que conecta o presente ao passado de maneira bem definida.
 
 Dentro desse contexto, surgem duas maneiras principais de expressar essa regra: a forma recursiva e a forma fechada. A forma recursiva é a mais fiel à ideia de recorrência. Ela funciona como uma receita passada de geração em geração, em que cada passo depende do resultado do passo anterior. Por exemplo, dizer que “cada termo é a soma do termo anterior com 2” já é uma regra recursiva: você não sabe o valor futuro sem antes conhecer o valor atual.
 
