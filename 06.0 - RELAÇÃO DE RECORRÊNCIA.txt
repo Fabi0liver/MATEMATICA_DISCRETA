@@ -99,46 +99,11 @@
 
  Depois de avançarmos na compreensão das relações de recorrência e de suas classificações iniciais, é hora de dar mais um passo refinando nosso olhar sobre como essas relações se comportam. Agora vamos conversar sobre a diferença entre recorrências homogêneas e recorrências não homogêneas, dois conceitos que, à primeira vista, parecem apenas detalhes técnicos, mas que fazem toda a diferença na forma como uma sequência cresce e pode ser analisada.
 
-Uma recorrência homogênea é aquela em que o próximo termo depende somente dos termos anteriores da própria sequência, sem nenhum “ingrediente extra” vindo de fora. Um exemplo simples é 
-𝑎
-𝑛
-=
-2
-𝑎
-𝑛
-−
-1
-a
-n
-	​
-
-=2a
-n−1
-	​
-
-. Aqui, tudo o que acontece no futuro da sequência é consequência direta do passado dela mesma. É como uma rotina doméstica que se mantém apenas com o que já existe em casa: você reutiliza os mesmos ingredientes e segue sempre o mesmo padrão.
+Uma recorrência homogênea é aquela em que o próximo termo depende somente dos termos anteriores da própria sequência, sem nenhum “ingrediente extra” vindo de fora. Um exemplo simples é 𝑎ₙ = 2𝑎ₙ₋₁. Aqui, tudo o que acontece no futuro da sequência é consequência direta do passado dela mesma. É como uma rotina doméstica que se mantém apenas com o que já existe em casa: você reutiliza os mesmos ingredientes e segue sempre o mesmo padrão.
 
 Se pensarmos em uma analogia do dia a dia, a recorrência homogênea se parece com uma poupança que cresce apenas por juros compostos, sem depósitos adicionais. O valor do próximo mês depende exclusivamente do valor do mês anterior. Esse tipo de comportamento tende a ser mais previsível, pois não há interferências externas alterando o ritmo de crescimento.
 
-Já uma recorrência não homogênea inclui um termo adicional que não depende diretamente dos valores anteriores da sequência. Um exemplo seria 
-𝑎
-𝑛
-=
-𝑎
-𝑛
-−
-1
-+
-5
-a
-n
-	​
-
-=a
-n−1
-	​
-
-+5. Esse “+5” funciona como um empurrão externo que acontece a cada passo. A sequência não cresce apenas pelo que ela já tem, mas também por algo novo que entra constantemente no sistema.
+Já uma recorrência não homogênea inclui um termo adicional que não depende diretamente dos valores anteriores da sequência. Um exemplo seria 𝑎ₙ = 𝑎ₙ₋₁ + 5. Esse “+5” funciona como um empurrão externo que acontece a cada passo. A sequência não cresce apenas pelo que ela já tem, mas também por algo novo que entra constantemente no sistema.
 
 Uma analogia simples aqui é o salário mensal: além do dinheiro que você já tem guardado, todo mês entra um valor fixo na conta. Mesmo que o crescimento anterior influencie sua situação financeira, esse aporte externo muda o comportamento geral do total acumulado. Da mesma forma, as recorrências não homogêneas combinam o passado da sequência com uma força externa constante ou variável.
 
