@@ -19,25 +19,7 @@
 
  Depois de entendermos o que são as relações de recorrência, é muito natural surgir uma dúvida bastante comum entre os estudantes: afinal, relação de recorrência e recursividade são a mesma coisa? À primeira vista, elas realmente parecem idênticas, porque ambas envolvem a ideia de algo que depende de si mesmo ou de etapas anteriores. Mas, com um pouco de calma, veremos que elas ocupam papéis diferentes dentro da matemática discreta, mesmo estando intimamente ligadas.
 
-As relações de recorrência vivem principalmente no mundo da matemática. Elas são usadas para descrever sequências ou funções por meio de regras que relacionam um termo com outros termos anteriores. É como escrever uma regra no papel dizendo: “o próximo valor será calculado a partir do anterior”. Por exemplo, quando dizemos 
-𝑎
-𝑛
-=
-𝑎
-𝑛
-−
-1
-+
-2
-a
-n
-	​
-
-=a
-n−1
-	​
-
-+2, estamos apenas descrevendo um padrão matemático, sem nos preocupar ainda com como isso será executado na prática.
+As relações de recorrência vivem principalmente no mundo da matemática. Elas são usadas para descrever sequências ou funções por meio de regras que relacionam um termo com outros termos anteriores. É como escrever uma regra no papel dizendo: “o próximo valor será calculado a partir do anterior”. Por exemplo, quando dizemos 𝑎ₙ = 𝑎ₙ₋₁ + 2, estamos apenas descrevendo um padrão matemático, sem nos preocupar ainda com como isso será executado na prática.
 
 Já a recursividade está mais associada à forma como resolvemos problemas, especialmente no contexto de algoritmos e programação. Ela é uma estratégia de solução, não apenas uma descrição. Pense em uma receita que manda “repita este passo até a massa acabar”. A recursividade é o ato de repetir o processo, chamando a si mesmo, enquanto a relação de recorrência é a regra escrita que explica como cada etapa se relaciona com a anterior.
 
