@@ -140,60 +140,11 @@
 
  Depois de entendermos como as relações de recorrência podem variar em grau, forma e comportamento, é natural observar mais um detalhe que influencia profundamente a maneira como uma sequência evolui: os coeficientes presentes na regra de formação. Agora vamos conversar, com calma, sobre a diferença entre recorrências com coeficientes constantes e recorrências com coeficientes variáveis, um ponto que ajuda a prever o quão estável ou imprevisível será o crescimento da sequência.
 
-Nas recorrências com coeficientes constantes, os números que multiplicam os termos anteriores não mudam ao longo da sequência. Um exemplo simples é 
-𝑎
-𝑛
-=
-3
-𝑎
-𝑛
-−
-1
-−
-2
-𝑎
-𝑛
-−
-2
-a
-n
-	​
-
-=3a
-n−1
-	​
-
-−2a
-n−2
-	​
-
-. Os valores 3 e −2 permanecem os mesmos para qualquer 
-𝑛
-n. É como uma receita em que as proporções dos ingredientes são sempre iguais, independentemente de quantas vezes você prepare o prato. Essa constância torna o comportamento da sequência mais regular e fácil de analisar.
+Nas recorrências com coeficientes constantes, os números que multiplicam os termos anteriores não mudam ao longo da sequência. Um exemplo simples é 𝑎ₙ = 3𝑎ₙ₋₁ + 2 - 2𝑎ₙ₋₂. Os valores 3 e −2 permanecem os mesmos para qualquer 𝑛. É como uma receita em que as proporções dos ingredientes são sempre iguais, independentemente de quantas vezes você prepare o prato. Essa constância torna o comportamento da sequência mais regular e fácil de analisar.
 
 Uma boa analogia para esse tipo de recorrência é um treino físico com cargas fixas. Se você sempre levanta o mesmo peso em cada repetição, seu esforço cresce de maneira previsível. Da mesma forma, os coeficientes constantes mantêm o “ritmo” da recorrência estável, permitindo identificar padrões e, em muitos casos, encontrar fórmulas diretas para os termos da sequência.
 
-Já nas recorrências com coeficientes variáveis, os coeficientes mudam conforme o índice da sequência. Um exemplo seria 
-𝑎
-𝑛
-=
-𝑛
-⋅
-𝑎
-𝑛
-−
-1
-a
-n
-	​
-
-=n⋅a
-n−1
-	​
-
-. Aqui, o número que multiplica o termo anterior depende da posição 
-𝑛
-n. É como uma rotina que fica mais exigente a cada dia: hoje você caminha 10 minutos, amanhã 15, depois 20. O esforço aumenta conforme o tempo passa, alterando o comportamento do processo.
+Já nas recorrências com coeficientes variáveis, os coeficientes mudam conforme o índice da sequência. Um exemplo seria 𝑎ₙ = 𝑛 ⋅ 𝑎ₙ₋₁. Aqui, o número que multiplica o termo anterior depende da posição 𝑛. É como uma rotina que fica mais exigente a cada dia: hoje você caminha 10 minutos, amanhã 15, depois 20. O esforço aumenta conforme o tempo passa, alterando o comportamento do processo.
 
 Esse tipo de recorrência pode ser comparado a um jogo de tabuleiro em que as regras mudam a cada rodada. No início, você avança poucas casas; depois, o dado ganha mais faces ou aparecem penalidades extras. As decisões do passado ainda importam, mas o impacto delas varia conforme o momento do jogo, tornando o resultado final menos previsível.
 
