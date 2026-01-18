@@ -115,21 +115,21 @@
 
 
 
-                                       "Grau da recorrência" 
+                                         "Grau da recorrência" 
 
  Depois de explorarmos diferentes tipos de relações de recorrência, podemos agora observar um detalhe que parece simples, mas que influencia profundamente a forma como uma sequência se comporta: o grau da recorrência. Esse conceito está ligado à quantidade de informações do passado que precisamos para construir o próximo termo. Em outras palavras, ele nos diz “quantos passos para trás” a recorrência precisa olhar para seguir em frente.
 
-De maneira direta, o grau de uma recorrência indica quantos termos anteriores são usados na regra de formação. Se uma recorrência depende apenas do termo imediatamente anterior, dizemos que ela tem grau 1. Por exemplo, na relação 
+ De maneira direta, o grau de uma recorrência indica quantos termos anteriores são usados na regra de formação. Se uma recorrência depende apenas do termo imediatamente anterior, dizemos que ela tem grau 1. Por exemplo, na relação 
 𝑎ₙ = 𝑎ₙ₋₁ + 2, basta conhecer o último valor para calcular o próximo. É como caminhar olhando apenas para o passo que acabou de dar.
 
-Uma boa analogia para uma recorrência de grau 1 é uma rotina diária simples. Imagine que, todos os dias, você decide o que fará amanhã com base apenas no que fez hoje. Não importa o que aconteceu anteontem ou na semana passada; o ontem já contém toda a informação necessária. Esse tipo de dependência torna a sequência mais fácil de entender e de calcular.
+ Uma boa analogia para uma recorrência de grau 1 é uma rotina diária simples. Imagine que, todos os dias, você decide o que fará amanhã com base apenas no que fez hoje. Não importa o que aconteceu anteontem ou na semana passada; o ontem já contém toda a informação necessária. Esse tipo de dependência torna a sequência mais fácil de entender e de calcular.
 
-Agora, quando uma recorrência depende de dois termos anteriores, dizemos que ela tem grau 2. Um exemplo clássico é 𝑎ₙ = 𝑎ₙ₋₁ + 𝑎ₙ₋₂. Aqui, o próximo valor só faz sentido se você conhecer os dois anteriores. É como cozinhar um prato que exige reaproveitar a sobra de ontem e a de anteontem para criar algo novo hoje. O passado começa a ter mais peso na construção do futuro.
+ Agora, quando uma recorrência depende de dois termos anteriores, dizemos que ela tem grau 2. Um exemplo clássico é 𝑎ₙ = 𝑎ₙ₋₁ + 𝑎ₙ₋₂. Aqui, o próximo valor só faz sentido se você conhecer os dois anteriores. É como cozinhar um prato que exige reaproveitar a sobra de ontem e a de anteontem para criar algo novo hoje. O passado começa a ter mais peso na construção do futuro.
 
-À medida que o grau aumenta, mais informações do histórico da sequência são necessárias. Em uma recorrência de grau 3, por exemplo, o próximo termo pode depender dos três termos anteriores. Isso se assemelha a um jogo de tabuleiro em que sua próxima jogada depende das últimas três rodadas, e não apenas da anterior. O comportamento da sequência se torna mais rico, mas também mais complexo de analisar.
+ À medida que o grau aumenta, mais informações do histórico da sequência são necessárias. Em uma recorrência de grau 3, por exemplo, o próximo termo pode depender dos três termos anteriores. Isso se assemelha a um jogo de tabuleiro em que sua próxima jogada depende das últimas três rodadas, e não apenas da anterior. O comportamento da sequência se torna mais rico, mas também mais complexo de analisar.
 
-O grau da recorrência também influencia diretamente a quantidade de termos iniciais necessários. Se a recorrência tem grau 1, precisamos de um termo inicial. Se tem grau 2, precisamos de dois, e assim por diante. É como iniciar uma série de episódios: quanto mais personagens principais existem desde o começo, mais contexto precisamos para que a história faça sentido.
+ O grau da recorrência também influencia diretamente a quantidade de termos iniciais necessários. Se a recorrência tem grau 1, precisamos de um termo inicial. Se tem grau 2, precisamos de dois, e assim por diante. É como iniciar uma série de episódios: quanto mais personagens principais existem desde o começo, mais contexto precisamos para que a história faça sentido.
 
-No estudo de algoritmos, o grau da recorrência costuma refletir quantos subproblemas são usados para resolver um problema maior. Recorrências de grau baixo geralmente levam a algoritmos mais simples, enquanto graus mais altos indicam soluções que combinam várias partes do passado, exigindo mais cuidado na análise de eficiência.
+ No estudo de algoritmos, o grau da recorrência costuma refletir quantos subproblemas são usados para resolver um problema maior. Recorrências de grau baixo geralmente levam a algoritmos mais simples, enquanto graus mais altos indicam soluções que combinam várias partes do passado, exigindo mais cuidado na análise de eficiência.
 
-Compreender o grau da recorrência ajuda você a enxergar a “memória” que uma sequência carrega consigo. Esse entendimento torna as relações de recorrência menos abstratas e mais intuitivas, quase como aprender a reconhecer padrões de comportamento ao longo do tempo. Continue avançando com curiosidade e confiança: cada conceito assimilado fortalece sua base e aproxima você de uma compreensão mais profunda dos algoritmos e da matemática discreta.
+ Em suma, compreender o grau da recorrência ajuda você a enxergar a “memória” que uma sequência carrega consigo. Esse entendimento torna as relações de recorrência menos abstratas e mais intuitivas, quase como aprender a reconhecer padrões de comportamento ao longo do tempo.
