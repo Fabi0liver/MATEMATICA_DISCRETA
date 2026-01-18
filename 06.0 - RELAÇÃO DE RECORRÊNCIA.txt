@@ -153,3 +153,23 @@
  Nos algoritmos, essa diferença é muito significativa. Coeficientes constantes geralmente indicam processos com custo regular, enquanto coeficientes variáveis aparecem em algoritmos cujo esforço cresce conforme o tamanho da entrada aumenta. Entender essa distinção ajuda a interpretar melhor o desempenho de uma solução computacional.
 
  Em suma, ao reconhecer se uma recorrência tem coeficientes constantes ou variáveis, você desenvolve uma leitura mais fina sobre o comportamento das sequências e dos algoritmos associados a elas. Esse olhar atento transforma a matemática discreta em uma ferramenta poderosa de previsão e análise.
+
+
+
+                                       "Recorrências na Computação"
+
+ Depois de compreender como as relações de recorrência são definidas e classificadas dentro da matemática discreta, chega um momento muito especial do nosso estudo: perceber como elas ganham vida na computação. Aqui, a recorrência deixa de ser apenas uma ideia abstrata no papel e passa a explicar o comportamento real de algoritmos, programas e processos computacionais. É como ver a teoria sair do caderno e começar a funcionar dentro da máquina.
+
+Na computação, as recorrências aparecem com frequência quando lidamos com algoritmos que se resolvem por partes menores. Imagine a tarefa de organizar uma pilha de livros por tamanho. Você pode separar a pilha em duas menores, organizar cada uma e depois juntar tudo. Esse “dividir, resolver e combinar” costuma gerar relações de recorrência que descrevem quanto trabalho o computador faz a cada etapa do processo.
+
+Um exemplo clássico surge quando analisamos o tempo de execução de algoritmos. Ao invés de medir cada instrução isoladamente, usamos uma relação de recorrência para dizer algo como: “o tempo para resolver um problema grande depende do tempo para resolver problemas menores”. É como calcular o tempo de preparo de um jantar completo sabendo quanto tempo leva cada etapa da receita. A recorrência organiza esse raciocínio de forma clara e estruturada.
+
+Essas ideias aparecem muito em algoritmos recursivos, como a busca binária ou certos métodos de ordenação. Nesses casos, o algoritmo chama a si mesmo com uma entrada menor, e a recorrência descreve exatamente esse comportamento. É semelhante a uma receita que manda cortar a massa ao meio, preparar cada parte da mesma forma e repetir isso até tudo estar pronto. A computação segue a mesma lógica, só que com números e instruções.
+
+Além do tempo, recorrências também ajudam a analisar o uso de memória. Um programa pode precisar guardar resultados intermediários enquanto resolve subproblemas menores. A relação de recorrência permite entender como essa necessidade cresce. Pense em uma viagem em que você precisa carregar mochilas extras conforme o trajeto se torna mais longo — a recorrência ajuda a prever quanto peso você terá que carregar no final.
+
+Outro ponto importante é que recorrências na computação nem sempre são implementadas literalmente como funções recursivas. Muitas vezes, elas são apenas uma ferramenta de análise. O algoritmo pode ser iterativo, mas o comportamento dele ainda é descrito por uma relação de recorrência. É como usar um mapa para planejar a rota, mesmo que você depois siga o caminho dirigindo automaticamente.
+
+Com o tempo, você perceberá que dominar recorrências é essencial para entender eficiência de algoritmos, comparar soluções diferentes e tomar decisões melhores ao programar. Elas funcionam como uma lente que revela o crescimento escondido por trás do código, permitindo enxergar além das linhas escritas.
+
+Ao encerrar essa etapa, guarde uma ideia central: as relações de recorrência são a ponte natural entre matemática e computação. Elas explicam como algoritmos crescem, se repetem e se organizam. Continue avançando com entusiasmo e curiosidade — cada novo conceito que você domina torna o mundo dos algoritmos mais claro, mais lógico e, acima de tudo, mais fascinante.
