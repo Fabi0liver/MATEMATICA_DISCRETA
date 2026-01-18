@@ -178,72 +178,12 @@
 
  Depois de entendermos a estrutura e os tipos de relações de recorrência, nada melhor do que observar como elas aparecem em exemplos clássicos, aqueles que atravessam livros, aulas e problemas há décadas. Esses exemplos canônicos funcionam como pontos de referência: ao entendê-los bem, você passa a reconhecer recorrências quase automaticamente em novos contextos, como quem aprende a identificar padrões em jogos ou rotinas do dia a dia.
 
-Um dos exemplos mais simples é a sequência aritmética, em que cada termo surge somando um valor fixo ao anterior. A relação 
-𝑎
-𝑛
-=
-𝑎
-𝑛
-−
-1
-+
-𝑑
-a
-n
-	​
-
-=a
-n−1
-	​
-
-+d descreve perfeitamente esse comportamento. É como guardar moedas em um cofrinho colocando sempre a mesma quantia por dia. O crescimento é estável, previsível e fácil de acompanhar, o que faz dessa sequência uma excelente porta de entrada para o pensamento recorrente.
+Um dos exemplos mais simples é a sequência aritmética, em que cada termo surge somando um valor fixo ao anterior. A relação 𝑎ₙ = 𝑎ₙ₋₁ + 𝑑 descreve perfeitamente esse comportamento. É como guardar moedas em um cofrinho colocando sempre a mesma quantia por dia. O crescimento é estável, previsível e fácil de acompanhar, o que faz dessa sequência uma excelente porta de entrada para o pensamento recorrente.
 
 Na sequência geométrica, a lógica muda um pouco: em vez de somar, multiplicamos por um fator constante, como em 
-𝑎
-𝑛
-=
-𝑟
-⋅
-𝑎
-𝑛
-−
-1
-a
-n
-	​
+𝑎ₙ = 𝑟 ⋅ 𝑎ₙ₋₁. Aqui, a analogia pode ser um investimento com juros compostos, onde o valor cresce proporcionalmente ao que já existe. Esse tipo de recorrência mostra como pequenas mudanças iniciais podem gerar grandes diferenças ao longo do tempo.
 
-=r⋅a
-n−1
-	​
-
-. Aqui, a analogia pode ser um investimento com juros compostos, onde o valor cresce proporcionalmente ao que já existe. Esse tipo de recorrência mostra como pequenas mudanças iniciais podem gerar grandes diferenças ao longo do tempo.
-
-A famosa sequência de Fibonacci talvez seja o exemplo mais emblemático de todos. Definida por 
-𝑎
-𝑛
-=
-𝑎
-𝑛
-−
-1
-+
-𝑎
-𝑛
-−
-2
-a
-n
-	​
-
-=a
-n−1
-	​
-
-+a
-n−2
-	​
-
-, ela depende de dois termos anteriores, o que dá à sequência um ritmo próprio. É como construir uma história em que cada novo capítulo se apoia nos dois anteriores. Fibonacci aparece em natureza, arte e computação, justamente por capturar bem a ideia de crescimento acumulado.
+A famosa sequência de Fibonacci talvez seja o exemplo mais emblemático de todos. Definida por 𝑎ₙ = 𝑎ₙ₋₁ + 𝑎ₙ₋₂, ela depende de dois termos anteriores, o que dá à sequência um ritmo próprio. É como construir uma história em que cada novo capítulo se apoia nos dois anteriores. Fibonacci aparece em natureza, arte e computação, justamente por capturar bem a ideia de crescimento acumulado.
 
 Problemas de escadas são muito comuns em matemática discreta e algoritmos. A pergunta típica é: de quantas maneiras posso subir uma escada dando um ou dois passos por vez? A resposta surge naturalmente por uma recorrência, pois o número de formas de chegar a um degrau depende das formas de chegar aos degraus anteriores. É como planejar um caminho pensando sempre “como cheguei até aqui”.
 
@@ -251,13 +191,7 @@ Algo parecido acontece nos caminhos em grade, onde queremos contar quantas forma
 
 As sequências de Catalan aparecem em problemas mais sofisticados, como contar formas de organizar parênteses ou estruturas de árvores. Embora mais complexas, elas ainda seguem uma lógica recorrente clara: estruturas maiores são formadas combinando estruturas menores. É como montar diferentes arranjos de blocos de LEGO usando sempre peças menores como base.
 
-A Torre de Hanói é um exemplo clássico que mistura recorrência e recursividade. O número de movimentos necessários para resolver o problema com 
-𝑛
-n discos depende diretamente da solução para 
-𝑛
-−
-1
-n−1 discos. É como organizar uma mudança: para mover tudo, você precisa primeiro desocupar parte do espaço, resolver uma parte menor e depois concluir o restante.
+A Torre de Hanói é um exemplo clássico que mistura recorrência e recursividade. O número de movimentos necessários para resolver o problema com 𝑛 discos depende diretamente da solução para 𝑛 - 1 discos. É como organizar uma mudança: para mover tudo, você precisa primeiro desocupar parte do espaço, resolver uma parte menor e depois concluir o restante.
 
 Na computação, a busca binária é um exemplo elegante de recorrência aplicada à eficiência. O tempo para encontrar um elemento em uma lista depende do tempo para procurar em metade da lista. É como procurar uma palavra em um dicionário: você abre no meio e decide para qual lado continuar, repetindo esse processo até encontrar o que busca.
 
