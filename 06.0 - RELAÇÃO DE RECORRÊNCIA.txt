@@ -237,4 +237,4 @@
 
  Também aprendemos que errar faz parte do processo. As armadilhas e confusões comuns não são obstáculos definitivos, mas degraus naturais da aprendizagem. Cada erro compreendido aprofunda a intuição e fortalece a capacidade de raciocínio, tornando o estudo mais sólido e consciente.
 
- Encerramos, então, essa etapa com uma base firme e uma visão mais clara sobre como pensar de forma recorrente. Que você leve daqui não apenas conceitos, mas uma nova maneira de enxergar problemas: com paciência, passo a passo, confiando que soluções complexas nascem da repetição de ideias simples. Continue estudando algoritmos com curiosidade e entusiasmo — a jornada está só começando, e ela é cheia de descobertas fascinantes.
+ Encerramos, então, essa etapa com uma base firme e uma visão mais clara sobre como pensar de forma recorrente. Que você leve daqui não apenas conceitos, mas uma nova maneira de enxergar problemas: com paciência, passo a passo, confiando que soluções complexas nascem da repetição de ideias simples. 
