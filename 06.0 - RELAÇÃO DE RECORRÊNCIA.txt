@@ -95,7 +95,7 @@
 
 
 
-                           "Recorrências homogêneas vs. não homogêneas"
+                             "Recorrências homogêneas vs. não homogêneas"
 
  Depois de avançarmos na compreensão das relações de recorrência e alguns de seus conteudos iniciais, é hora de dar mais um passo refinando nosso olhar sobre como essas relações se comportam. Agora vamos conversar sobre a diferença entre recorrências homogêneas e recorrências não homogêneas, dois conceitos que, à primeira vista, parecem apenas detalhes técnicos, mas que fazem toda a diferença na forma como uma sequência cresce e pode ser analisada.
 
