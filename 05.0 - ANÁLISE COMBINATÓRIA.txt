@@ -56,58 +56,8 @@
 
  À medida que avançamos na Análise Combinatória, surge um conceito simples na aparência, mas extremamente poderoso: o fatorial. Ele aparece naturalmente quando começamos a contar arranjos, ordens e sequências possíveis. Pense no fatorial como um contador automático de possibilidades que cresce conforme aumentamos o número de escolhas. É como organizar uma fila: quanto mais pessoas entram, mais maneiras diferentes existem de organizar essa fila.
 
- Formalmente, o fatorial de um número natural 
-𝑛
-n, indicado por 
-𝑛
-!
-n!, é o resultado da multiplicação desse número por todos os seus antecessores até chegar ao 1. Em outras palavras, para 
-𝑛
-≥
-2
-n≥2, temos 
-𝑛
-!
-=
-𝑛
-⋅
-(
-𝑛
-−
-1
-)
-⋅
-(
-𝑛
-−
-2
-)
-⋯
-1
-n!=n⋅(n−1)⋅(n−2)⋯1. Por exemplo, 
-5
-!
-=
-5
-⋅
-4
-⋅
-3
-⋅
-2
-⋅
-1
-=
-120
-5!=5⋅4⋅3⋅2⋅1=120. Uma forma interessante de enxergar isso é pensar que cada novo número “carrega” todos os anteriores, como uma receita que reaproveita a base já pronta: 
-5
-!
-5! também pode ser visto como 
-5
-⋅
-4
-!
-5⋅4!.
+ Formalmente, o fatorial de um número natural 𝑛, indicado por 𝑛!, é o resultado da multiplicação desse número por todos os seus antecessores até chegar ao 1. Em outras palavras, para 𝑛 ≥ 2, temos 𝑛! = 𝑛 ⋅ (𝑛 - 1) ⋅ (𝑛 - 2) ⋯ 1. Por exemplo, 5! = 5 ⋅ 4 ⋅ 3 ⋅ 2 ⋅ 1 = 120. Uma forma interessante de enxergar isso é pensar que cada novo número “carrega” todos os anteriores, como uma receita que reaproveita a base já pronta: 5!
+5! também pode ser visto como 5 ⋅ 4!.
 
  A interpretação combinatória do fatorial fica clara quando pensamos em ordem. Imagine cinco livros diferentes que você quer organizar em uma prateleira. O número de maneiras distintas de arrumá-los é exatamente 5!. O primeiro espaço pode ser ocupado por qualquer livro, o segundo por qualquer um dos restantes, e assim por diante. O fatorial surge como o registro matemático dessa sequência de escolhas ordenadas.
 
@@ -119,7 +69,6 @@ n!=n⋅(n−1)⋅(n−2)⋯1. Por exemplo,
 
  A relação do fatorial com a contagem é direta e profunda. Sempre que a ordem importa e estamos organizando todos os elementos possíveis, o fatorial aparece como resposta natural. Ele é a espinha dorsal de muitos outros conceitos da Análise Combinatória, servindo como base para cálculos mais refinados e estruturas mais elaboradas.
 
- Para encerrar nossa aula, quero que você veja o fatorial não como uma fórmula a decorar, mas como uma ideia viva, conectada a escolhas, ordens e possibilidades. Entender seu significado é dar um grande passo no domínio da Análise Combinatória e, por consequência, no pensamento algorítmico. Continue avançando com curiosidade e confiança — cada conceito aprendido amplia sua capacidade de enxergar padrões e soluções com clareza e elegância.
- 
+ Em suma,  o fatorial não como uma fórmula a decorar, mas como uma ideia viva, conectada a escolhas, ordens e possibilidades. Entender seu significado é dar um grande passo no domínio da Análise Combinatória e, por consequência, no pensamento algorítmico.  
  
 
