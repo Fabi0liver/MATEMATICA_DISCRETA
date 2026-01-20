@@ -14,9 +14,9 @@
 
 
 
-                                         "Básico da Contagem"
+                                            "Base da Contagem"
 
- Agora que já temos uma noção geral do que é a Análise Combinatória, podemos começar a estudar o Básico da Contagem, damos um passo importante para transformar a intuição em raciocínio organizado. Até aqui, a Análise Combinatória apareceu como a arte de contar possibilidades, e agora começamos a aprender como fazer isso de forma consciente. É como deixar de cozinhar “no improviso” e passar a seguir uma lógica clara: ainda usamos criatividade, mas com método e segurança.
+ Agora que já temos uma noção geral do que é a Análise Combinatória, podemos começar a estudar o Base da Contagem, damos um passo importante para transformar a intuição em raciocínio organizado. Até aqui, a Análise Combinatória apareceu como a arte de contar possibilidades, e agora começamos a aprender como fazer isso de forma consciente. É como deixar de cozinhar “no improviso” e passar a seguir uma lógica clara: ainda usamos criatividade, mas com método e segurança.
 
  A base de tudo está na intuição combinatória, que nada mais é do que perceber que muitas situações do cotidiano envolvem escolhas sucessivas. Pense em montar um lanche: você escolhe o pão, depois o recheio, depois a bebida. Mesmo sem fazer contas, seu cérebro entende que cada escolha abre novas possibilidades. A Análise Combinatória apenas pega essa intuição natural e a organiza, ensinando quando somar possibilidades, quando multiplicar e como evitar confusões.
 
@@ -28,5 +28,5 @@
 
  Outro erro comum é esquecer restrições do problema. Imagine montar um cardápio sem repetir pratos, mas acabar contando opções repetidas por descuido. Na Análise Combinatória, aprender a ler o problema com atenção é tão importante quanto saber fazer contas. Muitas vezes, o erro não está no cálculo, mas na interpretação do que realmente pode ou não acontecer.
 
-  Em suma, com o tempo, esses princípios ajudam a desenvolver um olhar mais cuidadoso e estratégico. Você passa a enxergar padrões, organizar possibilidades mentalmente e antecipar resultados. Isso não é útil apenas na matemática, mas também na programação, na lógica de algoritmos e na resolução de problemas em geral, onde contar caminhos possíveis é uma habilidade essencial.
+  Em suma, essa base ajuda a desenvolver um olhar mais cuidadoso e estratégico. Você passa a enxergar padrões, organizar possibilidades mentalmente e antecipar resultados. Isso não é útil apenas na matemática, mas também na programação, na lógica de algoritmos e na resolução de problemas em geral, onde contar caminhos possíveis é uma habilidade essencial.
 
