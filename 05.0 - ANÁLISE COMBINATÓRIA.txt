@@ -70,3 +70,20 @@ Com o tempo, você começa a reconhecer situações em que o fatorial aparece qu
 
 Para fechar nossa aula, quero reforçar uma ideia essencial: o fatorial não é apenas um símbolo matemático, mas uma forma de enxergar o mundo das possibilidades. Ele mostra como escolhas simples podem gerar uma complexidade surpreendente. Continue explorando esse caminho com curiosidade e calma — compreender esse crescimento é um passo fundamental para dominar algoritmos, lógica e a beleza da matemática discreta.
 
+ 
+ Definição e significado: O fatorial de um número natural n (n!) é calculado pela multiplicação desse número por  todos os seus antecessores até chegar no número 1.
+
+     n! = n * (n - 1) * (n - 2) * ... 1 para n ≥ 2
+
+  Exemplo: 5! = 5 * 4 * 3 * 2 * 1 = 120
+
+           5! = 5 * 4!
+
+ Interpretação combinatória do fatorial
+
+ Crescimento fatorial
+
+ Simplificações algébricas
+
+ Relação do Fatorial com Contagem
+
