@@ -80,54 +80,11 @@
 
 Formalmente, uma permutação simples ocorre quando todos os elementos são diferentes entre si, não há repetição, e estamos interessados em todas as formas possíveis de reorganizar esses elementos em uma sequência. Em outras palavras, permutar é trocar a ordem, mudar quem vem primeiro, segundo, terceiro, e assim por diante. Pense em pessoas diferentes formando uma fila: cada mudança de posição cria uma nova fila, mesmo que ninguém tenha sido adicionado ou removido.
 
-A ligação das permutações simples com o fatorial é direta e muito elegante. Se temos 
-𝑛
-n elementos distintos, o número total de permutações possíveis é dado por 
-𝑃
-𝑛
-=
-𝑛
-!
-P
-n
-	​
-
-=n!. Essa fórmula não é mágica, ela nasce do raciocínio passo a passo: para o primeiro lugar, há 
-𝑛
-n escolhas; para o segundo, restam 
-𝑛
-−
-1
-n−1; depois 
-𝑛
-−
-2
-n−2, até chegar a 1. Esse encadeamento de escolhas é exatamente o que o fatorial representa.
+A ligação das permutações simples com o fatorial é direta e muito elegante. Se temos 𝑛 elementos distintos, o número total de permutações possíveis é dado por 𝑃𝑛  =  𝑛!. Essa fórmula não é mágica, ela nasce do raciocínio passo a passo: para o primeiro lugar, há 𝑛 escolhas; para o segundo, restam 𝑛 - 1; depois 𝑛 - 2, até chegar a 1. Esse encadeamento de escolhas é exatamente o que o fatorial representa.
 
 Vamos olhar para um exemplo bem concreto para fixar a ideia. Suponha que temos três algarismos diferentes: 1, 2 e 3. Queremos descobrir de quantas formas diferentes podemos organizá-los em uma sequência. Se você listar calmamente, encontrará as seguintes ordens: 123, 132, 213, 231, 312 e 321. Cada uma dessas sequências usa os mesmos três números, mas em ordens diferentes, o que caracteriza uma permutação simples.
 
-Repare como o fatorial aparece naturalmente nesse exemplo. Como temos três elementos distintos, usamos 
-𝑃
-3
-=
-3
-!
-P
-3
-	​
-
-=3!. Calculando, temos 
-3
-!
-=
-3
-⋅
-2
-⋅
-1
-=
-6
-3!=3⋅2⋅1=6, exatamente o número de sequências que conseguimos listar. É como montar combinações de roupas com três peças únicas: cada troca de posição muda o resultado final, mesmo que as peças sejam as mesmas.
+Repare como o fatorial aparece naturalmente nesse exemplo. Como temos três elementos distintos, usamos 𝑃3 = 3. Calculando, temos 3! = 3 ⋅ 2 ⋅ 1 = 6, exatamente o número de sequências que conseguimos listar. É como montar combinações de roupas com três peças únicas: cada troca de posição muda o resultado final, mesmo que as peças sejam as mesmas.
 
 Uma analogia muito útil é pensar em cartas de um baralho espalhadas sobre a mesa. Se você embaralha três cartas diferentes, cada embaralhamento gera uma ordem única. A Análise Combinatória não se preocupa em qual ordem você prefere, mas em quantas ordens diferentes são possíveis. As permutações simples respondem exatamente a essa pergunta.
 
