@@ -106,137 +106,16 @@ A ideia central é simples: continuamos interessados em trocar a ordem dos eleme
 Se ignorássemos as repetições, acabaríamos contando várias vezes a mesma disposição. É como montar um bolo usando três ovos idênticos: trocar a ordem em que você quebra os ovos não muda o bolo final. A Análise Combinatória entra para corrigir esse excesso de contagem, ajustando o resultado para refletir apenas as disposições realmente diferentes.
 
 Matematicamente, fazemos isso usando a fórmula das permutações com repetição:
+                     
+                                                     n! 
+                            Pₙ ⁿ¹, ⁿ², …, ⁿᵏ = ----------------
+                                               n1! n2! … nk!.
 
-𝑃
-𝑛
-𝑛
-1
-,
-𝑛
-2
-,
-…
-,
-𝑛
-𝑘
-=
-𝑛
-!
-𝑛
-1
-!
- 
-𝑛
-2
-!
- 
-…
- 
-𝑛
-𝑘
-!
-P
-n
-n
-1
-	​
+Aqui, 𝑛 representa o total de elementos, e cada  𝑛ᵢ indica quantas vezes um mesmo elemento se repete. O fatorial do denominador funciona como um “corretor”, eliminando as contagens duplicadas.
 
-,n
-2
-	​
+Vamos ao exemplo clássico da palavra BANANA, que deixa tudo muito concreto. Essa palavra tem 6 letras no total. Porém, nem todas são diferentes: a letra A aparece 3 vezes, a letra N aparece 2 vezes, e a letra B aparece apenas uma vez. Se tratássemos todas as letras como distintas, teríamos 6!possibilidades, mas isso claramente exageraria o número real de arranjos.
 
-,…,n
-k
-	​
-
-	​
-
-=
-n
-1
-	​
-
-!n
-2
-	​
-
-!…n
-k
-	​
-
-!
-n!
-	​
-
-.
-Aqui, 
-𝑛
-n representa o total de elementos, e cada 
-𝑛
-𝑖
-n
-i
-	​
-
- indica quantas vezes um mesmo elemento se repete. O fatorial do denominador funciona como um “corretor”, eliminando as contagens duplicadas.
-
-Vamos ao exemplo clássico da palavra BANANA, que deixa tudo muito concreto. Essa palavra tem 6 letras no total. Porém, nem todas são diferentes: a letra A aparece 3 vezes, a letra N aparece 2 vezes, e a letra B aparece apenas uma vez. Se tratássemos todas as letras como distintas, teríamos 
-6
-!
-6! possibilidades, mas isso claramente exageraria o número real de arranjos.
-
-Aplicando a fórmula corretamente, temos
-
-𝑃
-6
-3
-,
-2
-=
-6
-!
-3
-!
-⋅
-2
-!
-P
-6
-3,2
-	​
-
-=
-3!⋅2!
-6!
-	​
-
-.
-Sabendo que 
-6
-!
-=
-720
-6!=720, 
-3
-!
-=
-6
-3!=6 e 
-2
-!
-=
-2
-2!=2, o cálculo fica 
-720
-/
-(
-6
-⋅
-2
-)
-=
-60
-720/(6⋅2)=60. Ou seja, existem 60 permutações diferentes da palavra BANANA. Cada uma representa uma ordem realmente distinta das letras.
+Aplicando a fórmula corretamente, temos  P₆ ³,  ² =  6! / 3! 2!. Sabendo que 6! = 720, 3! = 6 e 2! = 2, o cálculo fica 720 / (6 ⋅ 2) = 60. Ou seja, existem 60 permutações diferentes da palavra BANANA. Cada uma representa uma ordem realmente distinta das letras.
 
 A noção de elementos indistinguíveis é fundamental aqui. Mesmo ocupando posições diferentes, letras iguais não geram novas configurações perceptíveis quando trocadas entre si. É como vestir duas meias idênticas: não importa qual você coloca primeiro, o resultado visual é o mesmo. A matemática reconhece isso e evita contar o mesmo caso várias vezes.
 
