@@ -115,7 +115,14 @@ Aqui, 𝑛 representa o total de elementos, e cada  𝑛ᵢ indica quantas vezes
 
 Vamos ao exemplo clássico da palavra BANANA, que deixa tudo muito concreto. Essa palavra tem 6 letras no total. Porém, nem todas são diferentes: a letra A aparece 3 vezes, a letra N aparece 2 vezes, e a letra B aparece apenas uma vez. Se tratássemos todas as letras como distintas, teríamos 6!possibilidades, mas isso claramente exageraria o número real de arranjos.
 
-Aplicando a fórmula corretamente, temos  P₆ ³,  ² =  6! / 3! 2!. Sabendo que 6! = 720, 3! = 6 e 2! = 2, o cálculo fica 720 / (6 ⋅ 2) = 60. Ou seja, existem 60 permutações diferentes da palavra BANANA. Cada uma representa uma ordem realmente distinta das letras.
+Aplicando a fórmula corretamente, temos:
+                          
+                                                          6! 
+                                          P₆ ³, ² = --------------                                                    
+                                                         3! 2! 
+
+
+Sabendo que 6! = 720, 3! = 6 e 2! = 2, o cálculo fica 720 / (6 ⋅ 2) = 60. Ou seja, existem 60 permutações diferentes da palavra BANANA. Cada uma representa uma ordem realmente distinta das letras.
 
 A noção de elementos indistinguíveis é fundamental aqui. Mesmo ocupando posições diferentes, letras iguais não geram novas configurações perceptíveis quando trocadas entre si. É como vestir duas meias idênticas: não importa qual você coloca primeiro, o resultado visual é o mesmo. A matemática reconhece isso e evita contar o mesmo caso várias vezes.
 
