@@ -96,3 +96,16 @@
 
  Em suma permutações simples não são apenas uma fórmula para memorizar, mas uma forma clara de pensar sobre organização e ordem. Com paciência e prática, esse conceito se torna natural e abre portas para temas ainda mais interessantes da Análise Combinatória. 
 
+
+
+Permutações com Repetição:
+
+ Descrição:
+
+ Fórmula geral:
+
+ Elementos indistinguíveis
+
+ Multiconjuntos
+
+ 
