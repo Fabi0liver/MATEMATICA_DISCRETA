@@ -101,37 +101,35 @@
 
  Depois de entender bem as permutações simples, surge naturalmente uma pergunta muito comum: e quando alguns elementos se repetem? É exatamente aí que entram as permutações com repetição. Elas aparecem em situações reais o tempo todo, especialmente quando lidamos com palavras, objetos iguais ou elementos que, apesar de ocuparem posições diferentes, não podem ser distinguidos entre si.
 
-A ideia central é simples: continuamos interessados em trocar a ordem dos elementos, mas agora alguns deles são indistinguíveis. Pense em uma caixa com bolas: se duas bolas são da mesma cor e tamanho, trocar uma pela outra não cria uma nova configuração visível. Diferente das permutações simples, aqui nem toda troca gera algo realmente novo, e é isso que muda completamente a contagem.
+ A ideia central é simples: continuamos interessados em trocar a ordem dos elementos, mas agora alguns deles são indistinguíveis. Pense em uma caixa com bolas: se duas bolas são da mesma cor e tamanho, trocar uma pela outra não cria uma nova configuração visível. Diferente das permutações simples, aqui nem toda troca gera algo realmente novo, e é isso que muda completamente a contagem.
 
-Se ignorássemos as repetições, acabaríamos contando várias vezes a mesma disposição. É como montar um bolo usando três ovos idênticos: trocar a ordem em que você quebra os ovos não muda o bolo final. A Análise Combinatória entra para corrigir esse excesso de contagem, ajustando o resultado para refletir apenas as disposições realmente diferentes.
+ Se ignorássemos as repetições, acabaríamos contando várias vezes a mesma disposição. É como montar um bolo usando três ovos idênticos: trocar a ordem em que você quebra os ovos não muda o bolo final. A Análise Combinatória entra para corrigir esse excesso de contagem, ajustando o resultado para refletir apenas as disposições realmente diferentes.
 
-Matematicamente, fazemos isso usando a fórmula das permutações com repetição:
+ Matematicamente, fazemos isso usando a fórmula das permutações com repetição:
                      
                                                      n! 
                             Pₙ ⁿ¹, ⁿ², …, ⁿᵏ = ----------------
                                                n1! n2! … nk!.
 
-Aqui, 𝑛 representa o total de elementos, e cada  𝑛ᵢ indica quantas vezes um mesmo elemento se repete. O fatorial do denominador funciona como um “corretor”, eliminando as contagens duplicadas.
+ Aqui, 𝑛 representa o total de elementos, e cada  𝑛ᵢ indica quantas vezes um mesmo elemento se repete. O fatorial do denominador funciona como um “corretor”, eliminando as contagens duplicadas.
 
-Vamos ao exemplo clássico da palavra BANANA, que deixa tudo muito concreto. Essa palavra tem 6 letras no total. Porém, nem todas são diferentes: a letra A aparece 3 vezes, a letra N aparece 2 vezes, e a letra B aparece apenas uma vez. Se tratássemos todas as letras como distintas, teríamos 6!possibilidades, mas isso claramente exageraria o número real de arranjos.
+ Vamos ao exemplo clássico da palavra BANANA, que deixa tudo muito concreto. Essa palavra tem 6 letras no total. Porém, nem todas são diferentes: a letra A aparece 3 vezes, a letra N aparece 2 vezes, e a letra B aparece apenas uma vez. Se tratássemos todas as letras como distintas, teríamos 6! possibilidades, mas isso claramente exageraria o número real de arranjos.
 
-Aplicando a fórmula corretamente, temos:
+ Aplicando a fórmula corretamente, temos:
                           
-                                                          6! 
-                                          P₆ ³, ² = --------------                                                    
-                                                         3! 2! 
+                                              6! 
+                               P₆ ³, ² = --------------                                                    
+                                             3! 2! 
 
+ Sabendo que 6! = 720, 3! = 6 e 2! = 2, o cálculo fica 720 / (6 ⋅ 2) = 60. Ou seja, existem 60 permutações diferentes da palavra BANANA. Cada uma representa uma ordem realmente distinta das letras.
 
-Sabendo que 6! = 720, 3! = 6 e 2! = 2, o cálculo fica 720 / (6 ⋅ 2) = 60. Ou seja, existem 60 permutações diferentes da palavra BANANA. Cada uma representa uma ordem realmente distinta das letras.
+ A noção de elementos indistinguíveis é fundamental aqui. Mesmo ocupando posições diferentes, letras iguais não geram novas configurações perceptíveis quando trocadas entre si. É como vestir duas meias idênticas: não importa qual você coloca primeiro, o resultado visual é o mesmo. A matemática reconhece isso e evita contar o mesmo caso várias vezes.
 
-A noção de elementos indistinguíveis é fundamental aqui. Mesmo ocupando posições diferentes, letras iguais não geram novas configurações perceptíveis quando trocadas entre si. É como vestir duas meias idênticas: não importa qual você coloca primeiro, o resultado visual é o mesmo. A matemática reconhece isso e evita contar o mesmo caso várias vezes.
+ Esse tipo de situação é modelado pelo conceito de multiconjuntos, que são conjuntos onde os elementos podem aparecer mais de uma vez. Diferente de um conjunto tradicional, que ignora repetições, o multiconjunto registra quantas vezes cada elemento ocorre. As permutações com repetição surgem justamente quando reorganizamos multiconjuntos.
 
-Esse tipo de situação é modelado pelo conceito de multiconjuntos, que são conjuntos onde os elementos podem aparecer mais de uma vez. Diferente de um conjunto tradicional, que ignora repetições, o multiconjunto registra quantas vezes cada elemento ocorre. As permutações com repetição surgem justamente quando reorganizamos multiconjuntos.
+ No dia a dia, esse raciocínio aparece em anagramas de palavras, organização de objetos iguais em prateleiras ou até em problemas de computação, como rearranjos de dados com valores repetidos. Entender permutações com repetição ajuda a construir algoritmos mais eficientes e evita erros comuns de supercontagem.
 
-No dia a dia, esse raciocínio aparece em anagramas de palavras, organização de objetos iguais em prateleiras ou até em problemas de computação, como rearranjos de dados com valores repetidos. Entender permutações com repetição ajuda a construir algoritmos mais eficientes e evita erros comuns de supercontagem.
-
-Para encerrar nossa aula, quero que você perceba o quanto esse tema amplia sua visão combinatória. Ele mostra que contar não é apenas aplicar fórmulas, mas compreender a natureza dos elementos envolvidos. Continue estudando com calma e curiosidade — cada novo conceito dominado fortalece seu raciocínio lógico e aproxima você de pensar como um verdadeiro arquiteto de algoritmos.
-
+ Em suma, perceba o quanto as permutações com repetição amplia a visão combinatória, mostra que contar não é apenas aplicar fórmulas, mas compreender a natureza dos elementos envolvidos. 
 
 
 
