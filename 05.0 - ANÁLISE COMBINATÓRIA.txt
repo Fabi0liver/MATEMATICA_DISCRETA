@@ -75,7 +75,6 @@
 
                                             "Permutações Simples"
 
-
  Quando falamos em Permutações Simples, entramos em um dos conceitos mais intuitivos e ao mesmo tempo mais importantes da Análise Combinatória. A ideia central aqui é observar como a ordem dos elementos faz diferença. Mesmo usando os mesmos objetos, apenas trocando suas posições, obtemos resultados distintos. É como reorganizar móveis em um quarto: os móveis são os mesmos, mas cada arranjo cria uma sensação diferente.
 
  Formalmente, uma permutação simples ocorre quando todos os elementos são diferentes entre si, não há repetição, e estamos interessados em todas as formas possíveis de reorganizar esses elementos em uma sequência. Em outras palavras, permutar é trocar a ordem, mudar quem vem primeiro, segundo, terceiro, e assim por diante. Pense em pessoas diferentes formando uma fila: cada mudança de posição cria uma nova fila, mesmo que ninguém tenha sido adicionado ou removido.
@@ -116,10 +115,8 @@ Permutações com Repetição:
                 com  n1 + n2 + … + nk!
 
                 então o número de permutações distintas é:
-
-                                                                        n! 
-                  Pₙ ⁿ¹,  ⁿ²,  …, ⁿᵏ = --------------
-                                 n1! n2! …nk!
+                       
+                  Pₙ ⁿ¹, ⁿ², …, ⁿᵏ = n! / n1! n2! … nk!
 
 
  Exemplos diretos:
