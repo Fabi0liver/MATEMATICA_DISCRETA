@@ -80,7 +80,7 @@
 
  Formalmente, uma permutação simples ocorre quando todos os elementos são diferentes entre si, não há repetição, e estamos interessados em todas as formas possíveis de reorganizar esses elementos em uma sequência. Em outras palavras, permutar é trocar a ordem, mudar quem vem primeiro, segundo, terceiro, e assim por diante. Pense em pessoas diferentes formando uma fila: cada mudança de posição cria uma nova fila, mesmo que ninguém tenha sido adicionado ou removido.
 
- A ligação das permutações simples com o fatorial é direta e muito elegante. Se temos 𝑛 elementos distintos, o número total de permutações possíveis é dado por 𝑃𝑛  =  𝑛!. Essa fórmula não é mágica, ela nasce do raciocínio passo a passo: para o primeiro lugar, há 𝑛 escolhas; para o segundo, restam 𝑛 - 1; depois 𝑛 - 2, até chegar a 1. Esse encadeamento de escolhas é exatamente o que o fatorial representa.
+ A ligação das permutações simples com o fatorial é direta e muito elegante. Se temos 𝑛 elementos distintos, o número total de permutações possíveis é dado por 𝑃ₙ  =  𝑛!. Essa fórmula não é mágica, ela nasce do raciocínio passo a passo: para o primeiro lugar, há 𝑛 escolhas; para o segundo, restam 𝑛 - 1; depois 𝑛 - 2, até chegar a 1. Esse encadeamento de escolhas é exatamente o que o fatorial representa.
 
  Vamos olhar para um exemplo bem concreto para fixar a ideia. Suponha que temos três algarismos diferentes: 1, 2 e 3. Queremos descobrir de quantas formas diferentes podemos organizá-los em uma sequência. Se você listar calmamente, encontrará as seguintes ordens: 123, 132, 213, 231, 312 e 321. Cada uma dessas sequências usa os mesmos três números, mas em ordens diferentes, o que caracteriza uma permutação simples.
 
@@ -102,9 +102,31 @@ Permutações com Repetição:
 
  Descrição:
 
- Fórmula geral:
+
+ Fórmula : Se temos n elementos no total, onde:
+
+                 o 1º tipo se repete n₁ vezes
+
+                 o 2º tipo se repete n₂ vezes
+
+                  …
+
+                 o k-ésimo tipo se repete nₖ vezes
+
+                com  n1 + n2 + … + nk!
+
+                então o número de permutações distintas é:
+
+                                                                        n! 
+                  Pₙ ⁿ¹,  ⁿ²,  …, ⁿᵏ = --------------
+                                 n1! n2! …nk!
+
+
+ Exemplos diretos:
+
 
  Elementos indistinguíveis
+
 
  Multiconjuntos
 
