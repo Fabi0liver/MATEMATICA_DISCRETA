@@ -102,24 +102,22 @@ Permutações com Repetição:
  Descrição:
 
 
- Fórmula : Se temos n elementos no total, onde:
-
-                 o 1º tipo se repete n₁ vezes
-
-                 o 2º tipo se repete n₂ vezes
-
-                  …
-
-                 o k-ésimo tipo se repete nₖ vezes
-
-                com  n1 + n2 + … + nk!
-
-                então o número de permutações distintas é:
-                       
-                  Pₙ ⁿ¹, ⁿ², …, ⁿᵏ = n! / n1! n2! … nk!
+ Fórmula : Pₙ ⁿ¹, ⁿ², …, ⁿᵏ = n! / n1! n2! … nk!
 
 
- Exemplos diretos:
+ Exemplos: Quantas permutações diferentes existem da palavra BANANA?
+
+            Total de letras:  n = 6
+
+            Repetições: A = 3 vezes
+                        N = 2 vezes
+
+            Aplicando a fórmula:   P₆ ³,  ² =  6! / 3! 2! =  720 / 6 = 60
+
+           Resposta: Existem 60 permutações diferentes.
+
+
+
 
 
  Elementos indistinguíveis
