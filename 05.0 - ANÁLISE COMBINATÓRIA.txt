@@ -70,5 +70,23 @@
  A relação do fatorial com a contagem é direta e profunda. Sempre que a ordem importa e estamos organizando todos os elementos possíveis, o fatorial aparece como resposta natural. Ele é a espinha dorsal de muitos outros conceitos da Análise Combinatória, servindo como base para cálculos mais refinados e estruturas mais elaboradas.
 
  Em suma,  o fatorial não como uma fórmula a decorar, mas como uma ideia viva, conectada a escolhas, ordens e possibilidades. Entender seu significado é dar um grande passo no domínio da Análise Combinatória e, por consequência, no pensamento algorítmico.  
+
+
+Permutações Simples (Pn = n!):
+
+Definição formal: Permutação simples e trocar a ordem dos elementos ou trocar os elementos de posição entre si, obtendo uma nova ordem, sendo esses elemntos diferentes, não havendo repetições.
+
+Fórmula da permutação simples: Pn = n!
+
+Exemplos diretos: Determine a permutação de 3 algarismo, 1, 2, 3.
+
+                  123 132
+                  213 231
+                  312 321
+
+                  Quantas são as permutações desses 3 algarismos:
+
+                    Pn = n!
+                    P3 = 3! = 3 ⋅ 2 ⋅ 1 = 6
  
 
