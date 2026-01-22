@@ -130,35 +130,3 @@
  No dia a dia, esse raciocínio aparece em anagramas de palavras, organização de objetos iguais em prateleiras ou até em problemas de computação, como rearranjos de dados com valores repetidos. Entender permutações com repetição ajuda a construir algoritmos mais eficientes e evita erros comuns de supercontagem.
 
  Em suma, as permutações com repetição ampliam de forma significativa a nossa visão combinatória, pois deixam claro que contar vai muito além de aplicar fórmulas mecanicamente. Elas nos ensinam a observar com atenção a natureza dos elementos envolvidos, a reconhecer quando diferenças realmente importam e quando são apenas aparentes. Esse tipo de raciocínio desenvolve maturidade matemática, fortalece a interpretação de problemas e prepara o caminho para decisões mais inteligentes em algoritmos, lógica e resolução de desafios complexos. 
-
-
-
-
-Permutações com Repetição:
-
- Descrição:
-
-
- Fórmula : Pₙ ⁿ¹, ⁿ², …, ⁿᵏ = n! / n1! n2! … nk!
-
-
- Exemplos: Quantas permutações diferentes existem da palavra BANANA?
-
-            Total de letras:  n = 6
-
-            Repetições: A = 3 vezes
-                        N = 2 vezes
-
-            Aplicando a fórmula:   P₆ ³,  ² =  6! / 3! 2! =  720 / 6 = 60
-
-           Resposta: Existem 60 permutações diferentes.
-
-
- Elementos indistinguíveis
-
-
- Multiconjuntos
-
-
-
- 
