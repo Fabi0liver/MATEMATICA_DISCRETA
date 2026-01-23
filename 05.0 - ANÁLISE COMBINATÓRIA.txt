@@ -172,5 +172,18 @@
 
 
 
+
+ Arranjos com Repetição: 
+
+  Definição:
+
+  Formula: Aₙ,ₖ = nᴷ
+
+  Quando a repetição é permitida
+
+  Interpretação combinatória
+
+  Casos típicos
+
   
 
