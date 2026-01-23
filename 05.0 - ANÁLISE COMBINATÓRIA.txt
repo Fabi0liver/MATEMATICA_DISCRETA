@@ -174,36 +174,35 @@
 
                                          "Arranjos com Repetição"
 
-Depois de entender os arranjos simples, damos mais um passo natural na Análise Combinatória ao estudar os arranjos com repetição. Aqui, a lógica continua baseada na ideia de ordem — a posição dos elementos importa —, mas agora surge uma liberdade extra: o mesmo elemento pode ser escolhido mais de uma vez. Essa pequena mudança amplia bastante o número de possibilidades e aproxima ainda mais a matemática de situações reais do dia a dia.
+ Depois de entender os arranjos simples, damos mais um passo natural na Análise Combinatória ao estudar os arranjos com repetição. Aqui, a lógica continua baseada na ideia de ordem (a posição dos elementos importa), mas agora surge uma liberdade extra: o mesmo elemento pode ser escolhido mais de uma vez. Essa pequena mudança amplia bastante o número de possibilidades e aproxima ainda mais a matemática de situações reais do dia a dia.
 
-De forma intuitiva, arranjos com repetição acontecem quando temos 𝑛 opções disponíveis e precisamos escolher 
+ De forma intuitiva, arranjos com repetição acontecem quando temos 𝑛 opções disponíveis e precisamos escolher 
 𝑝 posições ordenadas, podendo repetir escolhas. É como escolher sabores de sorvete para montar uma sequência de bolas: mesmo tendo poucos sabores, você pode repetir o mesmo sabor em posições diferentes, e a ordem em que eles aparecem ainda faz diferença.
 
-Formalmente, dizemos que um arranjo com repetição é uma sequência ordenada de 𝑝 elementos, escolhidos de um conjunto com 
+ Formalmente, dizemos que um arranjo com repetição é uma sequência ordenada de 𝑝 elementos, escolhidos de um conjunto com 
 𝑛 elementos, onde a repetição é permitida. Nesse cenário, cada posição é independente da anterior, o que simplifica bastante o raciocínio matemático por trás da contagem.
 
-Essa independência explica diretamente a fórmula do arranjo com repetição: 
+ Essa independência explica diretamente a fórmula do arranjo com repetição: 
 
-                                              Aₙ,ₚ = nᴾ
+                                              Aₙ,ₚ = nᵖ
 
-Isso significa que, para cada uma das 𝑝 posições, temos 𝑛 escolhas possíveis. Como essas escolhas não se limitam umas às outras, basta multiplicar 𝑛 por ele mesmo 𝑝 vezes. É o mesmo raciocínio usado quando contamos o número de códigos ou sequências possíveis.
+ Isso significa que, para cada uma das 𝑝 posições, temos 𝑛 escolhas possíveis. Como essas escolhas não se limitam umas às outras, basta multiplicar 𝑛 por ele mesmo 𝑝 vezes. É o mesmo raciocínio usado quando contamos o número de códigos ou sequências possíveis.
 
-Vamos a um exemplo simples. Suponha que uma senha seja formada por 3 dígitos, e cada dígito pode ser 0, 1 ou 2. Temos 𝑛 = 3 opções e 𝑝 = 3. Aplicando a fórmula, obtemos: 
+ Vamos a um exemplo simples. Suponha que uma senha seja formada por 3 dígitos, e cada dígito pode ser 0, 1 ou 2. Temos 𝑛 = 3 opções e 𝑝 = 3. Aplicando a fórmula, obtemos: 
 
-                               𝐴₃,₃ = 3³ = 27 senhas diferentes. 
+                                𝐴₃,₃ = 3³ = 27 senhas diferentes. 
 
-Sequências como 000, 012 ou 222 são todas válidas, pois a repetição é permitida.
+ Sequências como 000, 012 ou 222 são todas válidas, pois a repetição é permitida.
 
-Esse tipo de arranjo aparece sempre que a repetição é permitida por natureza do problema. Escolher números de uma loteria onde os valores podem se repetir, definir cores de pixels em uma imagem ou montar combinações de roupas usando a mesma camiseta em dias diferentes são exemplos cotidianos dessa situação.
+ Esse tipo de arranjo aparece sempre que a repetição é permitida por natureza do problema. Escolher números de uma loteria onde os valores podem se repetir, definir cores de pixels em uma imagem ou montar combinações de roupas usando a mesma camiseta em dias diferentes são exemplos cotidianos dessa situação.
 
-A interpretação combinatória dos arranjos com repetição reforça a ideia de decisões independentes. Cada escolha não interfere na próxima, como lançar um dado várias vezes: o resultado de um lançamento não limita os resultados futuros. Esse pensamento é essencial para evitar erros de contagem e escolher a fórmula correta.
+ A interpretação combinatória dos arranjos com repetição reforça a ideia de decisões independentes. Cada escolha não interfere na próxima, como lançar um dado várias vezes: o resultado de um lançamento não limita os resultados futuros. Esse pensamento é essencial para evitar erros de contagem e escolher a fórmula correta.
 
-Entre os casos típicos, destacam-se problemas envolvendo senhas, códigos, sequências de símbolos, placas de identificação e resultados de experimentos repetidos. Sempre que a ordem importa e não há restrição de uso dos elementos, os arranjos com repetição surgem como a ferramenta ideal.
+ Entre os casos típicos, destacam-se problemas envolvendo senhas, códigos, sequências de símbolos, placas de identificação e resultados de experimentos repetidos. Sempre que a ordem importa e não há restrição de uso dos elementos, os arranjos com repetição surgem como a ferramenta ideal.
 
-Comparando com os arranjos simples, a diferença fica clara: nos simples, cada elemento só pode aparecer uma vez; nos com repetição, ele pode aparecer várias vezes. É como montar uma fila onde a mesma pessoa pode ocupar várias posições hipotéticas — algo impossível na prática, mas comum em modelos matemáticos e computacionais.
+ Comparando com os arranjos simples, a diferença fica clara: nos simples, cada elemento só pode aparecer uma vez; nos com repetição, ele pode aparecer várias vezes. É como montar uma fila onde a mesma pessoa pode ocupar várias posições hipotéticas: algo impossível na prática, mas comum em modelos matemáticos e computacionais.
 
-Para encerrar nossa aula, quero que você perceba como os arranjos com repetição expandem sua capacidade de modelar problemas reais. Eles mostram que, ao entender bem as regras do jogo — ordem, repetição e independência —, a contagem se torna quase automática. Continue estudando com curiosidade e atenção: esses conceitos são a base de muitos algoritmos e sistemas que você encontrará ao longo da sua jornada na matemática discreta.
-
+ Em suma,  perceba como os arranjos com repetição expandem a capacidade de modelar problemas reais. Eles mostram que, ao entender bem as regras do jogo (ordem, repetição e independência), a contagem se torna quase automática. 
 
 
 
