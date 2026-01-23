@@ -188,31 +188,11 @@ Essa independência explica diretamente a fórmula do arranjo com repetição:
 
 Isso significa que, para cada uma das 𝑝 posições, temos 𝑛 escolhas possíveis. Como essas escolhas não se limitam umas às outras, basta multiplicar 𝑛 por ele mesmo 𝑝 vezes. É o mesmo raciocínio usado quando contamos o número de códigos ou sequências possíveis.
 
-Vamos a um exemplo simples. Suponha que uma senha seja formada por 3 dígitos, e cada dígito pode ser 0, 1 ou 2. Temos 
-𝑛
-=
-3
-n=3 opções e 
-𝑝
-=
-3
-p=3 posições. Aplicando a fórmula, obtemos 
-𝐴
-3
-,
-3
-=
-3
-3
-=
-27
-A
-3,3
-	​
+Vamos a um exemplo simples. Suponha que uma senha seja formada por 3 dígitos, e cada dígito pode ser 0, 1 ou 2. Temos 𝑛 = 3 opções e 𝑝 = 3. Aplicando a fórmula, obtemos: 
 
-=3
-3
-=27 senhas diferentes. Sequências como 000, 012 ou 222 são todas válidas, pois a repetição é permitida.
+                               𝐴₃,₃ = 3³ = 27 senhas diferentes. 
+
+Sequências como 000, 012 ou 222 são todas válidas, pois a repetição é permitida.
 
 Esse tipo de arranjo aparece sempre que a repetição é permitida por natureza do problema. Escolher números de uma loteria onde os valores podem se repetir, definir cores de pixels em uma imagem ou montar combinações de roupas usando a mesma camiseta em dias diferentes são exemplos cotidianos dessa situação.
 
