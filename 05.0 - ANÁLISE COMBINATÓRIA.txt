@@ -172,24 +172,5 @@
 
 
 
-
-Arranjos Simples: Se a ordem dos elemntos importa então é Arranjo.
-
-Definição: Arranjos simples de n elementos tomados  p a p, com  n e p ∈ ℕ, n ≥ 1 e  p ≤ n.
-
-Fórmula e dedução:                  n! 
-                         Aₙ,ₚ = -----------
-                                 (n - p)!
-
-Diferença entre arranjo e permutação
-
-Exemplos
-
-Particularidades:  Em Aₙ,ₚ quando o p for igual a 1 o resultado desse arranjo será n. Exemplo: A₅,₁
-
-                   Em Aₙ,ₚ quando o n for igual ao p a resultado será n!. Exemplo: A₅,₅
-
-                   Em Aₙ,ₚ quando o p for igual a 0 o resultado será 1. Exemplo: A₅,₀
-
   
 
