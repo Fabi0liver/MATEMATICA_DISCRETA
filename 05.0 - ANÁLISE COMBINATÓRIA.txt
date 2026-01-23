@@ -137,105 +137,31 @@
 
  Depois de compreender bem as permutações simples, é natural avançarmos para um conceito muito próximo, mas com uma diferença sutil e importante: os arranjos simples. Aqui, a ordem dos elementos continua sendo essencial, mas agora não somos obrigados a usar todos os elementos disponíveis. É como escolher apenas alguns livros de uma estante e decidir a ordem em que eles ficarão sobre a mesa — o conjunto é maior, mas a escolha é parcial.
 
-Dizemos que há um arranjo simples quando selecionamos p elementos distintos dentre n, sem repetição, e a ordem importa. Formalmente, falamos em arranjos simples de 
-𝑛
-n elementos tomados 
-𝑝
-p a 
-𝑝
-p, com 
-𝑛
-≥
-1
-n≥1 e 
-𝑝
-≤
-𝑛
-p≤n. Essa definição aparece em muitas situações práticas, como formar um pódio de corrida: só três atletas sobem ao pódio, mas a posição de cada um faz toda a diferença.
+Dizemos que há um arranjo simples quando selecionamos p elementos distintos dentre n, sem repetição, e a ordem importa. Formalmente, falamos em arranjos simples de 𝑛 elementos tomados 𝑝 a  𝑝, com  𝑛 ≥ 1 e 𝑝 ≤ 𝑛. Essa definição aparece em muitas situações práticas, como formar um pódio de corrida: só três atletas sobem ao pódio, mas a posição de cada um faz toda a diferença.
 
-Para entender de onde vem a fórmula do arranjo simples, pense no processo passo a passo. No primeiro lugar, temos 
-𝑛
-n escolhas possíveis. Para o segundo, restam 
-𝑛
-−
-1
-n−1, depois 
-𝑛
-−
-2
-n−2, e assim por diante, até completar 
-𝑝
-p posições. Esse encadeamento natural de escolhas nos leva à fórmula
+Para entender de onde vem a fórmula do arranjo simples, pense no processo passo a passo. No primeiro lugar, temos 𝑛
+escolhas possíveis. Para o segundo, restam 𝑛 − 1, depois 𝑛 − 2, e assim por diante, até completar 𝑝 posições. 
 
-𝐴
-𝑛
-,
-𝑝
-=
-𝑛
-!
-(
-𝑛
-−
-𝑝
-)
-!
-A
-n,p
-	​
+Esse encadeamento natural de escolhas nos leva à fórmula:
 
-=
-(n−p)!
-n!
-	​
+	​                                     n! 
+                                   Aₙ,ₚ = -----------
+                                           (n - p)!
 
-.
 O fatorial aparece novamente como uma forma compacta de representar esse raciocínio sequencial.
 
 Uma analogia simples é montar uma senha com p caracteres distintos escolhidos de um conjunto com n símbolos, onde a ordem importa. Não precisamos usar todos os símbolos disponíveis, apenas alguns, mas cada posição da senha faz diferença. A fórmula do arranjo conta exatamente essas possibilidades sem precisar listar cada uma manualmente.
 
 É importante destacar a diferença entre arranjo e permutação, pois essa confusão é comum no início. Na permutação simples, usamos todos os elementos disponíveis, e a ordem importa. No arranjo simples, usamos apenas parte deles, mas a ordem continua sendo fundamental. Podemos dizer que a permutação é um caso particular do arranjo em que 
-𝑝
-=
-𝑛
-p=n.
+𝑝 = 𝑛.
 
-Vamos a um exemplo direto. Suponha que existam 5 candidatos para ocupar 2 cargos distintos: presidente e vice. Como os cargos são diferentes, a ordem importa. Temos então um arranjo simples 
-𝐴
-5
-,
-2
-A
-5,2
-	​
+Vamos a um exemplo direto. Suponha que existam 5 candidatos para ocupar 2 cargos distintos: presidente e vice. Como os cargos são diferentes, a ordem importa. Temos então um arranjo simples 𝐴₅,₂. Aplicando a fórmula, obtemos:
 
-. Aplicando a fórmula, obtemos
+                                    5!    5 ⋅ 4 ⋅ 3!
+                            𝐴₅,₂ = ---- = ----------- = 5 ⋅ 4 = 20 possibilidades
+                                    3!       3!
 
-𝐴
-5
-,
-2
-=
-5
-!
-3
-!
-=
-5
-⋅
-4
-=
-20
-A
-5,2
-	​
-
-=
-3!
-5!
-	​
-
-=5⋅4=20 possibilidades. Cada par representa uma escolha distinta de pessoas e posições.
+ Cada par representa uma escolha distinta de pessoas e posições.
 
 Os arranjos simples também possuem algumas particularidades interessantes. Quando 
 𝑝
