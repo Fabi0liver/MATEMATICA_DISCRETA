@@ -177,7 +177,9 @@
 
   Definição:
 
-  Formula: Aₙ,ₖ = nᴷ
+  Formula: Aₙ,ₚ = nᴾ
+
+  Exemplo
 
   Quando a repetição é permitida
 
