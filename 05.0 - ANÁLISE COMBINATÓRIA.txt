@@ -135,27 +135,26 @@
 
                                             "Arranjos Simples"
 
- Depois de compreender bem as permutações simples, é natural avançarmos para um conceito muito próximo, mas com uma diferença sutil e importante: os arranjos simples. Aqui, a ordem dos elementos continua sendo essencial, mas agora não somos obrigados a usar todos os elementos disponíveis. É como escolher apenas alguns livros de uma estante e decidir a ordem em que eles ficarão sobre a mesa — o conjunto é maior, mas a escolha é parcial.
+ Depois de compreender bem as permutações, é natural avançarmos para um conceito muito próximo, mas com uma diferença sutil e importante: os arranjos simples. Aqui, a ordem dos elementos continua sendo essencial, mas agora não somos obrigados a usar todos os elementos disponíveis. É como escolher apenas alguns livros de uma estante e decidir a ordem em que eles ficarão sobre a mesa: o conjunto é maior, mas a escolha é parcial.
 
-Dizemos que há um arranjo simples quando selecionamos p elementos distintos dentre n, sem repetição, e a ordem importa. Formalmente, falamos em arranjos simples de 𝑛 elementos tomados 𝑝 a  𝑝, com  𝑛 ≥ 1 e 𝑝 ≤ 𝑛. Essa definição aparece em muitas situações práticas, como formar um pódio de corrida: só três atletas sobem ao pódio, mas a posição de cada um faz toda a diferença.
+ Dizemos que há um arranjo simples quando selecionamos p elementos distintos dentre n, sem repetição, e a ordem importa. Formalmente, falamos em arranjos simples de 𝑛 elementos tomados 𝑝 a  𝑝, com  𝑛 ≥ 1 e 𝑝 ≤ 𝑛. Essa definição aparece em muitas situações práticas, como formar um pódio de corrida: só três atletas sobem ao pódio, mas a posição de cada um faz toda a diferença.
 
-Para entender de onde vem a fórmula do arranjo simples, pense no processo passo a passo. No primeiro lugar, temos 𝑛
-escolhas possíveis. Para o segundo, restam 𝑛 − 1, depois 𝑛 − 2, e assim por diante, até completar 𝑝 posições. 
+ Para entender de onde vem a fórmula do arranjo simples, pense no processo passo a passo. No primeiro lugar, temos 𝑛 escolhas possíveis. Para o segundo, restam 𝑛 − 1, depois 𝑛 − 2, e assim por diante, até completar 𝑝 posições. 
 
-Esse encadeamento natural de escolhas nos leva à fórmula:
+ Esse encadeamento natural de escolhas nos leva à fórmula:
 
 	​                                     n! 
                                    Aₙ,ₚ = -----------
                                            (n - p)!
 
-O fatorial aparece novamente como uma forma compacta de representar esse raciocínio sequencial.
+ O fatorial aparece novamente como uma forma compacta de representar esse raciocínio sequencial.
 
-Uma analogia simples é montar uma senha com p caracteres distintos escolhidos de um conjunto com n símbolos, onde a ordem importa. Não precisamos usar todos os símbolos disponíveis, apenas alguns, mas cada posição da senha faz diferença. A fórmula do arranjo conta exatamente essas possibilidades sem precisar listar cada uma manualmente.
+ Uma analogia simples é montar uma senha com p caracteres distintos escolhidos de um conjunto com n símbolos, onde a ordem importa. Não precisamos usar todos os símbolos disponíveis, apenas alguns, mas cada posição da senha faz diferença. A fórmula do arranjo conta exatamente essas possibilidades sem precisar listar cada uma manualmente.
 
-É importante destacar a diferença entre arranjo e permutação, pois essa confusão é comum no início. Na permutação simples, usamos todos os elementos disponíveis, e a ordem importa. No arranjo simples, usamos apenas parte deles, mas a ordem continua sendo fundamental. Podemos dizer que a permutação é um caso particular do arranjo em que 
+ É importante destacar a diferença entre arranjo e permutação, pois essa confusão é comum no início. Na permutação simples, usamos todos os elementos disponíveis, e a ordem importa. No arranjo simples, usamos apenas parte deles, mas a ordem continua sendo fundamental. Podemos dizer que a permutação é um caso particular do arranjo em que 
 𝑝 = 𝑛.
 
-Vamos a um exemplo direto. Suponha que existam 5 candidatos para ocupar 2 cargos distintos: presidente e vice. Como os cargos são diferentes, a ordem importa. Temos então um arranjo simples 𝐴₅,₂. Aplicando a fórmula, obtemos:
+ Vamos a um exemplo direto. Suponha que existam 5 candidatos para ocupar 2 cargos distintos: presidente e vice. Como os cargos são diferentes, a ordem importa. Temos então um arranjo simples 𝐴₅,₂. Aplicando a fórmula, obtemos:
 
                                    5!     5 ⋅ 4 ⋅ 3!
                             𝐴₅,₂ = ---- = ----------- = 5 ⋅ 4 = 20 possibilidades
@@ -165,12 +164,11 @@ Vamos a um exemplo direto. Suponha que existam 5 candidatos para ocupar 2 cargos
 
  Os arranjos simples também possuem algumas particularidades interessantes. Quando 𝑝 = 1, o arranjo  Aₙ,₁ é igual a 𝑛. Isso faz sentido: escolher um único elemento entre 𝑛 disponíveis gera exatamente 𝑛 possibilidades. Por exemplo, 𝐴₅,₁ = 5.
 
-Quando 𝑝 = 𝑛 , o arranjo se transforma em uma permutação. Nesse caso, Aₙ,ₙ = 𝑛!. Por exemplo, 𝐴₅,₅ = 5!. Isso reforça a ideia de que as permutações estão contidas dentro do conceito mais geral de arranjos.
+ Quando 𝑝 = 𝑛 , o arranjo se transforma em uma permutação. Nesse caso, Aₙ,ₙ = 𝑛!. Por exemplo, 𝐴₅,₅ = 5!. Isso reforça a ideia de que as permutações estão contidas dentro do conceito mais geral de arranjos.
 
-Já quando 𝑝 = 0, temos uma situação curiosa: Aₙ,₀ = 1. Isso representa a escolha de nenhum elemento, que só pode ser feita de uma única forma — não escolher nada. É como decidir não montar uma combinação: existe apenas essa decisão possível.
+ Já quando 𝑝 = 0, temos uma situação curiosa: Aₙ,₀ = 1. Isso representa a escolha de nenhum elemento, que só pode ser feita de uma única forma: não escolher nada. É como decidir não montar uma combinação: existe apenas essa decisão possível.
 
-Para encerrar nossa aula, quero que você enxergue os arranjos simples como uma ferramenta poderosa para lidar com escolhas ordenadas e parciais. Eles aparecem em competições, senhas, cargos, algoritmos e inúmeras situações reais. Continue estudando com atenção e curiosidade, porque cada conceito que você domina fortalece sua capacidade de pensar de forma estruturada e elegante, exatamente como a matemática discreta e os algoritmos exigem.
-
+ Em suma, os arranjos simples são ferramentas poderosas para lidar com escolhas ordenadas e parciais. Eles aparecem em competições, senhas, cargos, algoritmos e inúmeras situações reais. 
 
 
 
