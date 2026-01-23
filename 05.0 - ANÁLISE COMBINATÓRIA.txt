@@ -157,90 +157,17 @@ Uma analogia simples é montar uma senha com p caracteres distintos escolhidos d
 
 Vamos a um exemplo direto. Suponha que existam 5 candidatos para ocupar 2 cargos distintos: presidente e vice. Como os cargos são diferentes, a ordem importa. Temos então um arranjo simples 𝐴₅,₂. Aplicando a fórmula, obtemos:
 
-                                    5!    5 ⋅ 4 ⋅ 3!
+                                   5!     5 ⋅ 4 ⋅ 3!
                             𝐴₅,₂ = ---- = ----------- = 5 ⋅ 4 = 20 possibilidades
-                                    3!       3!
+                                   3!        3!
 
  Cada par representa uma escolha distinta de pessoas e posições.
 
-Os arranjos simples também possuem algumas particularidades interessantes. Quando 
-𝑝
-=
-1
-p=1, o arranjo 
-𝐴
-𝑛
-,
-1
-A
-n,1
-	​
+ Os arranjos simples também possuem algumas particularidades interessantes. Quando 𝑝 = 1, o arranjo  Aₙ,₁ é igual a 𝑛. Isso faz sentido: escolher um único elemento entre 𝑛 disponíveis gera exatamente 𝑛 possibilidades. Por exemplo, 𝐴₅,₁ = 5.
 
- é igual a 
-𝑛
-n. Isso faz sentido: escolher um único elemento entre 
-𝑛
-n disponíveis gera exatamente 
-𝑛
-n possibilidades. Por exemplo, 
-𝐴
-5
-,
-1
-=
-5
-A
-5,1
-	​
+Quando 𝑝 = 𝑛 , o arranjo se transforma em uma permutação. Nesse caso, Aₙ,ₙ = 𝑛!. Por exemplo, 𝐴₅,₅ = 5!. Isso reforça a ideia de que as permutações estão contidas dentro do conceito mais geral de arranjos.
 
-=5.
-
-Quando 
-𝑝
-=
-𝑛
-p=n, o arranjo se transforma em uma permutação. Nesse caso, 
-𝐴
-𝑛
-,
-𝑛
-=
-𝑛
-!
-A
-n,n
-	​
-
-=n!. Por exemplo, 
-𝐴
-5
-,
-5
-=
-5
-!
-A
-5,5
-	​
-
-=5!. Isso reforça a ideia de que as permutações estão contidas dentro do conceito mais geral de arranjos.
-
-Já quando 
-𝑝
-=
-0
-p=0, temos uma situação curiosa: 
-𝐴
-𝑛
-,
-0
-=
-1
-A
-n,0
-	​
-
-=1. Isso representa a escolha de nenhum elemento, que só pode ser feita de uma única forma — não escolher nada. É como decidir não montar uma combinação: existe apenas essa decisão possível.
+Já quando 𝑝 = 0, temos uma situação curiosa: Aₙ,₀ = 1. Isso representa a escolha de nenhum elemento, que só pode ser feita de uma única forma — não escolher nada. É como decidir não montar uma combinação: existe apenas essa decisão possível.
 
 Para encerrar nossa aula, quero que você enxergue os arranjos simples como uma ferramenta poderosa para lidar com escolhas ordenadas e parciais. Eles aparecem em competições, senhas, cargos, algoritmos e inúmeras situações reais. Continue estudando com atenção e curiosidade, porque cada conceito que você domina fortalece sua capacidade de pensar de forma estruturada e elegante, exatamente como a matemática discreta e os algoritmos exigem.
 
