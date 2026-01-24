@@ -209,3 +209,7 @@
 Combinações Simples: Se a ordem dos elementos não importão
 
  Definição: Conbinações simples e quando n elementos tomados de p a p, com n e p  ∈ ℕ, 𝑛 ≥ 1 e 𝑝 ≤ 𝑛 
+
+ Formula:               n! 
+             Cₙ,ₚ = -------------
+                     p! (n - p)!
