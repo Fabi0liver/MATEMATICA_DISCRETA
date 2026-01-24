@@ -203,3 +203,9 @@
  Comparando com os arranjos simples, a diferença fica clara: nos simples, cada elemento só pode aparecer uma vez; nos com repetição, ele pode aparecer várias vezes. É como montar uma fila onde a mesma pessoa pode ocupar várias posições hipotéticas: algo impossível na prática, mas comum em modelos matemáticos e computacionais.
 
  Em suma,  perceba como os arranjos com repetição expandem a capacidade de modelar problemas reais. Eles mostram que, ao entender bem as regras do jogo (ordem, repetição e independência), a contagem se torna quase automática. 
+
+
+
+Combinações Simples: Se a ordem dos elementos não importão
+
+ Definição: Conbinações simples e quando n elementos tomados de p a p, com n e p  ∈ ℕ, 𝑛 ≥ 1 e 𝑝 ≤ 𝑛 
