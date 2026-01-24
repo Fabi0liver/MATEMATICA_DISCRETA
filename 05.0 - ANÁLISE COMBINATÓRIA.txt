@@ -245,105 +245,27 @@
 
 Depois de entender bem as combinações simples, surge naturalmente uma nova situação: e quando podemos escolher o mesmo elemento mais de uma vez, mas a ordem continua não importando? É exatamente nesse ponto que entram as combinações com repetição. Elas aparecem sempre que queremos formar grupos onde a quantidade de cada elemento importa, mas a posição ou a ordem não faz diferença.
 
-De forma intuitiva, combinações com repetição acontecem quando escolhemos 
-𝑝
-p elementos dentre 
-𝑛
-n tipos disponíveis, permitindo repetições. Um exemplo bem cotidiano é escolher bolas de sorvete: você pode escolher três bolas e repetir sabores, e pouco importa se o chocolate vem antes ou depois da baunilha — o que importa é quantas bolas de cada sabor você escolheu.
+De forma intuitiva, combinações com repetição acontecem quando escolhemos 𝑝 elementos dentre  𝑛 tipos disponíveis, permitindo repetições. Um exemplo bem cotidiano é escolher bolas de sorvete: você pode escolher três bolas e repetir sabores, e pouco importa se o chocolate vem antes ou depois da baunilha — o que importa é quantas bolas de cada sabor você escolheu.
 
-Formalmente, dizemos que uma combinação com repetição é a escolha de 
-𝑝
-p elementos de um conjunto com 
-𝑛
-n elementos distintos, onde a repetição é permitida e a ordem é irrelevante. Esse tipo de problema não pode ser resolvido com as fórmulas das combinações simples, justamente porque agora um mesmo elemento pode aparecer várias vezes.
+Formalmente, dizemos que uma combinação com repetição é a escolha de 𝑝 elementos de um conjunto com 𝑛 elementos distintos, onde a repetição é permitida e a ordem é irrelevante. Esse tipo de problema não pode ser resolvido com as fórmulas das combinações simples, justamente porque agora um mesmo elemento pode aparecer várias vezes.
 
-A fórmula que resolve esse tipo de contagem é
+A fórmula que resolve esse tipo de contagem é:
 
-𝐶
-𝑛
-,
-𝑝
-=
-(
-𝑛
-+
-𝑝
-−
-1
-)
-!
-𝑝
-!
-(
-𝑛
-−
-1
-)
-!
-C
-n,p
-	​
+                                                      (n + p - 1)! 
+                                               Cₙ,ₚ = -------------
+                                                       p! (n - 1)!
 
-=
-p!(n−1)!
-(n+p−1)!
-	​
-
-.
 Ela pode parecer menos intuitiva à primeira vista, mas surge de uma reorganização inteligente do problema, transformando a repetição em algo que conseguimos contar com fatoriais.
 
 Para entender a motivação por trás dessa fórmula, pense no seguinte: quando a repetição é permitida, estamos mais interessados em quantas vezes cada elemento aparece do que na ordem em que eles surgem. Isso muda completamente o foco da contagem e exige uma nova estratégia matemática.
 
-Um exemplo clássico ajuda muito. Suponha que você tenha 3 tipos de frutas — maçã, banana e laranja — e queira escolher 4 frutas no total, podendo repetir. Quantas escolhas diferentes são possíveis? Aqui, escolher {2 maçãs, 1 banana e 1 laranja} é diferente de {1 maçã, 3 bananas}, mas a ordem de escolha não importa. Aplicando a fórmula, temos
+Um exemplo clássico ajuda muito. Suponha que você tenha 3 tipos de frutas — maçã, banana e laranja — e queira escolher 4 frutas no total, podendo repetir. Quantas escolhas diferentes são possíveis? Aqui, escolher {2 maçãs, 1 banana e 1 laranja} é diferente de {1 maçã, 3 bananas}, mas a ordem de escolha não importa. Aplicando a fórmula, temos:
+                
+                (3 + 4 - 1)!        6!        6 . 5 . 4!       30
+         𝐶₃,₄ = -------------- = --------- = -------------- = ------ = 15
+                4! (3 - 1)!      4! . 2!        4! . 2          2
 
-𝐶
-3
-,
-4
-=
-(
-3
-+
-4
-−
-1
-)
-!
-4
-!
-⋅
-2
-!
-=
-6
-!
-4
-!
-2
-!
-=
-15
-C
-3,4
-	​
-
-=
-4!⋅2!
-(3+4−1)!
-	​
-
-=
-4!2!
-6!
-	​
-
-=15.
-
-Uma das interpretações mais elegantes desse conceito é o modelo de “caixas e objetos”, também conhecido como “estrelas e barras”. Imagine que você tem 
-𝑝
-p objetos idênticos para distribuir em 
-𝑛
-n caixas diferentes. Cada distribuição possível corresponde a uma combinação com repetição. As caixas representam os tipos de elementos, e os objetos representam quantas vezes cada elemento foi escolhido.
+Uma das interpretações mais elegantes desse conceito é o modelo de “caixas e objetos”, também conhecido como “estrelas e barras”. Imagine que você tem 𝑝 objetos idênticos para distribuir em 𝑛 caixas diferentes. Cada distribuição possível corresponde a uma combinação com repetição. As caixas representam os tipos de elementos, e os objetos representam quantas vezes cada elemento foi escolhido.
 
 Por exemplo, distribuir 4 bolas idênticas em 3 caixas diferentes é equivalente ao problema das frutas. Algumas caixas podem ficar vazias, outras podem receber várias bolas. Cada distribuição diferente representa uma escolha distinta, mesmo que a ordem de colocação das bolas não importe.
 
