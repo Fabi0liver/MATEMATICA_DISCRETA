@@ -219,7 +219,11 @@ Combinações Simples: Se a ordem dos elementos não importão
 
  Diferença entre arranjo e combinação
 
- Particularidade das Combinações
+ Particularidade das Combinações:  Se em Cₙ,ₚ, o p = 1 o resultado vai ser igual ao n
+ 
+                                  Se em Cₙ,ₚ, o n = p o resultado vai ser 1
+
+                                  Se em Cₙ,ₚ, o p = 0 o resultado vai ser 1
 
  Propriedades das Combinações
 
