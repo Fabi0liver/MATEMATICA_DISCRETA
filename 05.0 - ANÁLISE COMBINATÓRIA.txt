@@ -210,164 +210,32 @@
 
  Depois de explorarmos os arranjos simples e os arranjos com repetição, chegamos a um conceito que muda completamente a forma de pensar a contagem: as combinações simples. Aqui, a ideia central é muito clara e intuitiva — a ordem dos elementos não importa. É como escolher ingredientes para uma salada: não faz diferença se o tomate entra antes ou depois da alface, o conjunto final é o mesmo.
 
-Dizemos que uma combinação simples ocorre quando escolhemos 
-𝑝
-p elementos dentre 
-𝑛
-n disponíveis, com 
-𝑛
-≥
-1
-n≥1 e 
-𝑝
-≤
-𝑛
-p≤n, sem repetição e sem se preocupar com a ordem. O foco está apenas em quais elementos foram escolhidos, e não como eles estão organizados. Esse tipo de raciocínio aparece quando montamos grupos, comissões ou times, onde a posição de cada pessoa não altera o resultado.
+Dizemos que uma combinação simples ocorre quando escolhemos 𝑝 elementos dentre 𝑛 disponíveis, com 𝑛 ≥ 1 e 𝑝 ≤ 𝑛, sem repetição e sem se preocupar com a ordem. O foco está apenas em quais elementos foram escolhidos, e não como eles estão organizados. Esse tipo de raciocínio aparece quando montamos grupos, comissões ou times, onde a posição de cada pessoa não altera o resultado.
 
-A fórmula das combinações simples é
+A fórmula das combinações simples é:
 
-𝐶
-𝑛
-,
-𝑝
-=
-𝑛
-!
-𝑝
-!
-(
-𝑛
-−
-𝑝
-)
-!
-C
-n,p
-	​
+                                                 n! 
+                                       Cₙ,ₚ = -------------
+                                               p! (n - p)!
 
-=
-p!(n−p)!
-n!
-	​
-
-.
 Ela nasce de uma correção necessária: se contássemos as escolhas como arranjos, estaríamos contando várias vezes o mesmo grupo apenas por estar em ordens diferentes. O fatorial do denominador serve exatamente para eliminar essas repetições invisíveis.
 
 Para entender isso intuitivamente, imagine que você escolhe três amigos para sair dentre cinco. Os grupos {Ana, Bruno, Carla} e {Carla, Ana, Bruno} são, na prática, o mesmo grupo. Embora a ordem mude, a combinação é idêntica. A fórmula das combinações garante que cada grupo seja contado apenas uma vez.
 
-Vamos a um exemplo direto. Suponha que você tenha 4 livros diferentes e queira escolher 2 para levar em uma viagem. Não importa a ordem em que você os coloca na mochila, apenas quais livros escolheu. Temos então 
-𝐶
-4
-,
-2
-=
-4
-!
-2
-!
-2
-!
-=
-24
-4
-=
-6
-C
-4,2
-	​
+Vamos a um exemplo direto. Suponha que você tenha 4 livros diferentes e queira escolher 2 para levar em uma viagem. Não importa a ordem em que você os coloca na mochila, apenas quais livros escolheu. 
 
-=
-2!2!
-4!
-	​
+Temos então:     
+        
+                          4!          4 . 3 . 2!    12
+              C₄,₂ = ------------- = ------------ = ---- = 6 combinações possíveis.
+                     2!(4 - 2)!         2! 2!        2
 
-=
-4
-24
-	​
-
-=6 combinações possíveis.
 
 Essa é a principal diferença entre arranjo e combinação. No arranjo, a ordem importa: cargos diferentes, posições distintas, sequências. Na combinação, a ordem não importa: grupos, conjuntos, seleções. Sempre que o problema disser “escolher”, “formar grupos” ou “selecionar”, desconfie que está diante de uma combinação.
 
-As combinações simples também apresentam particularidades interessantes. Quando 
-𝑝
-=
-1
-p=1, temos 
-𝐶
-𝑛
-,
-1
-=
-𝑛
-C
-n,1
-	​
+As combinações simples também apresentam particularidades interessantes. Quando 𝑝 = 1, temos  𝐶ₙ,₁= 𝑛, pois escolher um único elemento entre 𝑛 possíveis gera exatamente 𝑛 opções. Quando 𝑝 = 𝑛,  temos  𝐶ₙ,ₙ =1, já que escolher todos os elementos só pode ser feito de uma única forma. E quando 𝑝 = 0, temos  𝐶ₙ,₀ = 1, representando a escolha do conjunto vazio.
 
-=n, pois escolher um único elemento entre 
-𝑛
-n possíveis gera exatamente 
-𝑛
-n opções. Quando 
-𝑝
-=
-𝑛
-p=n, temos 
-𝐶
-𝑛
-,
-𝑛
-=
-1
-C
-n,n
-	​
-
-=1, já que escolher todos os elementos só pode ser feito de uma única forma. E quando 
-𝑝
-=
-0
-p=0, temos 
-𝐶
-𝑛
-,
-0
-=
-1
-C
-n,0
-	​
-
-=1, representando a escolha do conjunto vazio.
-
-Além dessas particularidades, as combinações possuem propriedades importantes, como a simetria: 
-𝐶
-𝑛
-,
-𝑝
-=
-𝐶
-𝑛
-,
-𝑛
-−
-𝑝
-C
-n,p
-	​
-
-=C
-n,n−p
-	​
-
-. Isso significa que escolher 
-𝑝
-p elementos é equivalente a escolher quais 
-𝑛
-−
-𝑝
-n−p ficarão de fora. É como montar um time e, ao mesmo tempo, definir quem não foi escolhido.
+Além dessas particularidades, as combinações possuem propriedades importantes, como a simetria: Cₙ,ₚ = Cₙ,ₙ₋ₚ. Isso significa que escolher 𝑝 elementos é equivalente a escolher quais 𝑛 - 𝑝 ficarão de fora. É como montar um time e, ao mesmo tempo, definir quem não foi escolhido.
 
 No cotidiano, as combinações aparecem em sorteios, formação de grupos, escolhas de ingredientes, seleção de cartas em jogos e até na estatística. Sempre que o resultado final depende apenas do conjunto escolhido, e não da ordem, esse conceito entra em ação de forma natural.
 
