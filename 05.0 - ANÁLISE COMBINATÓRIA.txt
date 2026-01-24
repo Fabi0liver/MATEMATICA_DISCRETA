@@ -221,4 +221,6 @@ Combinações Simples: Se a ordem dos elementos não importão
 
  Particularidade das Combinações
 
+ Propriedades das Combinações
+
 
