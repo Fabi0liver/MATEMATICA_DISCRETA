@@ -303,20 +303,20 @@
 
  Os números binomiais aparecem como uma peça central da Análise Combinatória, quase como uma “ponte” que conecta ideias de escolha, contagem e organização. Sempre que queremos saber de quantas maneiras podemos escolher parte de um conjunto maior, sem nos importar com a ordem, os números binomiais entram em cena. Eles surgem de forma tão natural que, depois de entendidos, começam a aparecer em vários contextos da matemática e da computação sem causar estranhamento.
 
-Formalmente, dados dois números naturais 𝑛 e  𝑝, com  𝑛 ≥ 𝑝, chamamos de número binomial de ordem 𝑛 e classe 𝑝  o valor indicado por 𝐶(𝑛, 𝑝) ou  binom(𝑛, 𝑝). A ideia por trás dessa notação é simples: estamos contando quantas combinações diferentes podem ser formadas ao escolher 𝑝 elementos de um conjunto com 𝑛 elementos distintos. É como ter uma caixa com 𝑛
+ Formalmente, dados dois números naturais 𝑛 e  𝑝, com  𝑛 ≥ 𝑝, chamamos de número binomial de ordem 𝑛 e classe 𝑝  o valor indicado por 𝐶(𝑛, 𝑝) ou  binom(𝑛, 𝑝). A ideia por trás dessa notação é simples: estamos contando quantas combinações diferentes podem ser formadas ao escolher 𝑝 elementos de um conjunto com 𝑛 elementos distintos. É como ter uma caixa com 𝑛
 brinquedos diferentes e perguntar de quantas formas podemos escolher exatamente 𝑝 deles para levar numa mochila.
 
-A fórmula do número binomial reflete exatamente essa ideia de escolha sem ordem:
+ A fórmula do número binomial reflete exatamente essa ideia de escolha sem ordem:
 
                                       n! 
                         C(n, p) = ----------- ou binom(n,  p) = n! / (p! (n − p)!) 
                                    p!(n - p)!
 
-O fatorial 𝑛! representa todas as formas possíveis de organizar os 𝑛 elementos, enquanto os fatoriais no denominador servem para “corrigir” as repetições que surgem quando a ordem não importa. É como fazer uma grande lista com todas as possíveis sequências e depois apagar as duplicatas que, no fundo, representam o mesmo grupo de elementos.
+ O fatorial 𝑛! representa todas as formas possíveis de organizar os 𝑛 elementos, enquanto os fatoriais no denominador servem para “corrigir” as repetições que surgem quando a ordem não importa. É como fazer uma grande lista com todas as possíveis sequências e depois apagar as duplicatas que, no fundo, representam o mesmo grupo de elementos.
 
-As restrições usuais ajudam a manter essa definição bem comportada. Exigimos que 𝑝 ≥ 0, que 0 ≤ 𝑝 ≤ 𝑛 e que 𝑛 e 𝑝 sejam números naturais. Isso faz sentido intuitivamente: não dá para escolher uma quantidade negativa de objetos, nem escolher mais itens do que existem no conjunto. É como uma receita que pede ingredientes reais e disponíveis — não faz sentido pedir “menos três ovos” ou “dez ovos” se só há cinco na geladeira.
+ As restrições usuais ajudam a manter essa definição bem comportada. Exigimos que 𝑝 ≥ 0, que 0 ≤ 𝑝 ≤ 𝑛 e que 𝑛 e 𝑝 sejam números naturais. Isso faz sentido intuitivamente: não dá para escolher uma quantidade negativa de objetos, nem escolher mais itens do que existem no conjunto. É como uma receita que pede ingredientes reais e disponíveis — não faz sentido pedir “menos três ovos” ou “dez ovos” se só há cinco na geladeira.
 
-Vamos olhar um exemplo concreto para fixar a ideia. Imagine que você tem 5 cartas diferentes e quer escolher 2 para formar uma mão. A ordem em que as cartas são escolhidas não importa, apenas o conjunto final. Nesse caso, estamos calculando 𝐶(5, 2).  Aplicando a fórmula, temos:
+ Vamos olhar um exemplo concreto para fixar a ideia. Imagine que você tem 5 cartas diferentes e quer escolher 2 para formar uma mão. A ordem em que as cartas são escolhidas não importa, apenas o conjunto final. Nesse caso, estamos calculando 𝐶(5, 2).  Aplicando a fórmula, temos:
 
 
                         5!        5 . 4 . 3!    5. 4    20        
@@ -325,16 +325,17 @@ Vamos olhar um exemplo concreto para fixar a ideia. Imagine que você tem 5 cart
 
  Ou seja, existem 10 mãos diferentes possíveis. É como montar um sanduíche com dois ingredientes escolhidos entre cinco: trocar a ordem dos ingredientes não cria um sanduíche novo.
 
-A definição dos números binomiais traz algumas consequências imediatas e bem interessantes. Uma delas é que 𝐶
+ A definição dos números binomiais traz algumas consequências imediatas e bem interessantes. Uma delas é que 𝐶
 (𝑛, 0) = 1. Isso representa a ideia de que há exatamente uma forma de escolher zero elementos de um conjunto: não escolher nada. Parece trivial, mas é conceitualmente importante, como o “conjunto vazio” sendo uma escolha válida. Da mesma forma, 𝐶(𝑛, 𝑛) = 1, pois só existe uma maneira de escolher todos os elementos disponíveis.
 
-Outra consequência clássica é que 𝐶(𝑛,1) = 𝑛. Escolher apenas um elemento de um conjunto com 𝑛 elementos pode ser feito de 𝑛 formas diferentes, uma para cada elemento disponível. É como escolher um único sabor de sorvete em uma sorveteria com 𝑛 sabores: cada sabor corresponde a uma escolha distinta, e não há mais nenhuma variação possível.
+ Outra consequência clássica é que 𝐶(𝑛,1) = 𝑛. Escolher apenas um elemento de um conjunto com 𝑛 elementos pode ser feito de 𝑛 formas diferentes, uma para cada elemento disponível. É como escolher um único sabor de sorvete em uma sorveteria com 𝑛 sabores: cada sabor corresponde a uma escolha distinta, e não há mais nenhuma variação possível.
 
-Um conceito elegante ligado aos números binomiais é o de números binomiais complementares. Dizemos que 𝐶(𝑛, 𝑝) e 𝐶(𝑛, q) são complementares quando 𝑝 + q = 𝑛, e, nesse caso, eles possuem o mesmo valor. Isso reflete uma simetria muito bonita: escolher p elementos para entrar em um grupo é equivalente a escolher 𝑛 − 𝑝 elementos para ficar de fora. É como montar um time de 3 pessoas a partir de um grupo de 10 ou decidir quais 7 pessoas não jogarão — o número de possibilidades é o mesmo.
+ Um conceito elegante ligado aos números binomiais é o de números binomiais complementares. Dizemos que 𝐶(𝑛, 𝑝) e 𝐶(𝑛, q) são complementares quando 𝑝 + q = 𝑛, e, nesse caso, eles possuem o mesmo valor. Isso reflete uma simetria muito bonita: escolher p elementos para entrar em um grupo é equivalente a escolher 𝑛 − 𝑝 elementos para ficar de fora. É como montar um time de 3 pessoas a partir de um grupo de 10 ou decidir quais 7 pessoas não jogarão — o número de possibilidades é o mesmo.
 
-Essa simetria aparece claramente na prática. Se você calcula 𝐶(10, 3) e 𝐶(10, 7), encontrará o mesmo resultado. Isso não é coincidência, mas uma consequência direta da fórmula e do significado do número binomial. Em termos do dia a dia, é como decidir quais ingredientes vão para a pizza ou quais ficam fora: focar nos incluídos ou nos excluídos muda o ponto de vista, mas não a quantidade de escolhas possíveis.
+ Essa simetria aparece claramente na prática. Se você calcula 𝐶(10, 3) e 𝐶(10, 7), encontrará o mesmo resultado. Isso não é coincidência, mas uma consequência direta da fórmula e do significado do número binomial. Em termos do dia a dia, é como decidir quais ingredientes vão para a pizza ou quais ficam fora: focar nos incluídos ou nos excluídos muda o ponto de vista, mas não a quantidade de escolhas possíveis.
 
-Em suma, os números binomiais são  algo muito além de uma fórmula decorada, eles representam escolhas, decisões e combinações que aparecem o tempo todo, desde jogos e probabilidades até algoritmos e estruturas de dados. Quanto mais você associa esses conceitos a situações reais, mais natural tudo se torna. 
+ Em suma, os números binomiais são  algo muito além de uma fórmula decorada, eles representam escolhas, decisões e combinações que aparecem o tempo todo, desde jogos e probabilidades até algoritmos e estruturas de dados. Quanto mais você associa esses conceitos a situações reais, mais natural tudo se torna. 
+
 
 
 Números Binomiais:
