@@ -278,21 +278,4 @@
 
 
 
-Combinações com Repetição: 
-
- Definição: 
-
- Fórmula e justificativa:         (n + p - 1)! 
-                           Cₙ,ₚ = -------------
-                                   p! (n - 1)!
-
- Exemplo:
-
- 
- Motivação
-
- Interpretação por “caixas e objetos”
-
-
-
  
