@@ -299,4 +299,24 @@
 
 Números Binomiais:
 
-Definição: Dados dois numeros naturais  n e p (n
+ Definição: Dados dois numeros naturais  n e p (n ≥ p) indicados ( binom(n, p)  ou  C(n, k)) número binomial de ordem n e classe p.
+
+
+ Formula:             n!
+          C(n, p) = ---------  ou binom(n, p) = n! / (p! (n − p)!)  
+                   p!(n-p)!
+
+
+ Restrições usuais: p  ≥  0
+                   0  ≤  p  ≤  n
+                   n,  p  ∈  ℕ
+
+  Exemplo: 
+
+
+  Consequências da definição: C(n,  o) = 1
+                                                                                C(n,  1) = n
+                              C(n, n) = 1
+
+
+  Números Binomiais complementares​
