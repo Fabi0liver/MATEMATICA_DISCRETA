@@ -358,9 +358,7 @@ brinquedos diferentes e perguntar de quantas formas podemos escolher exatamente 
 
  Essa técnica é muito poderosa em problemas que envolvem restrições, como “quantas sequências não possuem determinado padrão?”. Em vez de listar todas as sequências válidas, você conta todas as sequências possíveis e remove aquelas que violam a regra. Essa mudança de perspectiva costuma simplificar bastante o raciocínio e reduzir erros.
 
- Em suma, essas técnicas clássicas de contagem são como um verdadeiro kit de ferramentas intelectuais. Cada uma tem sua função, e o segredo está em escolher a ferramenta certa para cada problema. Com prática, você passa a reconhecer padrões rapidamente e a resolver situações complexas com confiança e criatividade. Continue explorando, errando, ajustando e aprendendo — a Análise Combinatória não é apenas sobre contar, mas sobre pensar de forma estruturada e elegante, algo essencial para a matemática e para os algoritmos que você encontrará pela frente.
-
-
+ Em suma, essas técnicas clássicas de contagem são como um verdadeiro kit de ferramentas intelectuais. Cada uma tem sua função, e o segredo está em escolher a ferramenta certa para cada problema. Com prática, você passa a reconhecer padrões rapidamente e a resolver situações complexas com confiança e criatividade. 
 
 
 
