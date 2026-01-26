@@ -334,4 +334,20 @@ brinquedos diferentes e perguntar de quantas formas podemos escolher exatamente 
 
  Essa simetria aparece claramente na prática. Se você calcula 𝐶(10, 3) e 𝐶(10, 7), encontrará o mesmo resultado. Isso não é coincidência, mas uma consequência direta da fórmula e do significado do número binomial. Em termos do dia a dia, é como decidir quais ingredientes vão para a pizza ou quais ficam fora: focar nos incluídos ou nos excluídos muda o ponto de vista, mas não a quantidade de escolhas possíveis.
 
- Em suma, os números binomiais são  algo muito além de uma fórmula decorada, eles representam escolhas, decisões e combinações que aparecem o tempo todo, desde jogos e probabilidades até algoritmos e estruturas de dados. Quanto mais você associa esses conceitos a situações reais, mais natural tudo se torna. ​
+ Em suma, os números binomiais são  algo muito além de uma fórmula decorada, eles representam escolhas, decisões e combinações que aparecem o tempo todo, desde jogos e probabilidades até algoritmos e estruturas de dados. Quanto mais você associa esses conceitos a situações reais, mais natural tudo se torna. 
+
+
+
+
+
+TÉCNICAS CLÁSSICAS DE CONTAGEM
+
+ Identidades Combinatórias
+
+ Triângulo de Pascal
+
+ Binômio de Newton
+
+ Princípio da Inclusão–Exclusão (PIE)
+
+  Contagem Complementar​
