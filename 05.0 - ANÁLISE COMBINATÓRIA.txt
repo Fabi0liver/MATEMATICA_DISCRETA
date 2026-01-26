@@ -334,30 +334,4 @@ brinquedos diferentes e perguntar de quantas formas podemos escolher exatamente 
 
  Essa simetria aparece claramente na prática. Se você calcula 𝐶(10, 3) e 𝐶(10, 7), encontrará o mesmo resultado. Isso não é coincidência, mas uma consequência direta da fórmula e do significado do número binomial. Em termos do dia a dia, é como decidir quais ingredientes vão para a pizza ou quais ficam fora: focar nos incluídos ou nos excluídos muda o ponto de vista, mas não a quantidade de escolhas possíveis.
 
- Em suma, os números binomiais são  algo muito além de uma fórmula decorada, eles representam escolhas, decisões e combinações que aparecem o tempo todo, desde jogos e probabilidades até algoritmos e estruturas de dados. Quanto mais você associa esses conceitos a situações reais, mais natural tudo se torna. 
-
-
-
-Números Binomiais:
-
- Definição: Dados dois numeros naturais  n e p (n ≥ p) indicados ( binom(n, p)  ou  C(n, k)) número binomial de ordem n e classe p.
-
-
- Formula:             n!
-          C(n, p) = ---------  ou binom(n, p) = n! / (p! (n − p)!)  
-                   p!(n-p)!
-
-
- Restrições usuais: p  ≥  0
-                   0  ≤  p  ≤  n
-                   n,  p  ∈  ℕ
-
-  Exemplo: 
-
-
-  Consequências da definição: C(n,  o) = 1
-                                                                                C(n,  1) = n
-                              C(n, n) = 1
-
-
-  Números Binomiais complementares:  C(n, p) e C(n, q) são complementares se o resultado dos dois numeros binomiais são iguais ou  p + q = n​
+ Em suma, os números binomiais são  algo muito além de uma fórmula decorada, eles representam escolhas, decisões e combinações que aparecem o tempo todo, desde jogos e probabilidades até algoritmos e estruturas de dados. Quanto mais você associa esses conceitos a situações reais, mais natural tudo se torna. ​
