@@ -358,18 +358,4 @@ brinquedos diferentes e perguntar de quantas formas podemos escolher exatamente 
 
  Essa técnica é muito poderosa em problemas que envolvem restrições, como “quantas sequências não possuem determinado padrão?”. Em vez de listar todas as sequências válidas, você conta todas as sequências possíveis e remove aquelas que violam a regra. Essa mudança de perspectiva costuma simplificar bastante o raciocínio e reduzir erros.
 
- Em suma, essas técnicas clássicas de contagem são como um verdadeiro kit de ferramentas intelectuais. Cada uma tem sua função, e o segredo está em escolher a ferramenta certa para cada problema. Com prática, você passa a reconhecer padrões rapidamente e a resolver situações complexas com confiança e criatividade. 
-
-
-
-TÉCNICAS CLÁSSICAS DE CONTAGEM
-
- Identidades Combinatórias
-
- Triângulo de Pascal
-
- Binômio de Newton
-
- Princípio da Inclusão–Exclusão (PIE)
-
-  Contagem Complementar​
+ Em suma, essas técnicas clássicas de contagem são como um verdadeiro kit de ferramentas intelectuais. Cada uma tem sua função, e o segredo está em escolher a ferramenta certa para cada problema. Com prática, você passa a reconhecer padrões rapidamente e a resolver situações complexas com confiança e criatividade. ​
