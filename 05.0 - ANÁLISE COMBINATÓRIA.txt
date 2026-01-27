@@ -416,4 +416,4 @@ brinquedos diferentes e perguntar de quantas formas podemos escolher exatamente 
 
  Mais do que fórmulas, este estudo construiu uma base sólida de raciocínio. Ele mostrou que a matemática pode ser compreendida de forma leve, progressiva e conectada à realidade, sem perder profundidade. Quando entendemos o “porquê” das ideias, o aprendizado se torna mais natural e duradouro.
 
- Para encerrar, quero te parabenizar por chegar até aqui. Estudar Análise Combinatória é como aprender a enxergar o mundo das possibilidades com mais clareza e organização. Leve essa forma de pensar para os próximos estudos, especialmente em algoritmos e estruturas discretas, e siga com curiosidade e confiança. Esse é apenas mais um passo em uma jornada rica e cheia de descobertas.​
+ Para encerrar, quero te parabenizar por chegar até aqui. Estudar Análise Combinatória é como aprender a enxergar o mundo das possibilidades com mais clareza e organização. Leve essa forma de pensar para os próximos estudos, especialmente em algoritmos e estruturas discretas, e siga com curiosidade e confiança. Esse é apenas mais um passo em uma jornada rica e cheia de descobertas. ⥪​
