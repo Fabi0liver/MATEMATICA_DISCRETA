@@ -11,3 +11,23 @@
  Outro ponto interessante é que os grafos ajudam a pensar de forma estruturada. Ao representar uma situação como um conjunto de pontos ligados entre si, passamos a enxergar padrões, caminhos possíveis, dependências e limitações que não eram tão óbvias antes. É semelhante a organizar a rotina semanal em uma agenda: quando tudo está no papel, fica mais fácil entender o que depende do quê e onde estão os conflitos.
 
  Em suma, a Teoria dos Grafos é como um convite à curiosidade, ela não começa com complexidade, mas com observação: olhar para conexões, relações e caminhos que já fazem parte do seu cotidiano. Ao longo do estudo, veremos como essa ideia simples cresce e se transforma em uma ferramenta poderosa, especialmente para algoritmos e ciência da computação. 
+
+
+
+                                    "Origem da Teoria dos Grafos"
+
+ Para entender a origem da Teoria dos Grafos, é interessante voltar no tempo e imaginar a matemática como um grande terreno ainda pouco explorado, onde muitos conceitos surgiam a partir de problemas bem concretos do dia a dia. Diferente de áreas que nasceram de abstrações puras, a Teoria dos Grafos começa quase como uma história curiosa, daquelas que parecem um desafio de lógica proposto em uma conversa informal. Isso ajuda a explicar por que ela é tão intuitiva: desde o início, sua motivação foi compreender relações e conexões reais.
+
+O ponto de partida mais conhecido acontece no século XVIII, na cidade de Königsberg, onde havia um problema popular envolvendo pontes. A cidade era cortada por um rio e conectada por sete pontes, e a pergunta era simples de enunciar: seria possível atravessar todas as pontes exatamente uma vez, sem repetir nenhuma? É como tentar planejar uma caminhada turística passando por todos os pontos importantes sem voltar pelo mesmo caminho. Esse problema chamou a atenção de Leonhard Euler, um dos grandes matemáticos da história.
+
+Euler teve uma sacada brilhante: em vez de pensar no mapa real da cidade, com ruas, prédios e distâncias, ele simplificou tudo. Cada região de terra virou um ponto, e cada ponte virou uma ligação entre esses pontos. Foi como transformar um prato complexo em uma receita básica, mantendo só os ingredientes essenciais. Essa abstração marcou o nascimento da Teoria dos Grafos, mesmo que o termo ainda não existisse oficialmente naquela época.
+
+O mais interessante é que Euler não estava tentando criar uma nova área da matemática. Ele apenas queria resolver aquele problema específico. No entanto, ao perceber que a solução dependia apenas da forma como as conexões estavam organizadas — e não do tamanho das pontes ou da distância entre elas —, ele revelou uma ideia poderosa: muitas situações diferentes podem ser estudadas olhando apenas para suas estruturas de ligação.
+
+Com o passar do tempo, outros matemáticos começaram a notar que essa forma de pensar podia ser aplicada a muitos outros contextos. Relações entre elementos de um conjunto, caminhos possíveis entre opções, dependências entre tarefas — tudo isso podia ser representado por pontos e conexões. É como perceber que o mesmo modelo de checklist serve tanto para organizar um dia de estudos quanto para planejar um evento inteiro.
+
+No século XIX e início do século XX, a Teoria dos Grafos começou a ganhar identidade própria. Matemáticos passaram a estudar essas estruturas não apenas como curiosidades, mas como objetos matemáticos legítimos. Aos poucos, surgiram nomes, definições e problemas clássicos, sempre mantendo a essência original: entender como os elementos se conectam dentro de um conjunto bem definido.
+
+Quando os computadores surgiram, a Teoria dos Grafos encontrou um novo e enorme campo de aplicação. Redes de comunicação, circuitos, rotas, fluxos de dados e estruturas de programas podiam ser naturalmente modelados como grafos. Aquela ideia nascida de um passeio pelas pontes de uma cidade virou uma ferramenta fundamental para o desenvolvimento de algoritmos e da ciência da computação moderna.
+
+Para fechar essa parte da nossa aula, vale destacar algo inspirador: a Teoria dos Grafos nos mostra que grandes ideias podem nascer de perguntas simples. Um problema cotidiano, quando observado com curiosidade e criatividade, pode dar origem a uma área inteira do conhecimento. À medida que avançarmos, você verá como essa origem humilde se transforma em técnicas poderosas — e espero que isso desperte em você não só entendimento, mas também entusiasmo para continuar explorando os caminhos que os grafos e os algoritmos têm a oferecer.
