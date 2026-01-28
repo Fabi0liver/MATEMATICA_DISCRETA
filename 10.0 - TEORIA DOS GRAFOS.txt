@@ -46,7 +46,7 @@
 
  Relacionado a isso está o tamanho do grafo, que corresponde ao número de arestas existentes. Aqui, a analogia pode ser uma rede de estradas: duas regiões podem ter o mesmo número de cidades, mas uma delas pode ter muito mais estradas ligando tudo. O tamanho do grafo indica o quanto os vértices estão conectados entre si, revelando se a rede é mais “esparsa” ou mais “densa”.
 
- Esses dois conceitos juntos — ordem e tamanho — ajudam a formar uma primeira intuição sobre o comportamento do grafo. Um grafo com muitos vértices e poucas arestas lembra uma rotina mal conectada, cheia de tarefas que quase não se relacionam. Já um grafo com poucas tarefas, mas muitas conexões entre elas, lembra um dia em que tudo depende de tudo, exigindo mais cuidado na organização.
+ Esses dois conceitos juntos (ordem e tamanho) ajudam a formar uma primeira intuição sobre o comportamento do grafo. Um grafo com muitos vértices e poucas arestas lembra uma rotina mal conectada, cheia de tarefas que quase não se relacionam. Já um grafo com poucas tarefas, mas muitas conexões entre elas, lembra um dia em que tudo depende de tudo, exigindo mais cuidado na organização.
 
  Outro ponto importante é entender que nem todo grafo é infinito. Na prática, trabalhamos muito com grafos finitos, que possuem um número limitado de vértices e arestas. Um tabuleiro de xadrez, uma lista de cidades de um país ou um conjunto de páginas de um site são exemplos claros disso. Eles têm começo, meio e fim, o que facilita o estudo e a aplicação de algoritmos.
 
@@ -54,4 +54,4 @@
 
  É importante perceber que todos esses conceitos estão profundamente ligados à ideia de conjuntos. Um grafo pode ser visto como um conjunto de vértices e um conjunto de arestas que relacionam esses vértices. Essa visão ajuda a manter tudo organizado e claro, assim como separar ingredientes antes de cozinhar evita confusão durante a receita.
 
- Em suma,  a força da Teoria dos Grafos não está na complexidade inicial, mas na clareza das ideias básicas. Vértices, arestas, ordem, tamanho e o tipo de grafo formam a base sobre a qual construiremos algoritmos, análises e soluções elegantes para problemas reais. Se esses conceitos já começaram a fazer sentido para você, saiba que está no caminho certo — e, a partir daqui, cada novo tema será como adicionar uma peça a um grande e fascinante quebra-cabeça.
+ Em suma, a força da Teoria dos Grafos não está na complexidade inicial, mas na clareza das ideias básicas. Vértices, arestas, ordem, tamanho e o tipo de grafo formam a base sobre a qual construiremos algoritmos, análises e soluções elegantes para problemas reais. 
