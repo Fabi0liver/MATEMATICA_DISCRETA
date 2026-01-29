@@ -62,71 +62,14 @@
 
  Depois de conhecermos os conceitos fundamentais, estamos prontos para responder com mais cuidado a uma pergunta central da Teoria dos Grafos: afinal, o que é um grafo? Embora a definição formal pareça simples à primeira vista, ela carrega uma ideia muito rica. Um grafo é uma maneira organizada de representar elementos e as relações entre eles, focando menos nos detalhes e mais na estrutura das conexões, como quem olha o esqueleto de uma construção antes de se preocupar com a pintura.
 
-Do ponto de vista matemático, dizemos que um grafo é um par de conjuntos, representado por 
-𝐺
-=
-(
-𝑉
-,
-𝐴
-)
-G=(V,A). O conjunto 
-𝑉
-V contém os vértices, ou seja, os elementos principais do grafo, enquanto o conjunto 
-𝐴
-A contém as arestas, que representam as ligações entre esses elementos. Pense em uma lista de pessoas e outra lista dizendo quem é amigo de quem. As pessoas formam um conjunto, e as amizades formam outro, conectando pares dessas pessoas.
+Do ponto de vista matemático, dizemos que um grafo é um par de conjuntos, representado por 𝐺 = (𝑉, 𝐴). O conjunto 
+𝑉 contém os vértices, ou seja, os elementos principais do grafo, enquanto o conjunto 𝐴 contém as arestas, que representam as ligações entre esses elementos. Pense em uma lista de pessoas e outra lista dizendo quem é amigo de quem. As pessoas formam um conjunto, e as amizades formam outro, conectando pares dessas pessoas.
 
 Essa ideia de “par de conjuntos” é importante porque traz organização e clareza. É como separar os ingredientes de uma receita do modo de preparo: saber quais são os ingredientes não diz tudo, mas sem eles não há receita; da mesma forma, o modo de preparo define como esses ingredientes se relacionam. No grafo, os vértices são os ingredientes, e as arestas explicam como eles se combinam.
 
-Vamos olhar com calma para o exemplo apresentado. O conjunto de vértices é 
-𝑉
-=
-{
-6
-𝑎
-,
-6
-𝑏
-,
-7
-𝑎
-,
-7
-𝑏
-,
-8
-𝑎
-,
-8
-𝑏
-}
-V={6a,6b,7a,7b,8a,8b}. Cada elemento desse conjunto é um vértice distinto, mesmo que alguns pareçam semelhantes. Isso mostra algo importante: em grafos, o nome do vértice é apenas um rótulo. Assim como em um jogo de tabuleiro cada casa tem uma posição única, aqui cada vértice representa uma entidade individual.
+Vamos olhar com calma para o exemplo apresentado. O conjunto de vértices é 𝑉 = {6𝑎, 6𝑏, 7𝑎, 7𝑏, 8𝑎, 8𝑏}. Cada elemento desse conjunto é um vértice distinto, mesmo que alguns pareçam semelhantes. Isso mostra algo importante: em grafos, o nome do vértice é apenas um rótulo. Assim como em um jogo de tabuleiro cada casa tem uma posição única, aqui cada vértice representa uma entidade individual.
 
-Já o conjunto de arestas é formado por pares como 
-(
-6
-𝑎
-,
-7
-𝑎
-)
-(6a,7a), 
-(
-6
-𝑎
-,
-7
-𝑏
-)
-(6a,7b), 
-(
-6
-𝑏
-,
-8
-𝑎
-)
-(6b,8a) e assim por diante. Cada par indica que existe uma ligação entre dois vértices específicos. Você pode imaginar isso como uma lista de caminhos permitidos em um jogo: nem toda casa se conecta a todas as outras, apenas aquelas indicadas pelas arestas.
+Já o conjunto de arestas é formado por pares como (6𝑎, 7𝑎),  (6𝑎, 7𝑏), (6𝑏, 8𝑎) e assim por diante. Cada par indica que existe uma ligação entre dois vértices específicos. Você pode imaginar isso como uma lista de caminhos permitidos em um jogo: nem toda casa se conecta a todas as outras, apenas aquelas indicadas pelas arestas.
 
 Perceba que o grafo não diz por que dois vértices estão ligados, apenas que eles estão. Isso é uma característica poderosa. Assim como um mapa de metrô não explica o motivo das linhas existirem, mas mostra claramente por onde você pode passar, o grafo foca apenas na estrutura das conexões. Essa abstração torna os grafos extremamente versáteis.
 
