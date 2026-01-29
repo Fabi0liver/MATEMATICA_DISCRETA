@@ -110,12 +110,22 @@
 
 
 
-Relações de Incidência e Adjacência
+Conceitos Básicos de Teoria dos Grafos
 
  Vértices adjacentes
 
  Arestas incidentes
 
- Grau de um vértice
+ Vizinhança de um vértice
+
+ Número de vértices (ordem do grafo – ∣𝑉∣)
+
+ Número de arestas (tamanho do grafo – ∣𝐴∣)
+
+ Grau de um vértice ( simbolizado por d(v))
+
+ Vértice isolado
+
+ Vértice pendente (folha)
 
  Grau de entrada e saída (em dígrafos)
