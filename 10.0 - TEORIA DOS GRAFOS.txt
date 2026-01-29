@@ -109,8 +109,39 @@
 
 
 
+                                      "Propriedades Básicas de Grafos"
 
-Conceitos Básicos de Teoria dos Grafos
+ Depois de compreender o que é um grafo e conhecer seus tipos mais comuns, chegamos a um ponto muito importante do nosso estudo: as propriedades básicas dos grafos. Essas propriedades funcionam como características observáveis, quase como descrever uma pessoa dizendo com quem ela se relaciona, quantos contatos tem e qual é seu papel dentro de um grupo. Elas não mudam a essência do grafo, mas nos ajudam a entendê-lo melhor e a analisar seu comportamento.
+
+Começando pelos vértices adjacentes, dizemos que dois vértices são adjacentes quando existe uma aresta ligando um ao outro. É uma ideia bem intuitiva: em uma rede de amigos, duas pessoas são adjacentes se são amigas; em um mapa, duas cidades são adjacentes se existe uma estrada direta entre elas. A adjacência nos diz quem está “próximo” de quem dentro da estrutura do grafo.
+
+Ligada a isso está a noção de arestas incidentes. Uma aresta é incidente a um vértice quando ela toca esse vértice, ou seja, quando esse vértice é uma de suas extremidades. Imagine um poste de energia com vários fios conectados a ele: cada fio é incidente ao poste. Essa propriedade ajuda a identificar quais conexões envolvem um determinado vértice.
+
+A partir daí, surge o conceito de vizinhança de um vértice, que nada mais é do que o conjunto de todos os vértices adjacentes a ele. Pense em uma pessoa e na lista de contatos diretos do seu celular: essa lista representa a vizinhança dessa pessoa. Em grafos, olhar a vizinhança é uma forma rápida de entender com quem um vértice se relaciona diretamente.
+
+Outra propriedade fundamental é o número de vértices do grafo, também chamado de ordem do grafo e representado por ∣V∣. Ele indica quantos vértices existem no total. É como contar quantas casas há em um tabuleiro ou quantas cidades aparecem em um mapa. Esse número dá uma visão geral do “tamanho estrutural” do grafo.
+
+De forma semelhante, temos o número de arestas, conhecido como tamanho do grafo e representado por ∣A∣. Esse valor indica quantas conexões existem no grafo. Duas redes podem ter o mesmo número de vértices, mas números de arestas muito diferentes, assim como dois grupos de pessoas podem ter o mesmo tamanho, mas níveis de interação completamente distintos.
+
+Um conceito central na análise de grafos é o grau de um vértice, simbolizado por d(v). O grau indica quantas arestas estão ligadas a um determinado vértice. Em termos cotidianos, é como perguntar quantos amigos uma pessoa tem ou quantas estradas chegam a uma cidade. Vértices com grau alto costumam ser pontos importantes ou muito conectados dentro da rede.
+
+Essa ideia de grau fica ainda mais interessante quando entramos nos dígrafos, os grafos direcionados. Neles, cada vértice possui um grau de entrada, que conta quantas arestas chegam ao vértice, e um grau de saída, que conta quantas arestas saem dele. Pense em uma rede social: o grau de entrada pode representar quantas pessoas seguem você, enquanto o grau de saída representa quantas pessoas você segue.
+
+Essas propriedades não servem apenas para descrição, mas também para análise. Ao observar adjacências, graus e vizinhanças, conseguimos identificar vértices centrais, pontos isolados e padrões de conexão. É como analisar uma rotina diária: ao ver quais tarefas têm mais dependências, conseguimos planejar melhor o dia.
+
+Outro ponto importante é que essas propriedades estão todas interligadas. O número total de arestas influencia o grau médio dos vértices, a vizinhança define adjacências e as arestas incidentes ajudam a calcular graus. Com o tempo, você começa a enxergar essas relações quase automaticamente, como quem já sabe de cabeça os atalhos de um bairro.
+
+Para encerrar essa aula, quero reforçar que dominar essas propriedades básicas é como aprender a ler o “mapa interno” de um grafo. Elas serão usadas constantemente quando estudarmos caminhos, ciclos e algoritmos mais avançados. Se hoje você já consegue olhar para um grafo e falar sobre adjacência, grau e vizinhança com naturalidade, então está construindo uma base sólida — e isso é exatamente o que torna o estudo da Teoria dos Grafos tão empolgante e recompensador.
+
+
+
+
+
+
+
+
+
+Propriedades Básicas de Grafos:
 
  Vértices adjacentes
 
@@ -123,9 +154,5 @@ Conceitos Básicos de Teoria dos Grafos
  Número de arestas (tamanho do grafo – ∣𝐴∣)
 
  Grau de um vértice ( simbolizado por d(v))
-
- Vértice isolado
-
- Vértice pendente (folha)
 
  Grau de entrada e saída (em dígrafos)
