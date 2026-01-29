@@ -57,10 +57,48 @@
  Em suma, a força da Teoria dos Grafos não está na complexidade inicial, mas na clareza das ideias básicas. Vértices, arestas, ordem, tamanho e o tipo de grafo formam a base sobre a qual construiremos algoritmos, análises e soluções elegantes para problemas reais. 
 
 
-O que é um grafos? Um grafo é um par de conjuntos G = (V,A), sendo o V o conjunto de vértices e A o conjunto de aresta.
+O que é um grafos?  
+
+Um grafo é um par de conjuntos G = (V,A), sendo o V o conjunto de vértices e A o conjunto de aresta.
 
 Exemplo: G = (V,A)
 
          V = {6a, 6b, 7a, 7b, 8a, 8b}
 
          A = {(6a,7a); (6a, 7b); (6a, 8b); (6b, 7a); (6b,8a); (6b, 8b); (7b, 8a); (7b, 8b); (8a, 8b)} 
+
+
+
+Tipos Básicos de Grafos:
+
+ Grafo simples
+
+ Multigrafo
+
+ Pseudografo
+
+ Grafo direcionado (dígrafo)
+
+ Grafo não direcionado
+
+ Grafos completos
+
+ Grafos nulos
+
+ Subgrafos
+
+ Grafos complementares
+
+
+
+
+
+Relações de Incidência e Adjacência
+
+ Vértices adjacentes
+
+ Arestas incidentes
+
+ Grau de um vértice
+
+ Grau de entrada e saída (em dígrafos)
