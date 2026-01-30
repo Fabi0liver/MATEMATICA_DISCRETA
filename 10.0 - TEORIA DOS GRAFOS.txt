@@ -133,3 +133,9 @@
  Em suma, dominar essas propriedades básicas é como aprender a ler o “mapa interno” de um grafo. Elas serão usadas constantemente quando estudarmos caminhos, ciclos e algoritmos mais avançados. Se hoje você já consegue olhar para um grafo e falar sobre adjacência, grau e vizinhança com naturalidade, então está construindo uma base sólida, e isso é exatamente o que torna o estudo da Teoria dos Grafos tão empolgante e recompensador.
 
 
+
+
+Terminologia de Grafos:
+
+
+
