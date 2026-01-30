@@ -135,4 +135,31 @@
 
 
 
+ Propriedades Básicas de Grafos:
+
+ Vértices adjacentes
+
+ Arestas incidentes
+
+ Arestas paralelas ( ou arestas múltiplas)
+
+ Vizinhança de um vértice
+
+ Laços
+
+ Número de vértices (ordem do grafo – ∣𝑉∣)
+
+ Número de arestas (tamanho do grafo – ∣𝐴∣)
+
+ Grau de um vértice ( simbolizado por d(v))
+
+Grau de entrada e saída (em dígrafos)
+
+ Vértice isolado
+
+ Vértice pendente (folha)
+
+ 
+
+
 
