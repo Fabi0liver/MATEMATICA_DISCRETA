@@ -151,11 +151,11 @@
 
  Número de arestas (tamanho do grafo – ∣𝐴∣)
 
- Grau de um vértice ( simbolizado por d(v))
+ Grau de um vértice ( 𝑑(𝑣))
 
-Grau de entrada e saída (em dígrafos)
+Grau de entrada e saída (𝑑ᵢₙ(𝑣) e 𝑑ₒᵤₜ(𝑣))
 
- Vértice isolado
+ Vértice isolado (grau 0)
 
  Vértice pendente (folha)
 
