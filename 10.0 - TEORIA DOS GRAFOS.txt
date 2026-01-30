@@ -133,23 +133,3 @@
  Em suma, dominar essas propriedades básicas é como aprender a ler o “mapa interno” de um grafo. Elas serão usadas constantemente quando estudarmos caminhos, ciclos e algoritmos mais avançados. Se hoje você já consegue olhar para um grafo e falar sobre adjacência, grau e vizinhança com naturalidade, então está construindo uma base sólida, e isso é exatamente o que torna o estudo da Teoria dos Grafos tão empolgante e recompensador.
 
 
-
-
-
-
-
-Propriedades Básicas de Grafos:
-
- Vértices adjacentes
-
- Arestas incidentes
-
- Vizinhança de um vértice
-
- Número de vértices (ordem do grafo – ∣𝑉∣)
-
- Número de arestas (tamanho do grafo – ∣𝐴∣)
-
- Grau de um vértice ( simbolizado por d(v))
-
- Grau de entrada e saída (em dígrafos)
