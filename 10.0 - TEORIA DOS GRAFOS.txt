@@ -162,35 +162,3 @@
  Por fim, temos a distância em grafos, que dá uma noção clara de proximidade. A distância entre dois vértices 𝑢 e  𝑣, indicada por 𝑑(𝑢,𝑣), é o comprimento do menor caminho entre eles, ou seja, o menor número de arestas necessário para sair de um e chegar ao outro. É como perguntar qual é o menor número de ruas que você precisa atravessar para ir de casa até a escola. Se não existe caminho entre dois vértices, dizemos que a distância é infinita, pois simplesmente não há como realizar o trajeto.
 
  Em suma, esses percursos transformam grafos em algo vivo e dinâmico. Eles nos ensinam a navegar por estruturas, medir distâncias, identificar conexões e entender limites. Tudo isso forma a base de muitos algoritmos clássicos que você verá adiante, como busca em grafos e otimização de caminhos. Se hoje você consegue imaginar um passeio, uma trilha ou um ciclo dentro de um grafo como se estivesse caminhando por uma cidade, então você está aprendendo do jeito certo. 
-
-
-
-
-
-
-Vamos continuar nossa explicação será em torno do assunto "Teoria dos grafos" na matemática discreta. Depois de falar sobre a terminologia de grafos, vamos continuar aprofundar mais nesse assunto. Faca uma explicação sobre "Percursos Básico em Grafos". Com explicação, exemplos e analogias para facilitar o entendimento.
-
-Percursos Básico em Grafos:
-
-Passeio: É uma sequência de arestas do tipo (𝑣₀, 𝑣₁), (𝑣₁, 𝑣₂), (𝑣₂, 𝑣₃), ... (𝑣ₛ₋₁, 𝑣ₛ), onde 𝑣₀ é o início do passeio e 𝑣ₛ é o fim do passeio. O s e o comprimento do passeio ou seja o comprimento do passeio é o número de arestas da sequência.
-
-Trilha: Se todas as arestas do passeo são distintas, o passeio é chamado trilha ou seja ama trilha é um passeio sem repetição de arestas, podendo repetir vértices.
-
-Trilha fechada (circuito): Uma trilha em que 𝑣₀ = 𝑣ₛ é chamada trilha fechada. Ou seja um trilha que começa e termina na mesmo ponto.
-
-Caminho: Uma trilha que não repete vértice é chamado de caminho.
-
-Ciclo: Um caminho em que 𝑣₀ = 𝑣ₛ é chamado de ciclo. Ou seja um caminho que começa e termina na mesmo ponto.
-
-Conectividade (Grafos conexos e desconexos): Se existe um caminho entre qualquer par de vértices ele é chamado de grafo conexo, caso contrário ele  é chamado de desconexo. Dois vértices estão conectados se existe um caminho entre eles no grafo.
-
-Distância em Grafos: A distância entre dois vértices 𝑢 e  𝑣, denotada por 𝑑(𝑢, 𝑣), é o comprimento do menor caminho entre eles. Se não existe caminho entre 𝑢 e  𝑣, a distância é considerada infinita.
-
-
-Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos com introdução e conclusão e um paragrafo para cada termo. Com exemplos e analogias para facilitar o entendimento
-
-
- 
-
-
-
