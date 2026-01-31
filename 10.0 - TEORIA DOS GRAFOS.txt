@@ -143,41 +143,6 @@
 
 
 
-Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois da saber o que é um grafo melhor e alguns tipos básicos, vamos continuar aprofundar mais nesse assunto. Faca uma explicação sobre "Terminologia Básicas de Grafos". Com explicação, exemplos e analogias para facilitar o entendimento.
-
-
-
- Terminologia Básicas de Grafos:
-
- Vértices adjacentes
-
- Arestas incidentes
-
- Arestas paralelas ( ou arestas múltiplas)
-
- Vizinhança de um vértice
-
- Laços
-
- Número de vértices (ordem do grafo – ∣𝑉∣)
-
- Número de arestas (tamanho do grafo – ∣𝐴∣)
-
- Grau de um vértice ( 𝑑(𝑣))
-
- Grau de entrada e saída (𝑑ᵢₙ(𝑣) e 𝑑ₒᵤₜ(𝑣))
-
- Grau mínimo e Grau maximo (δ(G) e Δ(G))
-
- Vértice isolado
-
- Vértice pendente (folha ou terminal)
-
-
-Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos com um  paragrafo para cada termo. Com exemplos e analogias para facilitar o entedimento
-
-
-
 
 Percursos Básico em Grafos:
 
