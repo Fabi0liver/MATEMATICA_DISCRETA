@@ -113,33 +113,31 @@
 
  Agora que já compreendemos o que é um grafo, é natural avançarmos para a terminologia básica dos grafos, que funciona como um vocabulário comum. É parecido com aprender as palavras de um novo idioma: no começo tudo parece simples, mas essas palavras serão usadas o tempo todo daqui para frente. Entender bem essa linguagem evita confusões e torna o estudo muito mais fluido e prazeroso.
 
-Comecemos pelos vértices adjacentes. Dois vértices são ditos adjacentes quando existe uma aresta ligando diretamente um ao outro. Pense em duas casas vizinhas ligadas pela mesma rua: elas estão próximas porque existe um caminho direto entre elas. No grafo, essa ideia de “estar ligado” é o que define a adjacência entre vértices.
+ Comecemos pelos "vértices adjacentes". Dois vértices são ditos adjacentes quando existe uma aresta ligando diretamente um ao outro. Pense em duas casas vizinhas ligadas pela mesma rua: elas estão próximas porque existe um caminho direto entre elas. No grafo, essa ideia de “estar ligado” é o que define a adjacência entre vértices.
 
-Já as arestas incidentes estão relacionadas à ideia de pertencimento. Dizemos que uma aresta é incidente a um vértice quando ela toca esse vértice, ou seja, quando ele é uma de suas extremidades. É como pensar em uma lâmpada ligada a um interruptor: o fio está diretamente conectado ao interruptor, então podemos dizer que o fio “incide” naquele ponto.
+ Já as "arestas incidentes" estão relacionadas à ideia de pertencimento. Dizemos que uma aresta é incidente a um vértice quando ela toca esse vértice, ou seja, quando ele é uma de suas extremidades. É como pensar em uma lâmpada ligada a um interruptor: o fio está diretamente conectado ao interruptor, então podemos dizer que o fio “incide” naquele ponto.
 
-As arestas paralelas, também chamadas de arestas múltiplas, aparecem quando dois vértices são ligados por mais de uma aresta. Imagine duas cidades conectadas por duas estradas diferentes: embora os pontos de origem e destino sejam os mesmos, existem múltiplos caminhos entre eles. Em grafos, isso indica que há mais de uma relação possível entre os mesmos elementos.
+ As "arestas paralelas", também chamadas de arestas múltiplas, aparecem quando dois vértices são ligados por mais de uma aresta. Imagine duas cidades conectadas por duas estradas diferentes: embora os pontos de origem e destino sejam os mesmos, existem múltiplos caminhos entre eles. Em grafos, isso indica que há mais de uma relação possível entre os mesmos elementos.
 
-A vizinhança de um vértice é o conjunto de todos os vértices que estão diretamente ligados a ele. É como a lista de contatos mais próximos de uma pessoa em uma rede social ou os colegas com quem um aluno já fez trabalhos em grupo. Olhar para a vizinhança ajuda a entender a “influência” ou o alcance imediato de um vértice dentro do grafo.
+ A "vizinhança" de um vértice é o conjunto de todos os vértices que estão diretamente ligados a ele. É como a lista de contatos mais próximos de uma pessoa em uma rede social ou os colegas com quem um aluno já fez trabalhos em grupo. Olhar para a vizinhança ajuda a entender a “influência” ou o alcance imediato de um vértice dentro do grafo.
 
-Os laços surgem quando uma aresta liga um vértice a ele mesmo. À primeira vista isso pode parecer estranho, mas pense em uma tarefa que depende de si mesma para ser refeita, ou em uma rua circular que começa e termina no mesmo ponto. O laço representa esse tipo especial de relação autorreferente.
+ Os "laços" surgem quando uma aresta liga um vértice a ele mesmo. À primeira vista isso pode parecer estranho, mas pense em uma tarefa que depende de si mesma para ser refeita, ou em uma rua circular que começa e termina no mesmo ponto. O laço representa esse tipo especial de relação autorreferente.
 
-O número de vértices, também chamado de ordem do grafo e representado por |V|, indica quantos vértices o grafo possui. É como contar quantos jogadores participam de um jogo ou quantas cidades aparecem em um mapa. Esse número nos dá uma noção geral da dimensão do grafo.
+ O "número de vértices", também chamado de ordem do grafo e representado por ∣𝑉∣, indica quantos vértices o grafo possui. É como contar quantos jogadores participam de um jogo ou quantas cidades aparecem em um mapa. Esse número nos dá uma noção geral da dimensão do grafo.
 
-De forma semelhante, o número de arestas, ou tamanho do grafo, representado por |A|, indica quantas conexões existem. Se o número de vértices diz “quantos pontos existem”, o número de arestas diz “quantas ligações foram feitas”. Um grupo pequeno pode ter poucas ou muitas conexões, e isso muda completamente sua dinâmica.
+ De forma semelhante, o "número de arestas", ou tamanho do grafo, representado por ∣𝐴∣, indica quantas conexões existem. Se o número de vértices diz “quantos pontos existem”, o número de arestas diz “quantas ligações foram feitas”. Um grupo pequeno pode ter poucas ou muitas conexões, e isso muda completamente sua dinâmica.
 
-O grau de um vértice, indicado por d(v), corresponde ao número de arestas incidentes naquele vértice. É como contar quantas ruas chegam a um cruzamento ou quantos amigos diretos uma pessoa tem. Vértices com grau alto costumam ser pontos centrais ou muito ativos dentro do grafo.
+ O "grau de um vértice", indicado por 𝑑(𝑣), corresponde ao número de arestas incidentes naquele vértice. É como contar quantas ruas chegam a um cruzamento ou quantos amigos diretos uma pessoa tem. Vértices com grau alto costumam ser pontos centrais ou muito ativos dentro do grafo.
 
-Em grafos orientados, falamos em grau de entrada dᵢₙ(v) e grau de saída dₒᵤₜ(v). O grau de entrada conta quantas arestas chegam ao vértice, enquanto o de saída conta quantas saem dele. Pense em uma rotina diária: tarefas que dependem de você são “entradas”, e tarefas que você inicia são “saídas”. Essa distinção é essencial para entender fluxos e direções.
+ Em "grafos orientados", falamos em grau de entrada 𝑑ᵢₙ(𝑣) e grau de saída 𝑑ₒᵤₜ(𝑣). O grau de entrada conta quantas arestas chegam ao vértice, enquanto o de saída conta quantas saem dele. Pense em uma rotina diária: tarefas que dependem de você são “entradas”, e tarefas que você inicia são “saídas”. Essa distinção é essencial para entender fluxos e direções.
 
-O grau mínimo δ(G) e o grau máximo Δ(G) representam, respectivamente, o menor e o maior grau entre todos os vértices do grafo. É como observar, em uma sala de aula, quem tem menos e quem tem mais interações. Esses valores ajudam a ter uma visão global da distribuição das conexões.
+ O "grau mínimo" δ(G) e o "grau máximo" Δ(G) representam, respectivamente, o menor e o maior grau entre todos os vértices do grafo. É como observar, em uma sala de aula, quem tem menos e quem tem mais interações. Esses valores ajudam a ter uma visão global da distribuição das conexões.
 
-Um vértice isolado é aquele que não possui nenhuma aresta ligada a ele, ou seja, grau zero. Ele lembra alguém que está presente no grupo, mas não interage com ninguém. Em grafos, vértices isolados indicam elementos que não participam das relações analisadas.
+ Um "vértice isolado" é aquele que não possui nenhuma aresta ligada a ele, ou seja, grau zero. Ele lembra alguém que está presente no grupo, mas não interage com ninguém. Em grafos, vértices isolados indicam elementos que não participam das relações analisadas.
 
-Por fim, temos o vértice pendente, também chamado de folha ou terminal, que possui grau igual a 1. Ele está ligado ao grafo por apenas uma aresta, como uma rua sem saída ou uma tarefa que depende apenas de uma outra. Esses vértices costumam aparecer nas extremidades das estruturas.
+ Por fim, temos o "vértice pendente", também chamado de folha ou terminal, que possui grau igual a 1. Ele está ligado ao grafo por apenas uma aresta, como uma rua sem saída ou uma tarefa que depende apenas de uma outra. Esses vértices costumam aparecer nas extremidades das estruturas.
 
-Para encerrar essa aula, quero reforçar algo importante: dominar essa terminologia não é decorar definições, mas aprender a enxergar grafos com clareza. Cada termo é uma lente diferente para observar a mesma estrutura, revelando detalhes que antes passariam despercebidos. Com esse vocabulário bem consolidado, você está cada vez mais preparado para avançar em algoritmos, análises e aplicações reais da Teoria dos Grafos. Continue firme — esse é exatamente o tipo de base sólida que faz toda a diferença no aprendizado.
-
-
+ Em suma, dominar essa terminologia não é decorar definições, mas aprender a enxergar grafos com clareza. Cada termo é uma lente diferente para observar a mesma estrutura, revelando detalhes que antes passariam despercebidos. Com esse vocabulário bem consolidado, você está cada vez mais preparado para avançar em algoritmos, análises e aplicações reais da Teoria dos Grafos. 
 
 
 
