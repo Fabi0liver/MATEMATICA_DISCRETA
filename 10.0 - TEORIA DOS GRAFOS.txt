@@ -193,7 +193,15 @@ Representações  mais comunsde Grafos:
 
                                                                              𝐴 = conjunto de arestas
 
-                                                                               Limitação: não mostra diretamente a vizinhança de cada vértice nem é  
+                                       Exemplo: 𝑉 = {𝐴, 𝐵, 𝐶}
+
+                                                𝐴 = {(𝐴, 𝐵), (𝐵, 𝐶)}
+                                       
+                                                Isso significa que: 𝐴 está ligado a 𝐵
+
+                                                                    𝐵 está ligado a 𝐶
+
+                                        Limitação: não mostra diretamente a vizinhança de cada vértice nem é  
                                                  eficiente para algoritmos.
 
 
@@ -203,11 +211,11 @@ Representações  mais comunsde Grafos:
 
                         A posição 𝐴ᵢⱼ indica se existe uma aresta entre o vértice 𝑖  e o vértice 𝑗.
 
-                                       Exemplo (grafo não direcionado): |   | A | B | C |
-                                                       | - | - | - | - |
-                                                       | A | 0 | 1 | 0 |
-                                                       | B | 1 | 0 | 1 |
-                                                       | C | 0 | 1 | 0 |
+                                                Exemplo (grafo não direcionado): |   | A | B | C |
+                                                         | - | - | - | - |
+                                                         | A | 0 | 1 | 0 |
+                                                         | B | 1 | 0 | 1 |
+                                                         | C | 0 | 1 | 0 |
 
                         Propriedades importantes: Em grafos não direcionados, a matriz é simétrica.
 
@@ -215,8 +223,21 @@ Representações  mais comunsde Grafos:
 
                                                  Verificar se existe uma aresta é O(1) (muito rápido).
 
+                        Limitação: ocupa muito espaço → O(n²), mesmo se o grafo tiver poucas arestas.
+
 
                                
+ Listas  de Asjacência: Para cada vértice, guardamos uma lista dos vértices vizinhos.
+
+                        Cada vértice aponta para uma lista de adjacências. 
+               
+                        Exemplo: A → B
+                                 B → A, C
+                                 C → B
+
+                        Em grafos direcionados, a lista mostra apenas as arestas de saída.
+
+                        Limitação: verificar se existe uma aresta específica pode ser mais lento.
 
 
- Listas  de Asjacência
+  Quando cada formar de representação?
