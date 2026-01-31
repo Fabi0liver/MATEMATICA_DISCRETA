@@ -178,28 +178,45 @@ Representações  mais comunsde Grafos:
 
                           Em grafos ponderados, colocamos pesos nas arestas.
 
-                         Essa representação não é única: o mesmo grafo pode ser desenhado de várias maneiras diferentes, desde 
-                                                              que as conexões sejam preservadas.
+                         Essa representação não é única: o mesmo grafo pode ser desenhado de várias maneiras 
+                        diferentes, desde que as conexões sejam preservadas.
 
-                                                                 Limitação: não é prática para grafos grandes nem para implementação em computador.
+                         Limitação: não é prática para grafos grandes nem para implementação em computador.
 
 
- Representação de Vértices e Arestas: Aqui descrevemos o grafo como um conjunto de pontos e um conjunto de conexões.
+ Representação de Vértices e Arestas: Aqui descrevemos o grafo como um conjunto de pontos e um conjunto de 
+                                     conexões.
 
-                                                                                                     Formalmente, um grafo é definido como:  𝐺 = (𝑉, 𝐴)
+                                      Formalmente, um grafo é definido como: 𝐺 = (𝑉, 𝐴)
 
-                                                                         𝑉 = conjunto de vértices
+                                                                                                                                                          𝑉 = conjunto de vértices
 
-                                                                         𝐴 = conjunto de arestas
+                                                                             𝐴 = conjunto de arestas
 
-                                      Limitação: não mostra diretamente a vizinhança de cada vértice nem é 
-                                                eficiente para algoritmos.
+                                                                               Limitação: não mostra diretamente a vizinhança de cada vértice nem é  
+                                                 eficiente para algoritmos.
 
 
  Matriz de Adjacências: É uma tabela que diz quem está conectado com quem.
 
-                                                                Criamos uma matriz  𝑛 × 𝑛, onde 𝑛 é o número de vértices.
+                        Criamos uma matriz  𝑛 × 𝑛, onde 𝑛 é o número de vértices.
 
                         A posição 𝐴ᵢⱼ indica se existe uma aresta entre o vértice 𝑖  e o vértice 𝑗.
+
+                                       Exemplo (grafo não direcionado): |   | A | B | C |
+                                                       | - | - | - | - |
+                                                       | A | 0 | 1 | 0 |
+                                                       | B | 1 | 0 | 1 |
+                                                       | C | 0 | 1 | 0 |
+
+                        Propriedades importantes: Em grafos não direcionados, a matriz é simétrica.
+
+                                                 Em grafos ponderados, o valor é o peso da aresta.
+
+                                                 Verificar se existe uma aresta é O(1) (muito rápido).
+
+
+                               
+
 
  Listas  de Asjacência
