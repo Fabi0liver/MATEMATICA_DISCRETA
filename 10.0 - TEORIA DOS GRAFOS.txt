@@ -162,3 +162,44 @@
  Por fim, temos a distância em grafos, que dá uma noção clara de proximidade. A distância entre dois vértices 𝑢 e  𝑣, indicada por 𝑑(𝑢,𝑣), é o comprimento do menor caminho entre eles, ou seja, o menor número de arestas necessário para sair de um e chegar ao outro. É como perguntar qual é o menor número de ruas que você precisa atravessar para ir de casa até a escola. Se não existe caminho entre dois vértices, dizemos que a distância é infinita, pois simplesmente não há como realizar o trajeto.
 
  Em suma, esses percursos transformam grafos em algo vivo e dinâmico. Eles nos ensinam a navegar por estruturas, medir distâncias, identificar conexões e entender limites. Tudo isso forma a base de muitos algoritmos clássicos que você verá adiante, como busca em grafos e otimização de caminhos. Se hoje você consegue imaginar um passeio, uma trilha ou um ciclo dentro de um grafo como se estivesse caminhando por uma cidade, então você está aprendendo do jeito certo. 
+
+
+
+Representações  mais comunsde Grafos:
+
+ Representação Gráfica: É a forma mais intuitiva: desenhar pontos e ligar com linhas. Ideal para entender a  
+                       estrutura geral do grafo.
+
+                          Os vértices são desenhados como pontos (ou círculos).
+
+                          As arestas são linhas ligando os vértices.
+
+                          Em grafos direcionados, usamos setas.
+
+                          Em grafos ponderados, colocamos pesos nas arestas.
+
+                         Essa representação não é única: o mesmo grafo pode ser desenhado de várias maneiras diferentes, desde 
+                                                              que as conexões sejam preservadas.
+
+                                                                 Limitação: não é prática para grafos grandes nem para implementação em computador.
+
+
+ Representação de Vértices e Arestas: Aqui descrevemos o grafo como um conjunto de pontos e um conjunto de conexões.
+
+                                                                                                     Formalmente, um grafo é definido como:  𝐺 = (𝑉, 𝐴)
+
+                                                                         𝑉 = conjunto de vértices
+
+                                                                         𝐴 = conjunto de arestas
+
+                                      Limitação: não mostra diretamente a vizinhança de cada vértice nem é 
+                                                eficiente para algoritmos.
+
+
+ Matriz de Adjacências: É uma tabela que diz quem está conectado com quem.
+
+                                                                Criamos uma matriz  𝑛 × 𝑛, onde 𝑛 é o número de vértices.
+
+                        A posição 𝐴ᵢⱼ indica se existe uma aresta entre o vértice 𝑖  e o vértice 𝑗.
+
+ Listas  de Asjacência
