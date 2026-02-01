@@ -173,77 +173,14 @@ A forma mais imediata e intuitiva é a representação gráfica. Nela, desenhamo
 
 Um ponto importante da representação gráfica é que ela não é única. O mesmo grafo pode ser desenhado de várias maneiras diferentes, desde que as conexões entre os vértices sejam preservadas. Isso é parecido com organizar móveis em um quarto: o layout pode mudar, mas as portas e janelas continuam ligando os mesmos espaços. A grande limitação dessa forma aparece quando o grafo cresce muito — desenhar dezenas ou centenas de vértices rapidamente se torna confuso e impraticável, além de não ser adequado para o computador trabalhar.
 
-Quando queremos mais formalidade, entramos na representação por conjuntos de vértices e arestas. Aqui descrevemos o grafo matematicamente como 
-𝐺
-=
-(
-𝑉
-,
-𝐴
-)
-G=(V,A), onde 
-𝑉
-V é o conjunto de vértices e 
-𝐴
-A é o conjunto de arestas. Por exemplo, se 
-𝑉
-=
-{
-𝐴
-,
-𝐵
-,
-𝐶
-}
-V={A,B,C} e 
-𝐴
-=
-{
-(
-𝐴
-,
-𝐵
-)
-,
-(
-𝐵
-,
-𝐶
-)
-}
-A={(A,B),(B,C)}, estamos dizendo claramente quem participa do grafo e quais conexões existem. Essa forma é como listar os ingredientes de uma receita: tudo está ali, bem definido e sem ambiguidades.
+Quando queremos mais formalidade, entramos na representação por conjuntos de vértices e arestas. Aqui descrevemos o grafo matematicamente como 𝐺 = (𝑉, 𝐴), onde 𝑉 é o conjunto de vértices e 𝐴 é o conjunto de arestas. Por exemplo, se 𝑉 = {𝐴, 𝐵, 𝐶} e 𝐴 = {(𝐴, 𝐵), (𝐵, 𝐶)}, estamos dizendo claramente quem participa do grafo e quais conexões existem. Essa forma é como listar os ingredientes de uma receita: tudo está ali, bem definido e sem ambiguidades.
 
 Essa representação é muito útil para definição teórica e provas matemáticas, pois elimina qualquer dúvida visual. No entanto, ela não mostra de forma imediata a vizinhança de cada vértice nem é prática para executar algoritmos. É como ter a lista de ruas de uma cidade, mas não um mapa: a informação existe, mas exige esforço para navegar por ela.
 
 Quando começamos a pensar em algoritmos, surge a matriz de adjacências. Nessa representação, criamos uma tabela 
-𝑛
-×
-𝑛
-n×n, onde 
-𝑛
-n é o número de vértices. Cada linha e cada coluna representam um vértice, e a posição 
-𝐴
-𝑖
-𝑗
-A
-ij
-	​
+𝑛 × 𝑛, onde 𝑛 é o número de vértices. Cada linha e cada coluna representam um vértice, e a posição 𝐴ᵢⱼ indica se existe uma aresta entre os vértices 𝑖 e 𝑗. Em grafos não direcionados, essa matriz é simétrica; em grafos ponderados, colocamos o peso da aresta no lugar do 1. É como uma planilha que responde rapidamente à pergunta: “esses dois pontos estão ligados?”.
 
- indica se existe uma aresta entre os vértices 
-𝑖
-i e 
-𝑗
-j. Em grafos não direcionados, essa matriz é simétrica; em grafos ponderados, colocamos o peso da aresta no lugar do 1. É como uma planilha que responde rapidamente à pergunta: “esses dois pontos estão ligados?”.
-
-A grande vantagem da matriz de adjacências é a rapidez: verificar se existe uma aresta é uma operação imediata, praticamente instantânea. Por outro lado, ela consome muito espaço, pois ocupa 
-𝑂
-(
-𝑛
-2
-)
-O(n
-2
-) posições, mesmo quando o grafo tem poucas arestas. É como reservar um enorme estacionamento mesmo quando apenas alguns carros aparecem — funciona, mas é pouco eficiente.
+A grande vantagem da matriz de adjacências é a rapidez: verificar se existe uma aresta é uma operação imediata, praticamente instantânea. Por outro lado, ela consome muito espaço, pois ocupa O(n²) posições, mesmo quando o grafo tem poucas arestas. É como reservar um enorme estacionamento mesmo quando apenas alguns carros aparecem — funciona, mas é pouco eficiente.
 
 Outra forma muito usada, especialmente em grafos grandes e esparsos, é a lista de adjacências. Nela, cada vértice mantém uma lista dos vértices aos quais está ligado. Por exemplo, se A está ligado a B, escrevemos A → B; se B está ligado a A e C, escrevemos B → A, C. Essa estrutura é parecida com a lista de contatos do celular: para cada pessoa, você guarda apenas quem realmente faz parte da sua rede direta.
 
