@@ -200,39 +200,12 @@ Uma boa analogia é pensar em uma árvore genealógica. Existe um ancestral comu
 
 Uma das propriedades fundamentais das árvores é que existe exatamente um único caminho entre quaisquer dois vértices. Isso significa que não há alternativas ou desvios possíveis. Imagine um jogo de tabuleiro onde, para chegar a uma casa específica, só existe um único trajeto válido. Essa característica elimina ambiguidades e torna as árvores ideais para representar decisões, hierarquias e fluxos bem definidos.
 
-Outra propriedade muito importante está na relação entre vértices e arestas. Em uma árvore com 
-𝑛
-n vértices, sempre existirão exatamente 
-𝑛
-−
-1
-n−1 arestas. Essa relação não é coincidência; ela reflete o equilíbrio perfeito entre conectar todos os pontos e evitar ciclos. É como montar uma receita de bolo onde cada ingrediente é essencial: se faltar um, a estrutura não se sustenta; se sobrar, algo dá errado.
+Outra propriedade muito importante está na relação entre vértices e arestas. Em uma árvore com 𝑛
+n vértices, sempre existirão exatamente 𝑛 − 1 arestas. Essa relação não é coincidência; ela reflete o equilíbrio perfeito entre conectar todos os pontos e evitar ciclos. É como montar uma receita de bolo onde cada ingrediente é essencial: se faltar um, a estrutura não se sustenta; se sobrar, algo dá errado.
 
-Quando introduzimos a ideia de ancestralidade, a árvore ganha um significado ainda mais intuitivo. Dado um vértice 
-𝑥
-x, qualquer vértice 
-𝑦
-y que esteja no caminho da raiz até 
-𝑥
-x é chamado de ancestral de 
-𝑥
-x. Voltando à analogia familiar, são todos os “antepassados” que levaram até aquela pessoa. Já 
-𝑥
-x é um descendente de 
-𝑦
-y se 
-𝑦
-y aparece nesse caminho, reforçando a noção de hierarquia e dependência.
+Quando introduzimos a ideia de ancestralidade, a árvore ganha um significado ainda mais intuitivo. Dado um vértice 𝑥, qualquer vértice 𝑦 que esteja no caminho da raiz até 𝑥 é chamado de ancestral de 𝑥. Voltando à analogia familiar, são todos os “antepassados” que levaram até aquela pessoa. Já 𝑥 é um descendente de 𝑦 se 𝑦 aparece nesse caminho, reforçando a noção de hierarquia e dependência.
 
-Dentro dessa hierarquia, surgem os conceitos de pai e filho. Um vértice 
-𝑥
-x é filho de 
-𝑦
-y quando ele é um descendente direto, sem intermediários, e 
-𝑦
-y é o pai de 
-𝑥
-x, sendo o ancestral mais próximo. A raiz é especial justamente porque ela não possui pai, funcionando como o ponto de partida absoluto. Pense nisso como uma rotina diária: você acorda (raiz), e a partir daí todas as ações seguintes dependem desse primeiro passo.
+Dentro dessa hierarquia, surgem os conceitos de pai e filho. Um vértice 𝑥 é filho de 𝑦 quando ele é um descendente direto, sem intermediários, e 𝑦 é o pai de 𝑥, sendo o ancestral mais próximo. A raiz é especial justamente porque ela não possui pai, funcionando como o ponto de partida absoluto. Pense nisso como uma rotina diária: você acorda (raiz), e a partir daí todas as ações seguintes dependem desse primeiro passo.
 
 Outro conceito essencial é o de folha, que são os vértices que não possuem filhos. Em uma árvore real, seriam as pontas dos galhos; em um processo, seriam as tarefas finais; em um jogo, os estados onde não há mais movimentos possíveis. As folhas representam conclusões, finais de caminhos, e ajudam a identificar onde a estrutura “termina”.
 
