@@ -228,9 +228,7 @@ Se juntarmos várias árvores separadas, temos o que chamamos de floresta. Uma f
 
 As árvores binárias merecem destaque especial. Em uma árvore binária, cada nó pode ter, no máximo, dois filhos. Mesmo sendo um conceito abstrato, ele é extremamente prático e aparece em inúmeras aplicações, como estruturas de busca e jogos de decisão. Pense em uma escolha do tipo “sim ou não”, “esquerda ou direita”: a cada passo, surgem no máximo dois caminhos possíveis, o que torna a árvore binária muito natural para representar decisões sequenciais.
 
-Generalizando essa ideia, chegamos às árvores m-árias, onde cada nó pode ter até 
-𝑚
-m filhos. Se a árvore binária limita a dois caminhos, a árvore m-ária permite mais opções. É como um menu de restaurante: em vez de apenas duas escolhas, você pode ter várias categorias e subcategorias. Essa flexibilidade é útil para representar estruturas mais complexas, como sistemas de arquivos ou classificações hierárquicas.
+Generalizando essa ideia, chegamos às árvores m-árias, onde cada nó pode ter até 𝑚 filhos. Se a árvore binária limita a dois caminhos, a árvore m-ária permite mais opções. É como um menu de restaurante: em vez de apenas duas escolhas, você pode ter várias categorias e subcategorias. Essa flexibilidade é útil para representar estruturas mais complexas, como sistemas de arquivos ou classificações hierárquicas.
 
 Um tipo extremamente importante na Teoria dos Grafos é a árvore geradora. Dado um grafo conexo, uma árvore geradora é uma subestrutura que conecta todos os vértices, sem ciclos, usando apenas algumas das arestas do grafo original. É como planejar uma rede mínima de estradas que ligue todas as cidades, sem desperdício. Árvores geradoras são fundamentais em redes, otimização e algoritmos clássicos.
 
