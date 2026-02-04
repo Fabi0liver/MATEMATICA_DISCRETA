@@ -255,10 +255,7 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
 
  Filho da direita e Filho da esquerda
 
- 
-     
-
-
+ Árvores Binárias Cheia: É uma árvore binária em que todas as folhas estão em uma mesma profundidade  e todos os nós internos têm grau 2 (tem os dois filhos). O número de vértices (nós) em uma árvore binária cheia é 2hʰ⁺¹ - 1, onde h é a altura da árvore.
 
 
  Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
