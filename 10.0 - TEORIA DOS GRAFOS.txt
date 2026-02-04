@@ -257,7 +257,25 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
 
  Árvores Binárias Cheia: É uma árvore binária em que todas as folhas estão em uma mesma profundidade  e todos os nós internos têm grau 2 (tem os dois filhos). O número de vértices (nós) em uma árvore binária cheia é 2hʰ⁺¹ - 1, onde h é a altura da árvore.
 
- Árvores Binárias Completa (tambem chmada de Quase Completa): Se a altura da árvore é h, cada nó folha está no nível h ou no nível h - 1.
+ Árvores Binárias Completa (tambem chamada de Quase Completa): Se a altura da árvore é h, cada nó folha está no nível h ou no nível h - 1.
+
+ Representação de Árvores Binárias em Tabela:     Esquerdo  |  Direito
+                                               |------------|-----------|
+                                             1 |     2      |     3     |
+                                               |------------|-----------|
+                                             2 |     4      |     5     |
+                                               |------------|-----------|
+                                             3 |     0      |     6     |
+                                               |------------|-----------|
+                                             4 |     0      |     0     |
+                                               |------------|-----------|
+                                             5 |     0      |     0     |
+                                               |------------|-----------|
+                                             3 |     0      |     0     |
+                                               |------------|-----------|
+
+
+
 
     
 
