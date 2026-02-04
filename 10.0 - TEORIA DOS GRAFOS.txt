@@ -227,25 +227,6 @@
 Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois de Básico na teoria de grafos, vamos continuar aprofundar mais nesse assunto falando sobre "Árvores" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
-Árvores:
-
-Definição formal: um grafo conexo e sem ciclos (acíclico) é chamado de Árvore, com um vértice (nó) especial, chamado de raiz.
-
-Propriedades fundamentais
-
-Relação entre vértices e arestas
-
-Ancestralidade: Seja x um vértice (nó) de uma árvore  com raiz r:
-
-                 Ancestral: é qualquer nó y no caminho de r a x
-                 Descendente: x é um descendente de y se y é ancestal de x.
-                 Filho: x é filhho de y se ele é um descendente direto.
-                 Pai: é o ancestral mais proximo. A raiz eo único nó sem pai.
-                 Folha: é um nó sem filhos.
-
-Altura e Profundidade
-
-Utilidade 
 
 
 
