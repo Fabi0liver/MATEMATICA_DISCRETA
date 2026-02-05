@@ -291,10 +291,10 @@ Entre os mais comuns temos:
 
  Pré-Ordem: Visita um nó, e após isso, visita seus descenntes (primeiro esquerda, depois direita)
 
-            Notação: Convencional (Infixa) 
+            Notação: Polonesa (Prefixa)
 
-            Sequencia: Exibir a folha esquerda (E)
-                       Exibir a raiz (R)
+            Sequencia: Exibir a raiz (R)
+                       Exibir a folha esquerda (E)
                        Exibir a folha (D)
 
             Exemplo:        Algoritmo PréOrdem (árv. Bin. com raiz p)
@@ -305,10 +305,10 @@ Entre os mais comuns temos:
 
  Ordem (Simétrica): Visita primeiro os descendentes da esquerda, depois o nó, e depois os descendentes da direita.
 
-                    Notação: Polonesa (Prefixa)
+                    Notação: Convencional (Infixa) 
 
-                    Sequencia: Exibir a raiz (R)
-                               Exibir a folha esquerda (E)
+                    Sequencia: Exibir a folha esquerda (E)
+                               Exibir a raiz (R)
                                Exibir a folha (D)
 
                     Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
@@ -324,7 +324,6 @@ Entre os mais comuns temos:
             Sequencia: Exibir a folha esquerda (E)
                        Exibir a folha (D)
                        Exibir a raiz (R)
-
 
             Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
                              Se p! = null
