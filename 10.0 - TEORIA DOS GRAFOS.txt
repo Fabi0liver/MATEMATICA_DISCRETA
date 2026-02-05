@@ -277,10 +277,27 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
                                              3 |     0      |     0     |
                                                |------------|-----------|
 
- Percusos em Árvores Binárias: Muitas vezes é necessário visitar ( acessar os dados ou fazer uma operação) todos os nós (vértices) de uma árvores, para isso é preciso criar um percurso (passeio) sistemático que visite todos os nós. Entre os mais comuns temos: Pré-Ordem, Ordem (Simétrica) e Pós-Ordem.
-
+ 
 
  Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
 
+
+
+Percusos em Árvores Binárias: 
+
+Muitas vezes é necessário visitar ( acessar os dados ou fazer uma operação) todos os nós (vértices) de uma árvores, para isso é preciso criar um percurso (passeio) sistemático que visite todos os nós. 
+
+Entre os mais comuns temos: 
+
+ Pré-Ordem: Você visita um nó, e após isso, visita seus descenntes (primeiro esquerda, depois direita)
+
+            Exemplo:        Algoritmo PréOrdem (árv. Bin com raiz p)
+                            Se p! = null
+                            PréOrdem (p.esquerda)
+                            PréOrdem (p.direita) 
+
+ 
+
+ Ordem (Simétrica) e Pós-Ordem.
 
 
