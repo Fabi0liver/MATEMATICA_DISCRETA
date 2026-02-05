@@ -293,9 +293,9 @@ Entre os mais comuns temos:
 
             Notação: Polonesa (Prefixa)
 
-            Sequencia: Exibir a raiz (R)
-                       Exibir a folha esquerda (E)
-                       Exibir a folha (D)
+                     Sequencia: Exibir a raiz (R)
+                                Exibir a folha esquerda (E)
+                                Exibir a folha (D)
 
             Exemplo:        Algoritmo PréOrdem (árv. Bin. com raiz p)
                              Se p! = null
@@ -307,9 +307,9 @@ Entre os mais comuns temos:
 
                     Notação: Convencional (Infixa) 
 
-                    Sequencia: Exibir a folha esquerda (E)
-                               Exibir a raiz (R)
-                               Exibir a folha (D)
+                              Sequencia: Exibir a folha esquerda (E)
+                                         Exibir a raiz (R)
+                                         Exibir a folha (D)
 
                     Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
                                      Se p! = null
@@ -321,9 +321,9 @@ Entre os mais comuns temos:
 
             Notação: Polonesa Inversa (Pósfixa)
 
-            Sequencia: Exibir a folha esquerda (E)
-                       Exibir a folha (D)
-                       Exibir a raiz (R)
+                     Sequencia: Exibir a folha esquerda (E)
+                                Exibir a folha (D)
+                                Exibir a raiz (R)
 
             Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
                              Se p! = null
