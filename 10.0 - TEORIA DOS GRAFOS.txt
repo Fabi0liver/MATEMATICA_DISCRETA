@@ -248,7 +248,6 @@
 
 Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois de entender o que são as Árvores e os Tipos de Árvores  na teoria de grafos, vamos continuar aprofundar mais em um Tipos de Árvores, aprodunde explique melhor as "Árvores Binárias" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
-
  Árvores Binárias:
 
  Definição: Uma árvore em que cada nó interno tem no máximo dois filhos.
