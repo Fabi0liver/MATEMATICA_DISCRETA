@@ -292,22 +292,32 @@ Entre os mais comuns temos:
  Pré-Ordem: Visita um nó, e após isso, visita seus descenntes (primeiro esquerda, depois direita)
 
             Exemplo:        Algoritmo PréOrdem (árv. Bin. com raiz p)
-                            Se p! = null
-                             PréOrdem (p.esquerda)
-                             PréOrdem (p.direita) 
+                             Se p! = null
+                              PréOrdem (p.esquerda)
+                              PréOrdem (p.direita) 
 
  
 
  Ordem (Simétrica): Visita primeiro os descendentes da esquerda, depois o nó, e depois os descendentes da direita.
 
                     Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
-                                    Se p! = null
-                                     SimOrdem (p.esquerda)
-                                     escreva (p)
-                                     SimOrdem (p.direita) 
+                                     Se p! = null
+                                      SimOrdem (p.esquerda)
+                                      escreva (p)
+                                      SimOrdem (p.direita) 
  
 
 
- Pós-Ordem.
+ Pós-Ordem: Só visita um nó, depois de visitar todos os seus descendentes (esquerda e direita)
+
+            Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
+                             Se p! = null
+                              PósOrdem (p.esquerda)
+                              PósOrdem (p.direita) 
+                              escreva (p)
+ 
+
+
+
 
 
