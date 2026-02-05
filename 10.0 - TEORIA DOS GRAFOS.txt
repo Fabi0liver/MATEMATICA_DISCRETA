@@ -165,7 +165,7 @@
 
 
 
-                                    "Representações Comuns de Grafos"
+                                      "Representações Comuns de Grafos"
 
  Depois de aprendermos a caminhar dentro dos grafos, surge uma pergunta muito natural: como representar um grafo de forma concreta? Afinal, dependendo do objetivo (entender a estrutura, resolver um problema ou implementar um algoritmo) a maneira como enxergamos e organizamos o grafo faz toda a diferença. É como uma receita de bolo: às vezes queremos ver uma foto do prato pronto, outras vezes precisamos da lista de ingredientes, e em certos momentos precisamos do passo a passo bem detalhado. Cada representação de grafo cumpre um papel diferente.
 
@@ -258,7 +258,11 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
 
  Árvores Binárias Completa (tambem chamada de Quase Completa): Se a altura da árvore é h, cada nó folha está no nível h ou no nível h - 1.
 
- Representação de Árvores Binárias em Tabela:     Esquerdo  |  Direito
+ Representação de Árvores Binárias em Tabela: A não ser as formas de representação comuns em grafos, na representação de árvore binária tambem se pode usar tabela.
+
+                                              Exemplo:
+ 
+                                                  Esquerdo  |  Direito
                                                |------------|-----------|
                                              1 |     2      |     3     |
                                                |------------|-----------|
@@ -272,6 +276,8 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
                                                |------------|-----------|
                                              3 |     0      |     0     |
                                                |------------|-----------|
+
+ Percusos em Árvore Binário
 
 
  Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
