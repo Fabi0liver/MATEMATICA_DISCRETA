@@ -337,6 +337,23 @@ Entre os mais comuns temos:
 
 Árvore Binária de Busca:
 
- Descrição: Uma Árvore Binária é dita de busca, se para todos seus nós (vértices), temos que o elemento deste nó é maior que todos os elementos dos nós da subárvore à sua esquerda, e menor que todos os elementos dos nós da subárvore à sua direita.
+ Descrição: Uma Árvore Binária é dita de busca, se para todos seus nós (vértices), temos que o elemento deste nó é 
+           maior que todos os elementos dos nós da subárvore à sua esquerda, e menor que todos os elementos dos nós 
+           da subárvore à sua direita.
+
+ Como se monta a árvore binária de busca?
+
+
+ Como se faz a busca na árvore binária de busca: Fazemos a busca do elemento x, comparando inicialmente com a raiz  
+                                                da árvore, e em cada nó p, agimos da seguinte forma:
+
+                                                   * Se x > p, comparamos com o filho da direita;
+                                                   * Se x < p, comparamos com o filho da esquerda
+
+                                                 Até que
+                                                   
+                                                   * x = p nesse caso, retorna que x pertence ao conjunto.
+                                                   * p não tem o filho que vai acessar, retorna que x não pertence 
+                                                    ao conjunto.
 
 
