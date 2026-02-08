@@ -281,6 +281,29 @@
 
 
 
+                                       "Percusos em Árvores Binárias"
+
+Depois de entender a estrutura das árvores binárias, surge uma pergunta natural: como visitar todos os nós de forma organizada? Em muitas situações, não basta saber que os nós existem; precisamos acessá-los para ler valores, fazer cálculos ou tomar decisões. Para isso, usamos os chamados percursos em árvores binárias, que são maneiras sistemáticas de caminhar pela árvore garantindo que nenhum nó fique de fora.
+
+Uma boa analogia é pensar em uma rotina de limpeza da casa. Você pode começar pelo quarto principal, depois ir para os outros cômodos, ou pode limpar tudo que está à esquerda primeiro, depois o centro e depois a direita. O importante é seguir um método claro. Nos percursos em árvores binárias, fazemos exatamente isso: definimos uma ordem fixa para visitar a raiz, o lado esquerdo e o lado direito.
+
+O percurso em pré-ordem segue a lógica “visite primeiro, explore depois”. Nele, o nó atual é visitado antes de seus descendentes. Primeiro acessamos a raiz, depois percorremos toda a subárvore da esquerda e, por fim, toda a subárvore da direita. É como apresentar uma receita de bolo dizendo primeiro o nome do prato, depois explicando os ingredientes da esquerda para a direita na bancada.
+
+Esse tipo de percurso está associado à notação polonesa (prefixa), porque o operador ou elemento principal aparece antes dos seus componentes. A sequência clássica é R-E-D: raiz, esquerda, direita. Em termos práticos, quando usamos o algoritmo de pré-ordem, sempre que encontramos um nó, já “mostramos” seu valor antes de continuar o passeio pelos filhos.
+
+Agora imagine que você prefere observar tudo com mais calma, analisando primeiro o que está à esquerda, depois o centro e só então o que está à direita. Essa é a ideia do percurso em ordem, também chamado de percurso simétrico. Aqui, primeiro visitamos a subárvore esquerda, depois o nó atual e, por fim, a subárvore direita.
+
+Esse percurso está ligado à notação convencional (infixa), muito comum em expressões matemáticas. A sequência é E-R-D. É como ler uma frase: você entende o começo, depois o núcleo da ideia, e só então a conclusão. Em árvores binárias de busca, esse percurso tem uma propriedade especial: ele visita os nós em ordem crescente, o que o torna extremamente útil.
+
+No algoritmo de percurso em ordem, o nó só é exibido depois que todo o lado esquerdo já foi processado. Isso dá a sensação de que o nó “espera sua vez”, como alguém em uma fila organizada, respeitando quem chegou antes do lado esquerdo.
+
+Já o percurso em pós-ordem segue uma lógica diferente: o nó só é visitado depois que todos os seus descendentes foram visitados. Primeiro percorremos a esquerda, depois a direita, e só no final exibimos a raiz. A sequência é E-D-R, e ela está associada à notação polonesa inversa (pós-fixa).
+
+Uma analogia simples é a de montar um móvel. Antes de apertar o último parafuso e declarar o trabalho concluído, você precisa montar todas as peças menores. O nó raiz representa esse “final”, que só faz sentido depois que todo o restante está pronto. Por isso, o pós-ordem é muito usado quando queremos liberar memória ou avaliar expressões.
+
+Observando os três percursos, perceba que todos visitam os mesmos nós, mas em ordens diferentes, cada uma com um propósito. É como jogar o mesmo jogo de tabuleiro seguindo estratégias distintas: o tabuleiro é o mesmo, mas o caminho muda conforme o objetivo. Nenhum percurso é “melhor” em absoluto; tudo depende do que você quer fazer com a árvore.
+
+Para encerrar essa aula, quero que você leve a ideia central: percursos são formas de pensar o problema, não apenas regras mecânicas. Quando você entende a lógica por trás da pré-ordem, da ordem e da pós-ordem, passa a enxergar árvores binárias como ferramentas vivas, capazes de organizar decisões, cálculos e informações. Continue explorando esses conceitos com curiosidade — dominar percursos é um passo enorme rumo à compreensão profunda dos algoritmos e da estrutura do pensamento computacional.
 
 
 
