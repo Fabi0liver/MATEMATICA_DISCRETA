@@ -344,16 +344,18 @@ Entre os mais comuns temos:
  Como se monta a árvore binária de busca?
 
 
- Como se faz a busca na árvore binária de busca: Fazemos a busca do elemento x, comparando inicialmente com a raiz  
-                                                da árvore, e em cada nó p, agimos da seguinte forma:
+ Como se faz a busca na árvore binária: Fazemos a busca do elemento x, comparando inicialmente com a raiz  
+                                       da árvore, e em cada nó p, agimos da seguinte forma:
 
-                                                   * Se x > p, comparamos com o filho da direita;
-                                                   * Se x < p, comparamos com o filho da esquerda
+                                           * Se x > p, comparamos com o filho da direita;
+                                           * Se x < p, comparamos com o filho da esquerda
 
-                                                 Até que
+                                         Até que:
                                                    
-                                                   * x = p nesse caso, retorna que x pertence ao conjunto.
-                                                   * p não tem o filho que vai acessar, retorna que x não pertence 
-                                                    ao conjunto.
+                                           * x = p nesse caso, retorna que x pertence ao conjunto.
+                                           * p não tem o filho que vai acessar, retorna que x não pertence ao 
+                                            conjunto.
+
+ Pior caso de busca na árvore binária 
 
 
