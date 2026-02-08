@@ -335,6 +335,8 @@ Entre os mais comuns temos:
  
 
 
-Árvore Binária de Busca
+Árvore Binária de Busca:
+
+ Descrição: Uma Árvore Binária é dita de busca, se para todos seus nós (vértices), temos que o elemento deste nó é maior que todos os elementos dos nós da subárvore à sua esquerda, e menor que todos os elementos dos nós da subárvore à sua direita.
 
 
