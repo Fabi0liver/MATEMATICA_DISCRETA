@@ -248,30 +248,11 @@ Esses dois possíveis filhos recebem nomes importantes: filho da esquerda e filh
 
 Imagine agora uma árvore binária como uma receita de bolo bem estruturada. Cada passo pode levar a, no máximo, dois próximos passos possíveis. Se você fez a massa corretamente, segue para assar; se não, volta e ajusta. Essa limitação a dois caminhos evita confusão e torna o processo mais fácil de seguir, exatamente como acontece nas árvores binárias.
 
-Um tipo especial é a árvore binária cheia. Nela, todos os nós internos possuem exatamente dois filhos, e todas as folhas estão na mesma profundidade. É como um prédio perfeitamente simétrico, onde todos os andares têm o mesmo número de apartamentos e todos chegam exatamente à mesma altura. Essa regularidade permite até calcular facilmente quantos nós existem na árvore usando a fórmula 
-2
-ℎ
-+
-1
-−
-1
-2
-h+1
-−1, onde 
-ℎ
-h é a altura da árvore.
+Um tipo especial é a árvore binária cheia. Nela, todos os nós internos possuem exatamente dois filhos, e todas as folhas estão na mesma profundidade. É como um prédio perfeitamente simétrico, onde todos os andares têm o mesmo número de apartamentos e todos chegam exatamente à mesma altura. Essa regularidade permite até calcular facilmente quantos nós existem na árvore usando a fórmula 2ℎʰ⁺¹ - 1, onde ℎ é a altura da árvore.
 
 Essa fórmula pode parecer abstrata à primeira vista, mas pense em dobrar escolhas a cada nível. No primeiro nível, uma opção; no segundo, duas; depois quatro; depois oito. É como um torneio eliminatório em que cada rodada dobra o número de partidas. Ao final, o total de participantes segue exatamente esse crescimento exponencial.
 
-Já a árvore binária completa, também chamada de quase completa, é um pouco mais flexível. Se a altura da árvore é 
-ℎ
-h, então as folhas podem estar no nível 
-ℎ
-h ou no nível 
-ℎ
-−
-1
-h−1. Em termos do cotidiano, imagine uma estante sendo preenchida da esquerda para a direita. As prateleiras de cima estão cheias, e a última pode não estar totalmente completa — mas ainda assim tudo está organizado, sem buracos no meio.
+Já a árvore binária completa, também chamada de quase completa, é um pouco mais flexível. Se a altura da árvore é ℎ, então as folhas podem estar no nível ℎ ou no nível ℎ −1. Em termos do cotidiano, imagine uma estante sendo preenchida da esquerda para a direita. As prateleiras de cima estão cheias, e a última pode não estar totalmente completa, mas ainda assim tudo está organizado, sem buracos no meio.
 
 Esse tipo de árvore é extremamente comum na prática porque equilibra bem eficiência e flexibilidade. Ela não exige perfeição absoluta como a árvore cheia, mas ainda mantém uma estrutura compacta, o que é ótimo para economizar espaço e acelerar operações, como acontece em filas de prioridade ou heaps.
 
