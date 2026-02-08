@@ -287,42 +287,7 @@
 
 
 
-Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois de entender o que são as Árvores e os Tipos de Árvores  na teoria de grafos, vamos continuar aprofundar mais em um Tipos de Árvores, aprodunde explique melhor as "Árvores Binárias" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
-
- Árvores Binárias:
-
- Definição: Uma árvore em que cada nó interno tem no máximo dois filhos.
-
- Filho da direita e Filho da esquerda
-
- Árvores Binárias Cheia: É uma árvore binária em que todas as folhas estão em uma mesma profundidade  e todos os nós internos têm grau 2 (tem os dois filhos). O número de vértices (nós) em uma árvore binária cheia é 2hʰ⁺¹ - 1, onde h é a altura da árvore.
-
- Árvores Binárias Completa (tambem chamada de Quase Completa): Se a altura da árvore é h, cada nó folha está no nível h ou no nível h - 1.
-
- Representação de Árvores Binárias em Tabela: A não ser as formas de representação comuns em grafos, na representação de árvore binária tambem se pode usar tabela.
-
-                                              Exemplo:
- 
-                                                  Esquerdo  |  Direito
-                                               |------------|-----------|
-                                             1 |     2      |     3     |
-                                               |------------|-----------|
-                                             2 |     4      |     5     |
-                                               |------------|-----------|
-                                             3 |     0      |     6     |
-                                               |------------|-----------|
-                                             4 |     0      |     0     |
-                                               |------------|-----------|
-                                             5 |     0      |     0     |
-                                               |------------|-----------|
-                                             3 |     0      |     0     |
-                                               |------------|-----------|
-
- 
-
- Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
-
-
+Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois de entender o que são as Árvores , os Tipos de Árvores na teoria de grafos e aprofundar em Árvores Binárias, vamos continuar aprofundar mais em Árvores Binárias, explicando os "Percusos em Árvores Binárias" na teoria de grafos em 10 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
 Percusos em Árvores Binárias: 
 
@@ -371,6 +336,13 @@ Entre os mais comuns temos:
                              PósOrdem (p.esquerda)
                              PósOrdem (p.direita) 
                              escreva (p)
+
+
+ 
+ Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
+
+
+
 
             
  
