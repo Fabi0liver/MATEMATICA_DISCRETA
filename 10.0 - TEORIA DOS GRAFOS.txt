@@ -310,55 +310,6 @@
 
 Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois de entender o que são as Árvores , os Tipos de Árvores na teoria de grafos e aprofundar em Árvores Binárias, vamos continuar aprofundar mais em Árvores Binárias, explicando os "Percusos em Árvores Binárias" na teoria de grafos em 10 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
-Percusos em Árvores Binárias: 
-
-Muitas vezes é necessário visitar ( acessar os dados ou fazer uma operação) todos os nós (vértices) de uma árvores, para isso é preciso criar um percurso (passeio) sistemático que visite todos os nós. 
-
-Entre os mais comuns temos: 
-
- Pré-Ordem: Visita um nó, e após isso, visita seus descenntes (primeiro esquerda, depois direita)
-
-            Notação: Polonesa (Prefixa)
-
-                     Sequencia: Exibir a raiz (R)
-                                Exibir a folha esquerda (E)
-                                Exibir a folha (D)
-
-            Exemplo:        Algoritmo PréOrdem (árv. Bin. com raiz p)
-                             Se p! = null
-                             escreva (p)
-                             PréOrdem (p.esquerda)
-                             PréOrdem (p.direita) 
-
- Ordem (Simétrica): Visita primeiro os descendentes da esquerda, depois o nó, e depois os descendentes da direita.
-
-                    Notação: Convencional (Infixa) 
-
-                              Sequencia: Exibir a folha esquerda (E)
-                                         Exibir a raiz (R)
-                                         Exibir a folha (D)
-
-                    Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
-                                     Se p! = null
-                                     SimOrdem (p.esquerda)
-                                     escreva (p)
-                                     SimOrdem (p.direita) 
-        
- Pós-Ordem: Só visita um nó, depois de visitar todos os seus descendentes (esquerda e direita)
-
-            Notação: Polonesa Inversa (Pósfixa)
-
-                     Sequencia: Exibir a folha esquerda (E)
-                                Exibir a folha (D)
-                                Exibir a raiz (R)
-
-            Exemplo:        Algoritmo SimOrdem (árv. Bin. com raiz p)
-                             Se p! = null
-                             PósOrdem (p.esquerda)
-                             PósOrdem (p.direita) 
-                             escreva (p)
-
-
  
  Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
 
