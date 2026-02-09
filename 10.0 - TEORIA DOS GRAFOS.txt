@@ -258,23 +258,6 @@
 
  Além de desenhar árvores binárias como grafos tradicionais, também podemos representá-las usando tabelas. Nessa representação, cada linha indica um nó, e as colunas mostram quem é seu filho esquerdo e quem é seu filho direito. É como uma planilha de controle, onde cada pessoa tem anotado quem são seus dois contatos diretos. Quando aparece o valor zero, isso indica ausência de filho, deixando claro onde a árvore termina.
 
- Exemplo:
- 
-                              Esquerdo  |  Direito
-                           |------------|-----------|
-                         1 |     2      |     3     |
-                           |------------|-----------|
-                         2 |     4      |     5     |
-                           |------------|-----------|
-                         3 |     0      |     6     |
-                           |------------|-----------|
-                         4 |     0      |     0     |
-                           |------------|-----------|
-                         5 |     0      |     0     |
-                           |------------|-----------|
-                         3 |     0      |     0     |
-                           |------------|-----------|
-
  Essa forma tabular é muito usada em implementações computacionais porque é direta, organizada e fácil de manipular. Para o computador, é como ter uma lista bem arrumada em vez de um desenho complexo. Para nós, humanos, ela ajuda a enxergar rapidamente a estrutura da árvore sem precisar desenhá-la inteira.
 
  Em suma, árvores binárias não são apenas um conceito teórico, mas uma ferramenta poderosa para pensar problemas de forma estruturada. Elas ensinam como dividir decisões, organizar informações e construir algoritmos eficientes. 
