@@ -294,28 +294,6 @@
 Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois de entender o que são as Árvores , os Tipos de Árvores na teoria de grafos e aprofundar em Árvores Binárias, vamos continuar aprofundar mais em Árvores Binárias, explicando os "Árvore Binária de Busca" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
-Árvore Binária de Busca:
-
- Descrição: Uma Árvore Binária é dita de busca, se para todos seus nós (vértices), temos que o elemento deste nó é 
-           maior que todos os elementos dos nós da subárvore à sua esquerda, e menor que todos os elementos dos nós 
-           da subárvore à sua direita.
-
- Como se monta a árvore binária de busca?
-
-
- Como se faz a busca na árvore binária: Fazemos a busca do elemento x, comparando inicialmente com a raiz  
-                                       da árvore, e em cada nó p, agimos da seguinte forma:
-
-                                           * Se x > p, comparamos com o filho da direita;
-                                           * Se x < p, comparamos com o filho da esquerda
-
-                                         Até que:
-                                                   
-                                           * x = p nesse caso, retorna que x pertence ao conjunto.
-                                           * p não tem o filho que vai acessar, retorna que x não pertence ao 
-                                            conjunto.
-
- Pior caso de busca na árvore binária 
 
 
  
