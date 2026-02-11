@@ -312,27 +312,9 @@
 
 Agora que já caminhamos pelas árvores, seus tipos e estruturas especiais, vamos dar mais um passo elegante dentro da Teoria dos Grafos: as Árvores Geradoras. Imagine que você tem um mapa com várias cidades conectadas por estradas. Esse mapa é um grafo. Agora pense que você quer manter todas as cidades conectadas, mas usando o menor número possível de estradas, sem criar voltas desnecessárias. É exatamente essa ideia que está por trás de uma árvore geradora: preservar todos os vértices, mas eliminar ciclos, mantendo a estrutura conectada e enxuta.
 
-Formalmente, seja 
-𝐺
-G um grafo simples. Uma árvore geradora de 
-𝐺
-G é um subgrafo que contém todos os vértices de 
-𝐺
-G, é conexo e não possui ciclos. Em outras palavras, pegamos o grafo original e “podamos” algumas arestas até que reste apenas o essencial para manter todos os vértices ligados. É como transformar uma rede cheia de caminhos alternativos em uma rede básica, mas ainda funcional. Nenhum vértice fica de fora, mas eliminamos as “voltas” desnecessárias.
+Formalmente, seja 𝐺 um grafo simples. Uma árvore geradora de 𝐺 é um subgrafo que contém todos os vértices de 𝐺, é conexo e não possui ciclos. Em outras palavras, pegamos o grafo original e “podamos” algumas arestas até que reste apenas o essencial para manter todos os vértices ligados. É como transformar uma rede cheia de caminhos alternativos em uma rede básica, mas ainda funcional. Nenhum vértice fica de fora, mas eliminamos as “voltas” desnecessárias.
 
-Uma característica importante é que, se um grafo possui 
-𝑛
-n vértices, qualquer árvore geradora terá exatamente 
-𝑛
-−
-1
-n−1 arestas. Isso não é coincidência; é uma propriedade fundamental das árvores. Pense em organizar um grupo de 
-𝑛
-n pessoas em uma corrente de mãos dadas. Para que todos fiquem conectados sem formar um círculo fechado, você precisará exatamente de 
-𝑛
-−
-1
-n−1 conexões. Se adicionar mais uma, forma-se um ciclo; se tirar uma, alguém fica desconectado.
+Uma característica importante é que, se um grafo possui 𝑛 vértices, qualquer árvore geradora terá exatamente 𝑛 − 1 arestas. Isso não é coincidência; é uma propriedade fundamental das árvores. Pense em organizar um grupo de 𝑛 pessoas em uma corrente de mãos dadas. Para que todos fiquem conectados sem formar um círculo fechado, você precisará exatamente de 𝑛 − 1 conexões. Se adicionar mais uma, forma-se um ciclo; se tirar uma, alguém fica desconectado.
 
 Aqui entra um teorema elegante e muito importante: um grafo simples é conexo se, e somente se, possui uma árvore geradora. Isso significa que a existência de uma árvore geradora é a “prova estrutural” de que o grafo está todo interligado. Se não for possível encontrar uma árvore geradora que inclua todos os vértices, é porque o grafo está dividido em partes separadas. É como verificar se todas as salas de uma casa estão acessíveis sem precisar sair dela.
 
