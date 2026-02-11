@@ -318,6 +318,8 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
  Descrição: Seja G um grafo simples. Uma árvore geradora de G é um suvbgrafo de G qu é uma árvore e conté, todos os                 
            vértices de G.
 
+ Teorema: Um grafo simples é conexo se , e somente se, possui uma árvore geradora.
+
  Árvore geradora mínima (conceito teórico)
 
  Propriedades e aplicações estruturais
