@@ -304,9 +304,7 @@ Se durante a busca encontramos um nó com valor igual a x, sabemos que o element
 
 No entanto, nem tudo são flores. O pior caso de busca acontece quando a árvore fica desbalanceada, parecendo mais uma lista ligada do que uma árvore. Isso ocorre, por exemplo, quando inserimos os valores já ordenados, como 10, 20, 30, 40. Nesse caso, todos os nós ficam à direita, e a busca passa a ser lenta, exigindo comparação com praticamente todos os elementos. É como procurar um livro em uma pilha desorganizada: você acaba tendo que olhar um por um.
 
-Mesmo com essa limitação, a árvore binária de busca continua sendo uma estrutura fundamental, pois quando bem organizada oferece buscas rápidas e eficientes. Ela serve de base para estruturas mais avançadas, como árvores balanceadas, e aparece constantemente em algoritmos e sistemas reais. Ao dominar esse conceito, você dá um passo enorme rumo a entender como computadores organizam, armazenam e recuperam informações de forma inteligente. Continue explorando com curiosidade — cada novo conceito é como adicionar uma ferramenta poderosa à sua caixa de conhecimentos em algoritmos.
-
-
+Em suma, a árvore binária de busca continua sendo uma estrutura fundamental, pois quando bem organizada oferece buscas rápidas e eficientes. Ela serve de base para estruturas mais avançadas, como árvores balanceadas, e aparece constantemente em algoritmos e sistemas reais. Ao dominar esse conceito, você dá um passo enorme rumo a entender como computadores organizam, armazenam e recuperam informações de forma inteligente. 
 
 
 
