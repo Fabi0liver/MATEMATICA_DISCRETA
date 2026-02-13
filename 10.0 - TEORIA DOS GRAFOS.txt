@@ -337,31 +337,9 @@ Pense nisso como navegar em uma rede social onde você só pode seguir pessoas, 
 
 Um resultado importante nos diz que, em um grafo com 𝑛 vértices, qualquer passeio de comprimento 𝑛 + 1 necessariamente repete pelo menos um vértice. Isso acontece porque, com apenas 𝑛 vértices disponíveis, ao dar 𝑛 + 1 passos você obrigatoriamente volta a passar por algum lugar já visitado. É como visitar salas em um prédio com número limitado de salas: se você entrar em mais salas do que o prédio possui, inevitavelmente repetirá alguma.
 
-Quando falamos em acessibilidade de comprimento 1, estamos nos referindo apenas às conexões diretas. Ou seja, existe uma aresta saindo de um vértice e chegando a outro. A matriz de adjacência 
-𝐴
-A nos mostra exatamente essas conexões imediatas. Cada entrada da matriz indica se há ou não uma ligação direta entre dois vértices. É como um mapa que mostra apenas voos diretos entre cidades, sem considerar escalas.
+Quando falamos em acessibilidade de comprimento 1, estamos nos referindo apenas às conexões diretas. Ou seja, existe uma aresta saindo de um vértice e chegando a outro. A matriz de adjacência 𝐴 nos mostra exatamente essas conexões imediatas. Cada entrada da matriz indica se há ou não uma ligação direta entre dois vértices. É como um mapa que mostra apenas voos diretos entre cidades, sem considerar escalas.
 
-Mas nem toda acessibilidade é direta. Muitas vezes precisamos considerar caminhos mais longos. Se um vértice 
-𝑣
-𝑖
-v
-i
-	​
-
- é acessível a 
-𝑣
-𝑗
-v
-j
-	​
-
- em um grafo com 
-𝑛
-n vértices, então existe um passeio entre eles com comprimento menor ou igual a 
-𝑛
-n. Isso acontece justamente porque, se o caminho fosse maior que 
-𝑛
-n, algum vértice teria sido repetido, permitindo simplificar o percurso. É como cortar voltas desnecessárias em um trajeto e chegar ao destino de forma mais eficiente.
+Mas nem toda acessibilidade é direta. Muitas vezes precisamos considerar caminhos mais longos. Se um vértice vᵢ é acessível a vⱼ em um grafo com 𝑛 vértices, então existe um passeio entre eles com comprimento menor ou igual a 𝑛. Isso acontece justamente porque, se o caminho fosse maior que 𝑛, algum vértice teria sido repetido, permitindo simplificar o percurso. É como cortar voltas desnecessárias em um trajeto e chegar ao destino de forma mais eficiente.
 
 Para analisar essas acessibilidades mais longas, utilizamos potências da matriz de adjacência. A matriz 
 𝐴
