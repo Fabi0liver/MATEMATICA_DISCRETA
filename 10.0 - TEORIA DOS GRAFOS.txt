@@ -331,35 +331,7 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
                                       "Acessibilidade em Grafos"
 
- Agora vamos dar um passo além na Teoria dos Grafos e conversar sobre um conceito fundamental quando trabalhamos com grafos direcionados: a acessibilidade. Imagine que estamos analisando um conjunto de cidades conectadas por estradas de mão única. Nem sempre é possível ir de uma cidade para outra, porque a direção da estrada importa. Em grafos direcionados, essa ideia é representada pelas setas nas arestas. Dizemos que um vértice 
-𝑣
-𝑖
-v
-i
-	​
-
- é acessível a partir de 
-𝑣
-𝑗
-v
-j
-	​
-
- se existir um passeio que comece em 
-𝑣
-𝑗
-v
-j
-	​
-
- e termine em 
-𝑣
-𝑖
-v
-i
-	​
-
-. Em termos simples: existe um caminho possível respeitando as direções.
+ Agora vamos dar um passo além na Teoria dos Grafos e conversar sobre um conceito fundamental quando trabalhamos com grafos direcionados: a acessibilidade. Imagine que estamos analisando um conjunto de cidades conectadas por estradas de mão única. Nem sempre é possível ir de uma cidade para outra, porque a direção da estrada importa. Em grafos direcionados, essa ideia é representada pelas setas nas arestas. Dizemos que um vértice vᵢ é acessível a partir de vⱼ se existir um passeio que comece em vⱼ e termine em vᵢ. Em termos simples: existe um caminho possível respeitando as direções.
 
 Pense nisso como navegar em uma rede social onde você só pode seguir pessoas, mas não necessariamente voltar pelo mesmo caminho. Se você consegue chegar ao perfil de alguém seguindo uma sequência de conexões, então esse perfil é acessível a partir do seu. A acessibilidade, portanto, responde à pergunta: “Consigo chegar lá a partir daqui?”. Esse conceito é central quando estudamos alcance, propagação de informações e conectividade em sistemas direcionados.
 
