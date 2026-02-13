@@ -335,19 +335,7 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
 Pense nisso como navegar em uma rede social onde você só pode seguir pessoas, mas não necessariamente voltar pelo mesmo caminho. Se você consegue chegar ao perfil de alguém seguindo uma sequência de conexões, então esse perfil é acessível a partir do seu. A acessibilidade, portanto, responde à pergunta: “Consigo chegar lá a partir daqui?”. Esse conceito é central quando estudamos alcance, propagação de informações e conectividade em sistemas direcionados.
 
-Um resultado importante nos diz que, em um grafo com 
-𝑛
-n vértices, qualquer passeio de comprimento 
-𝑛
-+
-1
-n+1 necessariamente repete pelo menos um vértice. Isso acontece porque, com apenas 
-𝑛
-n vértices disponíveis, ao dar 
-𝑛
-+
-1
-n+1 passos você obrigatoriamente volta a passar por algum lugar já visitado. É como visitar salas em um prédio com número limitado de salas: se você entrar em mais salas do que o prédio possui, inevitavelmente repetirá alguma.
+Um resultado importante nos diz que, em um grafo com 𝑛 vértices, qualquer passeio de comprimento 𝑛 + 1 necessariamente repete pelo menos um vértice. Isso acontece porque, com apenas 𝑛 vértices disponíveis, ao dar 𝑛 + 1 passos você obrigatoriamente volta a passar por algum lugar já visitado. É como visitar salas em um prédio com número limitado de salas: se você entrar em mais salas do que o prédio possui, inevitavelmente repetirá alguma.
 
 Quando falamos em acessibilidade de comprimento 1, estamos nos referindo apenas às conexões diretas. Ou seja, existe uma aresta saindo de um vértice e chegando a outro. A matriz de adjacência 
 𝐴
