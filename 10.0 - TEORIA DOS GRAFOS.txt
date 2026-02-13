@@ -341,47 +341,10 @@ Quando falamos em acessibilidade de comprimento 1, estamos nos referindo apenas 
 
 Mas nem toda acessibilidade é direta. Muitas vezes precisamos considerar caminhos mais longos. Se um vértice vᵢ é acessível a vⱼ em um grafo com 𝑛 vértices, então existe um passeio entre eles com comprimento menor ou igual a 𝑛. Isso acontece justamente porque, se o caminho fosse maior que 𝑛, algum vértice teria sido repetido, permitindo simplificar o percurso. É como cortar voltas desnecessárias em um trajeto e chegar ao destino de forma mais eficiente.
 
-Para analisar essas acessibilidades mais longas, utilizamos potências da matriz de adjacência. A matriz 
-𝐴
-2
-A
-2
-, por exemplo, indica acessibilidades por caminhos de comprimento 2. De forma geral, 
-𝐴
-𝑛
-A
-n
- — calculada usando o produto booleano — fornece informações sobre caminhos de comprimento 
-𝑛
-n. Cada multiplicação revela novas possibilidades de alcance, como descobrir que duas cidades não têm voo direto, mas podem ser conectadas com uma escala.
+Para analisar essas acessibilidades mais longas, utilizamos potências da matriz de adjacência. A matriz 𝐴², por exemplo, indica acessibilidades por caminhos de comprimento 2. De forma geral,  𝐴ⁿ (calculada usando o produto booleano) fornece informações sobre caminhos de comprimento 𝑛. Cada multiplicação revela novas possibilidades de alcance, como descobrir que duas cidades não têm voo direto, mas podem ser conectadas com uma escala.
 
-Quando combinamos todas essas informações, construímos a chamada matriz de acessibilidade 
-𝑅
-R, que é dada por 
-𝑅
-=
-𝐴
-1
-∨
-𝐴
-2
-∨
-𝐴
-3
-∨
-⋯
-∨
-𝐴
-𝑛
-R=A
-1
-∨A
-2
-∨A
-3
-∨⋯∨A
-n
-. Essa matriz resume todos os casos possíveis de acessibilidade entre os vértices do grafo. É como um painel completo que mostra todas as rotas possíveis entre quaisquer duas cidades, independentemente do número de conexões intermediárias.
+Quando combinamos todas essas informações, construímos a chamada matriz de acessibilidade 𝑅, que é dada por 
+𝑅 = 𝐴¹ v 𝐴² v 𝐴³ ... 𝐴ⁿ. Essa matriz resume todos os casos possíveis de acessibilidade entre os vértices do grafo. É como um painel completo que mostra todas as rotas possíveis entre quaisquer duas cidades, independentemente do número de conexões intermediárias.
 
 Perceba como esse conceito amplia nossa visão sobre grafos. Não estamos mais olhando apenas para conexões locais, mas para o alcance global da estrutura. Acessibilidade é essencial em áreas como redes de computadores, análise de dependências em projetos e estudo de sistemas dinâmicos. Quando você entende acessibilidade, passa a enxergar grafos como sistemas vivos, onde a informação pode se propagar e se transformar.
 
