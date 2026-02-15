@@ -359,7 +359,10 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
 
 Grafos Eulerianos:
 
- Caminho euleriano
+ Descrição: Um grafo será Euleriano se existe um atrilha fechada ( não repetarestas / começa e termina no mesmo 
+           vértice) que passa por todas as arestas G.
+
+ Caminho e Ciclo  euleriano
 
  Ciclo euleriano
 
