@@ -354,7 +354,7 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
 
 
-Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois da explicação base sobre grafos, sobre as Árvores e alguns dos seus termos, vamos continuar aprofundar mais em grafos, explicando os "Acessibilidade em Grafos" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois da explicação base sobre grafos, sobre as Árvores e alguns dos seus termos, vamos continuar aprofundar mais em grafos, explicando os "Grafos Eulerianos" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
 Grafos Eulerianos:
