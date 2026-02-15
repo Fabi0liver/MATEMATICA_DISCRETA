@@ -359,7 +359,7 @@ Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos
 
 Grafos Eulerianos:
 
- Descrição: Um grafo será Euleriano se existe um atrilha fechada ( não repetarestas / começa e termina no mesmo 
+ Descrição: Um grafo será Euleriano se existe uma trilha fechada ( não repete arestas / começa e termina no mesmo 
            vértice) que passa por todas as arestas G.
 
  Caminho e Ciclo  euleriano
@@ -370,11 +370,12 @@ Grafos Eulerianos:
 
  Critérios de Euler para grafos não direcionados
 
- Grafos semi-eulerianos
+ Grafos semi-eulerianos: Um grafo será Semieuleriano se existe uma trilha aberta (não repete arestas / começa e 
+                       termina em vértices diferentes) que passa por todas as arestas G.
 
  Euler em grafos direcionados
 
- Teorema de Euler
+ Teorema de Euler: Um grafo conexo G é Euleriano se, e somente se, todos seus vértices tem grau par.
 
  Aplicações clássicas
 
