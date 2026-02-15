@@ -373,9 +373,12 @@ Grafos Eulerianos:
  Grafos semi-eulerianos: Um grafo será Semieuleriano se existe uma trilha aberta (não repete arestas / começa e 
                        termina em vértices diferentes) que passa por todas as arestas G.
 
+
  Euler em grafos direcionados
 
  Teorema de Euler: Um grafo conexo G é Euleriano se, e somente se, todos seus vértices tem grau par.
+
+                  Um grafo conexo G é Semieuleriano se, e somente se, G tem dois vértices de grau ímpar.
 
  Aplicações clássicas
 
