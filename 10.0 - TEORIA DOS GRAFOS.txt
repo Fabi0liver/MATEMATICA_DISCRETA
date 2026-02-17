@@ -378,30 +378,6 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois da explicação base sobre grafos, sobre as Árvores e alguns dos seus termos, vamos continuar aprofundar mais em grafos, explicando os "Grafos Eulerianos" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
-Grafos Eulerianos:
-
- Descrição: Um grafo será Euleriano se existe uma trilha fechada (não repete arestas / começa e termina no mesmo 
-           vértice) que passa por todas as arestas G.
-
- Caminho e Ciclo  euleriano
-
- Ciclo euleriano
-
- Condições de existência
-
- Critérios de Euler para grafos não direcionados
-
- Grafos semi-eulerianos: Um grafo será Semieuleriano se existe uma trilha aberta (não repete arestas / começa e 
-                       termina em vértices diferentes) que passa por todas as arestas G.
-
-
- Euler em grafos direcionados
-
- Teorema de Euler: Um grafo conexo G é Euleriano se, e somente se, todos seus vértices tem grau par.
-
-                  Um grafo conexo G é Semieuleriano se, e somente se, G tem dois vértices de grau ímpar.
-
- Aplicações clássicas
 
 
  Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
