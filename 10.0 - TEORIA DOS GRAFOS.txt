@@ -368,8 +368,7 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
  As aplicações dos grafos eulerianos são amplas e muito práticas. Eles aparecem em problemas de roteamento, planejamento de coleta de lixo, inspeção de redes elétricas e até em sequenciamento de DNA. Sempre que precisamos percorrer todas as conexões de um sistema sem repetição, estamos diante de uma situação potencialmente euleriana.
 
-Para finalizar, quero que você perceba como um problema simples sobre pontes levou a um dos resultados mais elegantes da matemática discreta. Grafos eulerianos mostram como padrões estruturais podem revelar soluções inesperadas. Continue explorando esses conceitos com curiosidade — cada nova ideia que você domina amplia sua capacidade de resolver problemas complexos com clareza e criatividade.
-
+ Em suma, um problema simples sobre pontes levou a um dos resultados mais elegantes da matemática discreta. Grafos eulerianos mostram como padrões estruturais podem revelar soluções inesperadas. 
  
 
 
