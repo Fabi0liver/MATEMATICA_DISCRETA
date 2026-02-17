@@ -348,6 +348,28 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
  Em suma, esse conceito amplia nossa visão sobre grafos. Não estamos mais olhando apenas para conexões locais, mas para o alcance global da estrutura. Acessibilidade é essencial em áreas como redes de computadores, análise de dependências em projetos e estudo de sistemas dinâmicos. Quando você entende acessibilidade, passa a enxergar grafos como sistemas vivos, onde a informação pode se propagar e se transformar.
 
+
+
+                                            "Grafos Eulerianos"
+
+ Agora vamos explorar um dos temas mais clássicos e fascinantes da Teoria dos Grafos: os Grafos Eulerianos. Esse assunto nasceu de um problema aparentemente simples, mas extremamente profundo: seria possível percorrer todas as pontes de uma cidade passando por cada uma exatamente uma vez e voltar ao ponto de partida? Essa pergunta levou ao desenvolvimento de um conceito central em grafos, que hoje aplicamos em diversas áreas da matemática e da computação.
+
+Um grafo é chamado de Euleriano quando existe uma trilha fechada que percorre todas as arestas exatamente uma vez e termina no mesmo vértice onde começou. Observe que estamos falando de não repetir arestas, mas vértices podem ser visitados mais de uma vez. Imagine um carteiro que precisa percorrer todas as ruas de um bairro sem repetir nenhuma, e ainda voltar para casa no final. Se isso for possível, o mapa das ruas forma um grafo euleriano.
+
+Aqui é importante distinguir dois conceitos: caminho (ou trilha) euleriano e ciclo euleriano. O caminho euleriano percorre todas as arestas sem repetir, mas pode começar e terminar em vértices diferentes. Já o ciclo euleriano é um caso especial: ele começa e termina no mesmo vértice. Pense em uma corrida: se você sai de casa, percorre todas as ruas uma única vez e volta para casa, fez um ciclo. Se termina em outro lugar, fez apenas um caminho.
+
+As condições para que um grafo seja euleriano são surpreendentemente elegantes. Para grafos não direcionados, existe um critério simples conhecido como Teorema de Euler: um grafo conexo é euleriano se, e somente se, todos os seus vértices têm grau par. Ou seja, cada vértice deve ter um número par de arestas incidentes. A intuição por trás disso é interessante: toda vez que você entra em um vértice por uma aresta, precisa sair por outra. Assim, as entradas e saídas formam pares.
+
+Se o grafo conexo possui exatamente dois vértices de grau ímpar, então ele não é totalmente euleriano, mas é semieuleriano. Isso significa que existe uma trilha aberta que percorre todas as arestas sem repetir, começando em um vértice de grau ímpar e terminando no outro. É como um passeio que começa em um ponto específico e termina em outro, mas ainda assim cobre todas as ruas sem repetir nenhuma.
+
+Essa lógica pode ser entendida com uma analogia simples: imagine apertar mãos em um grupo de pessoas, onde cada aperto representa uma aresta. Se cada pessoa apertar mãos um número par de vezes, é possível organizar os apertos em um ciclo fechado. Mas se duas pessoas apertarem um número ímpar de vezes, elas naturalmente se tornam os pontos de início e fim da sequência.
+
+Quando tratamos de grafos direcionados, a condição muda um pouco. Em vez de observar apenas o grau total, precisamos analisar o grau de entrada e o grau de saída de cada vértice. Para que exista um ciclo euleriano em um grafo direcionado, cada vértice deve ter o mesmo número de arestas entrando e saindo, além de o grafo ser fortemente conexo. A lógica é semelhante: toda vez que você chega por uma seta, deve haver uma seta para sair.
+
+As aplicações dos grafos eulerianos são amplas e muito práticas. Eles aparecem em problemas de roteamento, planejamento de coleta de lixo, inspeção de redes elétricas e até em sequenciamento de DNA. Sempre que precisamos percorrer todas as conexões de um sistema sem repetição, estamos diante de uma situação potencialmente euleriana.
+
+Para finalizar, quero que você perceba como um problema simples sobre pontes levou a um dos resultados mais elegantes da matemática discreta. Grafos eulerianos mostram como padrões estruturais podem revelar soluções inesperadas. Continue explorando esses conceitos com curiosidade — cada nova ideia que você domina amplia sua capacidade de resolver problemas complexos com clareza e criatividade.
+
  
 
 
