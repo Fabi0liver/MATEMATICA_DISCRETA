@@ -384,17 +384,7 @@ Existe também o Caminho Hamiltoniano, que é semelhante, mas não exige que o p
 
 Diferentemente do caso euleriano, não existe um critério simples e completo que garanta quando um grafo é hamiltoniano. No entanto, existem condições necessárias e alguns teoremas que ajudam. Por exemplo, se um grafo possui um vértice de grau 1 (ligado a apenas outro vértice), ele não pode ser hamiltoniano, porque seria impossível entrar e sair dele sem repetir vértices. Essa observação já elimina várias possibilidades.
 
-Dois teoremas clássicos ajudam a identificar casos em que o grafo certamente é hamiltoniano. O Teorema de Dirac afirma que, em um grafo simples com 
-𝑛
-≥
-3
-n≥3 vértices, se cada vértice tiver grau pelo menos 
-𝑛
-/
-2
-n/2, então o grafo é hamiltoniano. Intuitivamente, isso significa que cada vértice está suficientemente bem conectado. Já o Teorema de Ore amplia essa ideia: se, para todo par de vértices não adjacentes, a soma de seus graus for pelo menos 
-𝑛
-n, então o grafo também é hamiltoniano. Ambos os resultados mostram que alta conectividade favorece a existência de ciclos que visitam todos os vértices.
+Dois teoremas clássicos ajudam a identificar casos em que o grafo certamente é hamiltoniano. O Teorema de Dirac afirma que, em um grafo simples com 𝑛 ≥ 3 vértices, se cada vértice tiver grau pelo menos 𝑛/2, então o grafo é hamiltoniano. Intuitivamente, isso significa que cada vértice está suficientemente bem conectado. Já o Teorema de Ore amplia essa ideia: se, para todo par de vértices não adjacentes, a soma de seus graus for pelo menos 𝑛, então o grafo também é hamiltoniano. Ambos os resultados mostram que alta conectividade favorece a existência de ciclos que visitam todos os vértices.
 
 Os problemas envolvendo grafos hamiltonianos são computacionalmente desafiadores. Determinar se um grafo qualquer possui um ciclo hamiltoniano é um problema NP-Completo, o que significa que não conhecemos um algoritmo eficiente que resolva todos os casos rapidamente. Um exemplo famoso relacionado é o Problema do Caixeiro Viajante, em que queremos encontrar o menor ciclo que visita todas as cidades exatamente uma vez. Aqui, além de visitar todas as cidades, buscamos minimizar a distância total percorrida.
 
