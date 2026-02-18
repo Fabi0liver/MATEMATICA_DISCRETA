@@ -402,22 +402,7 @@ Formalmente, um grafo é valorado quando cada aresta possui um peso associado. E
 
 Assim como nos grafos simples, os grafos valorados podem ser direcionados ou não direcionados. Em um grafo valorado não direcionado, o peso entre dois vértices vale nos dois sentidos — como uma estrada de mão dupla com mesma distância para ida e volta. Já em um grafo valorado direcionado, o peso pode variar conforme a direção, como acontece com tempo de deslocamento em uma cidade onde o trânsito é diferente dependendo do sentido da via.
 
-Uma forma muito comum de representar um grafo valorado é por meio da matriz de distâncias. Nessa matriz 
-𝐴
-A, o elemento 
-𝑎
-𝑖
-,
-𝑗
-a
-i,j
-	​
-
- indica o peso da aresta que liga o vértice 
-𝑖
-i ao vértice 
-𝑗
-j. Se não houver ligação direta, normalmente usamos um valor especial, como infinito ou zero, dependendo da convenção. Pense nessa matriz como uma tabela de preços entre cidades: cada linha e cada coluna representam cidades, e o valor na interseção mostra o “custo” para ir de uma à outra.
+Uma forma muito comum de representar um grafo valorado é por meio da matriz de distâncias. Nessa matriz 𝐴, o elemento aᵢ,ⱼ indica o peso da aresta que liga o vértice 𝑖 ao vértice 𝑗. Se não houver ligação direta, normalmente usamos um valor especial, como infinito ou zero, dependendo da convenção. Pense nessa matriz como uma tabela de preços entre cidades: cada linha e cada coluna representam cidades, e o valor na interseção mostra o “custo” para ir de uma à outra.
 
 Outra forma prática de representação é a lista de adjacência valorada. Em vez de montar uma tabela completa, registramos apenas os vizinhos de cada vértice, acompanhados de seus respectivos pesos. É como ter uma agenda onde, ao lado de cada contato, anotamos a distância ou o custo para encontrá-lo. Essa representação costuma ser mais eficiente quando o grafo tem poucas arestas em relação ao número de vértices.
 
