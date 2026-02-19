@@ -424,7 +424,6 @@ Algoritmo de Dijkstra:
  Descrição: O algoritmo de Dijkstra foi desenvolvido em 1956 por Edsger Dijkstra, um cientista da computação holandês, que recebeu o prêmio Turing em 1972. Este algoritmo soluciona o problema do caminho mais
 curto num grafo com arestas de peso não negativo, em tempo polinomial.
 
- Melhor caminho:
 
 
 
