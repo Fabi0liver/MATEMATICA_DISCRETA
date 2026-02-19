@@ -440,6 +440,12 @@ Vamos continuar nossa explicação será em torno do assunto "Teoria dos grafos"
 
 Problema do Caixeiro Viajante:
 
+ Descrição: Dado um grafo completo valorado G, desejamos determinar o valor do menor ciclo hamiltoniano de G.
+
+            Este é um dos problemas mais estudados no campo da pesquisa operacional, mas até hoje não foi 
+           encontrado um algoritmo computacionalmente eficiente para resolvê-lo, sendo ainda classificado como
+           NP-difícil.
+
 
 
  Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
