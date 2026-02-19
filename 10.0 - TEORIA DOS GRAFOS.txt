@@ -430,8 +430,7 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
  Do ponto de vista computacional, o Algoritmo de Dijkstra é eficiente. Dependendo da estrutura de dados utilizada (como filas de prioridade) ele pode ter desempenho bastante otimizado. Em termos práticos, isso significa que ele é adequado para aplicações reais, como sistemas de GPS, redes de computadores e planejamento logístico. Sempre que você usa um aplicativo de navegação para encontrar a rota mais rápida, há uma grande chance de que alguma variação desse algoritmo esteja trabalhando nos bastidores.
 
- Em suma, perceba como algo que começa como um problema matemático abstrato se transforma em uma ferramenta essencial do mundo moderno. O Algoritmo de Dijkstra mostra que a Teoria dos Grafos não é apenas um conjunto de conceitos formais, mas uma forma de organizar e resolver problemas do cotidiano com elegância e eficiência. E à medida que você aprofunda seus estudos em algoritmos, começa a enxergar que cada técnica aprendida é como adquirir uma nova lente para interpretar o mundo. Continue explorando, questionando e praticando — é assim que a matemática deixa de ser apenas teoria e passa a ser uma poderosa aliada na construção de soluções inteligentes.
-
+ Em suma, perceba como algo que começa como um problema matemático abstrato se transforma em uma ferramenta essencial do mundo moderno. O Algoritmo de Dijkstra mostra que a Teoria dos Grafos não é apenas um conjunto de conceitos formais, mas uma forma de organizar e resolver problemas do cotidiano com elegância e eficiência. 
 
 
 
