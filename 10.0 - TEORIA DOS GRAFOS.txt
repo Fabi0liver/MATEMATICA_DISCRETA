@@ -416,8 +416,10 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
 
 
-Vamos continuar nossa explicação será em torno do assunto " Teoria dos grafos" na matemática discreta. Depois da explicação base sobre grafos e sobre Grafos Valorado , vamos continuar aprofundar mais em grafos, explicando os "Algoritmo de Dijkstra" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação será em torno do assunto "Teoria dos grafos" na matemática discreta. Depois da explicação sobre alguns assuntos da teoria de grafos, vamos continuar aprofundar mais em grafos, explicando os "Problema do Caixeiro Viajante" na teoria de grafos em 8 paragrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
 
+
+Problema do Caixeiro Viajante:
 
 
 
