@@ -467,7 +467,24 @@ Grafos Planares:
 
  Faces
 
- Relação de Euler para grafos planares: Em 
+ Relação de Euler: Em um grafo planar com v vértices e a arestas, vale a relação de Euler:
+
+                                                   f = a - v + 2
+  
+                   Onde f é a quantidade de regiões formadas pela representação planar do grafo.
+
+
+  Maximal Planar: Se G é um grafo planar, então é válida a seguinte relação:
+ 
+                                    a ≤ 3 . v - 6
+
+                  A igualdade é valida se G é Maximo Planar.
+
+
+  Contraposição: Se G é um grafo panar, então é valida a relação:   a ≤ 3 . v - 6
+
+                 Se a > 3 . v - 6, então G é um grafo não-planar.
+
 
 
  Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento
