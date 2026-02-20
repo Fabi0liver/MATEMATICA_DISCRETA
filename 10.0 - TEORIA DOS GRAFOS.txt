@@ -481,9 +481,22 @@ Grafos Planares:
                   A igualdade é valida se G é Maximo Planar.
 
 
-  Contraposição: Se G é um grafo panar, então é valida a relação:   a ≤ 3 . v - 6
+  Grafo planar bipartido: Se é um grafo planar bipartido, então é valida a seguinte relação:
 
-                 Se a > 3 . v - 6, então G é um grafo não-planar.
+                                   a ≤ 2 . v - 4
+
+
+ Contraposição: Se G é um grafo planar, então é valida a relação:  a ≤ 3 . v - 6
+
+                Se a > 3 . v - 6, então G é um grafo não-planar.
+
+                Se G é um grafo planar bipartido, então é valida a relação:  a ≤ 2 . v - 4
+
+                Se a > 2 . v - 4, então G não é um grafo planar bipartido.
+
+
+
+                
 
 
 
