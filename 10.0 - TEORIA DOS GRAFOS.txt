@@ -486,9 +486,7 @@ Quando o grafo possui pesos nas arestas (como custos, distâncias ou tempos) sur
 
  Essas desigualdades também funcionam por contraposição. Se um grafo possui arestas demais, ultrapassando 3v − 6, podemos afirmar que ele não é planar. Da mesma forma, se um grafo bipartido ultrapassa 2v − 4 arestas, ele não pode ser planar bipartido. Isso é extremamente útil na prática: em vez de tentar desenhar o grafo e testar várias disposições, basta verificar a desigualdade. É como usar uma regra rápida para saber se uma mala vai ultrapassar o peso permitido antes mesmo de levá-la ao aeroporto.
 
- Em suma, perceba como os grafos planares unem visualização geométrica e raciocínio algébrico de forma elegante. Eles aparecem em problemas de mapas, circuitos eletrônicos e design de redes. Cada conceito que estudamos amplia nossa capacidade de enxergar padrões e limites estruturais. Continue explorando com curiosidade e disciplina — a matemática dos grafos não é apenas um conjunto de fórmulas, mas uma maneira poderosa de organizar o pensamento. E quanto mais você treina esse olhar, mais preparado estará para enfrentar desafios complexos com confiança e criatividade.
-
-
+ Em suma, perceba como os grafos planares unem visualização geométrica e raciocínio algébrico de forma elegante. Eles aparecem em problemas de mapas, circuitos eletrônicos e design de redes. Cada conceito que estudamos amplia nossa capacidade de enxergar padrões e limites estruturais. 
 
 
 
