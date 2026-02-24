@@ -1,1 +1,3 @@
                                     ESTRURAS ALGÉBRICAS DISCRETAS
+
+Uma estrutura algébrica corresponde a uma estrutura formada por um conjunto não vazio A e uma ou mais operações binárias definidas sobre A, as quais gozam de propriedades específicas em função da categoria em estudo. Se a estrutura é formada pelo conjunto A e por uma operação * , essa estrutura algébrica pode ser denotada por (A *).
