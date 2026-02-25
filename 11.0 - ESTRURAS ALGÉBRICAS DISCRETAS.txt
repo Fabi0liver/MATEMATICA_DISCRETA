@@ -70,7 +70,11 @@
 
  A manipulação simbólica entra como uma ferramenta prática nesse processo. Ela consiste em reorganizar expressões usando as leis conhecidas para simplificar ou transformar fórmulas. É muito parecido com reorganizar termos em uma equação para isolarmos uma incógnita. Em vez de números concretos, trabalhamos com símbolos, mas a lógica é a mesma: aplicar regras permitidas para chegar a uma forma mais simples ou mais útil.
 
-Perceba como leis e identidades funcionam como atalhos seguros dentro da matemática. Elas não são truques; são padrões fundamentais que garantem coerência ao sistema. Quanto mais você se familiariza com essas leis, mais natural se torna manipular expressões e enxergar estruturas escondidas por trás dos símbolos. Continue cultivando essa atenção aos detalhes — é assim que se constrói um raciocínio sólido, capaz de transformar fórmulas aparentemente complexas em algo elegante e compreensível.
+ Em suma, leis e identidades funcionam como atalhos seguros dentro da matemática. Elas não são truques; são padrões fundamentais que garantem coerência ao sistema. Quanto mais você se familiariza com essas leis, mais natural se torna manipular expressões e enxergar estruturas escondidas por trás dos símbolos. 
+
+
+
+
 
 
 
