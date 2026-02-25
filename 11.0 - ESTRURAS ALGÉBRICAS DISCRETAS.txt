@@ -50,9 +50,7 @@
 
  Por fim, temos a distributividade, que conecta duas operações diferentes. Ela ocorre quando uma operação “distribui” sobre outra, como a multiplicação em relação à adição: 2 × (3 + 4) = (2 × 3) + (2 × 4). É como distribuir cartas igualmente entre grupos, você aplica a regra maior a cada parte separadamente. Essa propriedade é fundamental quando estudamos estruturas com mais de uma operação.
 
-Perceba como cada propriedade funciona como uma característica comportamental da operação. Quando combinamos determinadas propriedades em um mesmo conjunto, surgem estruturas específicas, como grupos, anéis e corpos. Toda estrutura algébrica é definida exatamente por quais propriedades sua operação satisfaz. Entender isso é como entender a personalidade de um sistema matemático. E quanto mais você observa essas propriedades com atenção, mais começa a enxergar padrões elegantes e poderosos por trás das regras. Continue explorando com curiosidade: cada propriedade que você compreende é uma nova lente para enxergar a matemática com mais profundidade e clareza.
-
-
+ Em suma, cada propriedade funciona como uma característica comportamental da operação. Quando combinamos determinadas propriedades em um mesmo conjunto, surgem estruturas específicas, como grupos, anéis e corpos. Toda estrutura algébrica é definida exatamente por quais propriedades sua operação satisfaz. Entender isso é como entender a personalidade de um sistema matemático. 
 
 
 
