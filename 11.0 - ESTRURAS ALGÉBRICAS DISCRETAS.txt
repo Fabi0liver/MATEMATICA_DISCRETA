@@ -30,9 +30,7 @@
 
  Falando em propriedades, algumas características tornam as operações ainda mais interessantes. Uma delas é a comutatividade: trocar a ordem não altera o resultado, como em 2 + 3 = 3 + 2. Outra é a associatividade: a forma de agrupar não muda o resultado, como em (2 + 3) + 4 = 2 + (3 + 4). Essas propriedades são como regras de convivência no conjunto, elas determinam o tipo de organização que aquela estrutura pode ter. Dependendo de quais propriedades a operação satisfaz, surgem diferentes tipos de estruturas algébricas.
 
-Perceba como algo aparentemente simples — combinar dois elementos — carrega uma profundidade enorme. Operações binárias são o ponto de partida para grupos, anéis, corpos e muitas outras estruturas que aparecem em programação, criptografia e teoria da computação. Entender bem essa base é como aprender as regras fundamentais de um jogo complexo: quando você domina essas regras, todo o restante começa a fazer sentido. Continue curioso e atento aos detalhes — é nessa atenção às regras que nasce a verdadeira compreensão matemática.
-
-
+ Em suma, algo aparentemente simples (combinar dois elementos) carrega uma profundidade enorme. Operações binárias são o ponto de partida para grupos, anéis, corpos e muitas outras estruturas que aparecem em programação, criptografia e teoria da computação. 
 
 
 
