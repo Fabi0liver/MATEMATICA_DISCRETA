@@ -90,8 +90,7 @@
 
  Com base nesses axiomas, conseguimos classificar estruturas diferentes. Algumas possuem apenas associatividade; outras têm elemento neutro; outras ainda possuem inversos e comutatividade. Dependendo da combinação dessas propriedades, surgem categorias distintas de estruturas algébricas. É como classificar esportes: alguns usam bola, outros usam rede, alguns são individuais, outros coletivos. As características determinam o tipo de estrutura que estamos analisando.
 
-Perceba como a linguagem formal não torna a matemática mais fria — ela a torna mais precisa. É como aprender a partitura de uma música depois de já saber tocá-la de ouvido: você passa a enxergar padrões que antes estavam implícitos. Ao dominar essa forma de expressão, você ganha uma nova ferramenta para organizar o pensamento e construir argumentos sólidos. Continue avançando com curiosidade e disciplina. A formalização é um passo essencial para transformar intuição em conhecimento estruturado — e isso é o
-
+ Em suma, a linguagem formal não torna a matemática mais fria, ela a torna mais precisa. É como aprender a partitura de uma música depois de já saber tocá-la de ouvido: você passa a enxergar padrões que antes estavam implícitos. Ao dominar essa forma de expressão, você ganha uma nova ferramenta para organizar o pensamento e construir argumentos sólidos. 
 
 
 
