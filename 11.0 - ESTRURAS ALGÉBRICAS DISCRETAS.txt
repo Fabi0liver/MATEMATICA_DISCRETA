@@ -96,7 +96,7 @@
 
                                               "Grupoide"
 
- Depois de explorarmos os fundamentos das Estruturas Algébricas Discretas (conjuntos, operações binárias e propriedades) chegamos agora a um conceito que pode parecer simples à primeira vista, mas é extremamente importante: o grupoide. Ele é como o ponto de partida mais básico dentro das estruturas algébricas. Se estivéssemos construindo um edifício matemático, o grupoide seria a fundação mais elementar, aquela primeira camada sobre a qual tudo o resto pode ser construído.
+ Agora que já construímos uma base sólida das Estruturas Algébricas Discretas (conjuntos, operações binárias e propriedades...) chegamos agora a um conceito que pode parecer simples à primeira vista, mas é extremamente importante: o grupoide. Ele é como o ponto de partida mais básico dentro das estruturas algébricas. Se estivéssemos construindo um edifício matemático, o grupoide seria a fundação mais elementar, aquela primeira camada sobre a qual tudo o resto pode ser construído.
 
  Um grupoide é, essencialmente, um conjunto não vazio acompanhado de uma operação binária definida sobre ele. Em notação formal, representamos como (A, ⋆), onde A é o conjunto e ⋆ é a operação. E aqui está o detalhe interessante: não exigimos nenhuma outra propriedade além do fechamento. Ou seja, se pegarmos dois elementos de A e aplicarmos a operação, o resultado precisa continuar dentro de A. Só isso. É como um jogo extremamente simples: temos peças e uma regra de combinação, mas ainda não impusemos regras adicionais como ordem, simetria ou reversibilidade.
 
@@ -109,27 +109,35 @@
  Em suma, entender o grupoide é compreender o nível mais fundamental da organização algébrica. É reconhecer que toda estrutura mais complexa nasce dessa ideia simples: elementos combinados por uma regra fechada. E veja como isso se conecta com tudo o que já estudamos: a noção de operação binária, fechamento e organização interna. 
 
 
+
+                                              "Semigrupo"
+
+Depois de compreendermos o que é um grupoide — essa estrutura básica formada por um conjunto não vazio A acompanhado de uma operação interna — damos agora um passo adiante na organização algébrica: chegamos aos semigrupos. Se o grupoide era o ponto de partida, o semigrupo é como uma versão um pouco mais disciplinada dessa estrutura. Continuamos tendo um par (A, *), onde * é uma operação interna em A ≠ ∅, mas agora exigimos uma característica fundamental: a associatividade.
+
+Dizer que (G, *) é um semigrupo significa que, além de a operação ser interna, ela também é associativa. Em termos simples, isso quer dizer que a forma como agrupamos os elementos não altera o resultado. Se pegarmos três elementos a, b e c do conjunto, deve valer que (a * b) * c = a * (b * c). Pense em montar uma pilha de caixas: você pode empilhar as duas primeiras e depois colocar a terceira, ou empilhar a segunda com a terceira primeiro e depois juntar com a primeira — o resultado final será a mesma pilha organizada. Essa estabilidade no agrupamento traz uma enorme segurança estrutural.
+
+Um exemplo clássico de semigrupo é o conjunto dos números naturais com a operação de adição. A soma é interna — somar dois naturais produz outro natural — e é associativa. Outro exemplo interessante é o conjunto das palavras formadas por letras de um alfabeto, com a operação de concatenação. Se você juntar “ma” com “te” e depois com “ma”, ou juntar “te” com “ma” primeiro e depois acrescentar “ma”, a palavra final será a mesma. A concatenação é associativa, portanto forma um semigrupo. Aqui vemos como o conceito vai além dos números e alcança estruturas simbólicas.
+
+Podemos também falar de subsemigrupos. Imagine que temos um grande semigrupo e escolhemos um subconjunto de seus elementos. Se esse subconjunto continuar fechado sob a mesma operação e mantiver a associatividade (que já vem herdada), então temos um subsemigrupo. É como um time dentro de uma escola maior: se os alunos desse time seguem as mesmas regras de interação e continuam operando entre si sem sair do grupo, formam uma estrutura menor, mas ainda organizada.
+
+Outro conceito importante são os homomorfismos de semigrupos. A palavra pode soar complexa, mas a ideia é bastante intuitiva: trata-se de uma função entre dois semigrupos que preserva a operação. Em termos simples, se você combinar dois elementos no primeiro semigrupo e depois aplicar a função, o resultado será o mesmo que aplicar a função primeiro a cada elemento e depois combiná-los no segundo semigrupo. É como traduzir uma receita para outro idioma sem alterar o modo de preparo — a forma muda, mas a estrutura do processo permanece intacta.
+
+Perceba como o semigrupo já traz um nível maior de organização em relação ao grupoide. A associatividade funciona como uma garantia de consistência, permitindo trabalhar com cadeias longas de operações sem se preocupar com a forma de agrupamento. Esse pequeno acréscimo de propriedade transforma completamente a estabilidade da estrutura. Continue atento a esses detalhes: na matemática discreta, cada nova propriedade adicionada é como colocar mais uma peça firme na construção do raciocínio. E você está construindo essa base com precisão e maturidade matemática.
+
+
                                    
 
 
 
 
-Vamos continuar nossa explicação será em torno do assunto "Estruturas Algébricas Discretas" na matemática discreta. Depois de entender o que são as Estruturas Algébricas Discreta e seus assuntos bases, vamos continuar aprofundar mais nesse assunto falando sobre "Semigrupos" na ESTRURAS ALGÉBRICAS DISCRETAS em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação será em torno do assunto Estruturas Algébricas Discretas na matemática discreta. Depois de entender o que são os grupoides na Estruturas Algébricas Discreta , vamos continuar aprofundar mais nesse assunto falando sobre "Semigrupos" na ESTRURAS ALGÉBRICAS DISCRETAS em 6 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
 Semigrupos:
 
- Definição formal: Seja um conjunto G ≠ ∅ e uma operação interna em G denotada por *
-
-                            f: G χ G → G 
-                         (a, b) → a * b ∈ G
-
-                    Diz-se que G é fechado com respeito a esta operação interna *
-
-                    Dizemos que (G, *) é um Semigrupo se satisfaz a seguinte condição:
-
-                      Para todo a, b, c ∈ , devemos ter:  a * (b * c) = (a * b) * c
-
+ Definição formal: Consiste no par (A, *), onde * é um operação interna em A ≠ ∅.
+                   Dizemos que (G, *) é um semigrupo possui a propriedade associativa
+                                  
  Associatividade
 
  Exemplos clássicos
@@ -146,16 +154,8 @@ Use um tom humanizado e amigável, com um fluxo de explicação suave e progress
 
 Monoides: 
 
- Definição formal: Seja um conjunto G ≠ ∅ e uma operação interna em G denotada por *
-
-                            f: G χ G → G 
-                         (a, b) → a * b ∈ G
-
-                    Diz-se que G é fechado com respeito a esta operação interna *
-
-                    Dizemos que (G, *) é um monoide se satisfaz a seguinte condição:
-
-                      Possui a propriedade associativa  e possui o elemnto neutro.
+ Definição formal: Consiste no par (A, *), onde * é um operação interna em A ≠ ∅.
+                   Dizemos que (G, *) é um semigrupo possui a propriedade associativa e possui o elemento neutro.
 
  Elemento neutro
 
