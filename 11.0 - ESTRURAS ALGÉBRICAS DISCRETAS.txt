@@ -79,7 +79,7 @@
 
 
 
-Vamos continuar nossa explicação será em torno do assunto "Estruturas Algébricas Discretas" na matemática discreta. Depois de entender o que são as Estruturas Algébricas Discretas e Operações Binárias e suas operações , vamos continuar aprofundar mais nesse assunto falando sobre "Leis e Identidades Algébricas" na teoria de grafos em 8 parágrafos . Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação será em torno do assunto "Estruturas Algébricas Discretas" na matemática discreta. Depois de entender o que são as Estruturas Algébricas Discretas e Operações Binárias e suas operações , vamos continuar aprofundar mais nesse assunto falando sobre "Linguagem Formal das Estruturas" na teoria de grafos em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
 Linguagem Formal das Estruturas:
@@ -87,6 +87,20 @@ Linguagem Formal das Estruturas:
  Conjunto + operação
 
  Notação Algébrica Formal:
+
+  Estrutura como par ordenado (A, *)
+
+  Estrutura com múltiplas operações (A, +, ·)
+
+  Uso de símbolos abstratos
+
+ Conceito Geral de Estrutura Algébrica:
+
+  Conjunto não vazio
+
+  Operações internas
+
+  Axiomas
 
  Classificação de estruturas
 
