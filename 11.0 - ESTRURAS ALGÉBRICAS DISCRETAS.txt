@@ -138,7 +138,8 @@
 
  Quando a operação também é comutativa (ou seja, a ordem dos elementos não altera o resultado) temos um monoide comutativo. A adição dos números naturais é um exemplo claro, pois 3 + 5 é igual a 5 + 3. Já a concatenação de palavras não é comutativa, pois “sol” + “lua” não é igual a “lua” + “sol”. Essa distinção mostra como pequenas diferenças nas propriedades mudam o “perfil” da estrutura. Também podemos falar de submonoides, que são subconjuntos que continuam fechados sob a operação e contêm o elemento neutro, preservando assim toda a estrutura.
 
-Perceba como, ao adicionar apenas uma propriedade — a existência do elemento neutro — o semigrupo ganha uma nova camada de organização e equilíbrio. O monoide é uma estrutura simples, mas incrivelmente poderosa, aparecendo em programação, teoria da computação e modelagem matemática. Entender monoides é como entender um padrão oculto que organiza sequências, somas e composições de forma elegante. Continue avançando com curiosidade e confiança: cada nova estrutura que você compreende amplia sua capacidade de enxergar ordem onde antes havia apenas operações isoladas.
+ Em suma, perceba como, ao adicionar apenas uma propriedade (a existência do elemento neutro) o semigrupo ganha uma nova camada de organização e equilíbrio. O monoide é uma estrutura simples, mas incrivelmente poderosa, aparecendo em programação, teoria da computação e modelagem matemática. Entender monoides é como entender um padrão oculto que organiza sequências, somas e composições de forma elegante. 
+
 
 
 
