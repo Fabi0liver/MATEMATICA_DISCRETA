@@ -144,12 +144,16 @@
 
 
 
-Vamos continuar nossa explicação será em torno do assunto Estruturas Algébricas Discretas na matemática discreta. Depois de entender o que são os grupoides e Semigrupos na Estruturas Algébricas Discreta , vamos continuar aprofundar mais nesse assunto falando sobre "Monoides" na ESTRURAS ALGÉBRICAS DISCRETAS em 6 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação será em torno do assunto Estruturas Algébricas Discretas na matemática discreta. Depois de entender o que são os grupoides, Semigrupos e monoides na Estruturas Algébricas Discreta , vamos continuar aprofundar mais nesse assunto falando sobre "Grupos" na ESTRURAS ALGÉBRICAS DISCRETAS em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
 Grupos:
 
- Definição de Grupo:
+ Definição de Grupo: Consiste no par (A, *), onde * é um operação interna em A ≠ ∅.
+
+                    Possui a propriedade associativa, 
+                    Possui elemento neutro
+                    Possui elemento simétrico
 
  Propriedades Fundamentais dos Grupos
 
