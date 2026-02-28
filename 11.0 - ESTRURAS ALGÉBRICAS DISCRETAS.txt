@@ -149,7 +149,7 @@ Vamos continuar nossa explicação será em torno do assunto Estruturas Algébri
 
 Grupos:
 
- Definição de Grupo
+ Definição de Grupo:
 
  Propriedades Fundamentais dos Grupos
 
