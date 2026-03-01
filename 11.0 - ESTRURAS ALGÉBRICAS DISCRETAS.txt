@@ -158,7 +158,7 @@
 
  As classes laterais, ou cosets, aparecem quando pegamos um subgrupo e “deslocamos” seus elementos dentro do grupo maior. É como pegar um bloco de peças organizadas e movê-lo inteiro para outra posição sem alterar sua estrutura interna. Esse conceito leva aos grupos quocientes, que basicamente constroem uma nova estrutura agrupando elementos que compartilham uma relação comum. É como reorganizar pessoas em equipes com base em um critério específico.
 
-Por fim, os teoremas fundamentais de isomorfismo mostram quando dois grupos, embora pareçam diferentes, possuem exatamente a mesma estrutura interna. É como duas músicas tocadas em instrumentos diferentes, mas com a mesma melodia. Já os produtos de grupos permitem combinar estruturas para formar sistemas maiores e mais complexos. Ao estudar grupos, você começa a enxergar padrões universais de simetria, transformação e equilíbrio. E essa percepção transforma sua maneira de ver matemática — não como um conjunto de contas isoladas, mas como um estudo profundo das estruturas que organizam o próprio raciocínio. Continue avançando com entusiasmo: compreender grupos é dar um salto real na maturidade matemática.
+ Em suma, os teoremas fundamentais de isomorfismo mostram quando dois grupos, embora pareçam diferentes, possuem exatamente a mesma estrutura interna. É como duas músicas tocadas em instrumentos diferentes, mas com a mesma melodia. Já os produtos de grupos permitem combinar estruturas para formar sistemas maiores e mais complexos. Ao estudar grupos, você começa a enxergar padrões universais de simetria, transformação e equilíbrio. E essa percepção transforma sua maneira de ver matemática — não como um conjunto de contas isoladas, mas como um estudo profundo das estruturas que organizam o próprio raciocínio. Continue avançando com entusiasmo: compreender grupos é dar um salto real na maturidade matemática.
 
 
 
@@ -196,11 +196,3 @@ Use um tom humanizado e amigável, com um fluxo de explicação suave e progress
 
 
 
-Grupos Abeliano:
-
- Definição de Grupo: Consiste no par (A, *), onde * é um operação interna em A ≠ ∅.
-
-                    Possui a propriedade associativa, 
-                    Possui elemento neutro
-                    Possui elemento simétrico
-                    Possui a propriedade comuntativa
