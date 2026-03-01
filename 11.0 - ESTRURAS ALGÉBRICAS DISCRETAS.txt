@@ -160,8 +160,7 @@
 
  Os teoremas fundamentais de isomorfismo entram como pontes entre estruturas diferentes. Eles mostram que dois grupos podem ser estruturalmente iguais, mesmo que seus elementos pareçam diferentes. É como duas receitas escritas em idiomas distintos, mas que produzem exatamente o mesmo prato. A aparência muda, mas a estrutura interna é preservada. Por fim, podemos combinar grupos por meio do produto de grupos, criando estruturas maiores a partir de estruturas menores, como montar um sistema complexo a partir de blocos bem definidos.
 
-Perceba como os grupos representam um ponto alto na organização algébrica. Eles unem operação interna, associatividade, identidade e inversão em um sistema harmonioso e poderoso. Essa estrutura aparece em simetrias geométricas, criptografia, física e computação. Entender grupos é como descobrir a engrenagem invisível que organiza movimentos, transformações e padrões. Continue avançando com curiosidade e disciplina — dominar grupos é dar um salto enorme na maturidade matemática, e você está construindo esse entendimento passo a passo, com solidez e clareza.
-
+ Em suma, perceba como os grupos representam um ponto alto na organização algébrica. Eles unem operação interna, associatividade, identidade e inversão em um sistema harmonioso e poderoso. Essa estrutura aparece em simetrias geométricas, criptografia, física e computação. Entender grupos é como descobrir a engrenagem invisível que organiza movimentos, transformações e padrões. 
 
 
 
