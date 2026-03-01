@@ -176,8 +176,7 @@ Formalmente, um grupo abeliano é um par (A, *), onde A é um conjunto não vazi
 
  Os grupos abelianos aparecem com enorme frequência na matemática e na computação. Estruturas como os números inteiros com adição, os números racionais com adição e até certos sistemas usados em criptografia são exemplos de grupos abelianos. A presença da comutatividade facilita cálculos, demonstrações e manipulações algébricas. É como trabalhar em um ambiente onde as regras são mais previsíveis e menos sensíveis à ordem das ações.
 
- Perceba como, ao adicionar apenas uma propriedade — a comutatividade — o grupo ganha um novo nível de elegância. Os grupos abelianos são como sistemas perfeitamente simétricos, onde cada ação pode ser reorganizada sem alterar o resultado final. Continue avançando com curiosidade e atenção aos detalhes. Cada propriedade que você compreende é como ajustar o foco de uma lente matemática — e quanto mais claro fica o foco, mais você enxerga a beleza escondida nas estruturas algébricas.
-
+ Em suma, perceba como, ao adicionar apenas uma propriedade (a comutatividade) o grupo ganha um novo nível de elegância. Os grupos abelianos são como sistemas perfeitamente simétricos, onde cada ação pode ser reorganizada sem alterar o resultado final. 
 
 
 
