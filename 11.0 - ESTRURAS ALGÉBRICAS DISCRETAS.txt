@@ -200,7 +200,7 @@ Formalmente, um grupo abeliano é um par (A, *), onde A é um conjunto não vazi
 
  Por fim, temos os homomorfismos de anéis, que são funções que preservam as duas operações. Um homomorfismo mantém intactas as estruturas de soma e multiplicação, funcionando como uma tradução fiel entre dois sistemas algébricos. É como converter valores entre moedas mantendo a coerência das operações matemáticas. Essas aplicações permitem comparar, relacionar e classificar diferentes anéis.
 
-Perceba como o conceito de anel amplia o horizonte das estruturas algébricas. Ele une duas operações sob um conjunto de regras coerentes, criando um ambiente onde números, matrizes, polinômios e muitos outros objetos convivem sob a mesma lógica estrutural. Continue explorando com curiosidade e disciplina: cada nova estrutura que você domina fortalece sua capacidade de pensar algoritmicamente e de enxergar padrões invisíveis à primeira vista. A matemática discreta não é apenas um conjunto de definições — é um treino profundo de raciocínio, e você está avançando exatamente no caminho certo.
+ Em suma, perceba como o conceito de anel amplia o horizonte das estruturas algébricas. Ele une duas operações sob um conjunto de regras coerentes, criando um ambiente onde números, matrizes, polinômios e muitos outros objetos convivem sob a mesma lógica estrutural. 
 
 
 
