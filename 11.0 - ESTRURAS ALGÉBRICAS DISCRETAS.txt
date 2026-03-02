@@ -187,7 +187,12 @@ Vamos continuar nossa explicação será em torno do assunto Estruturas Algébri
  Anel:
 
  Definição de Anel: Seja A ≠ ∅ um conjunto munido de duas operações sobre A, denominadas adição (+) e 
-                  multiplicação (.). Esse considerado anel se: 
+                  multiplicação (.). Esse considerado anel se:
+
+                    (A, +) é um grupo abeliano
+                     Vale a associatividade para à multiplicação
+                     Vale a distributividade  em relação à adição.
+ 
 
  Propriedades dos Anéis
 
