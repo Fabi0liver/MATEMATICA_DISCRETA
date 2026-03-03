@@ -204,7 +204,7 @@ Formalmente, um grupo abeliano é um par (A, *), onde A é um conjunto não vazi
 
 
 
-                                             "Domínios e Corpos"
+                                       "Domínios de integridade e Corpos"
 
  Depois de compreender os anéis, damos agora um passo adiante rumo a estruturas ainda mais “bem-comportadas”: os domínios de integridade e os corpos. Pense no anel como uma grande cidade com regras claras para soma e multiplicação. Dentro dessa cidade, algumas regiões são mais organizadas, com menos “anomalias” no comportamento dos elementos. É justamente aí que surgem os domínios e os corpos — versões mais refinadas dessa estrutura.
 
