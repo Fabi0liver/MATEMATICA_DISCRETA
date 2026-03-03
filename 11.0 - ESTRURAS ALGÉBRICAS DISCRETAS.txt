@@ -220,7 +220,7 @@ Formalmente, um grupo abeliano é um par (A, *), onde A é um conjunto não vazi
 
  Os corpos finitos são amplamente utilizados em criptografia e teoria dos códigos. Imagine um jogo de tabuleiro com um número limitado de casas, onde, ao ultrapassar a última, você volta ao início. Esse “movimento circular” lembra muito a aritmética modular que estrutura os campos finitos. Mesmo sendo limitados em tamanho, eles são incrivelmente poderosos e organizados internamente.
 
-Observe como a hierarquia se organiza: anéis fornecem a base, domínios eliminam divisores de zero, e corpos adicionam a possibilidade de divisão completa. Cada etapa refina a estrutura anterior, tornando-a mais estável e previsível. Continue explorando essas camadas com curiosidade e disciplina. Entender domínios e corpos é como ganhar novas ferramentas mentais — ferramentas que serão essenciais quando você avançar para álgebra abstrata mais profunda, criptografia e algoritmos sofisticados. Você está construindo uma base sólida, e isso faz toda a diferença na jornada matemática.
+ Em suma, os anéis fornecem a base, domínios eliminam divisores de zero, e corpos adicionam a possibilidade de divisão completa. Cada etapa refina a estrutura anterior, tornando-a mais estável e previsível. 
 
 
 
