@@ -268,7 +268,6 @@ Formalmente, um grupo abeliano é um par (A, *), onde A é um conjunto não vazi
 
                          "Conclusão sobre Estruturas Algébricas Discretas"
 
-
  Chegamos ao final da nossa caminhada pelas Estruturas Algébricas Discretas, e agora é o momento ideal para olhar o caminho percorrido como um todo. No começo, talvez tudo parecesse apenas um conjunto de definições formais (conjuntos, operações, propriedades) mas, aos poucos, fomos percebendo que estávamos construindo algo muito maior: uma maneira organizada de entender como elementos interagem sob regras bem definidas. É como aprender as regras de um jogo; no início decoramos os movimentos, mas depois começamos a enxergar estratégias, padrões e possibilidades.
 
  As estruturas algébricas, de forma geral, são conjuntos acompanhados de operações que seguem determinadas propriedades. Pode parecer abstrato, mas pense em uma receita de bolo: você tem ingredientes (o conjunto) e modos específicos de combiná-los (as operações). Se seguir certas regras (proporções corretas, ordem adequada) o resultado funciona. Se quebrar as regras, o bolo pode não crescer. Na matemática, essas “regras” são propriedades como associatividade, elemento neutro ou inverso. Elas garantem que o sistema seja consistente e previsível.
