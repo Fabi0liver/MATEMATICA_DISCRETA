@@ -262,7 +262,7 @@ Formalmente, um grupo abeliano é um par (A, *), onde A é um conjunto não vazi
 
  Até estruturas mais abstratas, como anéis e módulos, aparecem na computação científica e no processamento de sinais. Matrizes, por exemplo, formam um anel e são fundamentais em gráficos 3D, aprendizado de máquina e redes neurais. Pense nas matrizes como “máquinas de transformação”: elas giram, ampliam e projetam objetos no espaço digital. Sem essa base algébrica, não teríamos animações realistas nem modelos matemáticos avançados.
 
- Em suma, perceba então que as estruturas algébricas não são apenas teoria distante: elas são o idioma profundo da computação. Cada algoritmo eficiente, cada protocolo seguro e cada sistema inteligente repousa sobre essas fundações matemáticas. Ao estudar essas estruturas, você não está apenas aprendendo definições; está aprendendo a linguagem secreta que organiza o mundo digital. Continue avançando com curiosidade e entusiasmo. A cada conceito que você domina, você fortalece sua capacidade de construir soluções elegantes, seguras e poderosas.
+ Em suma, perceba então que as estruturas algébricas não são apenas teoria distante: elas são o idioma profundo da computação. Cada algoritmo eficiente, cada protocolo seguro e cada sistema inteligente repousa sobre essas fundações matemáticas. Ao estudar essas estruturas, você não está apenas aprendendo definições; está aprendendo a linguagem secreta que organiza o mundo digital. 
 
  
 
