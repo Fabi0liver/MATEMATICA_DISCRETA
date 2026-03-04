@@ -242,7 +242,7 @@ Formalmente, um grupo abeliano é um par (A, *), onde A é um conjunto não vazi
 
  Temos ainda estruturas combinatórias com natureza algébrica, como grupos de permutação. Eles organizam todas as possíveis rearrumações de um conjunto. Imagine embaralhar cartas: cada embaralhamento é uma permutação, e o conjunto de todas elas forma um grupo. Essas estruturas são fundamentais para entender simetrias, criptografia e até mesmo algoritmos de ordenação.
 
- Observe como cada estrutura específica surge como uma adaptação das definições gerais que você já estudou. É como aprender as regras básicas da música (ritmo, harmonia, melodia) e depois explorar estilos diferentes: jazz, clássico, rock. A base é a mesma, mas as aplicações variam e revelam novas possibilidades. A beleza das estruturas algébricas discretas está exatamente nessa capacidade de abstração que se transforma em ferramenta prática.
+ Em suma, observe como cada estrutura específica surge como uma adaptação das definições gerais que você já estudou. É como aprender as regras básicas da música (ritmo, harmonia, melodia) e depois explorar estilos diferentes: jazz, clássico, rock. A base é a mesma, mas as aplicações variam e revelam novas possibilidades. A beleza das estruturas algébricas discretas está exatamente nessa capacidade de abstração que se transforma em ferramenta prática.
 
  
 
