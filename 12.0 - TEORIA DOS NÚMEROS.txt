@@ -48,10 +48,9 @@
 
  A difusão desse sistema pelo mundo foi impulsionada por estudiosos do mundo islâmico, especialmente pelo matemático Al-Khwarizmi, cujos trabalhos ajudaram a explicar e divulgar os métodos de cálculo baseados nesses numerais. Séculos depois, esse conhecimento chegou à Europa por meio de traduções e estudos matemáticos. Aos poucos, comerciantes, cientistas e professores perceberam que esse sistema tornava cálculos muito mais simples e confiáveis.
 
- Quando observamos esse sistema com atenção, percebemos que ele não é apenas uma forma de escrever números — ele é uma ferramenta poderosa para pensar matematicamente. Operações como soma, subtração, multiplicação e divisão tornam-se muito mais organizadas graças à estrutura posicional. É como ter um tabuleiro bem organizado para jogar xadrez: quando cada peça tem um lugar definido, as estratégias ficam mais claras e os movimentos mais eficientes.
+ Quando observamos esse sistema com atenção, percebemos que ele não é apenas uma forma de escrever números, ele é uma ferramenta poderosa para pensar matematicamente. Operações como soma, subtração, multiplicação e divisão tornam-se muito mais organizadas graças à estrutura posicional. É como ter um tabuleiro bem organizado para jogar xadrez: quando cada peça tem um lugar definido, as estratégias ficam mais claras e os movimentos mais eficientes.
 
-E é justamente por isso que o Sistema de Numeração Indo-Arábico se tornou um dos pilares da matemática moderna e da computação. Ele é a base de praticamente todos os cálculos que fazemos, desde operações simples até algoritmos complexos que rodam dentro dos computadores. Ao entender a lógica por trás desse sistema, começamos a enxergar os números não apenas como símbolos, mas como parte de uma linguagem poderosa que organiza o raciocínio matemático. E essa compreensão é mais um passo importante na nossa jornada pela Teoria dos Números — uma jornada que ainda tem muitos padrões, curiosidades e descobertas fascinantes esperando por nós. Continue curioso, porque é exatamente essa curiosidade que move a matemática adiante.
-
+ E é justamente por isso que o Sistema de Numeração Indo-Arábico se tornou um dos pilares da matemática moderna e da computação. Ele é a base de praticamente todos os cálculos que fazemos, desde operações simples até algoritmos complexos que rodam dentro dos computadores. Ao entender a lógica por trás desse sistema, começamos a enxergar os números não apenas como símbolos, mas como parte de uma linguagem poderosa que organiza o raciocínio matemático. 
 
 
 
