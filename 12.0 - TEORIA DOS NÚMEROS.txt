@@ -50,7 +50,27 @@
 
  Quando observamos esse sistema com atenção, percebemos que ele não é apenas uma forma de escrever números, ele é uma ferramenta poderosa para pensar matematicamente. Operações como soma, subtração, multiplicação e divisão tornam-se muito mais organizadas graças à estrutura posicional. É como ter um tabuleiro bem organizado para jogar xadrez: quando cada peça tem um lugar definido, as estratégias ficam mais claras e os movimentos mais eficientes.
 
- E é justamente por isso que o Sistema de Numeração Indo-Arábico se tornou um dos pilares da matemática moderna e da computação. Ele é a base de praticamente todos os cálculos que fazemos, desde operações simples até algoritmos complexos que rodam dentro dos computadores. Ao entender a lógica por trás desse sistema, começamos a enxergar os números não apenas como símbolos, mas como parte de uma linguagem poderosa que organiza o raciocínio matemático. 
+ E é justamente por isso que o Sistema de Numeração Indo-Arábico se tornou um dos pilares da matemática moderna e da computação. Ele é a base de praticamente todos os cálculos que fazemos, desde operações simples até algoritmos complexos que rodam dentro dos computadores. Ao entender a lógica por trás desse sistema, começamos a enxergar os números não apenas como símbolos, mas como parte de uma linguagem poderosa que organiza o raciocínio matemático.
+
+
+
+                                        "Conjunto dos Inteiros" 
+
+Depois de entendermos como o sistema de numeração moderno organiza os números, o próximo passo natural dentro da Teoria dos Números é conhecer um dos conjuntos mais importantes da matemática: o conjunto dos inteiros. Esse conjunto é representado pela letra ℤ e inclui todos os números inteiros positivos, os números negativos e o zero. Ou seja: …, −3, −2, −1, 0, 1, 2, 3, … e assim por diante. Podemos imaginar esse conjunto como uma longa estrada que se estende infinitamente para os dois lados. No centro está o zero, e a cada passo para a direita os números aumentam, enquanto à esquerda eles diminuem.
+
+Os inteiros aparecem naturalmente em muitas situações do cotidiano. Pense, por exemplo, em um termômetro marcando temperatura. Se está 5 °C acima de zero, usamos um número positivo. Se está 5 °C abaixo de zero, usamos um número negativo. Outro exemplo é uma conta bancária: se você tem dinheiro disponível, o saldo é positivo; se está devendo, o saldo pode ser representado por um número negativo. Essas situações mostram como os inteiros ajudam a representar tanto ganhos quanto perdas, subidas e descidas, avanços e recuos.
+
+Dentro da matemática, estudar os inteiros não significa apenas listar números, mas entender como eles se comportam quando realizamos operações com eles. É aqui que entram as chamadas propriedades algébricas básicas. Essas propriedades são como regras de funcionamento de um jogo. Quando sabemos quais são as regras, conseguimos prever o que acontecerá ao combinar diferentes movimentos. Na matemática, essas “regras” garantem que as operações entre inteiros funcionem de maneira consistente.
+
+Uma dessas regras é a propriedade de fechamento. Ela diz que, quando somamos ou multiplicamos dois números inteiros, o resultado também será um número inteiro. Por exemplo, 3 + 4 resulta em 7, que também pertence ao conjunto ℤ. O mesmo acontece com −5 + 2 = −3. É como cozinhar uma receita usando apenas ingredientes de uma mesma cozinha: se começamos com ingredientes desse “estoque”, o resultado final também pertence a ele. O conjunto permanece fechado dentro de si mesmo.
+
+Outra propriedade importante é a associatividade. Ela nos diz que a forma como agrupamos os números não altera o resultado da soma ou da multiplicação. Por exemplo, (2 + 3) + 4 é igual a 2 + (3 + 4). Pense nisso como organizar tarefas em um dia: não importa se você agrupa primeiro duas tarefas e depois adiciona a terceira, ou se agrupa as outras duas primeiro — o total de tarefas continua o mesmo.
+
+Temos também a propriedade da comutatividade. Ela afirma que a ordem dos números não altera o resultado da soma ou da multiplicação. Em outras palavras, 3 + 5 é igual a 5 + 3. É como colocar dois livros em uma mochila: tanto faz qual entra primeiro, o conjunto final continua sendo os mesmos dois livros. Essa propriedade traz uma grande simplicidade para muitos cálculos.
+
+Outro ponto fundamental é a existência do elemento neutro e do inverso. O elemento neutro da soma é o zero, porque qualquer número somado a zero continua o mesmo número. Por exemplo, 8 + 0 = 8. Já o inverso de um número inteiro é aquele que o “anula” quando somado a ele. O inverso de 5 é −5, pois 5 + (−5) = 0. Podemos imaginar isso como dar passos para frente e depois exatamente a mesma quantidade de passos para trás: você acaba voltando ao ponto inicial.
+
+Por fim, os inteiros possuem uma ordem natural. Podemos compará-los e dizer qual é maior ou menor. Em uma reta numérica, os números mais à direita são maiores, e os mais à esquerda são menores. Essa ordem nos permite organizar quantidades e entender relações como −2 < 1 ou 5 > 3. É como olhar para as casas numeradas de uma rua: sabemos qual vem antes e qual vem depois. Compreender essa estrutura dos inteiros é um passo essencial na Teoria dos Números, pois ela serve de base para muitas ideias mais profundas que veremos adiante. E a beleza da matemática está justamente nisso: conceitos aparentemente simples escondem estruturas elegantes que sustentam todo o raciocínio matemático. Continue explorando com curiosidade — cada novo conceito é como descobrir mais uma peça importante desse grande e fascinante quebra-cabeça dos números.
 
 
 
