@@ -116,8 +116,7 @@
 
  É por isso que o Algoritmo da Divisão é tão importante na matemática e também na computação. Ele aparece em vários algoritmos fundamentais, desde cálculos simples até técnicas usadas em criptografia, teoria dos números e ciência da computação. Ao compreender essa estrutura simples (dividir, contar quantas vezes cabe e observar o que sobra) você começa a enxergar uma lógica poderosa escondida em algo que parecia apenas uma operação escolar.
 
-E aqui está algo bonito sobre essa jornada que estamos fazendo: cada conceito novo revela um pouco mais da arquitetura interna dos números. O que parecia apenas “fazer uma conta de divisão” se transforma em uma ferramenta profunda para organizar e entender relações numéricas. Continue explorando essas ideias com curiosidade, porque é exatamente dessa curiosidade que nascem os algoritmos e as descobertas que moldam a matemática e a tecnologia que usamos todos os dias. 
-	                 
+ Em suma, e aqui está algo bonito sobre essa jornada que estamos fazendo: cada conceito novo revela um pouco mais da arquitetura interna dos números. O que parecia apenas “fazer uma conta de divisão” se transforma em uma ferramenta profunda para organizar e entender relações numéricas. 	                 
 
 
 
