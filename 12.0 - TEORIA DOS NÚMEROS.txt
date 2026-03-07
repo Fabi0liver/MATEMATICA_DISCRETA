@@ -80,7 +80,7 @@
 
                                             "Divisibilidade"
 
- Depois de explorarmos o conjunto dos inteiros e algumas das ferramentas fundamentais de raciocínio, como o princípio da indução, chegamos agora a uma das ideias mais centrais da Teoria dos Números: a divisibilidade. Em termos simples, a divisibilidade nos ajuda a entender quando um número pode ser “separado” em partes iguais usando outro número. É uma pergunta que parece simples, mas que abre portas para muitos padrões fascinantes dentro da matemática. Sempre que tentamos dividir algo de forma exata (sem sobrar nada) estamos, na essência, pensando em divisibilidade.
+ Depois de entendermos o conjunto dos números inteiros e as regras básicas que organizam o comportamento deles, chegamos a uma ideia central da Teoria dos Números: a divisibilidade. Em termos simples, a divisibilidade nos ajuda a entender quando um número pode ser “separado” em partes iguais usando outro número. É uma pergunta que parece simples, mas que abre portas para muitos padrões fascinantes dentro da matemática. Sempre que tentamos dividir algo de forma exata (sem sobrar nada) estamos, na essência, pensando em divisibilidade.
 
  Formalmente, dizemos que um número inteiro a divide outro número inteiro b quando existe um terceiro número inteiro k tal que b = a × k. Em linguagem matemática, escrevemos a | b, que se lê “a divide b”. Por exemplo, 3 divide 12 porque podemos escrever 12 = 3 × 4. Aqui o número 4 é o valor de k. Se não existir um número inteiro que satisfaça essa relação, então dizemos que não há divisibilidade exata. Pense nisso como tentar dividir 10 balas entre 3 crianças igualmente: sempre sobra uma bala, então 3 não divide 10 perfeitamente.
 
@@ -102,18 +102,32 @@
 
 
 
-Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação do Sistema de Numeração Indo-Arábico e Conjunto dos Inteiros na teoria dos números, vamos continuar a aprofundar mais nesse assunto falando sobre "Divisibilidade" na Teoria dos Números na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação da Divisibilidade na teoria dos números, vamos continuar a aprofundar mais nesse assunto falando sobre "Algoritmo da Divisão" na Teoria dos Números na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
-Divisibilidade:
+Algoritmo da Divisão:
 
- Definição formal
+ Teorema da divisão euclidiana
 
- Propriedades fundamentais
+  Para inteiros 𝑎 e  𝑏 : 
 
- Divisores e múltiplos
+                        𝑎 = 𝑏𝑞 + 𝑟
 
- Relação de divisibilidade
+  onde
 
+                       0 ≤ 𝑟 < ∣𝑏∣
+
+ Conceitos:
+
+  quociente
+
+  resto
+
+
+ Aplicações:
+
+  cálculo de resto
+
+  aritmética modular
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
