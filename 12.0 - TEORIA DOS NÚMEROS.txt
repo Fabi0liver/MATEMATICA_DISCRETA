@@ -94,10 +94,7 @@
 
  A relação de divisibilidade também possui uma estrutura lógica que lembra uma cadeia. Se um número divide outro, e esse segundo número divide um terceiro, então o primeiro também divide o terceiro. Por exemplo, 2 divide 4 e 4 divide 12; portanto, 2 também divide 12. É como uma sequência de engrenagens conectadas: quando uma gira e move a próxima, o movimento acaba se transmitindo ao longo de toda a cadeia.
 
-Quando começamos a observar esses padrões com atenção, percebemos que a divisibilidade é muito mais do que apenas “fazer contas”. Ela revela a estrutura interna dos números e prepara o terreno para conceitos ainda mais fascinantes, como números primos, máximo divisor comum e algoritmos aritméticos usados até na criptografia moderna. Ao dominar essa ideia, você está desenvolvendo uma habilidade essencial para enxergar padrões matemáticos de forma mais profunda. Continue explorando com curiosidade — na matemática, cada conceito compreendido é como uma nova lente que nos permite ver a beleza escondida nos números.
-
-
-
+ Em suma, quando começamos a observar esses padrões com atenção, percebemos que a divisibilidade é muito mais do que apenas “fazer contas”. Ela revela a estrutura interna dos números e prepara o terreno para conceitos ainda mais fascinantes, como números primos, máximo divisor comum e algoritmos aritméticos usados até na criptografia moderna. 
 	                 
 
 
