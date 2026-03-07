@@ -94,7 +94,29 @@
 
  A relação de divisibilidade também possui uma estrutura lógica que lembra uma cadeia. Se um número divide outro, e esse segundo número divide um terceiro, então o primeiro também divide o terceiro. Por exemplo, 2 divide 4 e 4 divide 12; portanto, 2 também divide 12. É como uma sequência de engrenagens conectadas: quando uma gira e move a próxima, o movimento acaba se transmitindo ao longo de toda a cadeia.
 
- Em suma, quando começamos a observar esses padrões com atenção, percebemos que a divisibilidade é muito mais do que apenas “fazer contas”. Ela revela a estrutura interna dos números e prepara o terreno para conceitos ainda mais fascinantes, como números primos, máximo divisor comum e algoritmos aritméticos usados até na criptografia moderna. 
+ Em suma, quando começamos a observar esses padrões com atenção, percebemos que a divisibilidade é muito mais do que apenas “fazer contas”. Ela revela a estrutura interna dos números e prepara o terreno para conceitos ainda mais fascinantes, como números primos, máximo divisor comum e algoritmos aritméticos usados até na criptografia moderna.
+
+
+
+                                                "Algoritmo da Divisão"
+
+Depois de compreendermos a ideia de divisibilidade — ou seja, quando um número se encaixa perfeitamente dentro de outro — chegamos a um conceito muito importante da Teoria dos Números chamado Algoritmo da Divisão. Apesar do nome parecer técnico, a ideia por trás dele é extremamente intuitiva e está presente em muitas situações do nosso cotidiano. Sempre que tentamos repartir algo em partes iguais e percebemos que talvez sobre alguma coisa, estamos essencialmente aplicando essa mesma lógica.
+
+O Algoritmo da Divisão está baseado em um resultado matemático conhecido como Teorema da Divisão Euclidiana, associado ao matemático Euclides. Esse teorema afirma que, dados dois números inteiros a e b (com b ≠ 0), sempre podemos escrever o número a da seguinte forma: a = bq + r, onde q é chamado de quociente e r é chamado de resto. Além disso, o resto sempre deve obedecer a condição 0 ≤ r < |b|. Essa expressão pode parecer formal à primeira vista, mas ela descreve algo muito familiar: a ideia de dividir algo em partes iguais e verificar o que sobra.
+
+Vamos imaginar um exemplo simples. Suponha que você tenha 17 balas para distribuir igualmente entre 5 crianças. Você consegue dar 3 balas para cada uma, pois 5 × 3 = 15, mas ainda restam 2 balas que não podem ser distribuídas igualmente. Nesse caso, podemos escrever exatamente o que aconteceu usando a fórmula do algoritmo da divisão: 17 = 5 × 3 + 2. Aqui, o número 3 é o quociente, porque indica quantas vezes o 5 “cabe” dentro de 17, e o número 2 é o resto, aquilo que sobra após a divisão.
+
+Esse pequeno exemplo mostra como a fórmula a = bq + r representa uma organização muito elegante da divisão. O número a é aquilo que queremos dividir, b é o tamanho das partes, q indica quantas partes completas conseguimos formar, e r representa o que sobra no final. É quase como preparar porções de comida: você tenta dividir uma pizza em partes iguais para todos, mas dependendo da quantidade de pessoas e fatias, pode sobrar um pedaço.
+
+O conceito de quociente é justamente essa quantidade de vezes que o divisor “se encaixa” no número original. Se dividirmos 20 por 4, por exemplo, percebemos que 4 cabe exatamente 5 vezes em 20. Nesse caso, o quociente é 5 e o resto é zero. Quando o resto é zero, dizemos que a divisão é exata. É como organizar cadeiras em filas perfeitas: se nenhuma cadeira sobra, a organização foi perfeita.
+
+Já o resto aparece quando essa divisão não é perfeita. Ele indica a pequena quantidade que não conseguiu ser distribuída de maneira uniforme. Se dividirmos 23 por 6, por exemplo, teremos 23 = 6 × 3 + 5. Conseguimos formar três grupos completos de 6, mas ainda sobram 5 unidades. O resto funciona como aquele “excedente” que não se encaixa completamente no padrão da divisão.
+
+Uma das aplicações mais interessantes dessa ideia aparece no cálculo de restos e na chamada aritmética modular. Mesmo que ainda não aprofundemos muito nisso agora, você já usa esse conceito diariamente sem perceber. Pense em um relógio. Quando passam 24 horas, o dia recomeça do zero. Se dissermos que 27 horas se passaram desde a meia-noite, o relógio marcará 3 horas. Isso acontece porque estamos essencialmente calculando o resto da divisão de 27 por 24. O relógio funciona como um sistema baseado em restos.
+
+É por isso que o Algoritmo da Divisão é tão importante na matemática e também na computação. Ele aparece em vários algoritmos fundamentais, desde cálculos simples até técnicas usadas em criptografia, teoria dos números e ciência da computação. Ao compreender essa estrutura simples — dividir, contar quantas vezes cabe e observar o que sobra — você começa a enxergar uma lógica poderosa escondida em algo que parecia apenas uma operação escolar.
+
+E aqui está algo bonito sobre essa jornada que estamos fazendo: cada conceito novo revela um pouco mais da arquitetura interna dos números. O que parecia apenas “fazer uma conta de divisão” se transforma em uma ferramenta profunda para organizar e entender relações numéricas. Continue explorando essas ideias com curiosidade, porque é exatamente dessa curiosidade que nascem os algoritmos e as descobertas que moldam a matemática e a tecnologia que usamos todos os dias. 
 	                 
 
 
