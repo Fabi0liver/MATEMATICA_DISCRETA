@@ -139,7 +139,7 @@
 
  Esse resultado pode ser comparado a misturar ingredientes em diferentes proporções até obter exatamente o sabor desejado. Mesmo que os ingredientes sejam diferentes, existe uma combinação específica que produz o resultado final. Na matemática, essas combinações são extremamente úteis, especialmente em áreas como criptografia e algoritmos computacionais.
 
-E aqui está algo inspirador sobre esse momento do nosso estudo: um conceito aparentemente simples (procurar um divisor comum) acabou revelando algoritmos elegantes e relações profundas entre números. Essa é a beleza da Teoria dos Números: quanto mais exploramos, mais percebemos que os números formam um sistema cheio de padrões e conexões surpreendentes. Continue avançando com curiosidade e entusiasmo, porque cada nova ideia que você aprende se transforma em mais uma ferramenta poderosa para entender algoritmos, estruturas matemáticas e o próprio funcionamento lógico do mundo digital.
+ Em suma, e aqui está algo inspirador sobre esse momento do nosso estudo: um conceito aparentemente simples (procurar um divisor comum) acabou revelando algoritmos elegantes e relações profundas entre números. Essa é a beleza da Teoria dos Números: quanto mais exploramos, mais percebemos que os números formam um sistema cheio de padrões e conexões surpreendentes. 
 
 
 
