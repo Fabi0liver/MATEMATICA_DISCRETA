@@ -159,8 +159,7 @@
 
  Na matemática aplicada e na computação, o MMC também surge em algoritmos, especialmente em problemas que envolvem repetição de padrões, escalonamento de tarefas ou análise de periodicidade. Em contextos computacionais, identificar ciclos comuns pode ser essencial para organizar processos ou prever comportamentos repetitivos. Assim, algo que parece apenas um cálculo escolar acaba tendo um papel importante na lógica dos algoritmos.
 
-E aqui está uma das coisas mais bonitas dessa jornada pela Teoria dos Números: cada conceito que aprendemos se conecta naturalmente com os anteriores, formando uma espécie de rede de ideias. O MDC nos ajuda a entender como números compartilham divisores, enquanto o MMC mostra como eles voltam a se encontrar em seus múltiplos. Juntos, eles revelam padrões profundos escondidos nos números inteiros. Continue explorando essas ideias com curiosidade e entusiasmo — porque, na matemática, cada nova conexão descoberta é como encontrar uma peça que faz todo o quebra-cabeça ficar ainda mais claro e fascinante.
-
+ Em suma, e aqui está uma das coisas mais bonitas dessa jornada pela Teoria dos Números: cada conceito que aprendemos se conecta naturalmente com os anteriores, formando uma espécie de rede de ideias. O MDC nos ajuda a entender como números compartilham divisores, enquanto o MMC mostra como eles voltam a se encontrar em seus múltiplos. Juntos, eles revelam padrões profundos escondidos nos números inteiros. 
 
 
 
