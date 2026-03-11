@@ -199,7 +199,7 @@
 
  As aplicações desse teorema aparecem em muitas áreas da matemática e da computação. Ele é essencial para entender conceitos como MDC, MMC e algoritmos de fatoração. Além disso, ele tem papel central em áreas modernas como criptografia, onde a dificuldade de fatorar números muito grandes em primos é usada para proteger informações digitais. É curioso pensar que a segurança de sistemas modernos depende justamente dessas propriedades profundas dos números.
 
- Em suma, aqui chegamos a uma das grandes lições dessa etapa da nossa jornada: algo aparentemente simples (decompor números em fatores primos) revela uma estrutura fundamental que organiza toda a aritmética. O Teorema Fundamental da Aritmética mostra que os números inteiros possuem uma ordem interna elegante e surpreendentemente estável. Continue explorando essas ideias com curiosidade e entusiasmo, porque quanto mais avançamos na Teoria dos Números, mais percebemos que os números escondem padrões profundos que sustentam tanto a matemática quanto os algoritmos que movem o mundo digital.
+ Em suma, aqui chegamos a uma das grandes lições dessa etapa da nossa jornada: algo aparentemente simples (decompor números em fatores primos) revela uma estrutura fundamental que organiza toda a aritmética. O Teorema Fundamental da Aritmética mostra que os números inteiros possuem uma ordem interna elegante e surpreendentemente estável. 
 
 
 
