@@ -165,7 +165,7 @@
 
                                              "Números Primos"
 
-Depois de estudarmos conceitos como divisibilidade, MDC e MMC, chegamos agora a um dos temas mais fascinantes da Teoria dos Números: os números primos. Esses números são especiais porque funcionam como os “blocos fundamentais” da aritmética. Para entender a ideia, pense em construir uma casa com tijolos. A casa pode ter muitas formas e tamanhos, mas todos os seus componentes vêm desses blocos básicos. Na matemática acontece algo parecido: muitos números podem ser formados a partir da multiplicação de números primos.
+ Depois de estudarmos conceitos como divisibilidade, Máximo Divisor Comum (MDC) e Mínimo Múltiplo Comum (MMC), chegamos agora a um dos temas mais fascinantes da Teoria dos Números: os números primos. Esses números são especiais porque funcionam como os “blocos fundamentais” da aritmética. Para entender a ideia, pense em construir uma casa com tijolos. A casa pode ter muitas formas e tamanhos, mas todos os seus componentes vêm desses blocos básicos. Na matemática acontece algo parecido: muitos números podem ser formados a partir da multiplicação de números primos.
 
 A definição de número primo é simples e elegante. Dizemos que um número inteiro maior que 1 é primo quando ele possui apenas dois divisores positivos: o número 1 e ele mesmo. Por exemplo, 2, 3, 5, 7 e 11 são números primos. O número 7, por exemplo, só pode ser dividido exatamente por 1 e por 7. Nenhum outro número inteiro divide 7 sem deixar resto. É como uma peça especial de um jogo de montar que não pode ser desmontada em peças menores iguais.
 
