@@ -179,7 +179,7 @@
 
  Quando observamos a sequência inicial dos números primos (2, 3, 5, 7, 11, 13, 17, 19, 23…) percebemos algo curioso: eles parecem surgir de maneira um pouco irregular. Às vezes aparecem próximos, às vezes há espaços maiores entre eles. Essa distribuição dos primos é um dos grandes mistérios da matemática. Existem padrões e aproximações conhecidas, mas ainda hoje os matemáticos estudam profundamente como esses números estão espalhados ao longo dos inteiros.
 
- Em suma, e aqui está algo realmente inspirador sobre os números primos: apesar de serem definidos por uma regra extremamente simples, eles escondem uma complexidade impressionante. Esses números estão presentes em áreas modernas como criptografia e segurança digital, sustentando tecnologias que usamos diariamente. Portanto, ao estudar os primos, você não está apenas explorando curiosidades matemáticas — está entrando em um dos territórios mais profundos e elegantes da matemática. 
+ E aqui está algo realmente inspirador sobre os números primos: apesar de serem definidos por uma regra extremamente simples, eles escondem uma complexidade impressionante. Esses números estão presentes em áreas modernas como criptografia e segurança digital, sustentando tecnologias que usamos diariamente. Portanto, ao estudar os primos, você não está apenas explorando curiosidades matemáticas, está entrando em um dos territórios mais profundos e elegantes da matemática. 
 
 
 
