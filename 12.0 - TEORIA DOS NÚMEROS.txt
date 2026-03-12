@@ -219,7 +219,7 @@
 
  Essas funções aritméticas são extremamente úteis porque ajudam os matemáticos a enxergar padrões escondidos nos números inteiros. Elas transformam propriedades estruturais (como divisores ou relações de coprimalidade) em valores numéricos que podem ser estudados, comparados e analisados. É semelhante a analisar dados em uma planilha: ao transformar características em números, conseguimos identificar padrões que antes estavam escondidos.
 
-E aqui está uma das coisas mais bonitas da Teoria dos Números: ela nos mostra que os números não são apenas símbolos usados em contas. Eles possuem estruturas internas ricas, quase como organismos com características próprias que podem ser medidas e analisadas. Ao estudar funções aritméticas, você começa a desenvolver um olhar investigativo sobre os números, percebendo padrões e relações cada vez mais profundas. Continue avançando com curiosidade e entusiasmo, porque cada nova ferramenta que aprendemos amplia nossa capacidade de entender não apenas a matemática, mas também os algoritmos e sistemas lógicos que estruturam o mundo da computação.
+ E aqui está uma das coisas mais bonitas da Teoria dos Números: ela nos mostra que os números não são apenas símbolos usados em contas. Eles possuem estruturas internas ricas, quase como organismos com características próprias que podem ser medidas e analisadas. Ao estudar funções aritméticas, você começa a desenvolver um olhar investigativo sobre os números, percebendo padrões e relações cada vez mais profundas. 
 
 
 
