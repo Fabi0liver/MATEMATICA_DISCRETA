@@ -244,7 +244,7 @@ a ≡ c (mod n). Podemos imaginar isso como uma cadeia de equivalências: se doi
 
  Dentro dessas classes, escolhemos normalmente um representante, que é um número usado para representar todo o conjunto. Por exemplo, o número 2 pode representar todos os números que deixam resto 2 na divisão por 5, como 7, 12, 17, 22 e assim por diante. Essa forma de organizar os números cria um novo conjunto matemático chamado ℤₙ, que reúne exatamente essas classes residuais. É como reorganizar uma biblioteca: em vez de ordenar livros pelo tamanho, passamos a organizá-los por categorias específicas.
 
-E aqui está algo fascinante: essa forma de pensar sobre números não é apenas uma curiosidade matemática. As congruências são a base de muitos algoritmos usados em criptografia, teoria dos códigos e computação moderna. Elas permitem trabalhar com números enormes de forma eficiente, transformando problemas complicados em cálculos mais simples baseados em restos. Ao compreender as congruências, você começa a enxergar um novo “mundo modular” dentro da matemática. Continue explorando com curiosidade, porque cada novo conceito revela mais da incrível arquitetura lógica que sustenta a Teoria dos Números e os algoritmos que moldam o mundo digital.
+ Em suma, essa forma de pensar sobre números não é apenas uma curiosidade matemática. As congruências são a base de muitos algoritmos usados em criptografia, teoria dos códigos e computação moderna. Elas permitem trabalhar com números enormes de forma eficiente, transformando problemas complicados em cálculos mais simples baseados em restos. Ao compreender as congruências, você começa a enxergar um novo “mundo modular” dentro da matemática. 
 
 
 
