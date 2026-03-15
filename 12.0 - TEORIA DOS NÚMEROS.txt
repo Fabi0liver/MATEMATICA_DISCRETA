@@ -252,7 +252,18 @@ a ≡ c (mod n). Podemos imaginar isso como uma cadeia de equivalências: se doi
 
 
 
-Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação sobre Números Primos, Teorema Fundamental da Aritmética e Funções Aritméticas, vamos continuar a aprofundar mais na teoria dos números falando sobre "Congruências" na Teoria dos Números na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação sobre Congruências, vamos continuar a aprofundar mais na teoria dos números falando sobre "Aritmética Modular" na Teoria dos Números na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
+
+
+Aritmética Modular:
+
+ Operações em ℤₙ
+
+ Estrutura algébrica de ℤₙ
+
+ Elementos invertíveis
+
+ Grupo multiplicativo ℤₙ*
 
 
 
