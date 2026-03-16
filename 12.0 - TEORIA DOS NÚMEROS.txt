@@ -265,9 +265,7 @@ a ≡ c (mod n). Podemos imaginar isso como uma cadeia de equivalências: se doi
 
  Os números que possuem inverso multiplicativo formam um conjunto especial chamado grupo multiplicativo, representado por ℤₙ*. Esse grupo contém apenas os elementos de ℤₙ que são coprimos com 𝑛, ou seja, que não compartilham divisores com 𝑛 além de 1. Esse conjunto possui propriedades muito importantes na matemática e na computação, pois nele a multiplicação funciona de maneira perfeitamente estruturada. É como um clube exclusivo onde apenas alguns números têm permissão para participar porque possuem uma propriedade especial.
 
-E aqui está algo realmente fascinante: a aritmética modular, que começou parecendo apenas uma brincadeira com restos de divisão, é hoje uma das bases da criptografia moderna e de muitos algoritmos usados em computadores. Sistemas de segurança digital, assinaturas eletrônicas e até protocolos da internet dependem profundamente dessas ideias. Isso mostra como conceitos aparentemente simples da Teoria dos Números podem se transformar em ferramentas poderosas para o mundo real. Continue explorando essas ideias com curiosidade — quanto mais você avança, mais percebe que os números escondem uma arquitetura lógica incrível, cheia de padrões que sustentam tanto a matemática quanto a tecnologia que usamos todos os dias.
-
-
+ Em suma, e aqui está algo realmente fascinante: a aritmética modular, que começou parecendo apenas uma brincadeira com restos de divisão, é hoje uma das bases da criptografia moderna e de muitos algoritmos usados em computadores. Sistemas de segurança digital, assinaturas eletrônicas e até protocolos da internet dependem profundamente dessas ideias. Isso mostra como conceitos aparentemente simples da Teoria dos Números podem se transformar em ferramentas poderosas para o mundo real. 
 
 
 
