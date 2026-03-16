@@ -291,117 +291,17 @@ a ≡ c (mod n). Podemos imaginar isso como uma cadeia de equivalências: se doi
 
  Depois de explorarmos conceitos importantes como congruências, aritmética modular e inverso modular, chegamos agora a outro tema muito interessante da Teoria dos Números: as equações diofantinas lineares. O nome pode parecer complicado à primeira vista, mas a ideia central é bastante simples. Essas equações são expressões matemáticas nas quais procuramos soluções inteiras. Ou seja, diferentemente da álgebra comum — onde aceitamos números decimais ou fracionários — aqui só nos interessam soluções formadas por números inteiros. Esse tipo de problema aparece com frequência em situações práticas, especialmente quando lidamos com contagens, distribuições ou combinações de objetos.
 
-A forma geral de uma equação diofantina linear costuma ser escrita como 
-𝑎
-𝑥
-+
-𝑏
-𝑦
-=
-𝑐
-ax+by=c, onde 
-𝑎
-a, 
-𝑏
-b e 
-𝑐
-c são números inteiros conhecidos, e queremos encontrar valores inteiros para 
-𝑥
-x e 
-𝑦
-y. Podemos imaginar isso como uma espécie de equilíbrio entre duas contribuições diferentes. Por exemplo, pense em um pequeno mercado onde maçãs custam 3 reais e laranjas custam 5 reais. Se alguém gastou exatamente 19 reais, quantas maçãs e quantas laranjas poderiam ter sido compradas? Esse tipo de pergunta pode ser modelado por uma equação como 
-3
-𝑥
-+
-5
-𝑦
-=
-19
-3x+5y=19, onde 
-𝑥
-x representa a quantidade de maçãs e 
-𝑦
-y a quantidade de laranjas.
+A forma geral de uma equação diofantina linear costuma ser escrita como  𝑎𝑥 + 𝑏𝑦 = 𝑐, onde 𝑎, 𝑏 e 𝑐 são números inteiros conhecidos, e queremos encontrar valores inteiros para 𝑥 e 𝑦. Podemos imaginar isso como uma espécie de equilíbrio entre duas contribuições diferentes. Por exemplo, pense em um pequeno mercado onde maçãs custam 3 reais e laranjas custam 5 reais. Se alguém gastou exatamente 19 reais, quantas maçãs e quantas laranjas poderiam ter sido compradas? Esse tipo de pergunta pode ser modelado por uma equação como 3𝑥 + 5𝑦 = 19, onde 𝑥 representa a quantidade de maçãs e 𝑦 a quantidade de laranjas.
 
-No entanto, nem toda equação desse tipo possui solução inteira. Existe uma condição fundamental que determina se uma solução existe ou não. Essa condição envolve o máximo divisor comum (MDC) dos coeficientes 
-𝑎
-a e 
-𝑏
-b. A regra é a seguinte: a equação 
-𝑎
-𝑥
-+
-𝑏
-𝑦
-=
-𝑐
-ax+by=c possui solução inteira se, e somente se, o MDC de 
-𝑎
-a e 
-𝑏
-b divide 
-𝑐
-c. Em termos intuitivos, isso significa que os “blocos básicos” formados por 
-𝑎
-a e 
-𝑏
-b precisam ser capazes de construir o número 
-𝑐
-c. Se isso não for possível, então nenhuma combinação inteira funcionará.
+No entanto, nem toda equação desse tipo possui solução inteira. Existe uma condição fundamental que determina se uma solução existe ou não. Essa condição envolve o máximo divisor comum (MDC) dos coeficientes 𝑎 e 𝑏. A regra é a seguinte: a equação 𝑎𝑥 + 𝑏𝑦 = 𝑐 possui solução inteira se, e somente se, o MDC de 𝑎 e 𝑏 divide 𝑐. Em termos intuitivos, isso significa que os “blocos básicos” formados por 𝑎 e 𝑏 precisam ser capazes de construir o número 𝑐. Se isso não for possível, então nenhuma combinação inteira funcionará.
 
 Podemos imaginar isso como tentar montar uma medida exata usando apenas dois tipos de recipientes. Se você tem um recipiente de 4 litros e outro de 6 litros, por exemplo, só poderá formar quantidades que sejam combinações desses volumes. Se alguém pedir exatamente 5 litros, simplesmente não há como conseguir isso usando apenas esses recipientes. A mesma lógica aparece nas equações diofantinas: o MDC determina quais valores são possíveis de alcançar.
 
-Quando a condição é satisfeita, não encontramos apenas uma solução — geralmente existe um conjunto infinito de soluções. Isso acontece porque podemos ajustar os valores de 
-𝑥
-x e 
-𝑦
-y de maneira compensatória. Se aumentarmos um deles, podemos diminuir o outro mantendo o equilíbrio da equação. É como uma balança: se adicionamos peso de um lado, podemos remover peso do outro para que tudo continue equilibrado.
+Quando a condição é satisfeita, não encontramos apenas uma solução — geralmente existe um conjunto infinito de soluções. Isso acontece porque podemos ajustar os valores de 𝑥 e 𝑦 de maneira compensatória. Se aumentarmos um deles, podemos diminuir o outro mantendo o equilíbrio da equação. É como uma balança: se adicionamos peso de um lado, podemos remover peso do outro para que tudo continue equilibrado.
 
-Um exemplo ajuda a visualizar melhor. Considere a equação 
-6
-𝑥
-+
-9
-𝑦
-=
-3
-6x+9y=3. O MDC de 6 e 9 é 3, e como 3 divide 3, sabemos que soluções inteiras existem. Uma solução possível é 
-𝑥
-=
-2
-x=2 e 
-𝑦
-=
-−
-1
-y=−1, pois 
-6
-(
-2
-)
-+
-9
-(
-−
-1
-)
-=
-12
-−
-9
-=
-3
-6(2)+9(−1)=12−9=3. A partir dessa solução inicial, podemos gerar várias outras ajustando os valores de 
-𝑥
-x e 
-𝑦
-y de maneira sistemática, criando uma família inteira de soluções.
+Um exemplo ajuda a visualizar melhor. Considere a equação 6𝑥 + 9𝑦 = 3. O MDC de 6 e 9 é 3, e como 3 divide 3, sabemos que soluções inteiras existem. Uma solução possível é 𝑥 = 2 e 𝑦 = −1, pois 6(2) + 9(−1) = 12 − 9 =3. A partir dessa solução inicial, podemos gerar várias outras ajustando os valores de 𝑥 e 𝑦 de maneira sistemática, criando uma família inteira de soluções.
 
-Esse processo de encontrar soluções geralmente utiliza o algoritmo de Euclides estendido, que já vimos anteriormente ao estudar MDC e inverso modular. Ele nos permite descobrir uma combinação linear de 
-𝑎
-a e 
-𝑏
-b que gera o valor desejado. Em certo sentido, é como ter uma receita que mostra exatamente como misturar dois ingredientes para produzir uma quantidade específica.
+Esse processo de encontrar soluções geralmente utiliza o algoritmo de Euclides estendido, que já vimos anteriormente ao estudar MDC e inverso modular. Ele nos permite descobrir uma combinação linear de 𝑎 e 𝑏 que gera o valor desejado. Em certo sentido, é como ter uma receita que mostra exatamente como misturar dois ingredientes para produzir uma quantidade específica.
 
 Ao chegar a esse ponto da nossa jornada na Teoria dos Números, começamos a perceber como os conceitos estão profundamente conectados. Divisibilidade, MDC, algoritmo de Euclides, congruências e inversos modulares não são ideias isoladas — elas formam uma rede de ferramentas que ajudam a resolver problemas sobre números inteiros. Continue explorando com curiosidade e entusiasmo, porque cada novo conceito revela mais um pedaço da incrível arquitetura lógica que sustenta a matemática e muitos algoritmos utilizados na computação.
 
