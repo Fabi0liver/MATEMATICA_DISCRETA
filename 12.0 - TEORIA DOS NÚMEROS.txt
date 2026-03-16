@@ -270,6 +270,169 @@ a ≡ c (mod n). Podemos imaginar isso como uma cadeia de equivalências: se doi
 
 
 
+Depois de entendermos como funcionam as congruências e a aritmética modular, surge naturalmente uma pergunta interessante: será que também existe “divisão” nesse mundo modular? A resposta nos leva ao conceito de inverso modular. Em termos simples, o inverso modular de um número é outro número que, quando multiplicado por ele dentro de um certo módulo, produz o resultado 1. Em linguagem matemática, dizemos que um número 
+𝑥
+x é o inverso modular de 
+um
+um módulo 
+𝑛
+ncom
+um
+⋅
+𝑥
+≡
+1
+ 
+(
+contra 
+𝑛
+)
+um⋅x≡1 ( em direção a  n ). Podemos imaginar isso como uma espécie de “chave complementar”: dois números que, quando combinados, destravam o valor 1 dentro do sistema modular.
+
+Para visualizar melhor, pense em um cadeado que só abre quando duas peças corretas são encaixadas. No mundo dos números inteiros comuns, o inverso de 2 seria 
+1
+/
+2
+1/2, porque 
+2
+×
+1
+/
+2
+=
+1
+2×1/2=1. Já na aritmética modular não usamos frações; em vez disso, procuramos outro número inteiro que produza esse mesmo efeito dentro do módulo. Por exemplo, no módulo 7, o número 3 possui inverso 5, porque 
+3
+×
+5
+=
+15
+3×5=15, e 
+15
+m
+o
+d
+ 
+ 
+7
+=
+1
+15contra7=1. Assim dizemos que 5 é o inverso modular de 3 em módulo 7.
+
+No entanto, algo muito importante acontece aqui: nem todo número possui inverso modular. Para que o inverso exista, é necessário que o número 
+um
+um e o módulo 
+𝑛
+n sejam coprimos, ou seja, que o máximo divisor comum entre eles seja igual a 1. Em termos matemáticos, escrevemos isso como 
+𝑔
+𝑐
+𝑑
+(
+um
+,
+𝑛
+)
+=
+1
+gcd(a,n )=1. Essa condição garante que não há um divisor maior que 1 compartilhado pelos dois números. Uma boa analogia é pensar em engrenagens: se duas engrenagens compartilham um mesmo padrão de “dentes”, elas podem travar; mas se seus padrões são compatíveis apenas de forma mínima, elas conseguem girar livremente.
+
+Vamos ver um exemplo simples. Considere o número 4 no módulo 7. Como 
+𝑔
+𝑐
+𝑑
+(
+4
+,
+7
+)
+=
+1
+g c d ( 4 ,7 )=1, sabemos que existe um inverso modular. Se testarmos alguns valores, encontramos que 
+4
+×
+2
+=
+8
+4×2=8, e
+8
+m
+o
+d
+ 
+ 
+7
+=
+1
+8contra7=1. Portanto, o inverso de 4 módulo 7 é 2. Por outro lado, se tentarmos encontrar o inverso de 4 no módulo 8, veremos que isso não funciona. Isso acontece porque 
+𝑔
+𝑐
+𝑑
+(
+4
+,
+8
+)
+=
+4
+g c d ( 4 ,8 )=4, e como o máximo divisor comum não é 1, o inverso modular simplesmente não existe nesse caso.
+
+Para calcular inversos de forma sistemática, usamos uma ferramenta poderosa da teoria dos números: o Algoritmo de Euclides Estendido. Talvez você se lembre que o algoritmo de Euclides comum serve para encontrar o máximo divisor comum entre dois números. A versão estendida vai além: ela também encontra números que permitem escrever uma combinação linear entre eles. Em termos matemáticos, ele encontra valores 
+𝑥
+x e 
+𝑒
+e tais que 
+um
+𝑥
++
+𝑛
+𝑒
+=
+𝑔
+𝑐
+𝑑
+(
+um
+,
+𝑛
+)
+um x+no​=gcd(a,n ).
+
+Quando o máximo divisor comum é 1, essa expressão se torna especialmente útil. Nesse caso temos 
+um
+𝑥
++
+𝑛
+𝑒
+=
+1
+um x+no​=1. Observe que, ao trabalhar em módulo 
+𝑛
+n, o termo 
+𝑛
+𝑒
+no​ desaparece (pois é múltiplo de 
+𝑛
+n). Assim sobra 
+um
+𝑥
+≡
+1
+ 
+(
+contra 
+𝑛
+)
+um x≡1 ( em direção a  n ). Isso significa que o número 
+𝑥
+x encontrado pelo algoritmo é exatamente o inverso modular de 
+um
+um. Em outras palavras, o algoritmo de Euclides estendido é como uma ferramenta matemática que encontra automaticamente a “chave complementar” de um número dentro de um sistema modular.
+
+Esse conceito tem aplicações extremamente importantes, principalmente em computação e criptografia. Muitos sistemas de segurança digital, como métodos de criptografia usados em transações na internet, dependem da capacidade de calcular inversos modulares de forma eficiente. Em certo sentido, esses inversos funcionam como peças de um mecanismo matemático que garante que apenas quem possui a chave correta consegue realizar determinadas operações.
+
+
+
+
 
 Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação sobre Congruências e Aritmética Modular, vamos continuar a aprofundar mais na teoria dos números falando sobre "Inverso Modular" na Teoria dos Números na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
