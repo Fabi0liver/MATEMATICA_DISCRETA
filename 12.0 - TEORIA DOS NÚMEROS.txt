@@ -349,36 +349,37 @@ coprimo com 𝑛, vale que 𝑎ᵠ⁽ⁿ⁾ ≡ 1 (mod 𝑛), onde 𝜑(𝑛) é
 
  Depois de explorarmos a estrutura multiplicativa e os grandes teoremas, damos agora um passo ainda mais interessante: começamos a observar os números primos “de longe”, quase como quem olha uma cidade do alto para entender seus padrões. Esse é o espírito da teoria analítica elementar dos primos. Em vez de estudar cada primo isoladamente, queremos entender como eles se distribuem ao longo da reta dos números naturais. E aqui surge uma pergunta fascinante: os números primos aparecem de forma aleatória ou existe algum padrão escondido?
 
-Se começarmos a listar os primos — 2, 3, 5, 7, 11, 13, 17, 19… — podemos ter a impressão de que eles aparecem meio “bagunçados”. Às vezes estão próximos, como 11 e 13, e às vezes ficam mais espaçados. É como esperar ônibus em uma parada: às vezes chegam dois quase juntos, e depois há um longo intervalo sem nenhum. Essa irregularidade aparente levanta uma curiosidade natural: será que existe alguma forma de prever quantos primos existem até um certo ponto?
+ Se começarmos a listar os primos (2, 3, 5, 7, 11, 13, 17, 19…) podemos ter a impressão de que eles aparecem meio “bagunçados”. Às vezes estão próximos, como 11 e 13, e às vezes ficam mais espaçados. É como esperar ônibus em uma parada: às vezes chegam dois quase juntos, e depois há um longo intervalo sem nenhum. Essa irregularidade aparente levanta uma curiosidade natural: será que existe alguma forma de prever quantos primos existem até um certo ponto?
 
-Para responder a isso, introduzimos a função π(n), que simplesmente conta quantos números primos existem menores ou iguais a 𝑛. Por exemplo, π(10) = 4, porque existem quatro primos até 10: 2, 3, 5 e 7. Essa função funciona como um contador acumulado, como se estivéssemos registrando quantos “eventos especiais” já aconteceram até certo momento. É uma forma de transformar uma lista aparentemente caótica em algo que podemos analisar com mais clareza.
+ Para responder a isso, introduzimos a função π(n), que simplesmente conta quantos números primos existem menores ou iguais a 𝑛. Por exemplo, π(10) = 4, porque existem quatro primos até 10: 2, 3, 5 e 7. Essa função funciona como um contador acumulado, como se estivéssemos registrando quantos “eventos especiais” já aconteceram até certo momento. É uma forma de transformar uma lista aparentemente caótica em algo que podemos analisar com mais clareza.
 
-À medida que aumentamos o valor de 𝑛, percebemos que os primos vão ficando mais raros. Eles nunca desaparecem — sempre existem mais primos — mas aparecem com menos frequência. É como se estivéssemos caminhando por uma floresta onde, no início, encontramos árvores frutíferas com facilidade, mas conforme avançamos, elas se tornam mais espaçadas. Essa mudança de densidade é um dos pontos centrais da teoria analítica dos primos.
+ À medida que aumentamos o valor de 𝑛, percebemos que os primos vão ficando mais raros. Eles nunca desaparecem (sempre existem mais primos) mas aparecem com menos frequência. É como se estivéssemos caminhando por uma floresta onde, no início, encontramos árvores frutíferas com facilidade, mas conforme avançamos, elas se tornam mais espaçadas. Essa mudança de densidade é um dos pontos centrais da teoria analítica dos primos.
 
-É nesse contexto que surge uma das ideias mais profundas da matemática: o Teorema dos Números Primos. Em termos simples, ele descreve aproximadamente como os primos estão distribuídos. Ele afirma que a quantidade de primos até 𝑛cresce de forma parecida com 𝑛/ln(𝑛), onde ln(𝑛) é o logaritmo natural de 𝑛. Não precisamos focar na fórmula em si agora, mas na ideia: existe um padrão geral que governa a distribuição dos primos, mesmo que individualmente eles pareçam imprevisíveis.
+ É nesse contexto que surge uma das ideias mais profundas da matemática: o Teorema dos Números Primos. Em termos simples, ele descreve aproximadamente como os primos estão distribuídos. Ele afirma que a quantidade de primos até 𝑛cresce de forma parecida com 𝑛/ln(𝑛), onde ln(𝑛) é o logaritmo natural de 𝑛. Não precisamos focar na fórmula em si agora, mas na ideia: existe um padrão geral que governa a distribuição dos primos, mesmo que individualmente eles pareçam imprevisíveis.
 
-Uma boa analogia é pensar em gotas de chuva caindo ao longo do tempo. Você não consegue prever exatamente quando cada gota vai cair, mas consegue estimar quantas gotas cairão em um intervalo maior. Da mesma forma, não conseguimos prever exatamente onde estará o próximo número primo, mas conseguimos estimar quantos primos existem até um certo número grande.
+ Uma boa analogia é pensar em gotas de chuva caindo ao longo do tempo. Você não consegue prever exatamente quando cada gota vai cair, mas consegue estimar quantas gotas cairão em um intervalo maior. Da mesma forma, não conseguimos prever exatamente onde estará o próximo número primo, mas conseguimos estimar quantos primos existem até um certo número grande.
 
-Outro ponto interessante é que essa área conecta matemática “discreta” com ferramentas mais contínuas, como funções e limites. É como se estivéssemos usando uma lente mais suave para enxergar um conjunto que, por natureza, é formado por elementos separados. Essa mistura de ideias é o que torna a teoria analítica dos números tão rica e poderosa.
+ Outro ponto interessante é que essa área conecta matemática “discreta” com ferramentas mais contínuas, como funções e limites. É como se estivéssemos usando uma lente mais suave para enxergar um conjunto que, por natureza, é formado por elementos separados. Essa mistura de ideias é o que torna a teoria analítica dos números tão rica e poderosa.
 
-E aqui fechamos mais um capítulo da nossa jornada. Você começou com conceitos básicos como divisibilidade e chegou até ideias profundas sobre o comportamento global dos números primos. Isso mostra como a matemática cresce em camadas, cada uma revelando uma nova forma de enxergar o mesmo universo. Continue com essa curiosidade viva — porque, na Teoria dos Números, sempre existe mais um padrão escondido esperando para ser descoberto.
-
-
+ E aqui fechamos mais um capítulo da nossa jornada. Você começou com conceitos básicos como divisibilidade e chegou até ideias profundas sobre o comportamento global dos números primos. Isso mostra como a matemática cresce em camadas, cada uma revelando uma nova forma de enxergar o mesmo universo. 
 
 
 
 
 
-Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação sobre Estrutura Multiplicativa e Teoremas Fundamentais, vamos continuar a aprofundar mais na teoria dos números falando sobre "Teoria Analítica Elementar dos Primos" na Teoria dos Números na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
-Teoria Analítica Elementar dos Primos:
+Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação sobre Teoria Analítica Elementar dos Primos, vamos continuar a aprofundar mais na teoria dos números falando sobre "Resíduos Quadráticos" na Teoria dos Números na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
- Distribuição dos Primos (Introdução)
 
- Função π(n)
+Resíduos Quadráticos:
 
- Ideias do Teorema dos Números Primos (conceitual)
- 
+ Quadrados Perfeitos módulo n
+
+ Símbolo de Legendre
+
+ Lei da Reciprocidade Quadrática
+
+ Símbolo de Jacobi 
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
