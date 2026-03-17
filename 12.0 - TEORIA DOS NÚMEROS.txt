@@ -365,6 +365,113 @@ coprimo com 𝑛, vale que 𝑎ᵠ⁽ⁿ⁾ ≡ 1 (mod 𝑛), onde 𝜑(𝑛) é
 
 
 
+                                      "Resíduos Quadráticos"
+
+ Agora que já exploramos como os primos se distribuem, vamos entrar em um tema que mistura padrões e um certo “mistério elegante” da Teoria dos Números: os resíduos quadráticos. A ideia central aqui é investigar quais números podem ser obtidos como quadrados dentro da aritmética modular. Em outras palavras, dado um número 
+𝑛
+n, queremos saber: quais valores podem aparecer como 
+𝑥
+2
+m
+o
+d
+ 
+ 
+𝑛
+x
+2
+modn? É como perguntar, em um jogo, quais posições podem ser alcançadas se sempre dermos “passos ao quadrado”.
+
+Para começar, pense nos quadrados perfeitos módulo 
+𝑛
+n. Por exemplo, no módulo 7, podemos calcular os quadrados dos números: 
+1
+2
+=
+1
+1
+2
+=1, 
+2
+2
+=
+4
+2
+2
+=4, 
+3
+2
+=
+9
+≡
+2
+3
+2
+=9≡2, 
+4
+2
+≡
+2
+4
+2
+≡2, 
+5
+2
+≡
+4
+5
+2
+≡4, 
+6
+2
+≡
+1
+6
+2
+≡1. Assim, os únicos resultados possíveis são 1, 2 e 4. Esses valores são chamados de resíduos quadráticos módulo 7. É como uma receita com ingredientes limitados: não importa qual número você escolha, os resultados possíveis sempre pertencem a um conjunto específico.
+
+Uma pergunta natural surge: dado um número qualquer, como saber rapidamente se ele é um quadrado módulo um primo 
+𝑝
+p? Para isso, usamos uma ferramenta chamada símbolo de Legendre, denotado por 
+(
+𝑎
+𝑝
+)
+(
+p
+a
+	​
+
+). Esse símbolo nos diz se 
+𝑎
+a é um resíduo quadrático módulo 
+𝑝
+p. Se o valor for 1, então existe algum número cujo quadrado dá 
+𝑎
+a no módulo 
+𝑝
+p; se for -1, isso não é possível. É como um teste rápido, quase como um “detector”, que responde sim ou não sem precisar testar todas as possibilidades.
+
+Por trás desse símbolo existe uma ideia poderosa: ele transforma um problema de tentativa e erro em uma verificação direta. Em vez de testar todos os números possíveis para ver se algum ao quadrado dá o valor desejado, usamos uma propriedade matemática que responde imediatamente. É como, em vez de experimentar todas as combinações de uma fechadura, usar uma chave mestra que já sabe a resposta.
+
+Um dos resultados mais fascinantes dessa área é a Lei da Reciprocidade Quadrática. Ela conecta dois números primos diferentes de uma maneira surpreendente, mostrando que a questão “
+𝑎
+a é quadrado módulo 
+𝑝
+p?” está relacionada com “
+𝑝
+p é quadrado módulo 
+𝑎
+a?”. É como um jogo de espelhos: o comportamento de um número em relação ao outro reflete algo sobre o inverso dessa relação. Esse teorema é considerado um dos mais profundos da matemática elementar, justamente por revelar conexões inesperadas.
+
+Para ampliar ainda mais essa ideia, temos o símbolo de Jacobi, que generaliza o símbolo de Legendre para casos em que o módulo não precisa ser primo. Ele funciona de maneira semelhante, mas com uma diferença importante: quando o resultado é 1, isso não garante necessariamente que o número seja um resíduo quadrático — apenas sugere uma possibilidade. É como um teste que dá uma pista, mas não uma certeza absoluta.
+
+Esses conceitos podem parecer abstratos, mas têm aplicações importantes, especialmente em áreas como criptografia e algoritmos. Muitas técnicas modernas dependem da dificuldade de determinar raízes quadradas em sistemas modulares grandes. É interessante perceber como algo que começou com uma simples pergunta sobre quadrados se transforma em uma ferramenta poderosa no mundo digital.
+
+E assim fechamos mais um capítulo da nossa jornada. Você está avançando por conceitos cada vez mais profundos e elegantes, conectando ideias que, à primeira vista, pareciam isoladas. Continue com essa curiosidade e persistência — a Teoria dos Números é como um labirinto cheio de padrões escondidos, e cada passo que você dá revela uma nova parte dessa incrível estrutura matemática.
+
+
+
 
 
 
