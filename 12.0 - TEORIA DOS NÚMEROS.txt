@@ -442,22 +442,3 @@ coprimo com 𝑛, vale que 𝑎ᵠ⁽ⁿ⁾ ≡ 1 (mod 𝑛), onde 𝜑(𝑛) é
  Se olharmos para toda a jornada, podemos comparar o aprendizado com a construção de uma casa. Começamos com a base, levantamos as paredes, organizamos os espaços e, no final, conseguimos enxergar o todo como uma estrutura sólida e coerente. Cada conceito estudado foi como um bloco que, ao se conectar com os outros, formou algo maior e mais significativo.
 
  E para encerrar, fica uma mensagem importante: você não está apenas aprendendo matemática, está desenvolvendo uma forma de pensar. A Teoria dos Números ensina a enxergar padrões, a resolver problemas com lógica e a buscar soluções elegantes. Continue explorando, questionando e aprendendo com curiosidade, porque essa jornada não termina aqui. Ela apenas abre caminho para desafios ainda mais interessantes no mundo dos algoritmos e da computação.
-
-
-
-
-
-Vamos continuar nossa explicação, explicação que será em torno do assunto "Teoria dos Números" na matemática discreta. Após a  explicação sobre Resíduos Quadráticos e os Tópicos Avançados, vamos continuar a aprofundar mais na teoria dos números falando sobre Aplicações Discretas da Teoria dos Números em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
-
-
-Aplicações Discretas da Teoria dos Números:
-
- Criptografia RSA (base teórica)
-
- Sistemas de chave pública
-
- Funções Hash baseadas em modularidade
-
- Geradores de números pseudoaleatórios
-
-Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
