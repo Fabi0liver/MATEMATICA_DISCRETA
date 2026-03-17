@@ -405,7 +405,7 @@ coprimo com 𝑛, vale que 𝑎ᵠ⁽ⁿ⁾ ≡ 1 (mod 𝑛), onde 𝜑(𝑛) é
 
 
 
-                         "Aplicações Discretas da Teoria dos Números"
+                                 "Aplicações da Teoria dos Números"
 
  Depois de toda essa jornada pela Teoria dos Números, chegamos a um ponto muito especial: ver como essas ideias ganham vida no mundo real. As aplicações discretas da Teoria dos Números mostram que conceitos como divisibilidade, primos e congruências não são apenas teóricos, es estão por trás de tecnologias que usamos todos os dias. É como aprender as regras de um jogo e, de repente, perceber que esse jogo está acontecendo no mundo inteiro, de forma invisível.
 
@@ -422,6 +422,26 @@ coprimo com 𝑛, vale que 𝑎ᵠ⁽ⁿ⁾ ≡ 1 (mod 𝑛), onde 𝜑(𝑛) é
  Um exemplo simples é um gerador que usa uma fórmula como 𝑥ₙ₊₁ = (𝑎𝑥ₙ + 𝑏) mod . A cada passo, o número muda de forma aparentemente caótica, mas seguindo regras bem definidas. Isso é essencial em áreas como jogos digitais, onde precisamos de eventos “aleatórios” controlados, ou em criptografia, onde a imprevisibilidade é crucial.
 
  Ao olhar para tudo isso, fica claro que a Teoria dos Números é muito mais do que um campo abstrato, ela é uma base invisível que sustenta grande parte da tecnologia moderna. E aqui vai uma mensagem final para você: o que você construiu até agora é algo realmente poderoso. 
+
+
+
+                                 "Conclusão sobre Teoria dos Números"
+
+ Chegamos ao final da nossa jornada pela Teoria dos Números dentro da matemática discreta, e o que fica mais evidente é como começamos com ideias simples e fomos, pouco a pouco, revelando uma estrutura profunda e cheia de conexões. No início, lidávamos com conceitos básicos como divisibilidade e operações com inteiros, quase como aprender as regras fundamentais de um jogo. Mas, ao avançar, percebemos que essas regras simples são a base de construções muito mais ricas e poderosas.
+
+Ao longo do caminho, vimos como os números podem ser organizados, comparados e manipulados de maneiras que vão muito além da aritmética comum. Conceitos como congruências e aritmética modular nos mostraram que é possível “reinventar” o comportamento dos números, criando sistemas onde tudo gira em ciclos. É como viver em um relógio: não importa o quanto avançamos, sempre voltamos a um ponto dentro de um conjunto limitado de possibilidades.
+
+Também exploramos como os números primos funcionam como os “blocos fundamentais” da matemática. Assim como uma construção é feita de tijolos, qualquer número pode ser decomposto em primos. Isso nos dá uma base sólida para entender propriedades mais complexas, além de nos permitir enxergar padrões e estruturas que não seriam visíveis à primeira vista. É como desmontar um objeto para entender como ele foi construído.
+
+Outro ponto importante foi perceber que muitos problemas aparentemente difíceis podem ser resolvidos com estratégias inteligentes. Em vez de tentar todas as possibilidades, usamos ferramentas como algoritmos e propriedades matemáticas para encontrar soluções de forma eficiente. Isso é semelhante a resolver um quebra-cabeça: em vez de testar todas as peças aleatoriamente, você aprende a reconhecer padrões que guiam suas escolhas.
+
+À medida que avançamos, vimos que a Teoria dos Números não é apenas um campo isolado, mas uma área que se conecta com muitas outras, especialmente a computação. Ideias como inversos modulares, sistemas de congruências e estruturas multiplicativas formam a base de algoritmos que são usados em segurança digital, comunicação e processamento de dados. É como descobrir que aquilo que você aprendeu em sala de aula também é usado nos bastidores da tecnologia que você utiliza todos os dias.
+
+Outro aspecto fascinante é o equilíbrio entre simplicidade e profundidade. Muitos conceitos da Teoria dos Números podem ser explicados com exemplos simples, mas escondem propriedades extremamente complexas e até misteriosas. Isso mostra que a matemática não é apenas sobre resolver contas, mas sobre explorar padrões, fazer perguntas e buscar entender estruturas invisíveis.
+
+Se olharmos para toda a jornada, podemos comparar o aprendizado com a construção de uma casa. Começamos com a base, levantamos as paredes, organizamos os espaços e, no final, conseguimos enxergar o todo como uma estrutura sólida e coerente. Cada conceito estudado foi como um bloco que, ao se conectar com os outros, formou algo maior e mais significativo.
+
+E para encerrar, fica uma mensagem importante: você não está apenas aprendendo matemática, está desenvolvendo uma forma de pensar. A Teoria dos Números ensina a enxergar padrões, a resolver problemas com lógica e a buscar soluções elegantes. Continue explorando, questionando e aprendendo com curiosidade — porque essa jornada não termina aqui. Ela apenas abre caminho para desafios ainda mais interessantes no mundo dos algoritmos e da computação.
 
 
 
