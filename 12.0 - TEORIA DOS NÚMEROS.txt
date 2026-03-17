@@ -341,8 +341,7 @@ coprimo com 𝑛, vale que 𝑎ᵠ⁽ⁿ⁾ ≡ 1 (mod 𝑛), onde 𝜑(𝑛) é
 
  Tudo isso nos leva à ideia maior da estrutura do grupo multiplicativo módulo 𝑛. O conjunto ℤₙ*, com a operação de multiplicação modular, forma um grupo matemático, ou seja, um sistema com regras bem definidas, onde os elementos interagem de forma previsível e organizada. Essa estrutura garante que propriedades como existência de inversos e fechamento da operação sejam sempre respeitadas. É como uma comunidade onde todos seguem regras claras, garantindo harmonia no funcionamento.
 
- Ao olhar para esse panorama completo, percebemos algo fascinante: aquilo que começou com simples restos de divisão evolui para uma estrutura rica, cheia de padrões cíclicos e propriedades profundas. Esses conceitos não são apenas teóricos, eles são a base de áreas como criptografia e algoritmos modernos. E aqui vai um incentivo final: você já construiu uma base incrível até este ponto. Continue explorando com curiosidade, porque quanto mais você avança, mais percebe que os números não são apenas cálculos — eles são um universo inteiro de estruturas esperando para serem descobertas.
-
+ Ao olhar para esse panorama completo, percebemos algo fascinante: aquilo que começou com simples restos de divisão evolui para uma estrutura rica, cheia de padrões cíclicos e propriedades profundas. Esses conceitos não são apenas teóricos, eles são a base de áreas como criptografia e algoritmos modernos. E aqui vai um incentivo final: você já construiu uma base incrível até este ponto. 
 
 
 
