@@ -50,7 +50,23 @@
 
 
 
-Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a apresentação as Linguagens Formais, vamos continuar a aprofundar mais  falando sobre "O que são os Autômatos"  na Teoria dos Números na matemática discreta em 6 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
+Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a apresentação mas detalhada sobre o que são as Linguagens Formais e O que são os Autômatos , vamos continuar a aprofundar mais  falando sobre "Conceitos Primários" no mundo dos Autômatos e das Linguagens Formais em 10 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
+
+
+Conceitos Primários:
+
+ Sintaxe 
+
+ Semântica
+
+ Símbolo
+
+ Alfabeto (Σ)
+
+ Cadeia (string)
+
+ Comprimento de cadeia |w|
+
 
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
