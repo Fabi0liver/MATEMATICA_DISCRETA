@@ -28,21 +28,33 @@
 
  Outra analogia útil é pensar em rotinas do dia a dia. Imagine que você tem um conjunto de regras para entrar em um clube: precisa apresentar um documento, estar em um horário específico e usar determinado traje. A “linguagem formal” seria o conjunto de todas as sequências de ações que permitem a entrada. Se você esquecer um passo, já não faz mais parte do conjunto válido. Da mesma forma, uma linguagem formal define exatamente quais “sequências” são aceitas dentro de um sistema, funcionando como um filtro extremamente rigoroso.
 
- À medida que avançamos, você vai perceber que linguagens formais são a base para entender como computadores “leem” e “interpretam” informações: desde comandos simples até linguagens de programação inteiras. Mas, por enquanto, o mais importante é guardar essa ideia: estamos lidando com conjuntos de sequências construídas com regras claras e sem ambiguidades. E fique tranquilo se ainda parecer um pouco abstrato, isso é parte natural do processo. 
+ À medida que avançamos, você vai perceber que linguagens formais são a base para entender como computadores “leem” e “interpretam” informações: desde comandos simples até linguagens de programação inteiras. Mas, por enquanto, o mais importante é guardar essa ideia: estamos lidando com conjuntos de sequências construídas com regras claras e sem ambiguidades. E fique tranquilo se ainda parecer um pouco abstrato, isso é parte natural do processo.
+
+
+
+                                        "O que são os Autômatos" 
+
+ Agora que já entendemos o que são linguagens formais, é como se tivéssemos aprendido “quais palavras são válidas” dentro de um sistema. O próximo passo natural é perguntar: quem decide isso na prática? Quem olha para uma sequência e diz “isso está certo” ou “isso está errado”? É exatamente aqui que entram os autômatos. De forma simples e intuitiva, um autômato é como uma máquina abstrata que lê sequências de símbolos e toma decisões com base em regras bem definidas. Pense nele como um “juiz automático”, que analisa cada entrada e, no final, decide se ela pertence ou não a uma determinada linguagem.
+
+Para deixar isso mais concreto, imagine uma catraca de metrô. Você insere um cartão, e a catraca “lê” aquela informação. Se tudo estiver correto — saldo suficiente, cartão válido — ela libera a passagem; caso contrário, ela trava. O autômato funciona de maneira muito parecida: ele recebe uma sequência de símbolos (como “1010” ou “abba”), processa essa sequência passo a passo e, ao final, aceita ou rejeita. Não há emoção, interpretação subjetiva ou dúvida — apenas regras sendo seguidas de forma precisa.
+
+Um ponto importante é que o autômato não “vê tudo de uma vez”. Ele processa a informação aos poucos, símbolo por símbolo, como se estivesse lendo uma palavra letra por letra. Imagine alguém conferindo uma senha digitada: a cada tecla pressionada, ele verifica se ainda faz sentido continuar. Dependendo do que aparece, ele pode mudar de “estado”, ou seja, mudar sua situação interna. É como um jogo em que, a cada movimento, você muda de posição no tabuleiro — e essas posições determinam o que pode acontecer a seguir.
+
+Falando em estados, essa é uma das ideias centrais dos autômatos. Podemos imaginar o autômato como alguém passando por diferentes “situações” enquanto processa uma entrada. Por exemplo, pense em um semáforo: ele pode estar no estado “verde”, “amarelo” ou “vermelho”, e muda de estado seguindo regras específicas. Um autômato faz algo semelhante, mas em vez de controlar trânsito, ele controla o fluxo de leitura de símbolos. Cada estado representa uma “fase” do processamento, e as mudanças entre eles seguem regras bem definidas.
+
+Outra analogia interessante é pensar em uma receita de bolo com etapas condicionais. Por exemplo: “se a massa estiver muito líquida, adicione mais farinha; se estiver muito seca, adicione leite”. Aqui, você está reagindo ao estado atual da mistura e tomando decisões com base nisso. O autômato também reage ao que está lendo e ao estado em que se encontra, seguindo instruções previamente estabelecidas. Ele não improvisa — apenas executa o que foi definido, de forma rigorosa.
+
+Ao longo do nosso estudo, você vai perceber que os autômatos são ferramentas fundamentais para entender como computadores processam informações, validam comandos e executam tarefas. Mas, por enquanto, o mais importante é guardar essa imagem mental: um autômato é uma máquina que lê, muda de estado e decide. Se ainda parece um pouco abstrato, não se preocupe — estamos apenas construindo a base. Continue com essa curiosidade ativa, porque cada novo conceito que vem pela frente vai tornar essa “máquina invisível” cada vez mais clara e fascinante.
 
 
 
 
 
 
-Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a introdução/apresentação sobre a Autômatos e Linguagens Formais, vamos continuar a aprofundar mais  falando sobre "O que são linguagens formais" mais detalhadamente na Teoria dos Números na matemática discreta em 6 a 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
-
-
-O que são linguagens formais:
-
- conceitos básico 
-
- Diferença entre Linguagem natural vs formal
+Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a apresentação as Linguagens Formais, vamos continuar a aprofundar mais  falando sobre "O que são os Autômatos"  na Teoria dos Números na matemática discreta em 6 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
 
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
+
+
+
