@@ -75,9 +75,9 @@
 
                                         "Operações com Cadeias"
 
- Agora que já conhecemos os elementos básicos — símbolos, alfabetos e cadeias — podemos começar a “brincar” com essas estruturas. É como se, depois de aprender as letras e palavras, começássemos a formar frases e transformar textos. Essas transformações são chamadas de operações com cadeias, e elas nos permitem manipular sequências de símbolos de maneiras bem definidas, quase como aplicar regras em um jogo ou etapas em uma receita.
+ Agora que já conhecemos os elementos básicos (símbolos, alfabetos e cadeias) podemos começar a “brincar” com essas estruturas. É como se, depois de aprender as letras e palavras, começássemos a formar frases e transformar textos. Essas transformações são chamadas de operações com cadeias, e elas nos permitem manipular sequências de símbolos de maneiras bem definidas, quase como aplicar regras em um jogo ou etapas em uma receita.
 
-Uma das operações mais simples e intuitivas é a concatenação. Concatenar duas cadeias significa simplesmente juntá-las, colocando uma após a outra. Por exemplo, se temos “ab” e “cd”, a concatenação resulta em “abcd”. Pense nisso como juntar duas palavras ou como encaixar duas peças de LEGO lado a lado. É uma operação direta, mas extremamente poderosa, porque permite construir cadeias maiores a partir de partes menores.
+ Uma das operações mais simples e intuitivas é a concatenação. Concatenar duas cadeias significa simplesmente juntá-las, colocando uma após a outra. Por exemplo, se temos “ab” e “cd”, a concatenação resulta em “abcd”. Pense nisso como juntar duas palavras ou como encaixar duas peças de LEGO lado a lado. É uma operação direta, mas extremamente poderosa, porque permite construir cadeias maiores a partir de partes menores.
 
 Seguindo essa ideia, temos a potência de uma string, representada como wⁿ. Aqui, estamos repetindo a mesma cadeia várias vezes. Por exemplo, se w = “ab” e n = 3, então w³ = “ababab”. É como repetir um passo de uma dança ou uma sequência de movimentos em um jogo. Quanto maior o valor de n, mais vezes a sequência se repete. Essa operação é muito útil para representar padrões que se repetem, algo bastante comum em computação.
 
