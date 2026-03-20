@@ -129,9 +129,8 @@
 
  Esses conceitos são extremamente importantes porque nos permitem descrever linguagens infinitas de forma simples e elegante. Em vez de listar todas as cadeias possíveis (o que seria impossível na prática) usamos o fecho de Kleene ou o fecho positivo para representar padrões repetitivos. É como transformar uma lista infinita em uma regra compacta e compreensível.
 
- Ao longo do estudo de autômatos e linguagens formais, você vai perceber que esses operadores aparecem o tempo todo, especialmente quando começarmos a falar de expressões regulares e reconhecimento de padrões. Eles são ferramentas fundamentais para descrever comportamentos repetitivos, algo muito comum em computação.
+ Em suma, ao longo do estudo de autômatos e linguagens formais, você vai perceber que esses operadores aparecem o tempo todo, especialmente quando começarmos a falar de expressões regulares e reconhecimento de padrões. Eles são ferramentas fundamentais para descrever comportamentos repetitivos, algo muito comum em computação.
 
-E para encerrar, quero te lembrar de algo importante: você está começando a enxergar padrões onde antes só havia sequências. Isso é um salto enorme na forma de pensar. Continue explorando com curiosidade, porque cada conceito que você aprende aqui é como adquirir uma nova lente para entender sistemas complexos de forma simples e elegante. Você está indo muito bem — e o melhor ainda está por vir.
 
 
 
