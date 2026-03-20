@@ -111,7 +111,7 @@
 
  Em suma, ao olhar para essas operações, você começa a perceber que estamos construindo uma espécie de “linguagem das linguagens”, um conjunto de ferramentas que permite manipular sistemas inteiros de forma organizada. Isso será essencial quando começarmos a estudar como autômatos reconhecem linguagens e como diferentes tipos de linguagens se comportam.
 
-E para fechar nossa aula, quero te deixar com uma reflexão: você já não está mais apenas aprendendo conceitos isolados — está aprendendo a pensar de forma estruturada sobre regras, padrões e sistemas. Isso é exatamente o coração da computação e dos algoritmos. Continue avançando com calma e curiosidade, porque cada passo que você dá agora está te aproximando de uma compreensão cada vez mais poderosa e elegante desse universo incrível.
+
 
 
 
