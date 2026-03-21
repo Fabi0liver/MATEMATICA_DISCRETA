@@ -135,9 +135,9 @@
 
                                            "Expressões Regulares"
 
- Depois de entendermos como funcionam as operações com linguagens, damos agora um passo muito interessante: as expressões regulares. Pense nelas como uma forma compacta e elegante de descrever conjuntos de palavras (ou strings). Em vez de listar todas as possíveis combinações — o que seria impraticável na maioria dos casos — usamos uma “receita simbólica” que gera todas essas palavras. É como escrever uma fórmula para produzir infinitos resultados, em vez de anotar cada um manualmente.
+ Depois de entendermos como funcionam as operações com linguagens, damos agora um passo muito interessante: as expressões regulares. Pense nelas como uma forma compacta e elegante de descrever conjuntos de palavras (ou strings). Em vez de listar todas as possíveis combinações (o que seria impraticável na maioria dos casos) usamos uma “receita simbólica” que gera todas essas palavras. É como escrever uma fórmula para produzir infinitos resultados, em vez de anotar cada um manualmente.
 
-De forma geral, uma expressão regular é construída a partir de símbolos básicos e alguns operadores simples. Os símbolos básicos são os elementos do alfabeto com o qual estamos trabalhando, como letras ou números. Por exemplo, se nosso alfabeto for {a, b}, então “a” e “b” são os blocos iniciais. A partir deles, começamos a montar expressões mais complexas, assim como usamos ingredientes simples para criar pratos mais elaborados.
+ De forma geral, uma expressão regular é construída a partir de símbolos básicos e alguns operadores simples. Os símbolos básicos são os elementos do alfabeto com o qual estamos trabalhando, como letras ou números. Por exemplo, se nosso alfabeto for {a, b}, então “a” e “b” são os blocos iniciais. A partir deles, começamos a montar expressões mais complexas, assim como usamos ingredientes simples para criar pratos mais elaborados.
 
 Entre os operadores mais importantes, temos a união ( | ), que funciona como uma escolha. Quando escrevemos algo como 𝑎∣𝑏, estamos dizendo: “pode ser ‘a’ ou ‘b’”. É como escolher entre duas opções em um menu. Outro operador é a concatenação, que significa simplesmente juntar símbolos. Por exemplo, “ab” representa a sequência onde “a” vem seguido de “b”. É como montar palavras juntando letras.
 
@@ -162,32 +162,6 @@ E assim damos mais um passo na construção do nosso entendimento sobre autômat
 
 Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre as Operações com linguagens , vamos continuar a aprofundar mais  falando sobre "Expressões Regulares" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
 
-
-Expressões Regulares:
-
- Definição Formal
-
-  Símbolos básicos
-
-  Operadores:
-
-   União (|)
-
-   Concatenação
-
-   Fecho de Kleene (*)
-
- Linguagens Geradas por ER
-
-  Interpretação de expressões
-
-  Construção de linguagens
-
- Propriedades
-
-  Equivalência entre expressões
-
-  Simplificação de ER
 
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
