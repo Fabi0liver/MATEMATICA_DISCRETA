@@ -139,11 +139,7 @@
 
 De forma geral, uma expressão regular é construída a partir de símbolos básicos e alguns operadores simples. Os símbolos básicos são os elementos do alfabeto com o qual estamos trabalhando, como letras ou números. Por exemplo, se nosso alfabeto for {a, b}, então “a” e “b” são os blocos iniciais. A partir deles, começamos a montar expressões mais complexas, assim como usamos ingredientes simples para criar pratos mais elaborados.
 
-Entre os operadores mais importantes, temos a união ( | ), que funciona como uma escolha. Quando escrevemos algo como 
-𝑎
-∣
-𝑏
-a∣b, estamos dizendo: “pode ser ‘a’ ou ‘b’”. É como escolher entre duas opções em um menu. Outro operador é a concatenação, que significa simplesmente juntar símbolos. Por exemplo, “ab” representa a sequência onde “a” vem seguido de “b”. É como montar palavras juntando letras.
+Entre os operadores mais importantes, temos a união ( | ), que funciona como uma escolha. Quando escrevemos algo como 𝑎∣𝑏, estamos dizendo: “pode ser ‘a’ ou ‘b’”. É como escolher entre duas opções em um menu. Outro operador é a concatenação, que significa simplesmente juntar símbolos. Por exemplo, “ab” representa a sequência onde “a” vem seguido de “b”. É como montar palavras juntando letras.
 
 Um dos operadores mais poderosos é o fecho de Kleene (*), que permite repetir um padrão quantas vezes quisermos, inclusive nenhuma vez. Por exemplo, “a*” representa "", "a", "aa", "aaa" e assim por diante. Podemos imaginar isso como um botão de repetição infinita: você pode apertá-lo quantas vezes quiser (ou nem apertar). Isso é extremamente útil para descrever padrões que não têm tamanho fixo.
 
