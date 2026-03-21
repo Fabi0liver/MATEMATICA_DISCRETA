@@ -133,6 +133,30 @@
 
 
 
+                                           "Expressões Regulares"
+
+ Depois de entendermos como funcionam as operações com linguagens, damos agora um passo muito interessante: as expressões regulares. Pense nelas como uma forma compacta e elegante de descrever conjuntos de palavras (ou strings). Em vez de listar todas as possíveis combinações — o que seria impraticável na maioria dos casos — usamos uma “receita simbólica” que gera todas essas palavras. É como escrever uma fórmula para produzir infinitos resultados, em vez de anotar cada um manualmente.
+
+De forma geral, uma expressão regular é construída a partir de símbolos básicos e alguns operadores simples. Os símbolos básicos são os elementos do alfabeto com o qual estamos trabalhando, como letras ou números. Por exemplo, se nosso alfabeto for {a, b}, então “a” e “b” são os blocos iniciais. A partir deles, começamos a montar expressões mais complexas, assim como usamos ingredientes simples para criar pratos mais elaborados.
+
+Entre os operadores mais importantes, temos a união ( | ), que funciona como uma escolha. Quando escrevemos algo como 
+𝑎
+∣
+𝑏
+a∣b, estamos dizendo: “pode ser ‘a’ ou ‘b’”. É como escolher entre duas opções em um menu. Outro operador é a concatenação, que significa simplesmente juntar símbolos. Por exemplo, “ab” representa a sequência onde “a” vem seguido de “b”. É como montar palavras juntando letras.
+
+Um dos operadores mais poderosos é o fecho de Kleene (*), que permite repetir um padrão quantas vezes quisermos, inclusive nenhuma vez. Por exemplo, “a*” representa "", "a", "aa", "aaa" e assim por diante. Podemos imaginar isso como um botão de repetição infinita: você pode apertá-lo quantas vezes quiser (ou nem apertar). Isso é extremamente útil para descrever padrões que não têm tamanho fixo.
+
+A partir desses elementos, conseguimos definir linguagens geradas por expressões regulares. Cada expressão descreve um conjunto de palavras possíveis. Por exemplo, a expressão “(a | b)*” representa todas as sequências possíveis formadas por “a” e “b”, incluindo a palavra vazia. É como uma máquina que gera todas as combinações possíveis com certos ingredientes.
+
+Interpretar uma expressão regular é como ler uma receita. Cada símbolo e operador indica um passo ou uma escolha. Por exemplo, “ab*” significa: começa com “a” e depois pode ter zero ou mais “b”. Isso gera palavras como “a”, “ab”, “abb”, “abbb” e assim por diante. Com prática, você começa a “enxergar” a linguagem diretamente ao olhar para a expressão, como um cozinheiro experiente que já imagina o prato só de ler a receita.
+
+Outro aspecto interessante são as propriedades das expressões regulares. Diferentes expressões podem gerar exatamente a mesma linguagem. Por exemplo, algumas expressões podem parecer diferentes na forma, mas são equivalentes no resultado. Isso abre espaço para simplificação, onde buscamos formas mais curtas ou mais claras de representar a mesma ideia. É como reescrever uma frase longa de forma mais simples, sem mudar o significado.
+
+E assim damos mais um passo na construção do nosso entendimento sobre autômatos e linguagens formais. As expressões regulares são uma ponte entre a teoria e a prática, sendo usadas inclusive em programação para buscar padrões em textos. Continue explorando com curiosidade — você está começando a enxergar como padrões podem ser descritos, manipulados e reconhecidos de forma elegante, e isso é uma habilidade fundamental no estudo de algoritmos e computação.
+
+
+
 
 
 
