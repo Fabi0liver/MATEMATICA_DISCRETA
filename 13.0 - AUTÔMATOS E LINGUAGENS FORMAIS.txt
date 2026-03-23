@@ -165,9 +165,7 @@ Para tornar isso mais concreto, imagine um autômato que aceita palavras que ter
 
 Uma conexão muito importante é que os autômatos finitos estão diretamente ligados às expressões regulares. Toda linguagem que pode ser descrita por uma expressão regular também pode ser reconhecida por um autômato finito — e vice-versa. É como ter duas formas diferentes de representar a mesma ideia: uma mais “descritiva” (expressão) e outra mais “operacional” (máquina que executa).
 
-E aqui está o mais interessante: apesar de serem simples, os autômatos finitos são extremamente úteis. Eles aparecem em áreas como compiladores, busca de padrões em textos e até no funcionamento de sistemas digitais. Ao aprender esse conceito, você começa a enxergar como padrões podem ser não apenas descritos, mas também reconhecidos automaticamente. Continue com essa curiosidade — você está dando passos importantes para entender como a computação transforma ideias abstratas em processos concretos e executáveis.
-
-
+E aqui está o mais interessante: apesar de serem simples, os autômatos finitos são extremamente úteis. Eles aparecem em áreas como compiladores, busca de padrões em textos e até no funcionamento de sistemas digitais. Ao aprender esse conceito, você começa a enxergar como padrões podem ser não apenas descritos, mas também reconhecidos automaticamente.
 
 
 
