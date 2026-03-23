@@ -189,8 +189,7 @@
 
  Outra coisa interessante é que, mesmo sendo simples, os AFDs são extremamente úteis. Eles conseguem reconhecer padrões em textos, validar entradas em programas e até ajudar na construção de compiladores. É como ter um “filtro inteligente” que decide automaticamente se uma informação segue certas regras.
 
-E assim seguimos avançando nessa jornada pelos autômatos e linguagens formais. Você está começando a enxergar como máquinas simples podem processar informações de maneira estruturada e lógica. Continue com essa curiosidade — porque entender esses modelos é um passo fundamental para compreender como algoritmos funcionam por dentro, quase como se estivéssemos desvendando o pensamento dos próprios computadores.
-
+ E assim seguimos avançando nessa jornada pelos autômatos e linguagens formais. Você está começando a enxergar como máquinas simples podem processar informações de maneira estruturada e lógica. 
 
 
 
