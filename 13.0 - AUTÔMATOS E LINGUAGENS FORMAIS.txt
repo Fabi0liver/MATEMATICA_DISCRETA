@@ -209,8 +209,7 @@
 
  Podemos imaginar essa diferença com uma analogia simples. Resolver um problema com um autômato determinístico é como seguir uma receita passo a passo, sem desvios. Já com um AFN, é como ter várias versões da receita sendo testadas ao mesmo tempo, e se qualquer uma delas funcionar, o prato dá certo. Isso torna o processo mais flexível e, muitas vezes, mais intuitivo.
 
-E assim seguimos avançando na nossa construção de conhecimento. Os AFNs nos mostram que, na computação, nem sempre precisamos pensar de forma linear — às vezes, explorar múltiplas possibilidades é o caminho mais natural. Continue com essa curiosidade e dedicação, porque você está desenvolvendo uma forma de pensar que é essencial para entender algoritmos, linguagens e o próprio funcionamento dos sistemas computacionais.
-
+ E assim seguimos avançando na nossa construção de conhecimento. Os AFNs nos mostram que, na computação, nem sempre precisamos pensar de forma linear: às vezes, explorar múltiplas possibilidades é o caminho mais natural. 
 
 
 
