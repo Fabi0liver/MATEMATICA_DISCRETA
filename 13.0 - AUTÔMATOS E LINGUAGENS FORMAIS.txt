@@ -165,8 +165,7 @@
 
  Esses modelos são muito importantes porque conseguem reconhecer exatamente as linguagens que descrevemos com expressões regulares. Ou seja, existe uma conexão direta entre aquelas “receitas simbólicas” e essas “máquinas de leitura”. É como se tivéssemos duas formas diferentes de descrever a mesma coisa: uma mais declarativa (expressões) e outra mais operacional (autômatos).
 
-E aqui está o ponto mais interessante: mesmo sendo simples, os autômatos finitos estão por trás de várias aplicações reais, como validação de textos, compiladores e até sistemas de busca. Ao entender esse conceito, você começa a enxergar como máquinas podem reconhecer padrões de forma automática. Continue explorando com curiosidade — você está construindo uma base essencial para compreender como computadores “entendem” sequências e tomam decisões a partir delas.
-
+ E aqui está o ponto mais interessante: mesmo sendo simples, os autômatos finitos estão por trás de várias aplicações reais, como validação de textos, compiladores e até sistemas de busca. Ao entender esse conceito, você começa a enxergar como máquinas podem reconhecer padrões de forma automática. 
 
 
 
