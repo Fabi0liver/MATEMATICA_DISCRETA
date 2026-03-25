@@ -258,6 +258,17 @@
 
 Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre os Autômatos Finitos (FA), Autômatos Finitos Determinísticos (AFD / DFA) e Autômatos Finitos Não Determinísticos (AFN / NFA), vamos continuar a aprofundar mais  falando sobre "Relação entre Expressões Regulares e Autômatos" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
 
+Relação entre Expressões Regulares e Autômatos:
+
+ ER → NFA:
+  Construção de Thompson
+
+ NFA → ER
+  Eliminação de estados
+
+ Teorema Fundamental
+  ER ≡ Autômatos Finitos
+
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
 
