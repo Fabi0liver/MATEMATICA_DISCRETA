@@ -307,20 +307,19 @@
 
  Depois de entendermos como funcionam as linguagens livres de contexto e suas gramáticas, surge uma necessidade muito natural: organizar essas gramáticas de uma forma mais clara e padronizada. É exatamente isso que chamamos de normalização de gramáticas. Em essência, estamos pegando uma gramática que pode estar “bagunçada” ou cheia de variações e transformando-a em uma forma mais estruturada, sem mudar o que ela gera. É como reescrever uma receita confusa em passos bem definidos e organizados.
 
-Uma das formas mais conhecidas dessa organização é a Forma Normal de Chomsky (FNC). Nessa forma, todas as regras seguem um padrão bem específico: ou uma variável gera exatamente duas variáveis, ou gera um único símbolo terminal. Isso pode parecer restritivo à primeira vista, mas na prática ajuda muito na análise e no processamento das linguagens. É como montar frases usando apenas estruturas bem definidas, facilitando a leitura e interpretação.
+ Uma das formas mais conhecidas dessa organização é a Forma Normal de Chomsky (FNC). Nessa forma, todas as regras seguem um padrão bem específico: ou uma variável gera exatamente duas variáveis, ou gera um único símbolo terminal. Isso pode parecer restritivo à primeira vista, mas na prática ajuda muito na análise e no processamento das linguagens. É como montar frases usando apenas estruturas bem definidas, facilitando a leitura e interpretação.
 
-Outra forma importante é a Forma Normal de Greibach (FNG). Aqui, as regras são organizadas de modo que sempre comecem com um símbolo terminal, seguido de variáveis. Isso faz com que a construção das palavras seja mais “direta”, já começando com símbolos concretos desde o início. Podemos imaginar isso como uma receita que sempre começa colocando algo real no prato, antes de adicionar etapas intermediárias.
+ Outra forma importante é a Forma Normal de Greibach (FNG). Aqui, as regras são organizadas de modo que sempre comecem com um símbolo terminal, seguido de variáveis. Isso faz com que a construção das palavras seja mais “direta”, já começando com símbolos concretos desde o início. Podemos imaginar isso como uma receita que sempre começa colocando algo real no prato, antes de adicionar etapas intermediárias.
 
-Para conseguir transformar uma gramática nessas formas normais, usamos algumas técnicas fundamentais. Uma delas é a remoção de ε-produções, ou seja, regras que geram a palavra vazia. Embora essas regras possam ser úteis em certos contextos, elas complicam a estrutura geral. Removê-las é como eliminar etapas opcionais desnecessárias em uma receita, deixando apenas o essencial.
+ Para conseguir transformar uma gramática nessas formas normais, usamos algumas técnicas fundamentais. Uma delas é a remoção de ε-produções, ou seja, regras que geram a palavra vazia. Embora essas regras possam ser úteis em certos contextos, elas complicam a estrutura geral. Removê-las é como eliminar etapas opcionais desnecessárias em uma receita, deixando apenas o essencial.
 
-Outra técnica importante é a remoção de produções unitárias, que são regras do tipo “uma variável leva diretamente a outra”. Isso não adiciona informação nova, apenas cria caminhos indiretos. Eliminar essas produções é como substituir instruções redundantes por versões mais diretas, tornando o processo mais eficiente e compreensível.
+ Outra técnica importante é a remoção de produções unitárias, que são regras do tipo “uma variável leva diretamente a outra”. Isso não adiciona informação nova, apenas cria caminhos indiretos. Eliminar essas produções é como substituir instruções redundantes por versões mais diretas, tornando o processo mais eficiente e compreensível.
 
-Também temos a remoção de símbolos inúteis, que são aqueles que nunca contribuem para gerar palavras válidas ou que não podem ser alcançados a partir do símbolo inicial. Esses símbolos são como ingredientes esquecidos em uma receita — estão ali, mas nunca são usados. Removê-los ajuda a limpar e simplificar a gramática.
+ Também temos a remoção de símbolos inúteis, que são aqueles que nunca contribuem para gerar palavras válidas ou que não podem ser alcançados a partir do símbolo inicial. Esses símbolos são como ingredientes esquecidos em uma receita: estão ali, mas nunca são usados. Removê-los ajuda a limpar e simplificar a gramática.
 
-Todo esse processo de normalização não altera a linguagem gerada, apenas muda a forma como ela é descrita. Isso é muito importante, porque nos permite trabalhar com gramáticas mais organizadas sem perder o significado original. É como reorganizar um texto: as ideias continuam as mesmas, mas ficam muito mais claras.
+ Todo esse processo de normalização não altera a linguagem gerada, apenas muda a forma como ela é descrita. Isso é muito importante, porque nos permite trabalhar com gramáticas mais organizadas sem perder o significado original. É como reorganizar um texto: as ideias continuam as mesmas, mas ficam muito mais claras.
 
-E aqui fechamos mais um passo importante da nossa jornada. Você está aprendendo não apenas a construir estruturas, mas também a refiná-las e organizá-las de forma eficiente. Continue com essa curiosidade e atenção aos detalhes — porque é exatamente isso que transforma conhecimento em domínio real sobre algoritmos, linguagens e sistemas computacionais. 
-
+ Em suma, e aqui fechamos mais um passo importante da nossa jornada. Você está aprendendo não apenas a construir estruturas, mas também a refiná-las e organizá-las de forma eficiente. 
 
 
 
