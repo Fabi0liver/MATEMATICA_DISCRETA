@@ -275,7 +275,7 @@
 
  Na prática, usamos o lema do bombeamento para mostrar limitações. É como um teste de resistência: se a linguagem não suporta esse “esticar e repetir”, então ela não pertence ao mundo das linguagens regulares. Isso nos ajuda a entender até onde esses modelos conseguem ir: e onde começam a falhar.
 
- E assim fechamos mais um capítulo importante da nossa jornada. Você começou entendendo como construir linguagens e máquinas, e agora já consegue analisar suas propriedades e limitações. Isso é um salto enorme no pensamento computacional. 
+ Em suma, as propriedades das linguagens regulares mostram que não estamos apenas lidando com padrões, mas com um sistema completo, cheio de regras, transformações e limites bem definidos.
 
 
 Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre Relação entre Expressões Regulares e Autômatos, vamos continuar a aprofundar mais  falando sobre "Propriedades das Linguagens Regulares" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
