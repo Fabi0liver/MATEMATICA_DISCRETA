@@ -278,25 +278,26 @@
  Em suma, as propriedades das linguagens regulares mostram que não estamos apenas lidando com padrões, mas com um sistema completo, cheio de regras, transformações e limites bem definidos.
 
 
-Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre Relação entre Expressões Regulares e Autômatos, vamos continuar a aprofundar mais  falando sobre "Propriedades das Linguagens Regulares" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
+Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre Propriedades das Linguagens Regulares, vamos continuar a aprofundar mais  falando sobre "Propriedades das Linguagens Regulares" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
 
-Propriedades das Linguagens Regulares:
+Linguagens Livres de Contexto (CFL):
 
- Fechamento:
-  União
-  Interseção
-  Complemento
-  Diferença
-  Reverso
+ Gramáticas Livres de Contexto (GLC / CFG)
+  Definição formal:
+   (V, Σ, R, S)
+   Variáveis, terminais, regras
 
- Minimização de DFA:
-  Estados equivalentes
-  Algoritmo de minimização
+  Tipos de produções
 
- Lema do Bombeamento (Pumping Lemma):
-  Estrutura: w = xyz
-  Para linguagens regulares
-  Como provar que uma linguagem não é regular
+  Derivações:
+   Derivação à esquerda/direita
+
+ Árvores de Derivação:
+  Estrutura sintática
+
+  Ambiguidade:
+   Gramáticas ambíguas
+   Linguagens inerentemente ambíguas
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
 
