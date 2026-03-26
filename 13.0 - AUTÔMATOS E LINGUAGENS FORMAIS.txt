@@ -299,8 +299,7 @@
 
  Em alguns casos, a própria linguagem é inerentemente ambígua, ou seja, não existe nenhuma gramática que a descreva sem ambiguidade. Isso mostra que nem sempre conseguimos organizar tudo de forma perfeitamente clara: algumas estruturas naturalmente carregam múltiplas interpretações. É um limite interessante do modelo.
 
- E assim avançamos mais um nível na nossa jornada. As linguagens livres de contexto nos mostram que, para capturar estruturas mais complexas, precisamos de ferramentas mais expressivas. Continue explorando com curiosidade e paciência — você está aprendendo a enxergar não apenas padrões, mas também estruturas profundas, e isso é essencial para compreender como linguagens e algoritmos realmente funcionam.
-
+ Em suma, e assim avançamos mais um nível na nossa jornada. As linguagens livres de contexto nos mostram que, para capturar estruturas mais complexas, precisamos de ferramentas mais expressivas. 
 
 
 
