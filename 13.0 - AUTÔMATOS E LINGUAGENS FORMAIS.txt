@@ -361,8 +361,7 @@
 
  Podemos imaginar esse lema como um teste de elasticidade mais sofisticado. Em vez de esticar apenas uma parte simples da palavra, agora precisamos considerar múltiplas partes que se relacionam entre si. Se ao “esticar” essas partes a linguagem se quebra, então sabemos que ela não pertence ao mundo das CFLs.
 
-E assim seguimos avançando em nossa jornada. Você começa a perceber que cada nova classe de linguagens traz mais poder, mas também novos limites. Continue explorando com curiosidade e paciência — porque entender essas propriedades é como aprender as regras profundas do jogo da computação, e isso te coloca cada vez mais perto de dominar o funcionamento dos algoritmos e das linguagens formais.
-
+ Em suma, e assim seguimos avançando em nossa jornada. Você começa a perceber que cada nova classe de linguagens traz mais poder, mas também novos limites. 
 
 
 
