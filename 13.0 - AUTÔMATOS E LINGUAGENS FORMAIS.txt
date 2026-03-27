@@ -365,6 +365,44 @@
 
 
 
+                                "Linguagens Sensíveis ao Contexto"
+
+ Agora damos mais um passo nessa escada de complexidade das linguagens formais e chegamos às linguagens sensíveis ao contexto (CSL). Até aqui, já vimos linguagens regulares e linguagens livres de contexto, cada uma com seu nível de expressividade. As CSLs aparecem como um nível acima, capazes de descrever padrões ainda mais complexos, onde o “contexto” ao redor de um símbolo passa a influenciar diretamente as regras de construção. É como sair de regras fixas e começar a depender do ambiente ao redor para tomar decisões.
+
+Para entender melhor essa ideia de “contexto”, pense em uma frase em português onde o significado de uma palavra depende das palavras ao redor. Da mesma forma, nas linguagens sensíveis ao contexto, não basta olhar para um símbolo isolado — precisamos considerar o que está antes e depois dele. Isso torna o sistema mais poderoso, mas também mais complexo de analisar.
+
+As gramáticas sensíveis ao contexto seguem regras do tipo 
+𝛼
+𝐴
+𝛽
+→
+𝛼
+𝛾
+𝛽
+αAβ→αγβ. Em termos simples, isso significa que uma variável 
+𝐴
+A só pode ser substituída por outra sequência 
+𝛾
+γ se estiver dentro de um certo contexto, representado por 
+𝛼
+α e 
+𝛽
+β. Podemos imaginar isso como uma regra de cozinha que só vale se certos ingredientes já estiverem na panela — o contexto determina o que pode acontecer.
+
+Esse tipo de regra permite capturar padrões que as linguagens livres de contexto não conseguem. Por exemplo, garantir que uma quantidade de símbolos dependa de outra de forma mais rigorosa, como ter o mesmo número de três tipos diferentes de elementos. É como exigir que três filas diferentes tenham exatamente o mesmo número de pessoas — algo que exige mais controle e memória.
+
+Para reconhecer esse tipo de linguagem, usamos um modelo mais poderoso chamado Autômato Linearmente Limitado (LBA). Ele é parecido com uma máquina de Turing, mas com uma restrição importante: sua memória (a fita) é limitada ao tamanho da entrada. Isso significa que ele não pode usar memória infinita, mas ainda assim tem capacidade suficiente para lidar com estruturas mais complexas que um PDA.
+
+Podemos imaginar o LBA como um cozinheiro que só pode usar a bancada disponível, sem expandir para mais espaço. Mesmo com essa limitação, ele consegue preparar receitas mais complexas do que antes, porque sabe organizar melhor o uso do espaço e das informações disponíveis.
+
+O interessante é perceber como cada modelo que estudamos adiciona um pouco mais de poder computacional. Primeiro vieram os autômatos finitos, depois os autômatos com pilha, e agora os LBAs. Cada um resolve problemas que o anterior não conseguia. É como subir níveis em um jogo, onde cada fase exige novas habilidades e estratégias.
+
+E assim seguimos avançando nessa jornada fascinante. As linguagens sensíveis ao contexto nos mostram que, à medida que aumentamos a capacidade de “memória” e de considerar o contexto, conseguimos descrever padrões cada vez mais ricos. Continue explorando com curiosidade e dedicação — você está construindo uma visão profunda sobre como a computação entende estruturas, e isso é uma das bases mais importantes para dominar algoritmos e sistemas complexos.
+
+
+
+
+
 
 Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre Propriedades das CFL, vamos continuar a aprofundar mais  falando sobre "Linguagens Sensíveis ao Contexto (CSL)" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
 
