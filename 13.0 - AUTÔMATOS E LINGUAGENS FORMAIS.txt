@@ -371,23 +371,7 @@
 
 Para entender melhor essa ideia de “contexto”, pense em uma frase em português onde o significado de uma palavra depende das palavras ao redor. Da mesma forma, nas linguagens sensíveis ao contexto, não basta olhar para um símbolo isolado — precisamos considerar o que está antes e depois dele. Isso torna o sistema mais poderoso, mas também mais complexo de analisar.
 
-As gramáticas sensíveis ao contexto seguem regras do tipo 
-𝛼
-𝐴
-𝛽
-→
-𝛼
-𝛾
-𝛽
-αAβ→αγβ. Em termos simples, isso significa que uma variável 
-𝐴
-A só pode ser substituída por outra sequência 
-𝛾
-γ se estiver dentro de um certo contexto, representado por 
-𝛼
-α e 
-𝛽
-β. Podemos imaginar isso como uma regra de cozinha que só vale se certos ingredientes já estiverem na panela — o contexto determina o que pode acontecer.
+As gramáticas sensíveis ao contexto seguem regras do tipo 𝛼𝐴𝛽 → 𝛼𝛾𝛽. Em termos simples, isso significa que uma variável 𝐴 só pode ser substituída por outra sequência 𝛾 se estiver dentro de um certo contexto, representado por 𝛼 e  𝛽. Podemos imaginar isso como uma regra de cozinha que só vale se certos ingredientes já estiverem na panela — o contexto determina o que pode acontecer.
 
 Esse tipo de regra permite capturar padrões que as linguagens livres de contexto não conseguem. Por exemplo, garantir que uma quantidade de símbolos dependa de outra de forma mais rigorosa, como ter o mesmo número de três tipos diferentes de elementos. É como exigir que três filas diferentes tenham exatamente o mesmo número de pessoas — algo que exige mais controle e memória.
 
