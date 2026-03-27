@@ -447,18 +447,40 @@
 
 
 
+                                         "Hierarquia de Chomsky"
+
+ Agora que exploramos os limites do que pode e do que não pode ser resolvido por algoritmos, surge uma pergunta muito natural: como organizar todos esses tipos de linguagens que estudamos? É exatamente aí que entra a Hierarquia de Chomsky, uma das formas mais elegantes de estruturar todo esse conhecimento. Podemos imaginá-la como uma escada de poder computacional, onde cada nível representa um tipo de linguagem com capacidades diferentes.
+
+ Começando pela base dessa hierarquia, temos as linguagens regulares (Tipo 3). Elas são as mais simples e podem ser reconhecidas por autômatos finitos. São como regras bem diretas, sem muita memória: algo parecido com seguir um padrão fixo, como verificar se uma senha tem um formato específico. São rápidas e eficientes, mas limitadas em expressividade.
+
+ Subindo um degrau, encontramos as linguagens livres de contexto (Tipo 2). Essas já conseguem lidar com estruturas mais complexas, como expressões matemáticas com parênteses balanceados. Aqui entra a ideia de “memória” com o uso de pilha. Podemos comparar isso a acompanhar uma receita onde você precisa lembrar de etapas abertas que ainda precisam ser concluídas, como abrir e fechar parênteses corretamente.
+
+ No próximo nível estão as linguagens sensíveis ao contexto (Tipo 1). Aqui, como vimos, o contexto ao redor dos símbolos começa a importar. Isso permite descrever padrões ainda mais ricos e controlados. É como regras de um jogo que dependem não só da jogada atual, mas também da posição das peças ao redor: o contexto influencia diretamente o que é permitido.
+
+ No topo da hierarquia estão as linguagens recursivamente enumeráveis (Tipo 0), que são as mais gerais. Elas podem ser reconhecidas por Máquinas de Turing, o modelo mais poderoso que estudamos. Aqui, praticamente qualquer processo computacional pode ser representado. É como ter uma ferramenta universal, capaz de simular qualquer outra ferramenta, desde que tenha as instruções corretas.
+
+ Uma forma muito intuitiva de entender essa hierarquia é pensar nela como conjuntos dentro de conjuntos. Toda linguagem regular é também livre de contexto, toda livre de contexto é sensível ao contexto, e toda sensível ao contexto está dentro das recursivamente enumeráveis. É como caixas encaixadas umas dentro das outras — cada nível inclui o anterior, mas adiciona mais poder.
+
+ Essa organização nos ajuda a entender não apenas o que cada modelo pode fazer, mas também suas limitações. Se um problema não pode ser resolvido por um modelo mais simples, talvez precisemos subir um nível na hierarquia. É como escolher a ferramenta certa: não adianta usar uma chave de fenda quando o problema exige uma ferramenta mais sofisticada.
+
+ Em suma, e assim encerramos essa visão geral da Hierarquia de Chomsky, que funciona como um mapa de tudo o que estudamos até aqui. Ela nos mostra onde cada conceito se encaixa e como eles se relacionam. 
 
 
-Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre Decidibilidade, vamos continuar a aprofundar mais  falando sobre "Indecidibilidade" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
 
 
-Indecidibilidade:
+Vamos continuar nossa explicação que em torno do assunto "Autômatos e Linguagens Formais" na matemática discreta. Após a explicação sobre Decidibilidade r Indecidibilidade, vamos continuar a aprofundar mais  falando sobre "Hierarquia de Chomsky" no mundo dos Autômatos e das Linguagens Formais em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento. sem se aprofundar muito, somente uma apresentação do termo.
 
- Técnicas de prova
 
- Redução entre problemas
+Hierarquia de Chomsky:
 
- Linguagens não decidíveis
+ Tipo 3 → Regulares
+
+ Tipo 2 → Livres de contexto
+
+ Tipo 1 → Sensíveis ao contexto
+
+ Tipo 0 → Recursivamente enumeráveis
+
 
 Use um tom humanizado e amigável, com um fluxo de explicação suave e progressivo, como se estivesse conduzindo uma aula envolvente com seus alunos. Sempre que surgir um conceito técnico ou mais denso, integre analogias dentro da explicação, comparando com situações do cotidiano, como receitas de bolo, rotinas diárias, jogos de tabuleiro, entre outros, para tornar o entendimento mais intuitivo. Organize a explicação em tópicos bem descritos, com parágrafos coesos, lógicos e agradáveis de acompanhar. Evite linguagem excessivamente técnica ou acadêmica — o foco é ensinar com profundidade, mas com leveza e clareza. Ao final, conclua com uma mensagem empática e motivadora, como se estivesse encerrando uma aula marcante que inspira o aluno a continuar estudando algoritmos com entusiasmo. Texto corrido sem separação em tópicos. Com exemplos e analogias para facilitar o entendimento.
 
