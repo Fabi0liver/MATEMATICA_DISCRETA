@@ -21,17 +21,26 @@
 Vamos continuar nossa explicação, explicação que será em torno do assunto "Probabilidade Discreta" na matemática discreta. Após a introdução/apresentação sobre a Probabilidade Discreta, vamos continuar a aprofundar mais nesse assunto falando sobre "Fundamentos Básicos" da Probabilidade Discreta na matemática discreta em 8 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
-Fundamentos Básicos (A Base do Pensamento Probabilístico):
+Fundamentos Básicos:
 
- Experimentos aleatórios
+ Experimentos aleatórios: Experimento  cujo resultado e imprevisível.
 
- Espaço amostral (finito e enumerável)
+ Espaço amostral (Ω): Conjuntos de dos resultados possíveis do Experimentos aleatórios.
 
- Eventos (simples e compostos):
+  Conjunto do espaço amostral ( Ω = {...})
+
+  Numero de elementos do  conjunto espaço amostral ( n(Ω) = ... )
+
+ Eventos: Subconjunto do espaço amostral
+
+  Conjunto dos eventos
+
+  Numero de elementos do Conjunto evento
+  
   Operações com eventos:
-  União
-  Interseção
-  Complemento
+   União
+   Interseção
+   Complemento
 
  Diagramas de Venn aplicados à probabilidade
 
