@@ -38,8 +38,6 @@
 
  No fundo, todos esses conceitos (experimento aleatório, espaço amostral, eventos e suas operações) têm um objetivo em comum: nos ajudar a entender claramente “o que pode acontecer” em uma situação incerta e como representar isso de forma organizada. É como transformar o caos da incerteza em algo estruturado, onde conseguimos enxergar padrões e possibilidades com mais clareza.
 
-E aqui vai uma mensagem importante para você: se esses conceitos parecerem novos ou um pouco abstratos no começo, isso é completamente normal. Você está construindo uma nova forma de pensar, quase como aprender um novo idioma. Com prática, exemplos e paciência, tudo começa a se encaixar naturalmente. Continue firme — você já deu um passo importante, e o que vem a seguir vai tornar tudo ainda mais interessante e poderoso.
-
 
 
 
