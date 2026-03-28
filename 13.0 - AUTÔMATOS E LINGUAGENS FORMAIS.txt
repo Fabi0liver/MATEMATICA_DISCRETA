@@ -484,7 +484,3 @@
  A hierarquia de Chomsky, então, surge como um mapa que organiza tudo isso. Ela nos mostra como cada tipo de linguagem e cada modelo de máquina se encaixam em uma estrutura maior. É como olhar para um mapa depois de uma longa viagem e finalmente entender onde cada lugar visitado está localizado.
 
  E agora, ao encerrar essa caminhada, quero te deixar com uma reflexão: você não está apenas aprendendo teoria, está desenvolvendo uma forma de pensar. Entender autômatos e linguagens formais é como treinar a mente para enxergar padrões, limites e possibilidades. Continue explorando com curiosidade e entusiasmo: porque esse conhecimento é uma base poderosa para tudo o que vem pela frente na computação, e você já deu um passo enorme nessa direção.
-
-
-
-
