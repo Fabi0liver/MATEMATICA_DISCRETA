@@ -467,23 +467,23 @@
 
 
 
-                      "Conclusão sobre Autômatos e das Linguagens Formais"
+                        "Conclusão sobre Autômatos e das Linguagens Formais"
 
  Chegamos ao final de uma jornada realmente especial dentro da matemática discreta: o estudo dos autômatos e das linguagens formais. Ao longo desse caminho, você pode perceber que não estamos apenas aprendendo conceitos isolados, mas construindo uma visão completa de como a computação entende, organiza e processa informações. É como aprender não só a usar ferramentas, mas a compreender a lógica por trás de como elas funcionam.
 
-No início, vimos as linguagens como conjuntos de palavras, algo que pode parecer simples à primeira vista, mas que rapidamente se transforma em algo muito poderoso. É como aprender o alfabeto antes de escrever histórias: tudo começa com símbolos básicos, mas a combinação deles permite construir estruturas incrivelmente complexas.
+ No início, vimos as linguagens como conjuntos de palavras, algo que pode parecer simples à primeira vista, mas que rapidamente se transforma em algo muito poderoso. É como aprender o alfabeto antes de escrever histórias: tudo começa com símbolos básicos, mas a combinação deles permite construir estruturas incrivelmente complexas.
 
-Quando entramos no mundo dos autômatos, começamos a enxergar essas linguagens como sistemas vivos, capazes de “ler” e “decidir”. Os autômatos finitos, por exemplo, funcionam como máquinas simples que seguem regras fixas, quase como um jogo de tabuleiro com movimentos bem definidos. Mesmo com limitações, eles já conseguem resolver problemas práticos importantes.
+ Quando entramos no mundo dos autômatos, começamos a enxergar essas linguagens como sistemas vivos, capazes de “ler” e “decidir”. Os autômatos finitos, por exemplo, funcionam como máquinas simples que seguem regras fixas, quase como um jogo de tabuleiro com movimentos bem definidos. Mesmo com limitações, eles já conseguem resolver problemas práticos importantes.
 
-Ao avançarmos para modelos mais sofisticados, como os autômatos com pilha e as máquinas de Turing, percebemos um crescimento no poder de computação. É como passar de uma receita simples para uma cozinha completa, com mais ferramentas e mais possibilidades. Cada novo modelo amplia o tipo de problema que conseguimos resolver.
+ Ao avançarmos para modelos mais sofisticados, como os autômatos com pilha e as máquinas de Turing, percebemos um crescimento no poder de computação. É como passar de uma receita simples para uma cozinha completa, com mais ferramentas e mais possibilidades. Cada novo modelo amplia o tipo de problema que conseguimos resolver.
 
-As linguagens formais, por sua vez, funcionam como a “linguagem” dessas máquinas. Elas descrevem padrões, estruturas e regras. Quando estudamos expressões regulares, gramáticas e suas relações com autômatos, estamos basicamente aprendendo diferentes formas de descrever e reconhecer padrões — algo essencial em áreas como programação, compiladores e até inteligência artificial.
+ As linguagens formais, por sua vez, funcionam como a “linguagem” dessas máquinas. Elas descrevem padrões, estruturas e regras. Quando estudamos expressões regulares, gramáticas e suas relações com autômatos, estamos basicamente aprendendo diferentes formas de descrever e reconhecer padrões: algo essencial em áreas como programação, compiladores e até inteligência artificial.
 
-Ao chegarmos nos conceitos de decidibilidade e indecidibilidade, a jornada ganha uma profundidade ainda maior. Descobrimos que nem tudo pode ser resolvido por algoritmos, o que é uma ideia ao mesmo tempo surpreendente e fascinante. É como perceber que, mesmo com todas as ferramentas possíveis, existem perguntas que estão além do alcance de qualquer método sistemático.
+ Ao chegarmos nos conceitos de decidibilidade e indecidibilidade, a jornada ganha uma profundidade ainda maior. Descobrimos que nem tudo pode ser resolvido por algoritmos, o que é uma ideia ao mesmo tempo surpreendente e fascinante. É como perceber que, mesmo com todas as ferramentas possíveis, existem perguntas que estão além do alcance de qualquer método sistemático.
 
-A hierarquia de Chomsky, então, surge como um mapa que organiza tudo isso. Ela nos mostra como cada tipo de linguagem e cada modelo de máquina se encaixam em uma estrutura maior. É como olhar para um mapa depois de uma longa viagem e finalmente entender onde cada lugar visitado está localizado.
+ A hierarquia de Chomsky, então, surge como um mapa que organiza tudo isso. Ela nos mostra como cada tipo de linguagem e cada modelo de máquina se encaixam em uma estrutura maior. É como olhar para um mapa depois de uma longa viagem e finalmente entender onde cada lugar visitado está localizado.
 
-E agora, ao encerrar essa caminhada, quero te deixar com uma reflexão: você não está apenas aprendendo teoria, está desenvolvendo uma forma de pensar. Entender autômatos e linguagens formais é como treinar a mente para enxergar padrões, limites e possibilidades. Continue explorando com curiosidade e entusiasmo — porque esse conhecimento é uma base poderosa para tudo o que vem pela frente na computação, e você já deu um passo enorme nessa direção.
+ E agora, ao encerrar essa caminhada, quero te deixar com uma reflexão: você não está apenas aprendendo teoria, está desenvolvendo uma forma de pensar. Entender autômatos e linguagens formais é como treinar a mente para enxergar padrões, limites e possibilidades. Continue explorando com curiosidade e entusiasmo: porque esse conhecimento é uma base poderosa para tudo o que vem pela frente na computação, e você já deu um passo enorme nessa direção.
 
 
 
