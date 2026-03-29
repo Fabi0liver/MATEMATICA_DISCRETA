@@ -58,8 +58,9 @@ Definição de Probabilidade (Clássica e Formal):
   Normalização
   Aditividade
 
- Probabilidade de eventos:
-  Evento certo e impossível
+ Probabilidade de eventos: P(E) = n(E) / n(Ω) ( P(E) = Número de elementos do evento dividido por  Número de 
+                          elemnto do espaço amostral
+   Evento certo e impossível
 
  Propriedades básicas:
   Regra do complemento
