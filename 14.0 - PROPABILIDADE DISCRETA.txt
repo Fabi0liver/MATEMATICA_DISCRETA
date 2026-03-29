@@ -62,7 +62,7 @@
 
  Perceba como estamos evoluindo: antes, apenas listávamos possibilidades; agora, estamos atribuindo valores a elas de forma consistente e lógica. É como sair de um mapa desenhado à mão e passar a usar um GPS preciso. Essa formalização não só traz clareza, mas também abre portas para análises muito mais profundas e aplicações reais, desde jogos até algoritmos e sistemas complexos.
 
-E para fechar, quero te lembrar de algo importante: esse momento marca uma virada no seu aprendizado. Você está deixando de apenas “entender” situações aleatórias e começando a “medir” e “analisar” essas situações com precisão. Isso é poderoso. Continue avançando com curiosidade, teste exemplos no seu dia a dia, questione os resultados — e, acima de tudo, aproveite esse processo. Você está construindo uma forma de pensar que vai muito além da matemática.
+
 
 
 
