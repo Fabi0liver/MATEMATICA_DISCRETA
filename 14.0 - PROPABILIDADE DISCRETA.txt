@@ -108,9 +108,7 @@
 
  Na área de computação, especialmente em classificação probabilística, esses conceitos são fundamentais. Sistemas de recomendação, filtros de spam e até reconhecimento de padrões usam ideias baseadas no Teorema de Bayes. É como ensinar uma máquina a “pensar em termos de probabilidade”, avaliando hipóteses com base em dados observados.
 
- Perceba como estamos evoluindo: saímos de contar possibilidades, passamos a medir probabilidades, depois aprendemos a atualizá-las, e agora conseguimos conectar causas e efeitos de forma estruturada. Isso é um salto enorme no seu raciocínio. É como montar um quebra-cabeça onde cada peça finalmente começa a se encaixar.
-
-E para encerrar essa etapa, quero te deixar com uma reflexão: esses teoremas são como lentes que revelam o que antes parecia invisível. Eles mostram que, mesmo em meio à incerteza, podemos raciocinar com clareza e tomar decisões melhores. Continue explorando, testando exemplos e conectando ideias: você está desenvolvendo uma forma de pensar extremamente valiosa, que vai muito além da matemática.
+ Em suma, perceba como estamos evoluindo: saímos de contar possibilidades, passamos a medir probabilidades, depois aprendemos a atualizá-las, e agora conseguimos conectar causas e efeitos de forma estruturada. Isso é um salto enorme no seu raciocínio. É como montar um quebra-cabeça onde cada peça finalmente começa a se encaixar.
 
 
 
