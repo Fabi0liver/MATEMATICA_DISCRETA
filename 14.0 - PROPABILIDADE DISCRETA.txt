@@ -84,9 +84,8 @@
 
  Esses conceitos são fundamentais porque aparecem em praticamente tudo que vem depois em probabilidade. Sempre que estamos lidando com múltiplos eventos, precisamos entender se eles influenciam uns aos outros ou não. Isso muda completamente a forma como calculamos probabilidades. É como saber se duas decisões na sua vida são independentes ou se uma impacta a outra: isso altera totalmente a estratégia.
 
- Perceba como estamos evoluindo no nosso entendimento: agora não apenas medimos probabilidades, mas também conseguimos ajustá-las com base em novas informações e entender relações entre eventos. Isso é um salto enorme. É como sair de um jogo simples e entrar em um jogo estratégico, onde cada informação pode mudar completamente o resultado.
+ Em suma, perceba como estamos evoluindo no nosso entendimento: agora não apenas medimos probabilidades, mas também conseguimos ajustá-las com base em novas informações e entender relações entre eventos. Isso é um salto enorme. É como sair de um jogo simples e entrar em um jogo estratégico, onde cada informação pode mudar completamente o resultado.
 
-E para fechar essa etapa da nossa jornada, quero te dizer algo importante: se esses conceitos parecerem desafiadores no início, isso é um ótimo sinal. Significa que você está avançando para um nível mais profundo de compreensão. Continue explorando exemplos, criando situações do seu dia a dia, testando ideias. A probabilidade começa a ficar realmente interessante aqui — e você está mais do que preparado para continuar avançando.
 
 
 
