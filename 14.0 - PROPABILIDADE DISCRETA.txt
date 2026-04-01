@@ -132,9 +132,7 @@
 
  Uma boa forma de visualizar a CDF é imaginar uma escada. Cada degrau representa a soma das probabilidades até aquele valor. Conforme você sobe, vai acumulando mais probabilidade, até chegar ao topo, onde o valor total é 1. É uma maneira diferente (e muitas vezes mais útil) de enxergar o comportamento da variável.
 
- Perceba como avançamos: antes lidávamos com eventos isolados, agora conseguimos modelar situações inteiras com variáveis, distribuições e funções. Isso nos dá uma visão muito mais rica e estruturada. É como sair de observar peças soltas e começar a enxergar o tabuleiro completo do jogo.
-
-E para encerrar essa etapa, quero te encorajar a refletir: você acabou de aprender uma das ferramentas mais importantes de toda a probabilidade e da computação. Variáveis aleatórias são usadas em algoritmos, inteligência artificial, análise de dados e muito mais. Continue explorando, criando exemplos e conectando ideias — você está construindo uma base sólida e poderosa. E o mais interessante: daqui para frente, tudo começa a se encaixar ainda mais.
+ Em suma, perceba como avançamos: antes lidávamos com eventos isolados, agora conseguimos modelar situações inteiras com variáveis, distribuições e funções. Isso nos dá uma visão muito mais rica e estruturada. É como sair de observar peças soltas e começar a enxergar o tabuleiro completo do jogo.
 
 
 
