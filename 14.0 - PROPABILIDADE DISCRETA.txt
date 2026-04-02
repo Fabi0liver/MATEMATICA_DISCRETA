@@ -156,9 +156,8 @@
 
  Perceba que cada uma dessas distribuições responde a um tipo específico de pergunta. Algumas lidam com “quantos sucessos”, outras com “quantas tentativas”, outras com “quantos eventos em um intervalo”. É como ter diferentes ferramentas em uma caixa: cada uma serve para um tipo de problema. Saber qual usar é uma habilidade que você vai desenvolver com a prática.
 
- E aqui está um ponto muito importante: essas distribuições não são apenas abstrações matemáticas. Elas aparecem o tempo todo na vida real e na computação: em algoritmos, análise de dados, inteligência artificial, redes, sistemas… entender essas estruturas é como aprender os “padrões ocultos” do comportamento aleatório.
+ Em suma, e aqui está um ponto muito importante: essas distribuições não são apenas abstrações matemáticas. Elas aparecem o tempo todo na vida real e na computação: em algoritmos, análise de dados, inteligência artificial, redes, sistemas… entender essas estruturas é como aprender os “padrões ocultos” do comportamento aleatório.
 
-Para encerrar essa etapa, quero te deixar com uma visão: você não está apenas aprendendo fórmulas ou nomes, está aprendendo a reconhecer padrões no caos. Isso é algo extremamente poderoso. Continue explorando, testando exemplos, fazendo conexões — porque, a partir daqui, a probabilidade começa a se tornar uma ferramenta ainda mais prática e fascinante.
 
 
 
@@ -168,19 +167,6 @@ Para encerrar essa etapa, quero te deixar com uma visão: você não está apena
 Vamos continuar nossa explicação, explicação que será em torno do assunto "Probabilidade Discreta" na matemática discreta. Após a explicação de Variáveis Aleatórias Discretas na Probabilidade Discreta, vamos continuar a aprofundar mais nesse assunto falando sobre "Distribuições Discretas Importantes" na Probabilidade Discreta na matemática discreta em 10 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
-Distribuições Discretas Importantes:
-
- Distribuição de Bernoulli
-
- Distribuição Binomial
-
- Distribuição Geométrica
-
- Distribuição Binomial Negativa
-
- Distribuição de Poisson
-
- Distribuição Uniforme Discreta
 
 
 
