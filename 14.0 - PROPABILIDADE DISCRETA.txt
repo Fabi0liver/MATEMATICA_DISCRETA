@@ -178,7 +178,7 @@
 
  Perceba como esse conceito fecha um ciclo importante: começamos entendendo possibilidades, depois probabilidades, depois distribuições, e agora conseguimos resumir tudo isso em um único número que representa o comportamento médio. Isso é extremamente útil em áreas como computação, economia e análise de algoritmos, onde queremos prever desempenho e resultados médios.
 
-E para encerrar essa etapa, quero te deixar com uma reflexão motivadora: a esperança matemática nos ensina a olhar além do imediato, além de um único resultado. Ela nos convida a pensar em padrões, em longo prazo, em consistência. Continue explorando esses conceitos com curiosidade e paciência — você está desenvolvendo uma forma de pensar que te permite enxergar ordem até mesmo dentro do acaso.
+ Em suma, a esperança matemática nos ensina a olhar além do imediato, além de um único resultado. Ela nos convida a pensar em padrões, em longo prazo, em consistência.
 
 
 
