@@ -139,7 +139,7 @@
 
 
 
-Vamos continuar nossa explicação, explicação que será em torno do assunto "Probabilidade Discreta" na matemática discreta. Após a explicação de Probabilidade Condicional e Independência, Teoremas Fundamentais na Probabilidade Discreta, vamos continuar a aprofundar mais nesse assunto falando sobre "Variáveis Aleatórias Discretas" na Probabilidade Discreta na matemática discreta em 10 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
+Vamos continuar nossa explicação, explicação que será em torno do assunto "Probabilidade Discreta" na matemática discreta. Após a explicação de Variáveis Aleatórias Discretas na Probabilidade Discreta, vamos continuar a aprofundar mais nesse assunto falando sobre "Distribuições Discretas Importantes" na Probabilidade Discreta na matemática discreta em 10 parágrafos. Com explicação, exemplos e analogias para facilitar o entendimento.
 
 
 Distribuições Discretas Importantes:
