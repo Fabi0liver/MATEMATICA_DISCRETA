@@ -226,7 +226,7 @@
 
 
 
-                               "Conclusão Sobre Probabilidade Discreta"
+                                 "Conclusão Sobre Probabilidade Discreta"
 
  Chegamos ao final da nossa jornada pela Probabilidade Discreta, e vale a pena dar um passo atrás e enxergar o todo que construímos juntos. No início, tudo parecia apenas uma questão de listar possibilidades, quase como organizar peças de um jogo. Aos poucos, fomos percebendo que não basta saber o que pode acontecer, precisamos entender como e com que frequência essas coisas acontecem. E é exatamente isso que a probabilidade nos ensina: transformar incerteza em algo compreensível.
 
