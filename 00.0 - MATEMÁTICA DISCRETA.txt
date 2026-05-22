@@ -11,7 +11,7 @@
 
  Se você parar para pensar, todo computador funciona de forma discreta. Não existe “meio 1” ou “meio 0”, é sempre um estado bem definido. Essa característica está por trás de tudo: dos bancos de dados ao funcionamento da internet, das redes de computadores à segurança digital. É por isso que quem domina Matemática Discreta ganha uma lente especial para enxergar os problemas do mundo da computação.
 
- E o mais legal é que, apesar de parecer muito teórica, ela é cheia de aplicações concretas. Quer entender como o Google Maps calcula o caminho mais rápido? Matemática Discreta. Quer saber como funcionam senhas seguras e criptografia? Também. Até coisas mais cotidianas, como organizar horários de aulas sem conflitos, envolvem raciocínios desse campo.
+  E o mais legal é que, apesar de parecer muito teórica, ela é cheia de aplicações concretas. Quer entender como o Google Maps calcula o caminho mais rápido? Matemática Discreta. Quer saber como funcionam senhas seguras e criptografia? Também. Até coisas mais cotidianas, como organizar horários de aulas sem conflitos, envolvem raciocínios desse campo.
 
  Resumindo... a Matemática Discreta é o idioma secreto que os computadores falam e os cientistas da computação aprendem a traduzir. Ela é a ponte entre lógica, raciocínio e programação, mostrando que por trás de cada “sim” e “não”, cada escolha ou caminho, existe um mundo fascinante de estruturas matemáticas. E acredite, quanto mais você explorar, mais vai perceber que ela não é apenas “discreta”  é essencial.
 
