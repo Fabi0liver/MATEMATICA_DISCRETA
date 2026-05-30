@@ -15,7 +15,7 @@
 
 
 
-                         "Diferença entre Relações de Recorrência e Recursividade"
+                       "Diferença entre Relações de Recorrência e Recursividade"
 
  Depois de entendermos a base do que são as relações de recorrência, é muito natural surgir uma dúvida bastante comum entre os estudantes: afinal, relação de recorrência e recursividade são a mesma coisa? À primeira vista, elas realmente parecem idênticas, porque ambas envolvem a ideia de algo que depende de si mesmo ou de etapas anteriores. Mas, com um pouco de calma, veremos que elas ocupam papéis diferentes dentro da matemática discreta, mesmo estando intimamente ligadas.
 
