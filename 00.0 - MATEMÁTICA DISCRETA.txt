@@ -18,7 +18,7 @@
 
 
 
-                       "Diferença entre Matemática Discreta e Matemática Contínua"
+                  "Diferença entre Matemática Discreta e Matemática Contínua"
 
 
  Um passo importante para entender a matemática discreta, e entender a diferença entre a  matemática discreta e a matemática contínua. 
